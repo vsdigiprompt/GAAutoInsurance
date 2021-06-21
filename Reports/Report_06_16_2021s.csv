@@ -1,0 +1,101 @@
+﻿Date, Name, Status, Description
+06/16/2021 15:08:12, John Spohn , Success_D,Sucessfully quote generated
+06/16/2021 15:10:18, Jacqueline Shaffer , Exception_D,, Technical Exception : Unable to open Farmer Agency Dashboard page
+06/16/2021 15:12:17, Dennis Noland , Exception_D,, Technical Exception : Unable to open Farmer Agency Dashboard page
+06/16/2021 15:14:11, Robert Mueller , Business Exception_D,Details Missing - D2:First NameD2:Last NameD2:Date Of Birth
+06/16/2021 15:16:07, Laura Westbrook , Business Exception_D,Details Missing - D2:First NameD2:Last NameD2:Date Of Birth
+06/16/2021 15:17:58, Jeffery Nickerson , Business Exception_D,Details Missing - D2:First NameD2:Last NameD2:Date Of Birth
+06/16/2021 15:19:50, Devan Devoe , Business Exception_D,Details Missing - D2:First NameD2:Last NameD2:Date Of Birth
+06/16/2021 15:22:15, Nancy Sobolewski , Success_D,Sucessfully quote generated
+06/16/2021 15:24:13, George Mcfarland , Business Exception_D,Details Missing - D2:First NameD2:Last NameD2:Date Of Birth
+06/16/2021 15:27:21, Barkur Shetty , Success_D,Sucessfully quote generated
+06/16/2021 15:29:16, Patty Merrifield , Business Exception_D,Details Missing - D2:Date Of Birth
+06/16/2021 15:31:05, Todd Jones , Exception_D,Technical Exception : Failed VIN check
+06/16/2021 15:33:03, Michael Burkhalter , Business Exception_D,Details Missing - D2:First NameD2:Last NameD2:Date Of Birth
+06/16/2021 15:35:23, Frieda Searls , Exception_D,Technical Exception : Unable to open additional driver window
+06/16/2021 15:37:16, Charles House , Business Exception_D,Details Missing - D2:First NameD2:Last NameD2:Date Of Birth
+06/16/2021 15:39:24, Louis Halloway , Unknown Error_D,Could not find the UI element corresponding to this selector:
+[1] <webctrl id='year3' tag='SELECT'/>
+
+Search failed at selector tag:
+[1] <webctrl id='year3' tag='SELECT'/>
+
+The closest matches found are:
+[80%] <webctrl id='year4' tag='SELECT'/>
+[60%] <webctrl id='type3' tag='SELECT'/>
+[40%] <webctrl id='type1' tag='SELECT'/>
+[40%] <webctrl id='type2' tag='SELECT'/>
+[40%] <webctrl id='type4' tag='SELECT'/>
+[20%] <webctrl id='exclude_reason1' tag='SELECT'/>
+[20%] <webctrl id='exclude_reason2' tag='SELECT'/>
+[20%] <webctrl id='make4' tag='SELECT'/>
+[18%] <webctrl id='model4' tag='SELECT'/>
+[13%] <webctrl id='ActionCode' tag='SELECT'/>
+06/16/2021 15:42:18, Louis Halloway , Unknown Error_D,Could not find the UI element corresponding to this selector:
+[1] <webctrl id='year3' tag='SELECT'/>
+
+Search failed at selector tag:
+[1] <webctrl id='year3' tag='SELECT'/>
+
+The closest matches found are:
+[80%] <webctrl id='year4' tag='SELECT'/>
+[60%] <webctrl id='type3' tag='SELECT'/>
+[40%] <webctrl id='type1' tag='SELECT'/>
+[40%] <webctrl id='type2' tag='SELECT'/>
+[40%] <webctrl id='type4' tag='SELECT'/>
+[20%] <webctrl id='exclude_reason1' tag='SELECT'/>
+[20%] <webctrl id='exclude_reason2' tag='SELECT'/>
+[20%] <webctrl id='make4' tag='SELECT'/>
+[18%] <webctrl id='model4' tag='SELECT'/>
+[13%] <webctrl id='ActionCode' tag='SELECT'/>
+06/16/2021 15:45:11, Louis Halloway , Unknown Error_D,Could not find the UI element corresponding to this selector:
+[1] <webctrl id='year3' tag='SELECT'/>
+
+Search failed at selector tag:
+[1] <webctrl id='year3' tag='SELECT'/>
+
+The closest matches found are:
+[80%] <webctrl id='year4' tag='SELECT'/>
+[60%] <webctrl id='type3' tag='SELECT'/>
+[40%] <webctrl id='type1' tag='SELECT'/>
+[40%] <webctrl id='type2' tag='SELECT'/>
+[40%] <webctrl id='type4' tag='SELECT'/>
+[20%] <webctrl id='exclude_reason1' tag='SELECT'/>
+[20%] <webctrl id='exclude_reason2' tag='SELECT'/>
+[20%] <webctrl id='make4' tag='SELECT'/>
+[18%] <webctrl id='model4' tag='SELECT'/>
+[13%] <webctrl id='ActionCode' tag='SELECT'/>
+06/16/2021 15:48:03, Louis Halloway , Unknown Error_D,Could not find the UI element corresponding to this selector:
+[1] <webctrl id='year3' tag='SELECT'/>
+
+Search failed at selector tag:
+[1] <webctrl id='year3' tag='SELECT'/>
+
+The closest matches found are:
+[80%] <webctrl id='year4' tag='SELECT'/>
+[60%] <webctrl id='type3' tag='SELECT'/>
+[40%] <webctrl id='type1' tag='SELECT'/>
+[40%] <webctrl id='type2' tag='SELECT'/>
+[40%] <webctrl id='type4' tag='SELECT'/>
+[20%] <webctrl id='exclude_reason1' tag='SELECT'/>
+[20%] <webctrl id='exclude_reason2' tag='SELECT'/>
+[20%] <webctrl id='make4' tag='SELECT'/>
+[18%] <webctrl id='model4' tag='SELECT'/>
+[13%] <webctrl id='ActionCode' tag='SELECT'/>
+06/16/2021 15:50:58, Louis Halloway , Unknown Error_D,Could not find the UI element corresponding to this selector:
+[1] <webctrl id='year3' tag='SELECT'/>
+
+Search failed at selector tag:
+[1] <webctrl id='year3' tag='SELECT'/>
+
+The closest matches found are:
+[40%] <webctrl id='type1' tag='SELECT'/>
+[24%] <webctrl id='HH_Relation1' tag='SELECT'/>
+[21%] <webctrl id='nonDrv_Reason1' tag='SELECT'/>
+[21%] <webctrl id='safety_course1' tag='SELECT'/>
+[17%] <webctrl id='ownership_vehicle1' tag='SELECT'/>
+[15%] <webctrl id='If_Prior_farmers_state' tag='SELECT'/>
+[13%] <webctrl id='ActionCode' tag='SELECT'/>
+[12%] <webctrl id='prior_limits' tag='SELECT'/>
+[12%] <webctrl id='no_Days_Com1' tag='SELECT'/>
+[10%] <webctrl id='ageofoldestchild' tag='SELECT'/>

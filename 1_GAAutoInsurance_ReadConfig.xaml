@@ -1,0 +1,691 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="_1_MLPAutoInsurance_ReadConfig" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="cReportFolderPath" Type="InOutArgument(x:String)" />
+    <x:Property Name="vConfigFilePath" Type="InArgument(x:String)" />
+    <x:Property Name="cLogFolderPath" Type="InOutArgument(x:String)" />
+    <x:Property Name="cErrorScreenshotFolderPath" Type="InOutArgument(x:String)" />
+    <x:Property Name="cTempFolderPath" Type="InOutArgument(x:String)" />
+    <x:Property Name="cShortDelay" Type="InOutArgument(x:String)" />
+    <x:Property Name="cMediumDelay" Type="InOutArgument(x:String)" />
+    <x:Property Name="cLongDelay" Type="InOutArgument(x:String)" />
+    <x:Property Name="cRetry" Type="InOutArgument(x:Int32)" />
+    <x:Property Name="cWaitCounter" Type="InOutArgument(x:Int32)" />
+    <x:Property Name="cImplitWait" Type="InOutArgument(x:Int32)" />
+    <x:Property Name="cReceiversMailAddress" Type="InOutArgument(x:String)" />
+    <x:Property Name="cSubjectEmail" Type="InOutArgument(x:String)" />
+    <x:Property Name="vReadConfigStatus" Type="InOutArgument(x:Boolean)" />
+    <x:Property Name="cFromEmailAddress" Type="InOutArgument(x:String)" />
+    <x:Property Name="vLogFilePath" Type="InOutArgument(x:String)" />
+    <x:Property Name="cEndPointSelectRequest" Type="InOutArgument(x:String)" />
+    <x:Property Name="cEndPointAccessTokenRequest" Type="InOutArgument(x:String)" />
+    <x:Property Name="cSuccessStatusCode" Type="InOutArgument(x:Int32)" />
+    <x:Property Name="cPolicyFolderPath" Type="InOutArgument(x:String)" />
+    <x:Property Name="cBOTUpdateJSONBodyStatus" Type="InOutArgument(x:String)" />
+    <x:Property Name="cSalesforceUpdateEndPointUri" Type="InOutArgument(x:String)" />
+    <x:Property Name="cSQLInsertQuery" Type="InOutArgument(x:String)" />
+    <x:Property Name="cConnectionString" Type="InOutArgument(x:String)" />
+    <x:Property Name="cSQLInsertQueryRequests" Type="InOutArgument(x:String)" />
+    <x:Property Name="vBOTStartTime" Type="InOutArgument(s:DateTime)" />
+    <x:Property Name="vBOTEndTime" Type="InOutArgument(s:DateTime)" />
+    <x:Property Name="cBOTWaitTimeInSec" Type="InOutArgument(x:String)" />
+    <x:Property Name="cKnownErrorRetry" Type="InOutArgument(x:Int32)" />
+    <x:Property Name="cUSZipCodeFilePath" Type="InOutArgument(x:String)" />
+    <x:Property Name="vZipCodeDT" Type="InOutArgument(sd:DataTable)" />
+    <x:Property Name="cPortNumber" Type="InOutArgument(x:Int32)" />
+    <x:Property Name="cSMTPServer" Type="InOutArgument(x:String)" />
+    <x:Property Name="cGender" Type="InOutArgument(x:String)" />
+    <x:Property Name="cCCEmail" Type="InOutArgument(x:String)" />
+    <x:Property Name="cEmailName" Type="InOutArgument(x:String)" />
+    <x:Property Name="cStartStopMailAddress" Type="InOutArgument(x:String)" />
+    <x:Property Name="cExceptionMailAddress" Type="InOutArgument(x:String)" />
+    <x:Property Name="cSuccessMailAddress" Type="InOutArgument(x:String)" />
+    <x:Property Name="cUnknownErrorMailAddress" Type="InOutArgument(x:String)" />
+    <x:Property Name="cReportOutMailAddress" Type="InOutArgument(x:String)" />
+    <x:Property Name="cSendMailToCustomer" Type="InOutArgument(x:String)" />
+    <x:Property Name="cSuccessMailSubject" Type="InOutArgument(x:String)" />
+    <x:Property Name="cSuccessMailBody" Type="InOutArgument(x:String)" />
+    <x:Property Name="cStatusesToSendMailToCustomer" Type="InOutArgument(x:String)" />
+    <x:Property Name="cCreateContentVersionJSON" Type="InOutArgument(x:String)" />
+    <x:Property Name="cGetContentVersionIdUri" Type="InOutArgument(x:String)" />
+    <x:Property Name="cDocumentLinkUri" Type="InOutArgument(x:String)" />
+    <x:Property Name="cDocumentLinkJSON" Type="InOutArgument(x:String)" />
+    <x:Property Name="cCreateContentVersionUri" Type="InOutArgument(x:String)" />
+    <x:Property Name="cFarmersPolicyCenterLink" Type="InOutArgument(x:String)" />
+    <x:Property Name="cEndPointFetchDriverDataRequest" Type="InOutArgument(x:String)" />
+    <x:Property Name="cEndPointFetchVehicleDataRequest" Type="InOutArgument(x:String)" />
+    <x:Property Name="cBristolWestSuccessSubject" Type="InOutArgument(x:String)" />
+    <x:Property Name="cBothPortalSuccessSubject" Type="InOutArgument(x:String)" />
+    <x:Property Name="cBristolWestSuccessMailBody" Type="InOutArgument(x:String)" />
+    <x:Property Name="cBothPortalSuccessMailBody" Type="InOutArgument(x:String)" />
+    <x:Property Name="cBristolPolicyCenterLink" Type="InOutArgument(x:String)" />
+    <x:Property Name="cFarmerToBWCOverageLimitMappingFilePath" Type="InOutArgument(x:String)" />
+    <x:Property Name="vFarmerToBWMapDT" Type="InOutArgument(sd:DataTable)" />
+    <x:Property Name="vDataTable" Type="OutArgument(sd:DataTable)" />
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>966,7669</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>_1_MLPAutoInsurance_ReadConfig_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="32">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.CSV</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="26">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="1_GAAutoInsurance_ReadConfig" sap:VirtualizedContainerService.HintSize="566,7504" sap2010:WorkflowViewState.IdRef="Sequence_8">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="vTaskName" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="524,7412" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <TryCatch.Try>
+        <Sequence DisplayName="Read Config Try Sequence" sap:VirtualizedContainerService.HintSize="486,7185" sap2010:WorkflowViewState.IdRef="Sequence_7">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="x:String" Name="cBOTDuration" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Assign sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_52">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[vTaskName]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">1_GAAutoInsurance_ReadConfig</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="GAAutoInsuranceConfigFilePath" DisplayName="Get Asset" sap:VirtualizedContainerService.HintSize="444,137" sap2010:WorkflowViewState.IdRef="GetRobotAsset_2">
+            <ui:GetRobotAsset.Value>
+              <OutArgument x:TypeArguments="x:String">[vConfigFilePath]</OutArgument>
+            </ui:GetRobotAsset.Value>
+          </ui:GetRobotAsset>
+          <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[vDataTable]" Delimitator="Comma" DisplayName="Read CSV" FilePath="[vConfigFilePath]" sap:VirtualizedContainerService.HintSize="444,152" sap2010:WorkflowViewState.IdRef="ReadCsvFile_4" />
+          <Assign DisplayName="cLogFolderPath Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_54">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cLogFolderPath]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cLogFolderPath'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cErrorScreenshotFolderPath Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_55">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cErrorScreenshotFolderPath]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cErrorScreenshotFolderPath'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cReportFolderPath Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_56">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cReportFolderPath]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cReportFolderPath'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cTempFolderPath Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_57">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cTempFolderPath]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cTempFolderPath'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cShortDelay Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_58">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cShortDelay]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cShortDelay'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cMediumDelay Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_59">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cMediumDelay]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cMediumDelay'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cLongDelay Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_60">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cLongDelay]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cLongDelay'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cRetry Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_61">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Int32">[cRetry]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Int32">[Cint(vDataTable.Select("[Name]='cRetry'")(0)(1).ToString)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cRetry Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_62">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Int32">[cKnownErrorRetry]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Int32">[Cint(vDataTable.Select("[Name]='cKnownErrorRetry'")(0)(1).ToString)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cWaitCounter Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_63">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Int32">[cWaitCounter]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Int32">[Cint(vDataTable.Select("[Name]='cWaitCounter'")(0)(1).ToString)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cImplitWait Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_64">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Int32">[cImplitWait]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Int32">[Cint(vDataTable.Select("[Name]='cImplitWait'")(0)(1).ToString)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cImplitWait Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_65">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cReceiversMailAddress]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cReceiversMailAddress'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cSubjectEmail Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_66">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cSubjectEmail]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cSubjectEmail'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cSubjectEmail Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_67">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cEmailName]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cEmailName'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cSubjectEmail Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_68">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cFromEmailAddress]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cFromEmailAddress'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cSubjectEmail Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_69">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cCCEmail]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cCCEmail'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointAccessTokenRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_70">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cEndPointAccessTokenRequest]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cEndPointAccessTokenRequest'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_71">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cEndPointSelectRequest]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cEndPointSelectRequest'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_72">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Int32">[cSuccessStatusCode]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Int32">[Cint(vDataTable.Select("[Name]='cSuccessStatusCode'")(0)(1).ToString)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_73">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cPolicyFolderPath]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cPolicyFolderPath'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_74">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cBOTUpdateJSONBodyStatus]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cBOTUpdateJSONBodyStatus'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_75">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cSalesforceUpdateEndPointUri]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cSalesforceUpdateEndPointUri'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="444,230" sap2010:WorkflowViewState.IdRef="CommentOut_5">
+            <ui:CommentOut.Body>
+              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="304,152" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_77">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[cSQLInsertQuery]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cSQLInsertQuery'")(0)(1).ToString]</InArgument>
+                  </Assign.Value>
+                </Assign>
+              </Sequence>
+            </ui:CommentOut.Body>
+          </ui:CommentOut>
+          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="444,230" sap2010:WorkflowViewState.IdRef="CommentOut_6">
+            <ui:CommentOut.Body>
+              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="304,152" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_78">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[cSQLInsertQueryRequests]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cSQLInsertQueryRequests'")(0)(1).ToString]</InArgument>
+                  </Assign.Value>
+                </Assign>
+              </Sequence>
+            </ui:CommentOut.Body>
+          </ui:CommentOut>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_79">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cBOTDuration]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cBOTDuration'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_80">
+            <Assign.To>
+              <OutArgument x:TypeArguments="s:DateTime">[vBOTStartTime]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="s:DateTime">[Now]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_81">
+            <Assign.To>
+              <OutArgument x:TypeArguments="s:DateTime">[vBOTEndTime]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="s:DateTime">[DateAdd(Dateinterval.Hour,Cdbl(Trim(cBOTDuration)),vBOTStartTime)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_82">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cBOTWaitTimeInSec]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cBOTWaitTimeInSec'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_83">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Int32">[cPortNumber]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Int32">[CInt(vDataTable.Select("[Name]='cPortNumber'")(0)(1))]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_84">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cSMTPServer]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cSMTPServer'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_85">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cGender]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cGender'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_86">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cStartStopMailAddress]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cStartStopMailAddress'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_87">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cExceptionMailAddress]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cExceptionMailAddress'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_88">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cSuccessMailAddress]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cSuccessMailAddress'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_89">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cUnknownErrorMailAddress]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cUnknownErrorMailAddress'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_90">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cReportOutMailAddress]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cReportOutMailAddress'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_91">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cUSZipCodeFilePath]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cUSZipCodeFilePath'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_92">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cSendMailToCustomer]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cSendMailToCustomer'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_93">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cSuccessMailSubject]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cSuccessMailSubject'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_94">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cSuccessMailBody]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cSuccessMailBody'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="cEndPointSelectRequest Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_95">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cStatusesToSendMailToCustomer]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cStatusesToSendMailToCustomer'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_96">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cCreateContentVersionUri]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cCreateContentVersionUri'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_97">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cCreateContentVersionJSON]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cCreateContentVersionJSON'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_98">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cGetContentVersionIdUri]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cGetContentVersionIdUri'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_99">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cDocumentLinkUri]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cDocumentLinkUri'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_100">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cDocumentLinkJSON]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cDocumentLinkJSON'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_101">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cFarmersPolicyCenterLink]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cFarmersPolicyCenterLink'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_103">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cEndPointFetchDriverDataRequest]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cEndPointFetchDriverDataRequest'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_104">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cEndPointFetchVehicleDataRequest]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cEndPointFetchVehicleDataRequest'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_105">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cBristolWestSuccessSubject]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cBristolWestSuccessSubject'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_106">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cBothPortalSuccessSubject]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cBothPortalSuccessSubject'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_107">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cBristolWestSuccessMailBody]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cBristolWestSuccessMailBody'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_108">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cBothPortalSuccessMailBody]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cBothPortalSuccessMailBody'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_109">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cBristolPolicyCenterLink]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cBristolPolicyCenterLink'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="Read From Config" sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_110">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cFarmerToBWCOverageLimitMappingFilePath]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[vDataTable.Select("[Name]='cFarmerToBWCOverageLimitMappingFilePath'")(0)(1).ToString]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="444,322" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+            <ui:CommentOut.Body>
+              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,244" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[vZipCodeDT]" Delimitator="Comma" DisplayName="Read CSV" FilePath="[cUSZipCodeFilePath]" sap:VirtualizedContainerService.HintSize="334,152" sap2010:WorkflowViewState.IdRef="ReadCsvFile_2" />
+              </Sequence>
+            </ui:CommentOut.Body>
+          </ui:CommentOut>
+          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="444,322" sap2010:WorkflowViewState.IdRef="CommentOut_8">
+            <ui:CommentOut.Body>
+              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,244" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[vFarmerToBWMapDT]" Delimitator="Comma" DisplayName="Read CSV" FilePath="[cFarmerToBWCOverageLimitMappingFilePath]" sap:VirtualizedContainerService.HintSize="334,152" sap2010:WorkflowViewState.IdRef="ReadCsvFile_3" />
+              </Sequence>
+            </ui:CommentOut.Body>
+          </ui:CommentOut>
+          <Assign sap:VirtualizedContainerService.HintSize="444,60" sap2010:WorkflowViewState.IdRef="Assign_102">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Boolean">[vReadConfigStatus]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+            </Assign.Value>
+          </Assign>
+        </Sequence>
+      </TryCatch.Try>
+      <TryCatch.Catches>
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="490,21" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ActivityAction x:TypeArguments="s:Exception">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+            </ActivityAction.Argument>
+          </ActivityAction>
+        </Catch>
+      </TryCatch.Catches>
+    </TryCatch>
+  </Sequence>
+</Activity>

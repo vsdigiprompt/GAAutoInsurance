@@ -1,0 +1,126 @@
+﻿Date_Time,Module,Action,Status,Exception
+05/05/2021 06:32:32,Main,GA Insurance BOT Started,Success
+05/05/2021 06:32:35,2_GAInsurance_Setup,Module Started,Success
+05/05/2021 06:32:35,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/05/2021 06:32:35,Main,2_MLPInsurance_Setup Completed,Success
+05/05/2021 06:32:35,Main,BOT Start Time: 05/05/2021 06:32:32,Success
+05/05/2021 06:32:35,Main,BOT Start Time: 05/06/2021 03:32:32,Success
+05/05/2021 06:32:36,3_GAInsurance_Processing,Module Started,Success
+05/05/2021 06:32:46,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/05/2021 06:32:46,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/05/2021 06:32:48,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/05/2021 06:32:48,3_GAInsurance_Processing,Token Generarted,Success
+05/05/2021 06:32:53,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/05/2021 06:32:53,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/05/2021 06:32:58,3_GAInsurance_Processing,Lead Fecthed : 18,Success
+05/05/2021 06:32:58,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/05/2021 06:32:58,Login_Georgia_AutoInsurance_Portal, Counter 0, Success
+05/05/2021 06:32:58,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+05/05/2021 06:33:09,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+05/05/2021 06:33:11,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+05/05/2021 06:33:18,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+05/05/2021 06:33:18,Login_Georgia_AutoInsurance_Portal,Window already opened,
+05/05/2021 06:33:44,3_MLPInsurance_Processing-IE,Runtime Error,Fail,Object reference not set to an instance of an object.
+05/05/2021 06:33:50,3_GAInsurance_Processing,Module Started,Success
+05/05/2021 06:33:56,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/05/2021 06:33:56,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/05/2021 06:34:08,3_GAInsurance_Processing,Lead Fecthed : 18,Success
+05/05/2021 06:34:08,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/05/2021 06:34:08,Login_Georgia_AutoInsurance_Portal, Counter 0, Success
+05/05/2021 06:34:08,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+05/05/2021 06:34:41,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+05/05/2021 06:34:41,Login_Georgia_AutoInsurance_Portal,Technical Exception : Unable to find Login window,Failed
+05/05/2021 06:34:41,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/05/2021 06:34:41,Login_Georgia_AutoInsurance_Portal, Counter 0, Success
+05/05/2021 06:34:41,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+05/05/2021 06:34:42,Login_Georgia_AutoInsurance_Portal, Getting error System.AggregateException: Encountered errors while trying to kill a process ---> System.ComponentModel.Win32Exception: Access is denied
+   at System.Diagnostics.Process.Kill()
+   at UiPath.Core.Activities.KillProcess.Execute(CodeActivityContext context)
+   --- End of inner exception stack trace ---
+   at UiPath.Core.Activities.KillProcess.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity.InternalExecute(ActivityInstance instance, ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.ActivityInstance.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation)
+---> (Inner Exception #0) System.ComponentModel.Win32Exception (0x80004005): Access is denied
+   at System.Diagnostics.Process.Kill()
+   at UiPath.Core.Activities.KillProcess.Execute(CodeActivityContext context)<---
+, Failed
+05/05/2021 06:34:46,3_MLPInsurance_Processing-IE,Runtime Error,Fail,534: 5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbv
+5.7.14 i1iM392ZdlMkMwv-yriP4In-wix0RpLFQjB8ySfipVHnZfZDICixSTu1QvDFqzg4mw2f3
+5.7.14 Dcz9mOrluROMa5o5dx7Js3Y56SJoTj-d6DUgcVAcP3QEHv8G0t4Km1JMLMANTGzv>
+5.7.14 Please log in via your web browser and then try again.
+5.7.14  Learn more at
+5.7.14  https://support.google.com/mail/answer/78754 h7sm709556qtr.50 - gsmtp
+05/05/2021 06:40:35,Main,GA Insurance BOT Started,Success
+05/05/2021 06:40:37,2_GAInsurance_Setup,Module Started,Success
+05/05/2021 06:40:37,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/05/2021 06:40:37,Main,2_MLPInsurance_Setup Completed,Success
+05/05/2021 06:40:37,Main,BOT Start Time: 05/05/2021 06:40:34,Success
+05/05/2021 06:40:37,Main,BOT Start Time: 05/06/2021 03:40:34,Success
+05/05/2021 06:40:39,3_GAInsurance_Processing,Module Started,Success
+05/05/2021 06:40:48,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/05/2021 06:40:55,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/05/2021 06:40:58,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/05/2021 06:40:59,3_GAInsurance_Processing,Token Generarted,Success
+05/05/2021 06:41:04,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/05/2021 06:41:05,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/05/2021 06:51:34,Main,GA Insurance BOT Started,Success
+05/05/2021 06:51:36,2_GAInsurance_Setup,Module Started,Success
+05/05/2021 06:51:37,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/05/2021 06:51:37,Main,2_MLPInsurance_Setup Completed,Success
+05/05/2021 06:51:37,Main,BOT Start Time: 05/05/2021 06:51:33,Success
+05/05/2021 06:51:37,Main,BOT Start Time: 05/06/2021 03:51:33,Success
+05/05/2021 06:51:39,3_GAInsurance_Processing,Module Started,Success
+05/05/2021 06:51:47,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/05/2021 06:51:57,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/05/2021 06:52:02,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/05/2021 06:52:20,3_GAInsurance_Processing,Token Generarted,Success
+05/05/2021 06:52:36,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/05/2021 06:58:59,Main,GA Insurance BOT Started,Success
+05/05/2021 06:59:02,2_GAInsurance_Setup,Module Started,Success
+05/05/2021 06:59:02,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/05/2021 06:59:02,Main,2_MLPInsurance_Setup Completed,Success
+05/05/2021 06:59:02,Main,BOT Start Time: 05/05/2021 06:58:58,Success
+05/05/2021 06:59:02,Main,BOT Start Time: 05/06/2021 03:58:58,Success
+05/05/2021 06:59:04,3_GAInsurance_Processing,Module Started,Success
+05/05/2021 06:59:12,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/05/2021 07:05:42,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/05/2021 07:05:48,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/05/2021 07:05:55,3_GAInsurance_Processing,Token Generarted,Success
+05/05/2021 07:06:01,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/05/2021 07:18:19,Main,GA Insurance BOT Started,Success
+05/05/2021 07:18:21,2_GAInsurance_Setup,Module Started,Success
+05/05/2021 07:18:21,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/05/2021 07:18:21,Main,2_MLPInsurance_Setup Completed,Success
+05/05/2021 07:18:21,Main,BOT Start Time: 05/05/2021 07:18:18,Success
+05/05/2021 07:18:21,Main,BOT Start Time: 05/06/2021 04:18:18,Success
+05/05/2021 07:18:22,3_GAInsurance_Processing,Module Started,Success
+05/05/2021 07:18:31,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/05/2021 07:18:44,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/05/2021 07:18:47,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/05/2021 07:18:51,3_GAInsurance_Processing,Token Generarted,Success
+05/05/2021 07:18:55,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/05/2021 07:50:39,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/05/2021 07:50:54,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/05/2021 07:51:14,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/05/2021 07:51:14,Login_Georgia_AutoInsurance_Portal, Counter 0, Success
+05/05/2021 07:51:14,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+05/05/2021 07:51:58,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+05/05/2021 07:51:58,Login_Georgia_AutoInsurance_Portal,Technical Exception : Unable to find Login window,Failed
+05/06/2021 10:47:39,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/06/2021 10:47:39,Login_Georgia_AutoInsurance_Portal, Counter 0, Success
+05/06/2021 10:47:39,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+05/06/2021 10:55:53,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/06/2021 10:55:53,Login_Georgia_AutoInsurance_Portal, Counter 0, Success
+05/06/2021 10:55:54,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+05/06/2021 10:56:09,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+05/06/2021 10:56:11,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+05/06/2021 10:56:20,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+05/06/2021 10:56:20,Login_Georgia_AutoInsurance_Portal,Window already opened,
+05/07/2021 10:14:28,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/07/2021 10:14:28,Login_Georgia_AutoInsurance_Portal, Counter 0, Success
+05/07/2021 10:14:28,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+05/07/2021 10:14:37,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+05/07/2021 10:14:41,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+05/07/2021 10:14:50,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+05/07/2021 10:14:50,Login_Georgia_AutoInsurance_Portal,Window already opened,

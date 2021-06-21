@@ -1,0 +1,1837 @@
+﻿Date_Time,Module,Action,Status,Exception
+06/15/2021 00:24:13,Main,GA Insurance BOT Started,Success
+06/15/2021 00:24:14,2_GAInsurance_Setup,Module Started,Success
+06/15/2021 00:24:14,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/15/2021 00:24:14,Main,2_GAInsurance_Setup Completed,Success
+06/15/2021 00:24:14,Main,BOT Start Time: 06/15/2021 00:24:12,Success
+06/15/2021 00:24:14,Main,BOT Start Time: 06/15/2021 21:24:12,Success
+06/15/2021 00:24:15,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 00:24:20,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/15/2021 00:24:34,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/15/2021 00:24:34,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 00:24:34,3_GAInsurance_Processing,Token Generarted,Success
+06/15/2021 00:24:35,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 00:24:35,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 00:24:58,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 00:25:00,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 00:25:31,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+06/15/2021 00:25:34,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+06/15/2021 00:25:49,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+06/15/2021 00:25:58,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+06/15/2021 00:25:59,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 00:25:59,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 00:25:59,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 00:25:59,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 00:25:59,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 00:25:59,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 00:25:59,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 00:26:00,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 00:26:00,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+06/15/2021 00:26:01,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 00:26:01,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 00:26:01,3_GAInsurance_Processing,Driver details: MANAVI ANANTULA,APARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 00:26:01,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 00:26:01,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 00:26:01,3_GAInsurance_Processing, Vechicle details: JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 00:26:05,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+06/15/2021 00:26:17,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+06/15/2021 00:26:26,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 00:26:26,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 00:26:27,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 00:26:27,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 00:26:27,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 00:26:27,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 00:26:27,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 00:26:29,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 00:26:29,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+06/15/2021 00:26:30,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+06/15/2021 00:26:31,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+06/15/2021 00:26:39,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+06/15/2021 00:27:16,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+06/15/2021 00:27:16,4.1_Georgia_Farmer_Auto, Driver details : MANAVI ANANTULA,APARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 00:27:26,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 00:27:30,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 00:33:47,Main,GA Insurance BOT Started,Success
+06/15/2021 00:33:48,2_GAInsurance_Setup,Module Started,Success
+06/15/2021 00:33:48,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/15/2021 00:33:48,Main,2_GAInsurance_Setup Completed,Success
+06/15/2021 00:33:48,Main,BOT Start Time: 06/15/2021 00:33:47,Success
+06/15/2021 00:33:48,Main,BOT Start Time: 06/15/2021 21:33:47,Success
+06/15/2021 00:33:49,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 00:33:53,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/15/2021 00:33:53,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/15/2021 00:33:54,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 00:33:54,3_GAInsurance_Processing,Token Generarted,Success
+06/15/2021 00:33:54,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 00:33:54,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 00:33:56,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 00:33:57,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 00:34:05,Login_Georgia_AutoInsurance_Portal, Already logged in , Success
+06/15/2021 00:34:07,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+06/15/2021 00:34:08,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 00:34:08,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 00:34:08,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 00:34:08,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 00:34:08,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 00:34:08,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 00:34:08,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 00:34:09,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 00:34:09,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+06/15/2021 00:34:10,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 00:34:10,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 00:34:10,3_GAInsurance_Processing,Driver details: MANAVI ANANTULA,APARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 00:34:10,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 00:34:10,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 00:34:10,3_GAInsurance_Processing, Vechicle details: JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 00:34:13,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+06/15/2021 00:34:24,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+06/15/2021 00:34:32,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 00:34:32,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 00:34:33,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 00:34:33,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 00:34:33,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 00:34:33,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 00:34:33,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 00:34:34,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 00:34:34,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+06/15/2021 00:34:35,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+06/15/2021 00:34:37,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+06/15/2021 00:34:41,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+06/15/2021 00:34:48,4.1_Georgia_Farmer_Auto, Element exist for Instant ID Conflict solution True ,Success
+06/15/2021 00:34:56,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+06/15/2021 00:34:56,4.1_Georgia_Farmer_Auto, Driver details : MANAVI ANANTULA,APARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 00:35:00,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 00:35:05,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 00:35:10,4.1_Georgia_Farmer_Auto, Driver Name APARNA ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 00:35:12,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 00:35:15,4.1_Georgia_Farmer_Auto, Driver Name YAMINI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 00:35:18,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 00:35:21,4.1_Georgia_Farmer_Auto, Vechicle selection JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 00:35:22,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+06/15/2021 00:35:22,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 Vechicle Type  Vechicle Year 2019 Vechicle Model XV CRSTK W/E 2.0I LTD VDC NAVI Vechicle Make SUBARU, Success
+06/15/2021 00:35:23,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 2HKYF18563H556344 1, Success
+06/15/2021 00:35:23,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 5J6RM4H72EL003700 2, Success
+06/15/2021 00:35:25,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 JF2GTANC1KH222664 3, Success
+06/15/2021 00:35:25,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 00:35:25,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 Vechicle Type  Vechicle Year 2014 Vechicle Model CR-V 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 00:35:25,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 2HKYF18563H556344 1, Success
+06/15/2021 00:35:26,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 5J6RM4H72EL003700 2, Success
+06/15/2021 00:35:27,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 00:35:27,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 Vechicle Type  Vechicle Year 2003 Vechicle Model PILOT 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 00:35:27,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 2HKYF18563H556344 1, Success
+06/15/2021 00:35:28,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 00:47:43,Main,GA Insurance BOT Started,Success
+06/15/2021 00:47:43,2_GAInsurance_Setup,Module Started,Success
+06/15/2021 00:47:43,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/15/2021 00:47:43,Main,2_GAInsurance_Setup Completed,Success
+06/15/2021 00:47:43,Main,BOT Start Time: 06/15/2021 00:47:43,Success
+06/15/2021 00:47:43,Main,BOT Start Time: 06/15/2021 21:47:43,Success
+06/15/2021 00:47:44,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 00:47:49,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/15/2021 00:47:49,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/15/2021 00:47:50,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 00:47:50,3_GAInsurance_Processing,Token Generarted,Success
+06/15/2021 00:47:50,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 00:47:50,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 00:47:52,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 00:47:53,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 00:48:12,Login_Georgia_AutoInsurance_Portal, Already logged in , Success
+06/15/2021 00:48:15,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+06/15/2021 00:48:16,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 00:48:16,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 00:48:16,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 00:48:16,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 00:48:17,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 00:48:17,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 00:48:17,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 00:48:18,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 00:48:18,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+06/15/2021 00:48:19,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 00:48:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 00:48:19,3_GAInsurance_Processing,Driver details: MANAVI ANANTULA,APARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 00:48:19,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 00:48:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 00:48:19,3_GAInsurance_Processing, Vechicle details: JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 00:48:22,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+06/15/2021 00:48:34,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+06/15/2021 00:48:43,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 00:48:43,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 00:48:43,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 00:48:43,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 00:48:44,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 00:48:44,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 00:48:44,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 00:48:45,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 00:48:45,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+06/15/2021 00:48:46,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+06/15/2021 00:48:47,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+06/15/2021 00:48:51,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+06/15/2021 00:48:57,4.1_Georgia_Farmer_Auto, Element exist for Instant ID Conflict solution True ,Success
+06/15/2021 00:49:05,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+06/15/2021 00:49:05,4.1_Georgia_Farmer_Auto, Driver details : MANAVI ANANTULA,APARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 00:49:11,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 00:51:00,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 00:51:07,4.1_Georgia_Farmer_Auto, Driver Name APARNA ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 00:51:20,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 00:51:24,4.1_Georgia_Farmer_Auto, Driver Name YAMINI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 00:51:28,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 00:51:28,4.1_Georgia_Farmer_Auto,Index was outside the bounds of the array.,Failed
+06/15/2021 00:51:29,3_GAInsurance_Processing, Lead ID 00Q0m000007wOXHEA2, Status : Failed Status Description : Index was outside the bounds of the array. ,Success
+06/15/2021 00:51:29,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 00:57:52,Main,GA Insurance BOT Started,Success
+06/15/2021 00:57:53,2_GAInsurance_Setup,Module Started,Success
+06/15/2021 00:57:53,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/15/2021 00:57:53,Main,2_GAInsurance_Setup Completed,Success
+06/15/2021 00:57:53,Main,BOT Start Time: 06/15/2021 00:57:52,Success
+06/15/2021 00:57:53,Main,BOT Start Time: 06/15/2021 21:57:52,Success
+06/15/2021 00:57:54,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 00:57:58,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/15/2021 00:57:58,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/15/2021 00:57:59,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 00:57:59,3_GAInsurance_Processing,Token Generarted,Success
+06/15/2021 00:57:59,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 00:57:59,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 00:58:02,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 00:58:03,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 00:58:13,Login_Georgia_AutoInsurance_Portal, Already logged in , Success
+06/15/2021 00:58:16,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+06/15/2021 00:58:17,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 00:58:17,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 00:58:17,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 00:58:17,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 00:58:17,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 00:58:17,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 00:58:17,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 00:58:19,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 00:58:19,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+06/15/2021 00:58:19,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 00:58:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 00:58:19,3_GAInsurance_Processing,Driver details: MANAVI ANANTULA,APARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 00:58:19,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 00:58:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 00:58:19,3_GAInsurance_Processing, Vechicle details: JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 00:58:22,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+06/15/2021 00:58:31,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+06/15/2021 00:58:39,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 00:58:39,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 00:58:39,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 00:58:39,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 00:58:40,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 00:58:40,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 00:58:40,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 00:58:41,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 00:58:41,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+06/15/2021 00:58:41,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+06/15/2021 00:58:43,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+06/15/2021 00:58:51,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+06/15/2021 00:58:56,4.1_Georgia_Farmer_Auto, Element exist for Instant ID Conflict solution True ,Success
+06/15/2021 00:59:04,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+06/15/2021 00:59:04,4.1_Georgia_Farmer_Auto, Driver details : MANAVI ANANTULA,APARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 00:59:20,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 00:59:54,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 01:00:02,4.1_Georgia_Farmer_Auto, Driver Name APARNA ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 01:00:40,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 01:00:46,4.1_Georgia_Farmer_Auto, Driver Name YAMINI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 01:00:53,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 01:00:57,4.1_Georgia_Farmer_Auto, Vechicle selection JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 01:00:58,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+06/15/2021 01:00:58,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 Vechicle Type  Vechicle Year 2019 Vechicle Model XV CRSTK W/E 2.0I LTD VDC NAVI Vechicle Make SUBARU, Success
+06/15/2021 01:00:58,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 2HKYF18563H556344 1, Success
+06/15/2021 01:00:59,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 5J6RM4H72EL003700 2, Success
+06/15/2021 01:01:00,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 JF2GTANC1KH222664 3, Success
+06/15/2021 01:01:01,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 01:01:01,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 Vechicle Type  Vechicle Year 2014 Vechicle Model CR-V 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 01:01:01,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 2HKYF18563H556344 1, Success
+06/15/2021 01:01:02,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 5J6RM4H72EL003700 2, Success
+06/15/2021 01:01:03,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 01:01:03,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 Vechicle Type  Vechicle Year 2003 Vechicle Model PILOT 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 01:01:03,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 2HKYF18563H556344 1, Success
+06/15/2021 01:01:04,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 01:21:51,Main,GA Insurance BOT Started,Success
+06/15/2021 01:21:52,2_GAInsurance_Setup,Module Started,Success
+06/15/2021 01:21:52,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/15/2021 01:21:52,Main,2_GAInsurance_Setup Completed,Success
+06/15/2021 01:21:52,Main,BOT Start Time: 06/15/2021 01:21:51,Success
+06/15/2021 01:21:52,Main,BOT Start Time: 06/15/2021 22:21:51,Success
+06/15/2021 01:21:52,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 01:21:56,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/15/2021 01:21:56,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/15/2021 01:21:57,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 01:21:57,3_GAInsurance_Processing,Token Generarted,Success
+06/15/2021 01:21:57,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 01:21:57,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 01:22:01,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 01:22:01,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 01:22:07,Login_Georgia_AutoInsurance_Portal, Already logged in , Success
+06/15/2021 01:22:12,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+06/15/2021 01:22:12,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 01:22:12,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 01:22:12,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 01:22:12,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 01:22:13,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 01:22:13,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 01:22:13,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 01:22:14,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 01:22:14,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+06/15/2021 01:22:14,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 01:22:14,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 01:22:14,3_GAInsurance_Processing,Driver details: MANAVI ANANTULA,APARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 01:22:14,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 01:22:14,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 01:22:14,3_GAInsurance_Processing, Vechicle details: JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 01:22:17,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+06/15/2021 01:22:27,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+06/15/2021 01:22:35,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 01:22:35,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 01:22:35,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 01:22:35,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 01:22:36,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 01:22:36,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 01:22:36,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 01:22:37,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 01:22:37,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+06/15/2021 01:22:38,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+06/15/2021 01:22:40,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+06/15/2021 01:22:43,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+06/15/2021 01:22:49,4.1_Georgia_Farmer_Auto, Element exist for Instant ID Conflict solution True ,Success
+06/15/2021 01:22:57,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+06/15/2021 01:22:57,4.1_Georgia_Farmer_Auto, Driver details : MANAVI ANANTULA,APARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 01:23:14,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 01:23:20,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 01:23:22,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 01:23:32,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:23:32,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 01:23:42,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 4 Get Name APARNA ,Success
+06/15/2021 01:23:45,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 01:23:50,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 5 Get Name  ,Success
+06/15/2021 01:23:56,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 01:24:39,4.1_Georgia_Farmer_Auto, Driver Name APARNA ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 01:24:42,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 01:24:44,4.1_Georgia_Farmer_Auto, Driver Name APARNA ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 01:24:47,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:24:47,4.1_Georgia_Farmer_Auto, Driver Name APARNA ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 01:24:50,4.1_Georgia_Farmer_Auto, Driver Name APARNA ANANTULA counter 4 Get Name APARNA ,Success
+06/15/2021 01:24:55,4.1_Georgia_Farmer_Auto, Driver Name APARNA ANANTULA counter 5 Get Name  ,Success
+06/15/2021 01:25:01,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 01:25:06,4.1_Georgia_Farmer_Auto, Driver Name YAMINI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 01:25:11,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 01:25:13,4.1_Georgia_Farmer_Auto, Driver Name YAMINI ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 01:25:18,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:25:18,4.1_Georgia_Farmer_Auto, Driver Name YAMINI ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 01:25:20,4.1_Georgia_Farmer_Auto, Driver Name YAMINI ANANTULA counter 4 Get Name APARNA ,Success
+06/15/2021 01:25:25,4.1_Georgia_Farmer_Auto, Driver Name YAMINI ANANTULA counter 5 Get Name  ,Success
+06/15/2021 01:25:31,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 01:25:36,4.1_Georgia_Farmer_Auto, Vechicle selection JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 01:25:37,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+06/15/2021 01:25:37,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 Vechicle Type  Vechicle Year 2019 Vechicle Model XV CRSTK W/E 2.0I LTD VDC NAVI Vechicle Make SUBARU, Success
+06/15/2021 01:25:37,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 2HKYF18563H556344 1, Success
+06/15/2021 01:25:38,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 5J6RM4H72EL003700 2, Success
+06/15/2021 01:25:39,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 JF2GTANC1KH222664 3, Success
+06/15/2021 01:25:39,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 01:25:39,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 Vechicle Type  Vechicle Year 2014 Vechicle Model CR-V 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 01:25:40,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 2HKYF18563H556344 1, Success
+06/15/2021 01:25:41,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 5J6RM4H72EL003700 2, Success
+06/15/2021 01:25:41,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 01:25:41,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 Vechicle Type  Vechicle Year 2003 Vechicle Model PILOT 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 01:25:41,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 2HKYF18563H556344 1, Success
+06/15/2021 01:25:42,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 01:36:58,Main,GA Insurance BOT Started,Success
+06/15/2021 01:36:59,2_GAInsurance_Setup,Module Started,Success
+06/15/2021 01:36:59,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/15/2021 01:36:59,Main,2_GAInsurance_Setup Completed,Success
+06/15/2021 01:36:59,Main,BOT Start Time: 06/15/2021 01:36:58,Success
+06/15/2021 01:36:59,Main,BOT Start Time: 06/15/2021 22:36:58,Success
+06/15/2021 01:37:00,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 01:37:04,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/15/2021 01:37:04,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/15/2021 01:37:04,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 01:37:04,3_GAInsurance_Processing,Token Generarted,Success
+06/15/2021 01:37:05,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 01:37:05,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 01:37:08,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 01:37:09,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 01:37:17,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+06/15/2021 01:37:19,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+06/15/2021 01:37:25,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+06/15/2021 01:37:28,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+06/15/2021 01:37:28,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 01:37:28,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 01:37:28,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 01:37:28,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 01:37:28,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 01:37:28,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 01:37:29,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 01:37:30,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 01:37:30,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+06/15/2021 01:37:30,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 01:37:30,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 01:37:30,3_GAInsurance_Processing,Driver details: MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 01:37:30,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 01:37:30,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 01:37:30,3_GAInsurance_Processing, Vechicle details: JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 01:37:33,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+06/15/2021 01:37:42,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+06/15/2021 01:37:50,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 01:37:50,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 01:37:50,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 01:37:50,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 01:37:51,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 01:37:51,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 01:37:51,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 01:37:52,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 01:37:52,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+06/15/2021 01:37:53,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+06/15/2021 01:37:54,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+06/15/2021 01:37:57,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+06/15/2021 01:38:03,4.1_Georgia_Farmer_Auto, Element exist for Instant ID Conflict solution True ,Success
+06/15/2021 01:38:21,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+06/15/2021 01:38:21,4.1_Georgia_Farmer_Auto, Driver details : MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 01:38:27,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 01:38:35,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:38:35,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 01:38:48,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:38:48,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 01:38:52,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 01:39:02,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 01:39:07,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:39:08,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 01:39:10,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:39:10,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 01:39:12,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 4 Get Name APARNA ,Success
+06/15/2021 01:39:14,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:39:17,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 5 Get Name  ,Success
+06/15/2021 01:39:20,4.1_Georgia_Farmer_Auto, Add Driver NameAPAARNA  ANANTULA ,Success
+06/15/2021 01:39:22,4.1_Georgia_Farmer_Auto, Driver matchAPAARNA  ANANTULA ,Success
+06/15/2021 01:39:25,4.1_Georgia_Farmer_Auto, Driver Name YAMINI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 01:39:29,4.1_Georgia_Farmer_Auto, Driver matchAPAARNA  ANANTULA ,Success
+06/15/2021 01:39:29,4.1_Georgia_Farmer_Auto,Index was outside the bounds of the array.,Failed
+06/15/2021 01:39:30,3_GAInsurance_Processing, Lead ID 00Q0m000007wOXHEA2, Status : Failed Status Description : Index was outside the bounds of the array. ,Success
+06/15/2021 01:39:30,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 01:39:36,Login_Georgia_AutoInsurance_Portal, Already logged in , Success
+06/15/2021 01:39:38,3_GAInsurance_Processing, Closed all child tabs ,Success
+06/15/2021 01:39:38,3_GAInsurance_Processing, Status : Failed Status Description : Index was outside the bounds of the array. ,Success
+06/15/2021 01:39:38,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Unknown Error",
+    "Start_Date_Time__c" : "2021-06-14T20:07:28",
+    "Bot_Quoted_Farmers_Auto_Premium__c" : null,
+    "Bot_Quoted_Bristol_West_Auto_Premium__c" : null,
+    "End_Date_Time__c" : "2021-06-14T20:09:38",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Bristol_West_Policy_Center_Link__c" : null,
+    "Bot_Exception_Reason__c": "Index was outside the bounds of the array.",
+    "Bot_Update__c" : null
+},Success
+06/15/2021 01:39:41,3_GAInsurance_ProcessingSalesforce Updated,Success
+06/15/2021 01:40:11,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 01:40:14,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 01:40:14,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 01:40:40,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+06/15/2021 01:40:40,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+06/15/2021 01:42:52,Main,GA Insurance BOT Started,Success
+06/15/2021 01:42:53,2_GAInsurance_Setup,Module Started,Success
+06/15/2021 01:42:53,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/15/2021 01:42:53,Main,2_GAInsurance_Setup Completed,Success
+06/15/2021 01:42:53,Main,BOT Start Time: 06/15/2021 01:42:51,Success
+06/15/2021 01:42:53,Main,BOT Start Time: 06/15/2021 22:42:51,Success
+06/15/2021 01:42:54,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 01:42:59,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/15/2021 01:43:05,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/15/2021 01:43:06,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 01:43:06,3_GAInsurance_Processing,Token Generarted,Success
+06/15/2021 01:43:06,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 01:43:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 01:43:11,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 01:43:12,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 01:43:19,Login_Georgia_AutoInsurance_Portal, Already logged in , Success
+06/15/2021 01:43:24,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+06/15/2021 01:43:24,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 01:43:24,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 01:43:25,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 01:43:25,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 01:43:25,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 01:43:25,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 01:43:25,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 01:43:26,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 01:43:26,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+06/15/2021 01:43:27,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 01:43:27,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 01:43:28,3_GAInsurance_Processing,Driver details: MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 01:43:28,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 01:43:28,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 01:43:29,3_GAInsurance_Processing, Vechicle details: JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 01:43:32,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+06/15/2021 01:43:42,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+06/15/2021 01:43:51,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 01:43:51,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 01:43:51,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 01:43:51,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 01:43:51,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 01:43:51,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 01:43:51,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 01:43:52,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 01:43:52,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+06/15/2021 01:43:54,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+06/15/2021 01:43:56,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+06/15/2021 01:43:59,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+06/15/2021 01:44:05,4.1_Georgia_Farmer_Auto, Element exist for Instant ID Conflict solution True ,Success
+06/15/2021 01:44:13,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+06/15/2021 01:44:13,4.1_Georgia_Farmer_Auto, Driver details : MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 01:44:16,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 01:44:20,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:44:21,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 01:44:21,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:44:22,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 01:44:23,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 01:44:27,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 01:44:31,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:44:31,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 01:44:32,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:44:32,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 01:44:33,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 4 Get Name APARNA ,Success
+06/15/2021 01:44:34,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:44:38,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 5 Get Name  ,Success
+06/15/2021 01:44:40,4.1_Georgia_Farmer_Auto, Add Driver NameAPAARNA  ANANTULA ,Success
+06/15/2021 01:44:42,4.1_Georgia_Farmer_Auto, Driver matchAPAARNA  ANANTULA ,Success
+06/15/2021 01:45:01,4.1_Georgia_Farmer_Auto, Driver Name YAMINI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 01:45:02,4.1_Georgia_Farmer_Auto, Driver matchAPAARNA  ANANTULA ,Success
+06/15/2021 01:47:15,Main,GA Insurance BOT Started,Success
+06/15/2021 01:47:17,2_GAInsurance_Setup,Module Started,Success
+06/15/2021 01:47:17,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/15/2021 01:47:17,Main,2_GAInsurance_Setup Completed,Success
+06/15/2021 01:47:17,Main,BOT Start Time: 06/15/2021 01:47:15,Success
+06/15/2021 01:47:17,Main,BOT Start Time: 06/15/2021 22:47:15,Success
+06/15/2021 01:47:19,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 01:47:24,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/15/2021 01:47:28,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/15/2021 01:47:29,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 01:47:29,3_GAInsurance_Processing,Token Generarted,Success
+06/15/2021 01:47:29,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 01:47:30,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 01:47:34,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 01:47:35,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 01:47:40,Login_Georgia_AutoInsurance_Portal, Already logged in , Success
+06/15/2021 01:47:43,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+06/15/2021 01:47:44,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 01:47:44,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 01:47:44,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 01:47:44,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 01:47:44,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 01:47:44,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 01:47:44,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 01:47:46,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 01:47:46,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+06/15/2021 01:47:46,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 01:47:46,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 01:47:47,3_GAInsurance_Processing,Driver details: MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 01:47:48,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 01:47:48,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 01:47:48,3_GAInsurance_Processing, Vechicle details: JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 01:47:51,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+06/15/2021 01:48:00,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+06/15/2021 01:48:09,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 01:48:09,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 01:48:09,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 01:48:09,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 01:48:09,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 01:48:09,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 01:48:10,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 01:48:11,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 01:48:11,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+06/15/2021 01:48:11,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+06/15/2021 01:48:13,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+06/15/2021 01:48:16,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+06/15/2021 01:48:22,4.1_Georgia_Farmer_Auto, Element exist for Instant ID Conflict solution True ,Success
+06/15/2021 01:48:30,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+06/15/2021 01:48:30,4.1_Georgia_Farmer_Auto, Driver details : MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 01:48:34,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 01:48:38,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:48:38,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 01:48:39,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:48:40,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 01:48:40,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 01:48:44,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 01:48:48,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:48:48,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 01:48:49,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:48:49,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 01:48:50,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 4 Get Name APARNA ,Success
+06/15/2021 01:48:51,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 01:48:55,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 5 Get Name  ,Success
+06/15/2021 01:48:57,4.1_Georgia_Farmer_Auto, Add Driver NameAPAARNA  ANANTULA ,Success
+06/15/2021 01:48:59,4.1_Georgia_Farmer_Auto, Driver matchAPAARNA  ANANTULA ,Success
+06/15/2021 01:49:02,4.1_Georgia_Farmer_Auto, Driver Name YAMINI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 01:49:02,4.1_Georgia_Farmer_Auto, Driver matchAPAARNA  ANANTULA ,Success
+06/15/2021 01:49:11,4.1_Georgia_Farmer_Auto, Vechicle selection JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 01:49:12,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+06/15/2021 01:49:13,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 Vechicle Type  Vechicle Year 2019 Vechicle Model XV CRSTK W/E 2.0I LTD VDC NAVI Vechicle Make SUBARU, Success
+06/15/2021 01:49:13,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 2HKYF18563H556344 1, Success
+06/15/2021 01:49:14,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 5J6RM4H72EL003700 2, Success
+06/15/2021 01:49:16,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 JF2GTANC1KH222664 3, Success
+06/15/2021 01:49:17,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 01:49:18,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 Vechicle Type  Vechicle Year 2014 Vechicle Model CR-V 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 01:49:18,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 2HKYF18563H556344 1, Success
+06/15/2021 01:49:20,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 5J6RM4H72EL003700 2, Success
+06/15/2021 01:49:20,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 01:49:21,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 Vechicle Type  Vechicle Year 2003 Vechicle Model PILOT 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 01:49:22,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 2HKYF18563H556344 1, Success
+06/15/2021 01:49:22,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 01:49:25,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 01:49:25,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 01:49:26,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 01:49:26,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 01:49:26,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 01:49:26,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 01:49:26,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 01:49:28,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 01:49:28,4.1_Georgia_Farmer_Auto, Sales force updated 30% Completed- Driver and Vehicle Information Filled  ,Success
+06/15/2021 01:49:31,4.1_Georgia_Farmer_Auto, Pop up found on driver screen False  ,Success
+06/15/2021 01:49:36,4.1_Georgia_Farmer_Auto, Bristol pop message found False  ,Success
+06/15/2021 01:49:36,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+06/15/2021 01:49:36,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+06/15/2021 02:00:32,Main,GA Insurance BOT Started,Success
+06/15/2021 02:00:32,2_GAInsurance_Setup,Module Started,Success
+06/15/2021 02:00:32,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/15/2021 02:00:32,Main,2_GAInsurance_Setup Completed,Success
+06/15/2021 02:00:32,Main,BOT Start Time: 06/15/2021 02:00:32,Success
+06/15/2021 02:00:32,Main,BOT Start Time: 06/15/2021 23:00:32,Success
+06/15/2021 02:00:34,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 02:00:38,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/15/2021 02:00:38,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/15/2021 02:00:38,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 02:00:38,3_GAInsurance_Processing,Token Generarted,Success
+06/15/2021 02:00:39,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 02:00:39,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 02:00:41,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 02:00:42,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 02:00:49,Login_Georgia_AutoInsurance_Portal, Already logged in , Success
+06/15/2021 02:00:57,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+06/15/2021 02:00:57,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 02:00:57,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 02:00:57,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 02:00:57,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 02:00:57,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 02:00:57,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 02:00:57,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 02:00:59,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 02:00:59,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+06/15/2021 02:00:59,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 02:00:59,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 02:00:59,3_GAInsurance_Processing,Driver details: MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 02:00:59,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 02:00:59,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 02:00:59,3_GAInsurance_Processing, Vechicle details: JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 02:01:02,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+06/15/2021 02:01:12,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+06/15/2021 02:01:22,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 02:01:22,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 02:01:22,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 02:01:22,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 02:01:22,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 02:01:22,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 02:01:22,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 02:01:24,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 02:01:24,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+06/15/2021 02:01:25,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+06/15/2021 02:01:27,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+06/15/2021 02:01:31,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+06/15/2021 02:01:37,4.1_Georgia_Farmer_Auto, Element exist for Instant ID Conflict solution True ,Success
+06/15/2021 02:01:44,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+06/15/2021 02:01:44,4.1_Georgia_Farmer_Auto, Driver details : MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+06/15/2021 02:01:45,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 02:01:48,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 02:01:48,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 02:01:49,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 02:01:49,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 02:01:50,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 02:01:52,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 02:01:55,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 02:01:55,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 02:01:56,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 02:01:56,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 02:01:56,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 4 Get Name APARNA ,Success
+06/15/2021 02:01:57,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 02:02:00,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 5 Get Name  ,Success
+06/15/2021 02:02:02,4.1_Georgia_Farmer_Auto, Add Driver NameAPAARNA  ANANTULA ,Success
+06/15/2021 02:02:04,4.1_Georgia_Farmer_Auto, Driver matchAPAARNA  ANANTULA ,Success
+06/15/2021 02:02:04,4.1_Georgia_Farmer_Auto, Driver Name YAMINI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 02:02:05,4.1_Georgia_Farmer_Auto, Driver matchAPAARNA  ANANTULA ,Success
+06/15/2021 02:02:07,4.1_Georgia_Farmer_Auto, Vechicle selection JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 02:02:08,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+06/15/2021 02:02:08,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 Vechicle Type  Vechicle Year 2019 Vechicle Model XV CRSTK W/E 2.0I LTD VDC NAVI Vechicle Make SUBARU, Success
+06/15/2021 02:02:08,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 2HKYF18563H556344 1, Success
+06/15/2021 02:02:09,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 5J6RM4H72EL003700 2, Success
+06/15/2021 02:02:10,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 JF2GTANC1KH222664 3, Success
+06/15/2021 02:02:11,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 02:02:11,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 Vechicle Type  Vechicle Year 2014 Vechicle Model CR-V 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 02:02:11,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 2HKYF18563H556344 1, Success
+06/15/2021 02:02:12,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 5J6RM4H72EL003700 2, Success
+06/15/2021 02:02:12,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 02:02:12,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 Vechicle Type  Vechicle Year 2003 Vechicle Model PILOT 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 02:02:13,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 2HKYF18563H556344 1, Success
+06/15/2021 02:02:13,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 02:02:18,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 02:02:18,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 02:02:18,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 02:02:18,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 02:02:18,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 02:02:18,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 02:02:18,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 02:02:19,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 02:02:19,4.1_Georgia_Farmer_Auto, Sales force updated 30% Completed- Driver and Vehicle Information Filled  ,Success
+06/15/2021 02:02:22,4.1_Georgia_Farmer_Auto, Pop up found on driver screen False  ,Success
+06/15/2021 02:02:28,4.1_Georgia_Farmer_Auto, Bristol pop message found False  ,Success
+06/15/2021 02:02:28,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+06/15/2021 02:02:28,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+06/15/2021 02:02:30,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+06/15/2021 02:02:31,4.1_Georgia_Farmer_Auto, Driver Count : 3, Success
+06/15/2021 02:02:32,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+06/15/2021 02:02:33,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+06/15/2021 02:02:33,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+06/15/2021 02:02:34,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+06/15/2021 02:02:34,4.1_Georgia_Farmer_Auto, Get gender for added drivers APAARNA- , Success
+06/15/2021 02:02:36,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+06/15/2021 02:02:36,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4234056077 Quote number 49001677, Success
+06/15/2021 02:02:36,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 02:02:36,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 02:02:36,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 02:02:36,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 02:02:37,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 02:02:37,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 02:02:37,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 02:02:38,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 02:02:38,4.1_Georgia_Farmer_Auto, Sales force updated 40% Completed- Household Information Filled  ,Success
+06/15/2021 02:02:38,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 1 Owned , Success
+06/15/2021 02:02:40,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 2 Owned , Success
+06/15/2021 02:02:42,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 3 Owned , Success
+06/15/2021 02:02:49,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 02:02:49,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 02:06:53,Main,GA Insurance BOT Started,Success
+06/15/2021 02:06:54,2_GAInsurance_Setup,Module Started,Success
+06/15/2021 02:06:54,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/15/2021 02:06:54,Main,2_GAInsurance_Setup Completed,Success
+06/15/2021 02:06:54,Main,BOT Start Time: 06/15/2021 02:06:53,Success
+06/15/2021 02:06:54,Main,BOT Start Time: 06/15/2021 23:06:53,Success
+06/15/2021 02:06:55,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 02:07:01,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/15/2021 02:07:01,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/15/2021 02:07:01,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 02:07:01,3_GAInsurance_Processing,Token Generarted,Success
+06/15/2021 02:07:01,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 02:07:01,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 02:07:03,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 02:07:04,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+06/15/2021 02:07:04,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 02:07:04,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 02:07:05,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 02:07:05,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 02:07:05,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 02:07:05,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 02:07:05,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 02:07:06,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 02:07:06,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+06/15/2021 02:07:07,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 02:07:07,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 02:07:07,3_GAInsurance_Processing,Driver details: MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, Male,,, ,Success
+06/15/2021 02:07:07,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 02:07:07,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 02:07:07,3_GAInsurance_Processing, Vechicle details: JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 02:07:10,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+06/15/2021 02:07:20,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+06/15/2021 02:07:28,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 02:07:28,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 02:07:28,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 02:07:28,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 02:07:30,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 02:07:30,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 02:07:30,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 02:07:31,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 02:07:31,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+06/15/2021 02:07:32,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+06/15/2021 02:07:33,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+06/15/2021 02:07:36,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+06/15/2021 02:08:06,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+06/15/2021 02:08:06,4.1_Georgia_Farmer_Auto, Driver details : MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, Male,,, ,Success
+06/15/2021 02:08:06,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 02:08:09,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 02:08:10,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 02:08:10,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 02:08:10,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 02:08:11,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 02:08:13,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 02:08:16,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 02:08:16,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 02:08:17,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 02:08:17,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 02:08:17,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 4 Get Name APARNA ,Success
+06/15/2021 02:08:18,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 02:08:21,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 5 Get Name  ,Success
+06/15/2021 02:08:23,4.1_Georgia_Farmer_Auto, Add Driver NameAPAARNA  ANANTULA ,Success
+06/15/2021 02:08:25,4.1_Georgia_Farmer_Auto, Driver matchAPAARNA  ANANTULA ,Success
+06/15/2021 02:08:25,4.1_Georgia_Farmer_Auto, Driver Name YAMINI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 02:08:26,4.1_Georgia_Farmer_Auto, Driver matchAPAARNA  ANANTULA ,Success
+06/15/2021 02:08:28,4.1_Georgia_Farmer_Auto, Vechicle selection JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 02:08:28,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+06/15/2021 02:08:29,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 Vechicle Type  Vechicle Year 2019 Vechicle Model XV CRSTK W/E 2.0I LTD VDC NAVI Vechicle Make SUBARU, Success
+06/15/2021 02:08:29,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 2HKYF18563H556344 1, Success
+06/15/2021 02:08:30,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 5J6RM4H72EL003700 2, Success
+06/15/2021 02:08:31,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 JF2GTANC1KH222664 3, Success
+06/15/2021 02:08:31,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 02:08:31,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 Vechicle Type  Vechicle Year 2014 Vechicle Model CR-V 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 02:08:32,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 2HKYF18563H556344 1, Success
+06/15/2021 02:08:33,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 5J6RM4H72EL003700 2, Success
+06/15/2021 02:08:33,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 02:08:33,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 Vechicle Type  Vechicle Year 2003 Vechicle Model PILOT 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 02:08:33,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 2HKYF18563H556344 1, Success
+06/15/2021 02:08:34,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 02:08:46,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 02:08:46,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 02:08:46,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 02:08:46,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 02:08:46,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 02:08:46,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 02:08:46,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 02:08:47,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 02:08:47,4.1_Georgia_Farmer_Auto, Sales force updated 30% Completed- Driver and Vehicle Information Filled  ,Success
+06/15/2021 02:08:51,4.1_Georgia_Farmer_Auto, Pop up found on driver screen False  ,Success
+06/15/2021 02:08:56,4.1_Georgia_Farmer_Auto, Bristol pop message found False  ,Success
+06/15/2021 02:08:56,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+06/15/2021 02:08:56,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+06/15/2021 02:08:58,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+06/15/2021 02:08:59,4.1_Georgia_Farmer_Auto, Driver Count : 3, Success
+06/15/2021 02:09:00,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+06/15/2021 02:09:01,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+06/15/2021 02:09:02,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+06/15/2021 02:09:02,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+06/15/2021 02:09:03,4.1_Georgia_Farmer_Auto, Get gender for added drivers APAARNA- , Success
+06/15/2021 02:09:04,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+06/15/2021 02:09:04,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4208960436 Quote number 66579536, Success
+06/15/2021 02:09:04,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 02:09:04,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 02:09:05,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 02:09:05,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 02:09:05,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 02:09:05,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 02:09:05,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 02:09:06,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 02:09:06,4.1_Georgia_Farmer_Auto, Sales force updated 40% Completed- Household Information Filled  ,Success
+06/15/2021 02:09:07,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 1 Owned , Success
+06/15/2021 02:09:08,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 2 Owned , Success
+06/15/2021 02:09:10,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 3 Owned , Success
+06/15/2021 02:11:43,Main,GA Insurance BOT Started,Success
+06/15/2021 02:11:44,2_GAInsurance_Setup,Module Started,Success
+06/15/2021 02:11:44,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/15/2021 02:11:44,Main,2_GAInsurance_Setup Completed,Success
+06/15/2021 02:11:44,Main,BOT Start Time: 06/15/2021 02:11:43,Success
+06/15/2021 02:11:44,Main,BOT Start Time: 06/15/2021 23:11:43,Success
+06/15/2021 02:11:46,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 02:11:50,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/15/2021 02:11:50,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/15/2021 02:11:50,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 02:11:51,3_GAInsurance_Processing,Token Generarted,Success
+06/15/2021 02:11:51,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 02:11:51,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 02:11:56,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 02:11:57,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+06/15/2021 02:11:58,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 02:11:58,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 02:11:58,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 02:11:58,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 02:11:58,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 02:11:58,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 02:11:58,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 02:11:59,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 02:11:59,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+06/15/2021 02:12:00,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 02:12:00,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 02:12:00,3_GAInsurance_Processing,Driver details: MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, Male,,, ,Success
+06/15/2021 02:12:00,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 02:12:00,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 02:12:00,3_GAInsurance_Processing, Vechicle details: JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 02:12:03,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+06/15/2021 02:12:12,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+06/15/2021 02:12:20,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 02:12:20,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 02:12:20,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 02:12:20,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 02:12:21,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 02:12:21,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 02:12:21,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 02:12:22,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 02:12:22,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+06/15/2021 02:12:23,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+06/15/2021 02:12:24,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+06/15/2021 02:12:28,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+06/15/2021 02:12:34,4.1_Georgia_Farmer_Auto, Element exist for Instant ID Conflict solution True ,Success
+06/15/2021 02:12:46,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+06/15/2021 02:12:46,4.1_Georgia_Farmer_Auto, Driver details : MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, Male,,, ,Success
+06/15/2021 02:12:46,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 02:12:50,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 02:12:50,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 02:12:51,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 02:12:51,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 02:12:51,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 02:12:53,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 02:12:57,4.1_Georgia_Farmer_Auto, Driver not matchMANAVI  ,Success
+06/15/2021 02:12:57,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 02:12:57,4.1_Georgia_Farmer_Auto, Driver not matchMANAVI  ,Success
+06/15/2021 02:12:58,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 02:12:58,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 4 Get Name APARNA ,Success
+06/15/2021 02:12:58,4.1_Georgia_Farmer_Auto, Driver not matchMANAVI  ,Success
+06/15/2021 02:13:02,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 5 Get Name  ,Success
+06/15/2021 02:13:04,4.1_Georgia_Farmer_Auto, Add Driver NameAPAARNA  ANANTULA ,Success
+06/15/2021 02:13:06,4.1_Georgia_Farmer_Auto, Driver matchAPAARNA  ANANTULA ,Success
+06/15/2021 02:13:06,4.1_Georgia_Farmer_Auto, Driver Name YAMINI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 02:13:07,4.1_Georgia_Farmer_Auto, Driver matchAPAARNA  ANANTULA ,Success
+06/15/2021 02:13:08,4.1_Georgia_Farmer_Auto, Vechicle selection JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 02:13:09,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+06/15/2021 02:13:09,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 Vechicle Type  Vechicle Year 2019 Vechicle Model XV CRSTK W/E 2.0I LTD VDC NAVI Vechicle Make SUBARU, Success
+06/15/2021 02:13:09,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 2HKYF18563H556344 1, Success
+06/15/2021 02:13:10,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 5J6RM4H72EL003700 2, Success
+06/15/2021 02:13:11,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 JF2GTANC1KH222664 3, Success
+06/15/2021 02:13:12,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 02:13:12,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 Vechicle Type  Vechicle Year 2014 Vechicle Model CR-V 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 02:13:12,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 2HKYF18563H556344 1, Success
+06/15/2021 02:13:13,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 5J6RM4H72EL003700 2, Success
+06/15/2021 02:13:14,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 02:13:14,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 Vechicle Type  Vechicle Year 2003 Vechicle Model PILOT 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 02:13:14,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 2HKYF18563H556344 1, Success
+06/15/2021 02:13:15,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 02:13:18,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 02:13:18,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 02:13:19,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 02:13:19,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 02:13:19,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 02:13:19,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 02:13:19,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 02:13:20,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 02:13:20,4.1_Georgia_Farmer_Auto, Sales force updated 30% Completed- Driver and Vehicle Information Filled  ,Success
+06/15/2021 02:13:23,4.1_Georgia_Farmer_Auto, Pop up found on driver screen False  ,Success
+06/15/2021 02:13:28,4.1_Georgia_Farmer_Auto, Bristol pop message found False  ,Success
+06/15/2021 02:13:28,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+06/15/2021 02:13:28,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+06/15/2021 02:13:31,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+06/15/2021 02:13:31,4.1_Georgia_Farmer_Auto, Driver Count : 3, Success
+06/15/2021 02:13:32,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+06/15/2021 02:13:33,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+06/15/2021 02:13:34,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+06/15/2021 02:13:34,4.1_Georgia_Farmer_Auto, Get gender for added drivers APAARNA- , Success
+06/15/2021 02:13:35,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+06/15/2021 02:13:36,4.1_Georgia_Farmer_Auto, Get gender for added drivers MANAVI- MALE, Success
+06/15/2021 02:13:37,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+06/15/2021 02:13:37,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4291613325 Quote number 14239725, Success
+06/15/2021 02:13:37,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 02:13:37,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 02:13:38,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 02:13:38,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 02:13:38,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 02:13:38,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 02:13:38,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 02:13:39,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 02:13:39,4.1_Georgia_Farmer_Auto, Sales force updated 40% Completed- Household Information Filled  ,Success
+06/15/2021 02:13:39,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 1 Owned , Success
+06/15/2021 02:13:41,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 2 Owned , Success
+06/15/2021 02:13:42,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 3 Owned , Success
+06/15/2021 02:13:45,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 02:13:45,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 02:13:45,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 02:13:45,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 02:13:45,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 02:13:45,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 02:13:45,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 02:13:46,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 02:13:46,4.1_Georgia_Farmer_Auto, Sales force updated 50% Completed- Driver and Vehicle Information Edited  ,Success
+06/15/2021 16:34:04,Main,GA Insurance BOT Started,Success
+06/15/2021 16:34:05,2_GAInsurance_Setup,Module Started,Success
+06/15/2021 16:34:05,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/15/2021 16:34:05,Main,2_GAInsurance_Setup Completed,Success
+06/15/2021 16:34:06,Main,BOT Start Time: 06/15/2021 16:34:03,Success
+06/15/2021 16:34:06,Main,BOT Start Time: 06/16/2021 13:34:03,Success
+06/15/2021 16:34:07,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 16:34:11,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/15/2021 16:34:41,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/15/2021 16:34:42,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 16:34:42,3_GAInsurance_Processing,Token Generarted,Success
+06/15/2021 16:34:44,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 16:34:44,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 16:34:46,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 16:34:49,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+06/15/2021 16:34:50,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 16:34:50,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 16:34:51,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 16:34:51,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 16:34:51,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 16:34:51,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 16:34:51,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 16:34:52,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 16:34:52,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+06/15/2021 16:34:53,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 16:34:53,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 16:34:53,3_GAInsurance_Processing,Driver details: MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, Male,,, ,Success
+06/15/2021 16:34:53,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 16:34:53,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 16:34:53,3_GAInsurance_Processing, Vechicle details: JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 16:35:53,Main,GA Insurance BOT Started,Success
+06/15/2021 16:35:54,2_GAInsurance_Setup,Module Started,Success
+06/15/2021 16:35:54,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/15/2021 16:35:54,Main,2_GAInsurance_Setup Completed,Success
+06/15/2021 16:35:55,Main,BOT Start Time: 06/15/2021 16:35:53,Success
+06/15/2021 16:35:55,Main,BOT Start Time: 06/16/2021 13:35:53,Success
+06/15/2021 16:35:55,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 16:35:59,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/15/2021 16:35:59,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/15/2021 16:36:00,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 16:36:00,3_GAInsurance_Processing,Token Generarted,Success
+06/15/2021 16:36:00,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 16:36:00,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 16:36:13,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 16:36:14,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+06/15/2021 16:36:15,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 16:36:15,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 16:36:15,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 16:36:15,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 16:36:15,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 16:36:15,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 16:36:15,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 16:36:17,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 16:36:17,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+06/15/2021 16:36:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 16:36:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 16:36:17,3_GAInsurance_Processing,Driver details: MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, Male,,, ,Success
+06/15/2021 16:36:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 16:36:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 16:36:17,3_GAInsurance_Processing, Vechicle details: JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 16:36:48,Main,GA Insurance BOT Started,Success
+06/15/2021 16:36:49,2_GAInsurance_Setup,Module Started,Success
+06/15/2021 16:36:49,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/15/2021 16:36:49,Main,2_GAInsurance_Setup Completed,Success
+06/15/2021 16:36:49,Main,BOT Start Time: 06/15/2021 16:36:48,Success
+06/15/2021 16:36:49,Main,BOT Start Time: 06/16/2021 13:36:48,Success
+06/15/2021 16:36:50,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 16:36:55,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/15/2021 16:37:01,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/15/2021 16:37:02,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 16:37:02,3_GAInsurance_Processing,Token Generarted,Success
+06/15/2021 16:37:02,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 16:37:02,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 16:37:24,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 16:37:26,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 16:37:41,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+06/15/2021 16:37:44,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+06/15/2021 16:37:55,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+06/15/2021 16:39:06,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+06/15/2021 16:39:07,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 16:39:07,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 16:39:08,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 16:39:09,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 16:39:09,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 16:39:09,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 16:39:09,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 16:39:10,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 16:39:10,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+06/15/2021 16:39:11,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 16:39:11,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 16:39:11,3_GAInsurance_Processing,Driver details: MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, Male,,, ,Success
+06/15/2021 16:39:12,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 16:39:12,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 16:39:12,3_GAInsurance_Processing, Vechicle details: JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 16:39:15,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+06/15/2021 16:39:24,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+06/15/2021 16:39:33,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 16:39:33,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 16:39:33,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 16:39:33,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 16:39:34,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 16:39:34,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 16:39:34,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 16:39:35,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 16:39:35,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+06/15/2021 16:39:36,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+06/15/2021 16:39:37,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+06/15/2021 16:39:42,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+06/15/2021 16:39:49,4.1_Georgia_Farmer_Auto, Element exist for Instant ID Conflict solution True ,Success
+06/15/2021 16:39:56,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+06/15/2021 16:39:56,4.1_Georgia_Farmer_Auto, Driver details : MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, Male,,, ,Success
+06/15/2021 16:39:57,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 16:40:00,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 16:40:01,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 16:40:02,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 16:40:02,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 16:40:03,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 16:40:05,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 16:40:09,4.1_Georgia_Farmer_Auto, Driver not matchMANAVI  ,Success
+06/15/2021 16:40:09,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 16:40:10,4.1_Georgia_Farmer_Auto, Driver not matchMANAVI  ,Success
+06/15/2021 16:40:11,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 16:40:11,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 4 Get Name APARNA ,Success
+06/15/2021 16:40:12,4.1_Georgia_Farmer_Auto, Driver not matchMANAVI  ,Success
+06/15/2021 16:40:15,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 5 Get Name  ,Success
+06/15/2021 16:40:17,4.1_Georgia_Farmer_Auto, Add Driver NameAPAARNA  ANANTULA ,Success
+06/15/2021 16:40:20,4.1_Georgia_Farmer_Auto, Driver matchAPAARNA  ANANTULA ,Success
+06/15/2021 16:40:21,4.1_Georgia_Farmer_Auto, Driver Name YAMINI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 16:40:21,4.1_Georgia_Farmer_Auto, Driver matchAPAARNA  ANANTULA ,Success
+06/15/2021 16:40:24,4.1_Georgia_Farmer_Auto, Vechicle selection JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 16:40:25,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+06/15/2021 16:40:25,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 Vechicle Type  Vechicle Year 2019 Vechicle Model XV CRSTK W/E 2.0I LTD VDC NAVI Vechicle Make SUBARU, Success
+06/15/2021 16:40:25,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 2HKYF18563H556344 1, Success
+06/15/2021 16:40:27,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 5J6RM4H72EL003700 2, Success
+06/15/2021 16:40:28,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 JF2GTANC1KH222664 3, Success
+06/15/2021 16:40:29,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 16:40:30,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 Vechicle Type  Vechicle Year 2014 Vechicle Model CR-V 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 16:40:30,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 2HKYF18563H556344 1, Success
+06/15/2021 16:40:31,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 5J6RM4H72EL003700 2, Success
+06/15/2021 16:40:32,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 16:40:33,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 Vechicle Type  Vechicle Year 2003 Vechicle Model PILOT 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 16:40:33,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 2HKYF18563H556344 1, Success
+06/15/2021 16:40:34,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 16:40:55,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 16:40:55,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 16:40:55,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 16:40:55,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 16:40:56,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 16:40:56,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 16:40:56,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 16:40:57,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 16:40:57,4.1_Georgia_Farmer_Auto, Sales force updated 30% Completed- Driver and Vehicle Information Filled  ,Success
+06/15/2021 16:41:00,4.1_Georgia_Farmer_Auto, Pop up found on driver screen False  ,Success
+06/15/2021 18:21:06,Main,GA Insurance BOT Started,Success
+06/15/2021 18:21:07,2_GAInsurance_Setup,Module Started,Success
+06/15/2021 18:21:07,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/15/2021 18:21:07,Main,2_GAInsurance_Setup Completed,Success
+06/15/2021 18:21:07,Main,BOT Start Time: 06/15/2021 18:21:06,Success
+06/15/2021 18:21:07,Main,BOT Start Time: 06/16/2021 15:21:06,Success
+06/15/2021 18:21:08,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 18:21:13,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/15/2021 18:21:13,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/15/2021 18:21:14,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 18:21:14,3_GAInsurance_Processing,Token Generarted,Success
+06/15/2021 18:21:14,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 18:21:14,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 18:21:17,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 18:21:18,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 18:21:34,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+06/15/2021 18:21:34,Login_Georgia_AutoInsurance_Portal,,Failed
+06/15/2021 18:21:36,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 18:21:44,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+06/15/2021 18:21:44,Login_Georgia_AutoInsurance_Portal,,Failed
+06/15/2021 18:21:48, 3_GAAutoInsurance_Processing-Chrome,Runtime Error,Fail,An error occurred while attempting to establish an SSL or TLS connection.
+
+One possibility is that you are trying to connect to a port which does not support SSL/TLS.
+
+The other possibility is that the SSL certificate presented by the server is not trusted by the system for one or more of the following reasons:
+1. The server is using a self-signed certificate which cannot be verified.
+2. The local system is missing a Root or Intermediate certificate needed to verify the server's certificate.
+3. The certificate presented by the server is expired or invalid.
+
+See https://github.com/jstedfast/MailKit/blob/master/FAQ.md#InvalidSslCertificate for possible solutions.
+06/15/2021 18:22:22,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 18:22:25,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 18:22:25,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 18:23:20,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 18:23:21,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 18:23:27,Login_Georgia_AutoInsurance_Portal, Already logged in , Success
+06/15/2021 18:23:49,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+06/15/2021 18:23:49,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 18:23:49,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 18:23:49,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 18:23:49,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 18:23:50,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 18:23:50,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 18:23:50,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 18:23:51,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 18:23:51,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+06/15/2021 18:23:51,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 18:23:51,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 18:23:52,3_GAInsurance_Processing,Driver details: MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 1995-01-01,1988-01-28,1995-09-26, Male,Male,Male, ,Success
+06/15/2021 18:23:52,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 18:23:52,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 18:23:52,3_GAInsurance_Processing, Vechicle details: JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 18:23:55,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+06/15/2021 18:24:05,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+06/15/2021 18:24:13,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 18:24:13,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 18:24:13,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 18:24:13,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 18:24:14,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 18:24:14,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 18:24:14,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 18:24:15,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 18:24:15,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+06/15/2021 18:24:16,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+06/15/2021 18:24:17,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+06/15/2021 18:24:22,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+06/15/2021 18:24:28,4.1_Georgia_Farmer_Auto, Element exist for Instant ID Conflict solution True ,Success
+06/15/2021 18:24:37,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+06/15/2021 18:24:37,4.1_Georgia_Farmer_Auto, Driver details : MANAVI ANANTULA,APAARNA ANANTULA,YAMINI ANANTULA, 1995-01-01,1988-01-28,1995-09-26, Male,Male,Male, ,Success
+06/15/2021 18:24:37,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 18:24:40,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 18:24:41,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 18:24:41,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+06/15/2021 18:24:41,4.1_Georgia_Farmer_Auto, Driver Name MANAVI ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 18:24:42,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+06/15/2021 18:24:44,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 18:24:47,4.1_Georgia_Farmer_Auto, Driver not matchMANAVI  ,Success
+06/15/2021 18:24:48,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 2 Get Name SRINIVAS ,Success
+06/15/2021 18:24:48,4.1_Georgia_Farmer_Auto, Driver not matchMANAVI  ,Success
+06/15/2021 18:24:48,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 3 Get Name MANAVI ,Success
+06/15/2021 18:24:49,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 4 Get Name APARNA ,Success
+06/15/2021 18:24:49,4.1_Georgia_Farmer_Auto, Driver not matchMANAVI  ,Success
+06/15/2021 18:24:53,4.1_Georgia_Farmer_Auto, Driver Name APAARNA ANANTULA counter 5 Get Name  ,Success
+06/15/2021 18:24:54,4.1_Georgia_Farmer_Auto, Add Driver NameAPAARNA  ANANTULA ,Success
+06/15/2021 18:24:57,4.1_Georgia_Farmer_Auto, Driver matchAPAARNA  ANANTULA ,Success
+06/15/2021 18:24:57,4.1_Georgia_Farmer_Auto, Driver Name YAMINI ANANTULA counter 1 Get Name YAMINI ,Success
+06/15/2021 18:24:57,4.1_Georgia_Farmer_Auto, Driver matchAPAARNA  ANANTULA ,Success
+06/15/2021 18:24:59,4.1_Georgia_Farmer_Auto, Vechicle selection JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+06/15/2021 18:25:00,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+06/15/2021 18:25:00,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 Vechicle Type  Vechicle Year 2019 Vechicle Model XV CRSTK W/E 2.0I LTD VDC NAVI Vechicle Make SUBARU, Success
+06/15/2021 18:25:00,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 2HKYF18563H556344 1, Success
+06/15/2021 18:25:01,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 5J6RM4H72EL003700 2, Success
+06/15/2021 18:25:02,4.1_Georgia_Farmer_Auto, VIN Number JF2GTANC1KH222664 JF2GTANC1KH222664 3, Success
+06/15/2021 18:25:03,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 18:25:03,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 Vechicle Type  Vechicle Year 2014 Vechicle Model CR-V 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 18:25:03,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 2HKYF18563H556344 1, Success
+06/15/2021 18:25:04,4.1_Georgia_Farmer_Auto, VIN Number 5J6RM4H72EL003700 5J6RM4H72EL003700 2, Success
+06/15/2021 18:25:05,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 18:25:05,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 Vechicle Type  Vechicle Year 2003 Vechicle Model PILOT 4D 4WD EX-L Vechicle Make HONDA, Success
+06/15/2021 18:25:05,4.1_Georgia_Farmer_Auto, VIN Number 2HKYF18563H556344 2HKYF18563H556344 1, Success
+06/15/2021 18:25:06,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+06/15/2021 18:27:31,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 18:27:31,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 18:27:33,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 18:27:33,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 18:27:33,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 18:27:33,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 18:27:33,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 18:27:34,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 18:27:34,4.1_Georgia_Farmer_Auto, Sales force updated 30% Completed- Driver and Vehicle Information Filled  ,Success
+06/15/2021 18:27:37,4.1_Georgia_Farmer_Auto, Pop up found on driver screen False  ,Success
+06/15/2021 18:27:43,4.1_Georgia_Farmer_Auto, Bristol pop message found False  ,Success
+06/15/2021 18:27:43,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+06/15/2021 18:27:43,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+06/15/2021 18:27:45,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+06/15/2021 18:27:45,4.1_Georgia_Farmer_Auto, Driver Count : 3, Success
+06/15/2021 18:27:46,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+06/15/2021 18:27:47,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+06/15/2021 18:27:48,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+06/15/2021 18:27:48,4.1_Georgia_Farmer_Auto, Get gender for added drivers APAARNA- MALE, Success
+06/15/2021 18:27:49,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+06/15/2021 18:27:50,4.1_Georgia_Farmer_Auto, Get gender for added drivers MANAVI- MALE, Success
+06/15/2021 18:27:51,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+06/15/2021 18:27:51,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4282116287 Quote number 00118287, Success
+06/15/2021 18:27:51,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 18:27:51,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 18:27:52,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 18:27:52,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 18:27:52,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 18:27:52,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 18:27:52,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 18:27:53,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 18:27:53,4.1_Georgia_Farmer_Auto, Sales force updated 40% Completed- Household Information Filled  ,Success
+06/15/2021 18:27:54,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 1 Owned , Success
+06/15/2021 18:27:55,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 2 Owned , Success
+06/15/2021 18:27:57,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 3 Owned , Success
+06/15/2021 18:27:59,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 18:27:59,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 18:27:59,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 18:27:59,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 18:28:00,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 18:28:00,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 18:28:00,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 18:28:01,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 18:28:01,4.1_Georgia_Farmer_Auto, Sales force updated 50% Completed- Driver and Vehicle Information Edited  ,Success
+06/15/2021 18:28:06,4.1_Georgia_Farmer_Auto, Clicked on Rate button, Success
+06/15/2021 18:28:06,4.1_Georgia_Farmer_Auto, Monthly EFT web page exist None, Success
+06/15/2021 18:31:04,Main,GA Insurance BOT Started,Success
+06/15/2021 18:31:05,2_GAInsurance_Setup,Module Started,Success
+06/15/2021 18:31:05,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/15/2021 18:31:05,Main,2_GAInsurance_Setup Completed,Success
+06/15/2021 18:31:05,Main,BOT Start Time: 06/15/2021 18:31:04,Success
+06/15/2021 18:31:05,Main,BOT Start Time: 06/16/2021 15:31:04,Success
+06/15/2021 18:31:06,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 18:31:12,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/15/2021 18:31:13,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/15/2021 18:31:13,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 18:31:13,3_GAInsurance_Processing,Token Generarted,Success
+06/15/2021 18:31:13,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 18:31:13,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 18:31:15,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 18:31:16,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 18:31:24,Login_Georgia_AutoInsurance_Portal, Already logged in , Success
+06/15/2021 18:31:46,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000008I33SEAS"
+  },
+  "Id": "00Q0m000008I33SEAS",
+  "Status": "New",
+  "LeadSource": "EverQuote",
+  "FirstName": "Johnathan",
+  "LastName": "Davis",
+  "Phone": "470-244-9350",
+  "Email": "1636tyrone@gmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1988-04-17",
+  "Address": {
+    "city": "Tucker",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30084",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3535 Lawrenceville hwy"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-06-08T17:41:53+05:30"
+},Success
+06/15/2021 18:31:46,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 18:31:46,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 18:31:47,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 18:31:47,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 18:31:47,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 18:31:47,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 18:31:47,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 18:31:48,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 18:31:48,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+06/15/2021 18:31:49,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 18:31:49,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 18:31:49,3_GAInsurance_Processing,Driver details: Johnathan Davis, 1988-04-17, Male, ,Success
+06/15/2021 18:31:49,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 18:31:49,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 18:31:49,3_GAInsurance_Processing, Vechicle details: 1N4AL24E*9C******::2009:NISSAN:ALTIMA, ,Success
+06/15/2021 18:31:52,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+06/15/2021 18:32:01,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+06/15/2021 18:32:09,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 18:32:09,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 18:32:09,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 18:32:09,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 18:32:10,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 18:32:10,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 18:32:10,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 18:32:11,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 18:32:11,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+06/15/2021 18:32:12,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+06/15/2021 18:32:13,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+06/15/2021 18:32:16,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+06/15/2021 20:37:41,Main,GA Insurance BOT Started,Success
+06/15/2021 20:37:43,2_GAInsurance_Setup,Module Started,Success
+06/15/2021 20:37:43,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/15/2021 20:37:44,Main,2_GAInsurance_Setup Completed,Success
+06/15/2021 20:37:45,Main,BOT Start Time: 06/15/2021 20:37:40,Success
+06/15/2021 20:37:45,Main,BOT Start Time: 06/16/2021 17:37:40,Success
+06/15/2021 20:37:47,3_GAInsurance_Processing,Module Started,Success
+06/15/2021 20:37:53,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/15/2021 20:38:04,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/15/2021 20:38:05,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 20:38:05,3_GAInsurance_Processing,Token Generarted,Success
+06/15/2021 20:38:07,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 20:38:07,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 20:38:19,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+06/15/2021 20:38:20,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 20:38:55,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+06/15/2021 20:38:55,Login_Georgia_AutoInsurance_Portal,,Failed
+06/15/2021 20:39:01,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/15/2021 20:39:11,Login_Georgia_AutoInsurance_Portal, Already logged in , Success
+06/15/2021 20:39:15,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000008I33SEAS"
+  },
+  "Id": "00Q0m000008I33SEAS",
+  "Status": "New",
+  "LeadSource": "EverQuote",
+  "FirstName": "Johnathan",
+  "LastName": "Davis",
+  "Phone": "470-244-9350",
+  "Email": "1636tyrone@gmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1988-04-17",
+  "Address": {
+    "city": "Tucker",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30084",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3535 Lawrenceville hwy"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-06-08T17:41:53+05:30"
+},Success
+06/15/2021 20:39:16,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 20:39:16,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 20:39:16,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 20:39:16,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 20:39:17,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 20:39:17,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 20:39:17,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 20:39:18,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 20:39:18,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+06/15/2021 20:39:19,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 20:39:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 20:39:19,3_GAInsurance_Processing,Driver details: Johnathan Davis, 1988-04-17, Male, ,Success
+06/15/2021 20:39:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/15/2021 20:39:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/15/2021 20:39:20,3_GAInsurance_Processing, Vechicle details: 1N4AL24E*9C******::2009:NISSAN:ALTIMA, ,Success
+06/15/2021 20:39:26,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+06/15/2021 20:39:36,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+06/15/2021 20:39:47,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 20:39:47,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 20:39:48,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 20:39:48,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 20:39:48,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 20:39:48,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 20:39:48,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 20:39:49,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 20:39:49,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+06/15/2021 20:39:50,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+06/15/2021 20:39:52,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+06/15/2021 20:39:56,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+06/15/2021 20:40:17,4.1_Georgia_Farmer_Auto, Element exist for Birstol west pop up  True ,Success
+06/15/2021 20:40:17,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 20:40:17,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 20:40:18,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 20:40:18,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 20:40:19,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 20:40:19,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 20:40:19,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 20:40:20,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 20:40:20,4.1_Georgia_Farmer_Auto, Sales force updated 40% Completed- Household Information Filled  ,Success
+06/15/2021 20:40:31,4.1_Georgia_Farmer_Auto, Bristol window found True  ,Success
+06/15/2021 20:40:31,4.1_Georgia_Farmer_Auto, Maximize Bristol window , Success
+06/15/2021 20:40:37,4.1_Georgia_Farmer_Auto, Bristol Driver tab found True  ,Success
+06/15/2021 20:40:37,4.1_Georgia_Farmer_Auto, Select the missing field, Success
+06/15/2021 20:41:17,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+06/15/2021 20:41:18,SalesforceAttemprsSequence,Attempt 1,Success
+06/15/2021 20:41:24,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+06/15/2021 20:41:24,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+06/15/2021 20:41:24,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+06/15/2021 20:41:24,SalesforceAttemprsSequence,Token Generarted,Success
+06/15/2021 20:41:25,SalesforceAttemprsSequence,Attempt 2,Success
+06/15/2021 20:41:26,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+06/15/2021 20:41:26,4.1_Georgia_Farmer_Auto, Sales force updated 50% Completed- Driver and Vehicle Information Edited  ,Success
+06/15/2021 20:41:31,4.1_Georgia_Farmer_Auto, Clicked Driver, Application and Violoation continue button , Success

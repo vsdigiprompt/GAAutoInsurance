@@ -1,0 +1,51 @@
+﻿Date_Time,Module,Action,Status,Exception
+06/13/2021 16:29:00,Main,GA Insurance BOT Started,Success
+06/13/2021 16:29:01,2_GAInsurance_Setup,Module Started,Success
+06/13/2021 16:29:01,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/13/2021 16:29:01,Main,2_GAInsurance_Setup Completed,Success
+06/13/2021 16:29:01,Main,BOT Start Time: 06/13/2021 16:29:00,Success
+06/13/2021 16:29:01,Main,BOT Start Time: 06/14/2021 13:29:00,Success
+06/13/2021 16:29:02,3_GAInsurance_Processing,Module Started,Success
+06/13/2021 16:29:07,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/13/2021 16:29:12,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/13/2021 16:29:13,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/13/2021 16:29:13,3_GAInsurance_Processing,Token Generarted,Success
+06/13/2021 16:29:14,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/13/2021 16:29:14,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/13/2021 16:29:17,3_GAInsurance_Processing,Lead Fecthed : 2,Success
+06/13/2021 16:29:19,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/13/2021 16:29:58,Login_Georgia_AutoInsurance_Portal, Getting error UiPath.Core.BrowserOperationException: Cannot communicate with the browser, please check the UiPath extension. ---> System.Runtime.InteropServices.COMException: Cannot communicate with the browser, please check the UiPath extension.
+   at UiPath.UiBrowserClass.Open(String bstrURL, String bstrCmdLineArgs, UiBrowserFlags flag)
+   at UiPath.Core.Browser.Open(String url, CommMethod startBrowserMechanism, Boolean privateSession, Boolean headlessSession, Boolean defaultSession, String cmdLineArgs)
+   --- End of inner exception stack trace ---
+   at UiPath.Core.Activities.ScopeActivity.EndExecute(NativeActivityContext context, IAsyncResult result)
+   at UiPath.Core.Activities.ObsoleteAsyncNativeActivity.BookmarkResumptionCallback(NativeActivityContext context, Bookmark bookmark, Object value)
+   at System.Activities.Runtime.BookmarkCallbackWrapper.Invoke(NativeActivityContext context, Bookmark bookmark, Object value)
+   at System.Activities.Runtime.BookmarkWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager), Failed
+06/13/2021 16:30:01,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/13/2021 16:30:15,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+06/13/2021 16:30:15,Login_Georgia_AutoInsurance_Portal,,Failed
+06/13/2021 22:27:21,Main,GA Insurance BOT Started,Success
+06/13/2021 22:27:23,2_GAInsurance_Setup,Module Started,Success
+06/13/2021 22:27:23,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+06/13/2021 22:27:24,Main,2_GAInsurance_Setup Completed,Success
+06/13/2021 22:27:24,Main,BOT Start Time: 06/13/2021 22:27:21,Success
+06/13/2021 22:27:24,Main,BOT Start Time: 06/14/2021 19:27:21,Success
+06/13/2021 22:27:26,3_GAInsurance_Processing,Module Started,Success
+06/13/2021 22:27:32,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+06/13/2021 22:27:39,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+06/13/2021 22:27:39,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+06/13/2021 22:27:39,3_GAInsurance_Processing,Token Generarted,Success
+06/13/2021 22:27:41,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+06/13/2021 22:27:41,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+06/13/2021 22:27:55,3_GAInsurance_Processing,Lead Fecthed : 2,Success
+06/13/2021 22:27:56,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+06/13/2021 22:28:57,Login_Georgia_AutoInsurance_Portal, Getting error UiPath.Core.BrowserOperationException: Cannot communicate with the browser, please check the UiPath extension. ---> System.Runtime.InteropServices.COMException: Cannot communicate with the browser, please check the UiPath extension.
+   at UiPath.UiBrowserClass.Open(String bstrURL, String bstrCmdLineArgs, UiBrowserFlags flag)
+   at UiPath.Core.Browser.Open(String url, CommMethod startBrowserMechanism, Boolean privateSession, Boolean headlessSession, Boolean defaultSession, String cmdLineArgs)
+   --- End of inner exception stack trace ---
+   at UiPath.Core.Activities.ScopeActivity.EndExecute(NativeActivityContext context, IAsyncResult result)
+   at UiPath.Core.Activities.ObsoleteAsyncNativeActivity.BookmarkResumptionCallback(NativeActivityContext context, Bookmark bookmark, Object value)
+   at System.Activities.Runtime.BookmarkCallbackWrapper.Invoke(NativeActivityContext context, Bookmark bookmark, Object value)
+   at System.Activities.Runtime.BookmarkWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager), Failed
+06/13/2021 22:29:08,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success

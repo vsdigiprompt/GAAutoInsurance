@@ -1,0 +1,2481 @@
+﻿Date_Time,Module,Action,Status,Exception
+05/24/2021 01:52:30,Main,GA Insurance BOT Started,Success
+05/24/2021 01:52:32,2_GAInsurance_Setup,Module Started,Success
+05/24/2021 01:52:32,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/24/2021 01:52:32,Main,2_GAInsurance_Setup Completed,Success
+05/24/2021 01:52:32,Main,BOT Start Time: 05/24/2021 01:52:30,Success
+05/24/2021 01:52:32,Main,BOT Start Time: 05/24/2021 22:52:30,Success
+05/24/2021 01:52:33,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 01:52:39,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/24/2021 01:52:56,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/24/2021 01:52:56,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/24/2021 01:52:56,3_GAInsurance_Processing,Token Generarted,Success
+05/24/2021 01:52:57,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 01:52:57,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 01:53:11,3_GAInsurance_Processing,Lead Fecthed : 10,Success
+05/24/2021 01:53:13,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/24/2021 01:58:27,Main,GA Insurance BOT Started,Success
+05/24/2021 01:58:29,2_GAInsurance_Setup,Module Started,Success
+05/24/2021 01:58:29,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/24/2021 01:58:29,Main,2_GAInsurance_Setup Completed,Success
+05/24/2021 01:58:29,Main,BOT Start Time: 05/24/2021 01:58:27,Success
+05/24/2021 01:58:29,Main,BOT Start Time: 05/24/2021 22:58:27,Success
+05/24/2021 01:58:30,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 01:58:36,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/24/2021 01:58:51,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/24/2021 01:58:52,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/24/2021 01:58:52,3_GAInsurance_Processing,Token Generarted,Success
+05/24/2021 01:58:53,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 01:58:53,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 01:59:00,3_GAInsurance_Processing,Lead Fecthed : 10,Success
+05/24/2021 01:59:02,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/24/2021 01:59:41,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+05/24/2021 01:59:44,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+05/24/2021 01:59:53,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+05/24/2021 02:00:06,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOUwEAM"
+  },
+  "Id": "00Q0m000007wOUwEAM",
+  "Status": "New",
+  "LeadSource": "EverQuote",
+  "FirstName": "Charlene",
+  "LastName": "Starr",
+  "Phone": "4046638957",
+  "Email": "c_starr@bellsouth.net",
+  "Gender__c": null,
+  "D_O_B__c": "1970-09-28",
+  "Address": {
+    "city": "Marietta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30060",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "2811 crest ridge Way"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:04:35+05:30"
+},Success
+05/24/2021 02:00:06,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 02:00:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 02:00:07,3_GAInsurance_Processing,Driver details:  , ,Charlene Starr, 1946-08-29,1972-10-06,1970-09-28, ,,, ,Success
+05/24/2021 02:00:08,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 02:00:08,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 02:00:09,3_GAInsurance_Processing, Vechicle details: 1FTRW07L71KF75661::2001:Ford:F 150 Truck,1HGCM56735A077421::2005:Honda:Accord,1FADP3K22EL301099::2014:Ford:Fucus, ,Success
+05/24/2021 02:01:57,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/24/2021 02:02:11,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/24/2021 02:02:20,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/24/2021 02:02:22,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/24/2021 02:02:32,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/24/2021 02:02:43,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/24/2021 02:02:44,4.1_Georgia_Farmer_Auto, Driver details :  , ,Charlene Starr, 1946-08-29,1972-10-06,1970-09-28, ,,, ,Success
+05/24/2021 02:02:44,4.1_Georgia_Farmer_Auto, Driver Name Charlene Starr counter 1 Get Name CHARLENE ,Success
+05/24/2021 02:02:45,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+05/24/2021 02:02:45,4.1_Georgia_Farmer_Auto, Vechicle selection 1FTRW07L71KF75661::2001:Ford:F 150 Truck,1HGCM56735A077421::2005:Honda:Accord,1FADP3K22EL301099::2014:Ford:Fucus, ,Success
+05/24/2021 02:02:46,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/24/2021 02:02:46,4.1_Georgia_Farmer_Auto, VIN Number 1FTRW07L71KF75661 1FADP3K22EL301099 1, Success
+05/24/2021 02:02:47,4.1_Georgia_Farmer_Auto, VIN Number 1FTRW07L71KF75661 1FTRW07L71KF75661 2, Success
+05/24/2021 02:02:48,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/24/2021 02:02:48,4.1_Georgia_Farmer_Auto, VIN Number 1HGCM56735A077421 1FADP3K22EL301099 1, Success
+05/24/2021 02:02:49,4.1_Georgia_Farmer_Auto, VIN Number 1HGCM56735A077421 1FTRW07L71KF75661 2, Success
+05/24/2021 02:02:50,4.1_Georgia_Farmer_Auto, VIN Number 1HGCM56735A077421 1HGCM56735A077421 3, Success
+05/24/2021 02:02:51,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/24/2021 02:02:51,4.1_Georgia_Farmer_Auto, VIN Number 1FADP3K22EL301099 1FADP3K22EL301099 1, Success
+05/24/2021 02:02:52,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/24/2021 02:02:53,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/24/2021 02:03:03,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/24/2021 02:03:05,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/24/2021 02:03:06,4.1_Georgia_Farmer_Auto, Driver Count : 3, Success
+05/24/2021 02:03:07,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/24/2021 02:03:08,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/24/2021 02:03:09,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/24/2021 02:06:45,Main,GA Insurance BOT Started,Success
+05/24/2021 02:06:47,2_GAInsurance_Setup,Module Started,Success
+05/24/2021 02:06:47,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/24/2021 02:06:47,Main,2_GAInsurance_Setup Completed,Success
+05/24/2021 02:06:47,Main,BOT Start Time: 05/24/2021 02:06:45,Success
+05/24/2021 02:06:47,Main,BOT Start Time: 05/24/2021 23:06:45,Success
+05/24/2021 02:06:48,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 02:06:53,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/24/2021 02:06:56,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/24/2021 02:06:57,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/24/2021 02:06:57,3_GAInsurance_Processing,Token Generarted,Success
+05/24/2021 02:06:57,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 02:06:57,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 02:07:00,3_GAInsurance_Processing,Lead Fecthed : 10,Success
+05/24/2021 02:07:03,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/24/2021 02:07:10,Login_Georgia_AutoInsurance_Portal, Already logged in , Success
+05/24/2021 02:07:16,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOUwEAM"
+  },
+  "Id": "00Q0m000007wOUwEAM",
+  "Status": "New",
+  "LeadSource": "EverQuote",
+  "FirstName": "Charlene",
+  "LastName": "Starr",
+  "Phone": "4046638957",
+  "Email": "c_starr@bellsouth.net",
+  "Gender__c": null,
+  "D_O_B__c": "1970-09-28",
+  "Address": {
+    "city": "Marietta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30060",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "2811 crest ridge Way"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:04:35+05:30"
+},Success
+05/24/2021 02:07:16,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 02:07:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 02:07:17,3_GAInsurance_Processing,Driver details:  , ,Charlene Starr, 1946-08-29,1972-10-06,1970-09-28, ,,, ,Success
+05/24/2021 02:07:18,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 02:07:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 02:07:19,3_GAInsurance_Processing, Vechicle details: 1FTRW07L71KF75661::2001:Ford:F 150 Truck,1HGCM56735A077421::2005:Honda:Accord,1FADP3K22EL301099::2014:Ford:Fucus, ,Success
+05/24/2021 02:07:23,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/24/2021 02:07:34,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/24/2021 02:07:44,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/24/2021 02:07:45,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/24/2021 02:07:50,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/24/2021 02:08:21,4.1_Georgia_Farmer_Auto, Element exist for Driver page False ,Success
+05/24/2021 02:08:21,4.1_Georgia_Farmer_AutoTechnical Exception : Unable to open additional driver window,Failed
+05/24/2021 02:08:27,3_GAInsurance_Processing, Status : Failed Status Description : Technical Exception : Unable to open additional driver window ,Success
+05/24/2021 02:08:27,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-23T20:37:16",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-23T20:37:16",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "Technical Exception : Unable to open additional driver window",
+    "Bot_Update__c" : null
+},Success
+05/24/2021 02:08:29,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/24/2021 02:10:36,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOcREAU"
+  },
+  "Id": "00Q0m000007wOcREAU",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Balaji",
+  "LastName": "Sekar",
+  "Phone": "818-530-6992",
+  "Email": "sbalajiece@gmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1986-04-26",
+  "Address": {
+    "city": "Cumming",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30040",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "1710 Skymist Way"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:57:27+05:30"
+},Success
+05/24/2021 02:10:37,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 02:10:37,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 02:10:38,3_GAInsurance_Processing,Driver details:  , 1986-04-26, , ,Success
+05/24/2021 02:10:38,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 02:10:39,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 02:10:39,3_GAInsurance_Processing, Vechicle details: 5UXTR7C56KLF37221::2019:BMW:X3 4D 2WD SDRIVE 30I, ,Success
+05/24/2021 02:10:45,3_GAInsurance_Processing,  No driver details found, Success
+05/24/2021 02:10:45,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-23T20:40:36",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-23T20:40:36",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No driver details found",
+    "Bot_Update__c" : null
+},Success
+05/24/2021 02:10:47,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/24/2021 02:11:37,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOcgEAE"
+  },
+  "Id": "00Q0m000007wOcgEAE",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Seljalben",
+  "LastName": "Dodia",
+  "Phone": "678-533-9766",
+  "Email": "rajeshdodi2020@gmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1979-05-20",
+  "Address": {
+    "city": "Dacula",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30019",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "735 Beckenham Walk Drive"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:01:31+05:30"
+},Success
+05/24/2021 02:11:38,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 02:11:38,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 02:11:38,3_GAInsurance_Processing,Driver details: seljalben dodia, 1979-05-20, , ,Success
+05/24/2021 02:11:39,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 02:11:39,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 02:11:40,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/24/2021 02:11:43,3_GAInsurance_Processing,  No vechicle details found, Success
+05/24/2021 02:11:44,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-23T20:41:37",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-23T20:41:37",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No vechicle details found",
+    "Bot_Update__c" : null
+},Success
+05/24/2021 02:11:45,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/24/2021 02:12:05,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOf1EAE"
+  },
+  "Id": "00Q0m000007wOf1EAE",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Pankajkumar",
+  "LastName": "Patel",
+  "Phone": "443-547-1936",
+  "Email": "khushipatelpatel505@gmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1974-07-24",
+  "Address": {
+    "city": "Savannah",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "31407",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "241 Lake Pointe Drive"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:54:04+05:30"
+},Success
+05/24/2021 02:12:06,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 02:12:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 02:12:07,3_GAInsurance_Processing,Driver details:  , , 1976-12-15,1974-07-24, ,, ,Success
+05/24/2021 02:12:08,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 02:12:08,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 02:12:09,3_GAInsurance_Processing, Vechicle details: KNAFX4A86E5054380::2014:Kia:Forte 4D EX,5NMS33ADXLH191000::2020:Hyundai:Santa FE 4D 2WD SEL, ,Success
+05/24/2021 02:12:13,3_GAInsurance_Processing,  No driver details found, Success
+05/24/2021 02:12:13,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-23T20:42:05",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-23T20:42:05",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No driver details found",
+    "Bot_Update__c" : null
+},Success
+05/24/2021 02:12:14,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/24/2021 02:12:18,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOWoEAM"
+  },
+  "Id": "00Q0m000007wOWoEAM",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Brian",
+  "LastName": "O'neill",
+  "Phone": "404-547-4656",
+  "Email": "jlr1429t@comcast.net",
+  "Gender__c": null,
+  "D_O_B__c": "1968-05-27",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "175 15th Street Northeast  Suite 410"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:51:32+05:30"
+},Success
+05/24/2021 02:12:19,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 02:12:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 02:12:20,3_GAInsurance_Processing,Driver details:  , 1968-05-27, , ,Success
+05/24/2021 02:12:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 02:12:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 02:12:21,3_GAInsurance_Processing, Vechicle details: 55SWF8DB0LU324928::2020:Mercedes Benz:C Class 4d 2wd 300, ,Success
+05/24/2021 02:12:23,3_GAInsurance_Processing,  No driver details found, Success
+05/24/2021 02:12:24,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-23T20:42:18",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-23T20:42:18",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No driver details found",
+    "Bot_Update__c" : null
+},Success
+05/24/2021 02:12:25,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/24/2021 02:12:30,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOWnEAM"
+  },
+  "Id": "00Q0m000007wOWnEAM",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Kiania",
+  "LastName": "Fields",
+  "Phone": "559-369-8454",
+  "Email": "kekewarren83@yahoo.com",
+  "Gender__c": null,
+  "D_O_B__c": "1983-12-29",
+  "Address": {
+    "city": "Decatur",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30034",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "2848 Vining Ridge Terrace"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:39:11+05:30"
+},Success
+05/24/2021 02:12:31,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 02:12:31,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 02:12:31,3_GAInsurance_Processing,Driver details: Cornelius Barber,Kiania Fields, 1980-05-02,1983-12-29, ,, ,Success
+05/24/2021 02:12:32,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 02:12:32,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 02:12:33,3_GAInsurance_Processing, Vechicle details: 1N4AL3AP7JC139881::2018:Nissan:Altima,1HGCR2F15HA174572::2017:Honda:Accord, ,Success
+05/24/2021 02:12:56,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/24/2021 02:13:10,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/24/2021 02:13:19,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/24/2021 02:13:21,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/24/2021 02:13:30,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/24/2021 02:13:39,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/24/2021 02:13:39,4.1_Georgia_Farmer_Auto, Driver details : Cornelius Barber,Kiania Fields, 1980-05-02,1983-12-29, ,, ,Success
+05/24/2021 02:13:40,4.1_Georgia_Farmer_Auto, Driver Name Cornelius Barber counter 1 Get Name KIANIA ,Success
+05/24/2021 02:13:41,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+05/24/2021 02:13:42,4.1_Georgia_Farmer_Auto, Driver Name Kiania Fields counter 1 Get Name KIANIA ,Success
+05/24/2021 02:13:43,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+05/24/2021 02:13:44,4.1_Georgia_Farmer_Auto, Vechicle selection 1N4AL3AP7JC139881::2018:Nissan:Altima,1HGCR2F15HA174572::2017:Honda:Accord, ,Success
+05/24/2021 02:13:45,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/24/2021 02:13:46,4.1_Georgia_Farmer_Auto, VIN Number 1N4AL3AP7JC139881 1HGCR2F15HA174572 1, Success
+05/24/2021 02:13:47,4.1_Georgia_Farmer_Auto, VIN Number 1N4AL3AP7JC139881 1N4AL3AP7JC139881 2, Success
+05/24/2021 02:13:48,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/24/2021 02:13:49,4.1_Georgia_Farmer_Auto, VIN Number 1HGCR2F15HA174572 1HGCR2F15HA174572 1, Success
+05/24/2021 02:13:50,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/24/2021 02:13:51,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/24/2021 02:13:59,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/24/2021 02:14:01,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/24/2021 02:14:02,4.1_Georgia_Farmer_Auto, Driver Count : 2, Success
+05/24/2021 02:14:03,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/24/2021 02:14:04,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/24/2021 02:14:05,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/24/2021 02:14:06,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4249602530 Quote number 02314030, Success
+05/24/2021 02:14:07,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 1 Owned , Success
+05/24/2021 02:14:09,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 2 Owned , Success
+05/24/2021 02:14:11,4.1_Georgia_Farmer_Auto, Clicked on Rate button, Success
+05/24/2021 02:14:11,4.1_Georgia_Farmer_Auto, Monthly EFT web page exist True, Success
+05/24/2021 02:14:24,4.1_Georgia_Farmer_Auto, 1 Pay; Bodily Injury and Property Damage selected , Success
+05/24/2021 02:14:32,4.1_Georgia_Farmer_Auto, Select all field and click on Rate button , Success
+05/24/2021 02:14:39,4.1_Georgia_Farmer_Auto, Get premium amount $3,643.50 Clicked on print proposal , Success
+05/24/2021 02:14:49,4.1_Georgia_Farmer_Auto, Print proposal window visibility True , Success
+05/24/2021 02:14:52,4.1_Georgia_Farmer_Auto, Check Policy; Uncheck prior quote; Check Include insurance package and uncheck life proposal change , Success
+05/24/2021 02:14:56,4.1_Georgia_Farmer_Auto, Clicked on VIP Print and validate Save as window , Success
+05/24/2021 02:14:57,4.1_Georgia_Farmer_Auto, Clicked on Print button , Success
+05/24/2021 02:14:59,4.1_Georgia_Farmer_Auto, Clicked on download button , Success
+05/24/2021 02:15:10,4.1_Georgia_Farmer_Auto, Set PDF file path and save C:\Users\Admin\Documents\UiPath\Georgia_Auto_Insurance\Policies\00Q0m000007wOWnEAM.pdf, Success
+05/24/2021 02:15:49,3_GAInsurance_Processing, Quote # : 02314030 Household # :: 4249602530 Policy Amount : $3,643.50 ,Success
+05/24/2021 02:15:49,3_GAInsurance_Processing, Status : Success Status Description :  ,Success
+05/24/2021 02:15:50,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Start_Date_Time__c" : "2021-05-23T20:42:30",
+    "Bot_Quoted_Standard_Premium__c" : "3643.50",
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-23T20:42:30",
+    "Farmers_Policy_Center_Link__c" : "https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=gateway&actionType=retreiveQuote&source=SIMS&householdNumber=4249602530&quoteNumber=02314030&agentOfRec=4419HR&lineOfBusiness=F&firstName=&lastName=&quoteType=Express&company=EXP&state=GA",
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": null,
+    "Bot_Update__c" : "Sucessfully quote generated"
+},Success
+05/24/2021 02:15:52,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/24/2021 02:16:05,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOdKEAU"
+  },
+  "Id": "00Q0m000007wOdKEAU",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "James",
+  "LastName": "Gibson",
+  "Phone": "404-771-5521",
+  "Email": "jameygibson14@yahoo.com",
+  "Gender__c": null,
+  "D_O_B__c": "1971-08-31",
+  "Address": {
+    "city": "Peachtree City",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30269",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "301 Landaulet Court"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:19:47+05:30"
+},Success
+05/24/2021 02:16:06,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 02:16:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 02:16:07,3_GAInsurance_Processing,Driver details: Nicole Gibson,Jamey Gibson, 1980-04-20,1971-08-31, ,, ,Success
+05/24/2021 02:16:08,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 02:16:08,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 02:16:08,3_GAInsurance_Processing, Vechicle details: 5UXKR0C54E0C25553::2014:BMW:X5 4D 4WD XDRIVE 35I,5FNRL6H90LB031792::2020:HONDA:ODYSSEY VAN (NEW) ELITE, ,Success
+05/24/2021 02:16:20,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/24/2021 02:16:32,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/24/2021 02:16:41,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/24/2021 02:16:42,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/24/2021 02:16:48,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/24/2021 02:17:19,4.1_Georgia_Farmer_Auto, Element exist for Driver page False ,Success
+05/24/2021 02:17:19,4.1_Georgia_Farmer_AutoTechnical Exception : Unable to open additional driver window,Failed
+05/24/2021 02:17:24,3_GAInsurance_Processing, Status : Failed Status Description : Technical Exception : Unable to open additional driver window ,Success
+05/24/2021 02:17:25,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-23T20:46:05",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-23T20:46:05",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "Technical Exception : Unable to open additional driver window",
+    "Bot_Update__c" : null
+},Success
+05/24/2021 02:17:26,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/24/2021 15:54:46,Main,GA Insurance BOT Started,Success
+05/24/2021 15:54:48,2_GAInsurance_Setup,Module Started,Success
+05/24/2021 15:54:48,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/24/2021 15:54:48,Main,2_GAInsurance_Setup Completed,Success
+05/24/2021 15:54:48,Main,BOT Start Time: 05/24/2021 15:54:46,Success
+05/24/2021 15:54:48,Main,BOT Start Time: 05/25/2021 12:54:46,Success
+05/24/2021 15:54:49,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 15:54:54,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/24/2021 15:54:54,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/24/2021 15:54:55,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/24/2021 15:54:55,3_GAInsurance_Processing,Token Generarted,Success
+05/24/2021 15:54:56,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 15:54:56,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 15:54:56,3_GAInsurance_Processing,Lead Fecthed : 3,Success
+05/24/2021 15:54:57,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/24/2021 15:55:41,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+05/24/2021 15:55:44,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+05/24/2021 15:55:56,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+05/24/2021 15:56:01,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wWpwEAE"
+  },
+  "Id": "00Q0m000007wWpwEAE",
+  "Status": "New",
+  "LeadSource": "Website Lead",
+  "FirstName": "Onur",
+  "LastName": "Gul",
+  "Phone": "9416816534",
+  "Email": "onur.gul@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1985-08-27",
+  "Address": {
+    "city": "Cumming",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30040",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3715 Agard St"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-20T20:43:51+05:30"
+},Success
+05/24/2021 15:56:02,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 15:56:02,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 15:56:02,3_GAInsurance_Processing,Driver details:  , , 1987-10-23,1985-08-27, ,, ,Success
+05/24/2021 15:56:02,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 15:56:02,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 15:56:02,3_GAInsurance_Processing, Vechicle details: 5TDBK22C17S000618::2007:TOYOTA:SIENNA VAN 4WD XLE/XLE LTD 5D,5TDYK3DC2BS089122::2011:TOYOTA:SIENNA VAN 2WD XLE/LTD V6 5D,1FADP5BU0DL535298::2013:FORD:C-MAX HYBRID SW SEL, ,Success
+05/24/2021 15:56:02,3_GAInsurance_Processing,  No driver details found, Success
+05/24/2021 15:56:02,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-24T10:26:01",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-24T10:26:01",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No driver details found",
+    "Bot_Update__c" : null
+},Success
+05/24/2021 15:56:08,3_GAInsurance_ProcessingSalesforce ErrorThe operation has timed out.,Success
+05/24/2021 15:56:12,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/24/2021 15:56:16,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOfGEAU"
+  },
+  "Id": "00Q0m000007wOfGEAU",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Nishant",
+  "LastName": "Patel",
+  "Phone": "850-728-1445",
+  "Email": "nishantdpatel21@gmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1991-11-14",
+  "Address": {
+    "city": "Brookhaven",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30319",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "2371 Brissett Lane"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:57:41+05:30"
+},Success
+05/24/2021 15:56:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 15:56:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 15:56:17,3_GAInsurance_Processing,Driver details: Nishant Patel, 1991-11-14, , ,Success
+05/24/2021 15:56:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 15:56:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 15:56:17,3_GAInsurance_Processing, Vechicle details: 1C4HJXEG4MW504648::2021:Jeep:Wrangler, ,Success
+05/24/2021 15:56:20,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/24/2021 15:56:32,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/24/2021 15:56:41,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/24/2021 15:56:42,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/24/2021 15:56:49,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/24/2021 15:57:19,4.1_Georgia_Farmer_Auto, Element exist for Driver page False ,Success
+05/24/2021 15:57:19,4.1_Georgia_Farmer_AutoTechnical Exception : Unable to open additional driver window,Failed
+05/24/2021 15:57:24,3_GAInsurance_Processing, Status : Failed Status Description : Technical Exception : Unable to open additional driver window ,Success
+05/24/2021 15:57:24,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-24T10:26:16",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-24T10:26:16",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "Technical Exception : Unable to open additional driver window",
+    "Bot_Update__c" : null
+},Success
+05/24/2021 15:57:26,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/24/2021 15:57:29,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOdtEAE"
+  },
+  "Id": "00Q0m000007wOdtEAE",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Krushikant",
+  "LastName": "Shendge",
+  "Phone": "832-941-6213",
+  "Email": "rushi.shendge@gmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1984-09-16",
+  "Address": {
+    "city": "Suwanee",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30024",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "8525 Andrast Alley"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:31:58+05:30"
+},Success
+05/24/2021 15:57:29,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 15:57:29,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 15:57:29,3_GAInsurance_Processing,Driver details:  , , 1987-09-29,1984-09-16, ,, ,Success
+05/24/2021 15:57:30,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 15:57:30,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 15:57:30,3_GAInsurance_Processing, Vechicle details: JM3KFADM5J0437415::2018:Mazda:CX-5 4D 2WD Grand Touring, ,Success
+05/24/2021 15:57:30,3_GAInsurance_Processing,  No driver details found, Success
+05/24/2021 15:57:30,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-24T10:27:29",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-24T10:27:29",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No driver details found",
+    "Bot_Update__c" : null
+},Success
+05/24/2021 15:57:31,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/24/2021 15:57:31,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 15:57:37,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 15:57:37,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 15:57:37,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 15:57:37,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 15:58:07,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 15:58:13,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 15:58:13,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 15:58:13,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 15:58:13,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 15:58:13,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 15:58:16,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 15:58:16,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 15:58:16,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 15:58:16,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 15:58:47,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 15:58:51,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 15:58:51,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 15:58:51,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 15:58:51,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 15:58:51,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 15:58:56,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 15:58:56,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 15:58:56,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 15:58:56,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 15:59:26,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 15:59:31,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 15:59:31,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 15:59:31,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 15:59:31,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 15:59:31,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 15:59:36,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 15:59:36,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 15:59:36,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 15:59:36,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:00:07,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:00:12,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:00:12,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:00:12,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:00:12,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:00:13,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:00:19,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:00:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:00:19,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:00:19,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:00:49,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:00:54,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:00:54,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:00:54,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:00:54,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:00:54,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:00:59,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:00:59,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:00:59,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:00:59,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:01:29,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:01:34,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:01:34,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:01:34,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:01:34,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:01:34,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:01:39,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:01:39,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:01:39,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:01:39,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:02:09,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:02:15,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:02:15,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:02:15,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:02:15,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:02:15,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:02:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:02:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:02:20,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:02:20,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:02:50,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:02:57,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:02:57,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:02:57,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:02:57,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:02:57,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:03:01,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:03:01,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:03:01,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:03:01,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:03:32,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:03:36,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:03:36,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:03:36,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:03:36,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:03:36,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:03:40,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:03:40,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:03:40,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:03:40,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:04:11,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:04:14,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:04:14,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:04:14,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:04:15,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:04:15,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:04:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:04:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:04:20,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:04:20,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:04:50,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:04:54,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:04:54,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:04:54,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:04:54,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:04:54,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:04:59,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:04:59,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:04:59,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:04:59,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:05:29,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:05:32,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:05:32,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:05:32,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:05:32,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:05:32,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:05:35,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:05:35,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:05:35,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:05:35,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:06:05,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:06:08,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:06:08,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:06:08,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:06:08,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:06:08,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:06:11,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:06:11,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:06:11,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:06:11,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:06:41,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:06:44,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:06:44,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:06:44,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:06:44,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:06:45,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:06:48,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:06:48,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:06:48,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:06:48,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:07:18,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:07:23,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:07:23,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:07:23,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:07:23,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:07:23,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:07:26,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:07:26,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:07:26,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:07:26,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:07:56,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:08:00,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:08:00,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:08:00,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:08:00,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:08:00,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:08:04,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:08:04,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:08:04,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:08:04,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:08:34,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:08:38,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:08:38,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:08:38,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:08:38,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:08:38,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:08:42,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:08:42,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:08:42,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:08:42,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:09:12,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:09:15,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:09:15,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:09:15,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:09:15,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:09:15,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:09:18,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:09:18,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:09:18,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:09:18,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:09:48,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:09:51,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:09:51,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:09:51,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:09:51,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:09:52,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:09:55,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:09:55,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:09:55,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:09:55,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:10:25,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:10:28,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:10:28,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:10:28,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:10:28,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:10:28,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:10:31,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:10:31,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:10:31,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:10:31,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:11:01,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:11:06,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:11:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:11:06,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:11:06,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:11:06,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:11:09,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:11:09,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:11:09,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:11:09,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:11:39,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:11:42,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:11:42,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:11:43,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:11:43,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:11:43,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:11:46,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:11:46,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:11:47,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:11:47,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:12:17,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:12:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:12:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:12:20,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:12:20,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:12:20,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:12:23,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:12:23,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:12:23,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:12:23,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:12:53,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:12:57,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:12:57,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:12:57,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:12:57,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:12:57,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:13:00,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:13:00,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:13:00,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:13:00,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:13:30,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:13:33,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:13:33,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:13:33,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:13:33,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:13:34,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:13:36,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:13:36,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:13:36,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:13:36,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:14:06,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:14:09,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:14:09,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:14:09,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:14:09,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:14:09,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:14:12,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:14:12,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:14:12,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:14:12,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:14:43,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:14:45,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:14:45,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:14:45,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:14:46,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:14:46,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:14:49,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:14:49,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:14:49,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:14:49,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:15:19,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:15:22,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:15:22,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:15:22,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:15:22,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:15:22,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:15:25,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:15:25,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:15:25,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:15:25,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:15:55,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:15:58,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:15:58,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:15:58,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:15:58,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:15:58,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:16:01,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:16:01,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:16:01,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:16:01,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:16:32,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:16:35,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:16:35,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:16:35,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:16:35,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:16:35,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:16:38,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:16:38,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:16:38,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:16:38,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:17:08,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:17:10,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:17:10,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:17:11,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:17:11,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:17:11,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:17:13,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:17:13,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:17:14,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:17:14,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:17:44,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:17:47,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:17:47,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:17:47,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:17:47,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:17:47,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:17:50,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:17:50,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:17:50,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:17:50,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:18:20,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:18:23,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:18:23,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:18:23,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:18:23,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:18:23,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:18:26,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:18:26,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:18:26,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:18:26,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:18:57,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:19:02,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:19:02,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:19:02,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:19:02,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:19:02,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:19:04,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:19:04,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:19:04,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:19:04,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:19:35,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:19:38,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:19:38,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:19:38,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:19:38,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:19:38,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:19:41,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:19:41,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:19:41,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:19:41,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:20:11,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:20:14,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:20:14,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:20:14,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:20:14,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:20:14,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:20:18,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:20:18,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:20:18,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:20:18,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:20:48,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:20:51,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:20:51,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:20:51,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:20:51,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:20:51,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:20:54,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:20:54,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:20:54,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:20:54,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:21:25,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:21:28,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:21:28,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:21:28,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:21:28,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:21:28,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:21:31,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:21:31,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:21:31,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:21:31,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:22:01,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:22:03,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:22:03,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:22:03,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:22:03,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:22:04,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:22:06,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:22:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:22:06,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:22:06,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:22:37,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:22:40,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:22:40,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:22:40,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:22:40,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:22:40,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:22:43,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:22:43,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:22:43,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:22:43,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:23:13,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:23:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:23:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:23:17,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:23:17,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:23:17,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:23:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:23:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:23:20,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:23:20,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:23:50,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:23:52,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:23:52,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:23:53,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:23:53,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:23:53,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:23:56,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:23:56,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:23:56,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:23:56,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:24:26,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:24:30,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:24:30,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:24:30,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:24:30,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:24:30,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:24:33,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:24:33,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:24:33,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:24:33,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:25:03,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:25:06,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:25:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:25:06,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:25:06,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:25:06,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:25:09,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:25:09,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:25:09,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:25:09,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:25:39,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:25:43,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:25:43,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:25:43,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:25:43,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:25:43,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:25:46,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:25:47,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:25:47,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:25:47,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:26:17,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:26:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:26:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:26:20,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:26:20,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:26:20,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:26:23,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:26:23,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:26:23,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:26:23,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:26:53,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:26:56,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:26:56,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:26:56,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:26:56,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:26:56,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:26:59,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:26:59,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:26:59,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:26:59,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:27:29,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:27:32,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:27:32,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:27:32,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:27:32,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:27:32,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:27:35,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:27:35,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:27:35,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:27:35,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:28:05,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:28:08,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:28:08,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:28:08,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:28:08,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:28:08,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:28:12,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:28:12,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:28:12,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:28:12,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:28:42,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:28:45,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:28:45,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:28:45,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:28:45,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:28:45,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:28:49,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:28:49,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:28:49,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:28:49,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:29:20,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:29:24,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:29:24,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:29:24,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:29:24,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:29:24,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:29:27,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:29:27,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:29:27,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:29:27,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:29:57,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:30:00,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:30:00,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:30:00,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:30:00,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:30:01,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:30:03,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:30:03,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:30:03,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:30:03,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:30:34,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:30:37,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:30:37,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:30:37,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:30:37,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:30:37,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:30:40,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:30:40,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:30:40,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:30:40,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:31:11,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:31:14,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:31:14,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:31:14,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:31:14,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:31:14,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:31:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:31:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:31:17,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:31:17,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:31:47,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:31:50,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:31:50,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:31:50,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:31:50,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:31:50,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:31:53,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:31:53,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:31:53,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:31:53,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:32:23,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:32:26,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:32:26,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:32:26,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:32:26,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:32:26,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:32:29,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:32:29,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:32:29,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:32:29,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:32:59,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:33:02,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:33:02,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:33:02,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:33:02,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:33:03,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:33:06,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:33:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:33:06,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:33:06,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:33:36,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:33:39,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:33:39,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:33:39,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:33:39,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:33:40,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:33:44,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:33:44,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:33:44,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:33:44,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:34:14,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:34:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:34:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:34:17,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:34:17,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:34:18,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:34:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:34:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:34:20,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:34:20,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:34:51,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:34:54,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:34:54,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:34:54,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:34:54,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:34:54,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:34:57,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:34:57,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:34:57,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:34:57,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:35:28,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:35:32,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:35:32,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:35:32,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:35:32,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:35:32,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:35:35,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:35:35,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:35:35,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:35:35,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:36:05,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:36:09,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:36:09,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:36:09,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:36:09,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:36:09,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:36:12,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:36:12,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:36:12,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:36:12,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:36:42,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:36:45,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:36:45,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:36:45,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:36:45,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:36:45,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:36:48,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:36:48,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:36:48,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:36:48,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:37:18,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:37:21,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:37:21,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:37:21,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:37:21,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:37:21,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:37:24,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:37:24,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:37:24,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:37:24,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:37:55,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:37:58,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:37:58,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:37:58,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:37:58,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:37:58,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:38:01,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:38:01,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:38:01,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:38:01,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:38:31,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:38:34,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:38:34,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:38:34,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:38:34,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:38:34,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:38:37,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:38:37,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:38:37,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:38:37,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:39:07,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:39:11,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:39:11,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:39:11,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:39:11,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:39:11,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:39:14,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:39:14,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:39:14,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:39:14,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:39:44,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:39:47,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:39:47,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:39:47,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:39:47,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:39:47,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:39:49,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:39:49,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:39:49,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:39:49,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:40:20,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:40:23,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:40:23,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:40:23,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:40:23,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:40:23,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:40:26,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:40:26,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:40:26,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:40:26,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:40:57,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:41:00,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:41:00,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:41:00,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:41:00,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:41:00,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:41:03,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:41:03,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:41:03,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:41:03,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:41:33,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:41:37,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:41:37,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:41:37,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:41:37,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:41:37,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:41:41,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:41:41,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:41:41,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:41:41,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:42:11,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:42:14,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:42:14,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:42:14,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:42:14,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:42:14,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:42:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:42:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:42:17,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:42:17,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:42:47,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:42:50,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:42:50,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:42:50,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:42:50,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:42:51,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:42:54,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:42:54,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:42:54,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:42:54,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:43:24,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:43:28,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:43:28,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:43:28,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:43:28,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:43:29,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:43:31,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:43:31,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:43:31,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:43:31,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:44:01,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:44:04,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:44:04,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:44:04,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:44:04,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:44:04,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:44:07,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:44:07,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:44:07,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:44:07,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:44:37,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:44:41,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:44:41,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:44:41,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:44:41,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:44:41,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:44:44,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:44:44,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:44:44,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:44:44,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:45:14,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:45:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:45:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:45:17,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:45:17,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:45:17,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:45:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:45:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:45:20,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:45:20,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:45:51,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:45:55,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:45:55,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:45:55,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:45:55,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:45:55,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:45:57,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:45:57,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:45:57,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:45:58,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:46:28,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:46:31,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:46:31,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:46:31,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:46:31,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:46:31,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:46:34,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:46:34,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:46:34,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:46:34,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:47:04,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:47:08,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:47:08,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:47:08,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:47:08,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:47:08,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:47:12,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:47:12,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:47:12,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:47:12,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:47:42,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:47:45,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:47:45,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:47:45,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:47:45,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:47:46,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:47:48,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:47:48,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:47:48,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:47:48,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:48:19,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:48:22,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:48:22,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:48:22,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:48:22,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:48:22,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:48:25,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:48:25,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:48:25,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:48:25,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:48:55,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:48:58,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:48:58,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:48:58,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:48:58,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:48:58,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:49:01,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:49:01,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:49:01,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:49:01,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:49:31,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:49:34,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:49:34,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:49:34,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:49:34,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:49:34,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:49:38,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:49:38,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:49:38,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:49:38,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:50:08,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:50:12,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:50:12,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:50:12,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:50:12,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:50:12,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:50:15,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:50:15,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:50:15,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:50:15,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:50:45,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:50:48,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:50:48,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:50:49,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:50:49,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:50:49,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:50:52,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:50:52,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:50:52,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:50:52,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:51:22,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:51:25,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:51:25,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:51:25,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:51:25,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:51:25,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:51:28,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:51:28,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:51:28,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:51:28,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:51:58,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:52:01,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:52:01,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:52:01,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:52:01,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:52:01,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:52:04,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:52:04,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:52:04,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:52:04,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:52:35,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:52:37,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:52:37,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:52:37,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:52:37,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:52:37,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:52:41,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:52:41,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:52:41,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:52:41,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:53:11,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:53:14,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:53:14,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:53:14,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:53:14,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:53:14,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:53:18,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:53:18,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:53:18,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:53:18,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:53:48,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:53:52,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:53:52,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:53:52,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:53:52,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:53:52,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:53:54,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:53:54,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:53:54,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:53:55,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:54:25,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:54:30,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:54:30,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:54:30,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:54:30,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:54:30,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:54:34,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:54:34,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:54:34,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:54:34,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:55:04,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:55:08,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:55:08,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:55:08,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:55:08,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:55:08,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:55:12,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:55:12,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:55:12,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:55:12,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:55:42,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:55:45,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:55:45,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:55:45,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:55:45,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:55:45,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:55:48,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:55:48,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:55:48,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:55:48,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:56:19,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:56:23,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:56:23,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:56:23,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:56:23,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:56:23,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:56:26,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:56:26,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:56:26,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:56:26,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:56:56,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:56:59,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:56:59,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:56:59,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:56:59,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:56:59,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:57:02,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:57:02,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:57:02,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:57:02,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:57:32,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:57:36,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:57:36,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:57:36,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:57:36,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:57:36,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:57:40,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:57:40,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:57:40,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:57:40,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:58:10,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:58:13,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:58:13,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:58:13,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:58:13,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:58:13,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:58:16,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:58:16,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:58:16,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:58:16,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:58:47,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:58:49,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:58:49,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:58:50,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:58:50,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:58:50,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:58:53,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:58:53,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:58:53,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:58:53,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:59:23,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:59:27,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:59:27,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:59:27,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:59:27,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 16:59:27,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 16:59:30,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 16:59:30,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 16:59:30,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 16:59:30,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:00:00,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:00:03,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:00:03,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:00:03,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:00:03,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:00:03,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:00:06,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:00:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:00:06,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:00:06,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:00:36,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:00:39,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:00:39,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:00:39,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:00:39,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:00:39,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:00:43,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:00:43,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:00:43,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:00:43,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:01:14,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:01:16,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:01:16,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:01:16,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:01:16,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:01:17,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:01:19,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:01:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:01:19,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:01:19,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:01:50,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:01:53,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:01:53,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:01:53,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:01:53,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:01:54,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:01:56,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:01:56,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:01:56,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:01:56,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:02:26,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:02:29,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:02:29,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:02:29,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:02:29,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:02:29,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:02:33,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:02:33,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:02:33,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:02:33,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:03:04,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:03:06,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:03:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:03:06,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:03:06,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:03:06,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:03:11,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:03:11,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:03:11,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:03:11,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:03:41,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:03:44,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:03:44,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:03:44,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:03:44,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:03:44,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:03:47,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:03:47,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:03:47,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:03:47,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:04:17,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:04:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:04:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:04:20,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:04:21,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:04:21,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:04:24,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:04:24,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:04:24,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:04:24,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:04:54,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:04:57,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:04:57,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:04:57,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:04:57,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:04:57,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:05:00,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:05:00,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:05:00,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:05:00,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:05:31,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:05:33,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:05:33,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:05:33,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:05:33,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:05:34,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:05:37,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:05:37,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:05:37,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:05:37,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:06:07,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:06:11,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:06:11,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:06:11,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:06:11,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:06:11,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:06:15,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:06:15,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:06:15,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:06:15,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:06:45,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:06:47,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:06:47,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:06:47,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:06:47,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:06:48,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:06:50,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:06:50,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:06:50,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:06:51,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:07:21,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:07:24,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:07:24,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:07:24,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:07:24,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:07:24,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:07:27,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:07:27,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:07:27,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:07:27,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:07:57,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:08:01,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:08:01,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:08:01,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:08:01,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:08:01,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:08:04,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:08:04,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:08:04,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:08:04,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:08:34,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:08:37,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:08:37,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:08:37,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:08:37,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:08:37,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:08:41,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:08:41,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:08:41,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:08:41,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:09:11,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:09:14,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:09:14,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:09:14,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:09:14,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:09:14,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:09:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:09:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:09:17,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:09:17,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:09:48,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:09:51,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:09:51,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:09:51,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:09:51,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:09:51,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:09:54,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:09:54,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:09:54,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:09:54,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:10:24,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:10:28,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:10:28,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:10:28,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:10:28,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:10:28,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:10:31,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:10:31,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:10:31,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:10:31,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:11:02,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:11:04,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:11:04,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:11:04,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:11:04,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:11:05,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:11:07,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:11:07,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:11:07,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:11:07,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:11:38,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:11:40,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:11:40,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:11:40,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:11:40,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:11:41,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:11:43,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:11:43,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:11:43,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:11:43,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:12:13,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:12:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:12:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:12:17,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:12:17,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:12:17,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:12:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:12:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:12:20,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:12:20,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:12:50,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:12:53,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:12:53,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:12:53,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:12:53,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:12:53,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:12:56,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:12:56,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:12:56,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:12:56,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:13:26,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:13:29,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:13:29,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:13:29,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:13:29,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:13:29,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:13:33,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:13:33,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:13:33,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:13:33,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:14:03,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:14:06,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:14:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:14:06,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:14:06,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:14:07,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:14:09,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:14:09,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:14:09,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:14:09,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:14:39,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:14:42,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:14:42,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:14:42,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:14:42,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:14:43,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:14:46,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:14:46,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:14:47,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:14:47,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:15:17,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:15:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:15:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:15:20,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:15:20,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:15:20,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:15:24,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:15:24,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:15:24,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:15:24,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:15:54,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:15:57,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:15:57,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:15:57,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:15:57,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:15:57,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:16:00,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:16:00,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:16:00,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:16:00,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:16:31,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:16:34,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:16:34,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:16:34,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:16:34,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:16:34,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:16:37,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:16:37,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:16:37,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:16:37,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:17:07,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:17:10,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:17:10,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:17:11,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:17:11,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:17:11,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:17:13,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:17:13,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:17:13,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:17:13,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:17:44,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:17:46,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:17:46,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:17:46,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:17:46,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:17:46,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:17:49,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:17:49,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:17:49,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:17:49,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:18:19,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:18:23,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:18:23,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:18:23,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:18:23,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:18:24,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:18:27,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:18:27,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:18:27,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:18:27,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:18:58,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:19:01,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:19:01,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:19:01,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:19:01,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:19:01,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:19:04,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:19:04,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:19:04,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:19:04,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:19:35,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:19:37,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:19:37,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:19:37,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:19:37,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:19:38,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:19:41,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:19:41,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:19:41,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:19:41,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:20:12,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:20:14,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:20:14,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:20:14,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:20:14,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:20:15,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:20:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:20:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:20:17,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:20:17,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:20:48,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:20:51,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:20:51,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:20:51,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:20:51,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:20:51,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:20:54,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:20:54,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:20:54,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:20:54,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:21:24,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:21:27,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:21:27,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:21:27,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:21:27,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:21:27,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:21:31,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:21:31,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:21:31,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:21:31,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:22:01,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:22:04,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:22:04,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:22:04,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:22:04,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:22:04,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:22:09,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:22:09,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:22:09,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:22:09,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:22:39,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:22:42,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:22:42,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:22:42,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:22:42,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:22:42,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:22:46,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:22:46,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:22:46,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:22:46,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:23:16,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:23:19,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:23:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:23:19,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:23:19,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:23:20,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:23:24,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:23:24,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:23:24,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:23:24,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:23:54,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:23:57,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:23:57,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:23:57,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:23:57,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:23:57,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:24:00,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:24:00,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:24:00,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:24:00,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:24:30,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:24:35,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:24:40,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:24:40,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:24:41,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:24:41,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:24:44,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:24:44,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:24:44,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:24:44,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:25:14,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:25:16,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:25:16,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:25:16,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:25:16,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:25:17,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:25:19,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:25:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:25:19,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:25:19,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:25:50,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:25:54,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:25:54,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:25:54,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:25:54,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:25:54,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:25:58,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:25:58,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:25:58,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:25:58,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:26:28,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:26:31,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:26:31,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:26:31,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:26:31,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:26:31,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:26:34,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:26:34,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:26:34,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:26:34,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:27:04,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:27:07,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:27:07,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:27:07,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:27:07,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:27:07,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:27:10,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:27:10,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:27:10,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:27:10,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:27:40,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:27:43,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:27:43,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:27:43,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:27:43,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:27:43,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:27:46,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:27:46,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:27:46,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:27:46,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:28:16,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:28:19,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:28:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:28:19,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:28:19,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:28:19,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:28:23,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:28:23,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:28:23,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:28:23,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:28:54,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:28:56,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:28:56,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:28:56,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:28:56,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:28:56,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:28:59,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:28:59,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:28:59,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:28:59,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:29:29,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:29:32,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:29:32,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:29:32,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:29:32,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:29:33,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:29:36,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:29:36,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:29:36,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:29:36,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:30:06,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:30:09,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:30:09,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:30:09,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:30:09,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:30:09,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:30:12,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:30:12,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:30:12,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:30:12,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:30:42,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:30:45,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:30:45,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:30:45,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:30:45,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:30:45,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:30:47,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:30:47,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:30:48,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:30:48,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:31:18,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:31:21,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:31:21,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:31:21,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:31:21,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:31:21,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:31:24,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:31:24,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:31:24,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:31:24,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:31:54,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:31:58,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:31:58,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:31:58,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:31:58,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:31:58,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:32:01,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:32:01,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:32:01,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:32:01,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:32:32,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:32:36,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:32:36,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:32:36,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:32:36,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:32:36,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:32:39,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:32:39,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:32:39,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:32:40,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:33:10,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:33:12,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:33:12,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:33:12,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:33:12,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:33:13,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:33:15,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:33:15,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:33:15,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:33:15,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:33:46,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:33:50,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:33:50,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:33:50,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:33:50,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:33:50,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:33:53,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:33:53,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:33:53,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:33:53,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:34:23,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:34:26,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:34:26,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:34:26,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:34:26,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:34:27,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:34:30,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:34:30,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:34:30,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:34:30,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:35:00,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:35:03,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:35:03,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:35:03,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:35:03,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:35:04,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:35:06,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:35:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:35:06,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:35:06,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:35:37,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:35:40,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:35:40,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:35:40,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:35:40,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:35:40,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:35:43,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:35:43,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:35:43,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:35:43,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:36:13,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:36:16,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:36:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:36:17,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:36:17,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:36:17,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:36:19,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:36:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:36:19,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:36:19,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:36:50,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:36:53,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:36:53,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:36:53,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:36:53,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:36:53,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:36:57,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:36:57,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:36:57,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:36:57,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:37:28,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:37:30,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:37:30,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:37:30,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:37:30,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:37:30,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:37:33,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:37:33,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:37:33,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:37:33,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:38:04,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:38:07,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:38:07,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:38:07,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:38:07,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:38:07,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:38:10,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:38:10,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:38:10,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:38:10,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:38:40,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:38:43,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:38:43,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:38:43,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:38:43,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:38:43,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:38:46,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:38:46,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:38:46,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:38:46,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:39:16,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:39:19,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:39:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:39:19,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:39:19,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:39:19,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:39:22,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:39:22,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:39:22,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:39:22,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:39:52,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:39:56,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:39:56,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:39:56,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:39:56,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:39:56,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:39:59,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:39:59,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:39:59,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:39:59,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:40:29,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:40:32,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:40:32,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:40:32,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:40:32,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:40:32,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:40:36,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:40:36,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:40:36,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:40:36,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:41:06,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:41:09,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:41:09,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:41:09,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:41:09,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:41:10,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:41:13,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:41:13,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:41:13,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:41:13,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:41:43,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:41:46,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:41:46,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:41:46,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:41:46,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:41:47,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:41:49,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:41:49,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:41:49,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/24/2021 17:41:49,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success
+05/24/2021 17:42:20,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:49:06,Main,GA Insurance BOT Started,Success
+05/24/2021 17:49:07,2_GAInsurance_Setup,Module Started,Success
+05/24/2021 17:49:07,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/24/2021 17:49:07,Main,2_GAInsurance_Setup Completed,Success
+05/24/2021 17:49:07,Main,BOT Start Time: 05/24/2021 17:49:06,Success
+05/24/2021 17:49:07,Main,BOT Start Time: 05/25/2021 14:49:06,Success
+05/24/2021 17:49:09,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:49:16,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/24/2021 17:49:16,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/24/2021 17:49:17,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/24/2021 17:49:17,3_GAInsurance_Processing,Token Generarted,Success
+05/24/2021 17:49:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:49:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:49:17,3_GAInsurance_Processing,Lead Fecthed : 21,Success
+05/24/2021 17:49:18,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/24/2021 17:49:46,Login_Georgia_AutoInsurance_Portal, Getting error UiPath.Core.BrowserOperationException: Cannot communicate with the browser, please check the UiPath extension. ---> System.Runtime.InteropServices.COMException: Cannot communicate with the browser, please check the UiPath extension.
+   at UiPath.UiBrowserClass.Open(String bstrURL, String bstrCmdLineArgs, UiBrowserFlags flag)
+   at UiPath.Core.Browser.Open(String url, CommMethod startBrowserMechanism, Boolean privateSession, Boolean headlessSession, Boolean defaultSession, String cmdLineArgs)
+   --- End of inner exception stack trace ---
+   at UiPath.Core.Activities.ScopeActivity.EndExecute(NativeActivityContext context, IAsyncResult result)
+   at UiPath.Core.Activities.ObsoleteAsyncNativeActivity.BookmarkResumptionCallback(NativeActivityContext context, Bookmark bookmark, Object value)
+   at System.Activities.Runtime.BookmarkCallbackWrapper.Invoke(NativeActivityContext context, Bookmark bookmark, Object value)
+   at System.Activities.Runtime.BookmarkWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager), Failed
+05/24/2021 17:49:53,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/24/2021 17:50:38,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+05/24/2021 17:50:40,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+05/24/2021 17:50:53,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+05/24/2021 17:51:01,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+05/24/2021 17:51:03,3_GAInsurance_Processing,Api Call Status COde: 400,Success
+05/24/2021 17:51:03,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/24/2021 17:51:03,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/24/2021 17:51:03,3_GAInsurance_Processing,Token Generarted,Success
+05/24/2021 17:51:03,3_GAInsurance_Processing,Api Call Status COde: 400,Success
+05/24/2021 17:51:03,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/24/2021 17:51:04,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/24/2021 17:51:04,3_GAInsurance_Processing,Token Generarted,Success
+05/24/2021 17:51:04,3_GAInsurance_Processing,Salesforce Output: {"access_token":"00D0m0000004iba!AR0AQJdRzW_jQDOA.5RUJTOHNN5KnDGU1eAQqzQh4.Ujv78S9r6IEWD7d6KEVA.ThPrmHWGbUq86kuJ5Ysvy5_URGSVTHaED","instance_url":"https://equityflo-veruna--gaautobot.my.salesforce.com","id":"https://test.salesforce.com/id/00D0m0000004ibaEAA/0053h000000FSX5AAO","token_type":"Bearer","issued_at":"1621858857882","signature":"x6HZ/jgbtlkKYNpp6eskZf4GmHWDBZyN/gFTraBrVQ4="},Success
+05/24/2021 17:51:09, 3_GAAutoInsurance_Processing-Chrome,Runtime Error,Fail,535: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials j30sm11035032qki.60 - gsmtp
+05/24/2021 17:51:13,3_GAInsurance_Processing,Module Started,Success
+05/24/2021 17:51:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/24/2021 17:51:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/24/2021 17:51:17,3_GAInsurance_Processing,Lead Fecthed : 21,Success
+05/24/2021 17:51:18,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/24/2021 17:51:24,Login_Georgia_AutoInsurance_Portal, Already logged in , Success
+05/24/2021 17:52:28,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+05/24/2021 17:52:28,3_GAInsurance_Processing,Api Call Status COde: 400,Success
+05/24/2021 17:52:28,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/24/2021 17:52:29,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/24/2021 17:52:29,3_GAInsurance_Processing,Token Generarted,Success
+05/24/2021 17:52:29,3_GAInsurance_Processing,Api Call Status COde: 400,Success
+05/24/2021 17:52:29,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/24/2021 17:52:29,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/24/2021 17:52:29,3_GAInsurance_Processing,Token Generarted,Success
+05/24/2021 17:52:29,3_GAInsurance_Processing,Salesforce Output: {"access_token":"00D0m0000004iba!AR0AQJdRzW_jQDOA.5RUJTOHNN5KnDGU1eAQqzQh4.Ujv78S9r6IEWD7d6KEVA.ThPrmHWGbUq86kuJ5Ysvy5_URGSVTHaED","instance_url":"https://equityflo-veruna--gaautobot.my.salesforce.com","id":"https://test.salesforce.com/id/00D0m0000004ibaEAA/0053h000000FSX5AAO","token_type":"Bearer","issued_at":"1621858943486","signature":"N9pWHWvUB90kGhbdC8EvNXm3xM1k17l/eR+LosOE7KA="},Success
+05/24/2021 17:52:33, 3_GAAutoInsurance_Processing-Chrome,Runtime Error,Fail,535: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials x10sm10687814qkh.124 - gsmtp

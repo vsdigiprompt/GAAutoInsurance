@@ -1,0 +1,1304 @@
+﻿Date_Time,Module,Action,Status,Exception
+05/15/2021 20:08:18,Main,GA Insurance BOT Started,Success
+05/15/2021 20:08:19,2_GAInsurance_Setup,Module Started,Success
+05/15/2021 20:08:19,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/15/2021 20:08:20,Main,2_MLPInsurance_Setup Completed,Success
+05/15/2021 20:08:20,Main,BOT Start Time: 05/15/2021 20:08:18,Success
+05/15/2021 20:08:20,Main,BOT Start Time: 05/16/2021 17:08:18,Success
+05/15/2021 20:08:22,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 20:08:30,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/15/2021 20:08:37,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/15/2021 20:08:38,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/15/2021 20:08:38,3_GAInsurance_Processing,Token Generarted,Success
+05/15/2021 20:08:38,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:08:38,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:08:41,3_GAInsurance_Processing,Lead Fecthed : 3,Success
+05/15/2021 20:08:42,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/15/2021 20:10:26,Main,GA Insurance BOT Started,Success
+05/15/2021 20:10:28,2_GAInsurance_Setup,Module Started,Success
+05/15/2021 20:10:28,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/15/2021 20:10:28,Main,2_MLPInsurance_Setup Completed,Success
+05/15/2021 20:10:28,Main,BOT Start Time: 05/15/2021 20:10:26,Success
+05/15/2021 20:10:28,Main,BOT Start Time: 05/16/2021 17:10:26,Success
+05/15/2021 20:10:29,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 20:10:35,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/15/2021 20:10:43,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/15/2021 20:10:44,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/15/2021 20:10:44,3_GAInsurance_Processing,Token Generarted,Success
+05/15/2021 20:10:44,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:10:44,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:10:49,3_GAInsurance_Processing,Lead Fecthed : 3,Success
+05/15/2021 20:10:50,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/15/2021 20:11:26,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+05/15/2021 20:11:29,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+05/15/2021 20:11:39,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+05/15/2021 20:11:39,Login_Georgia_AutoInsurance_Portal,,
+05/15/2021 20:11:42,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007yXp5EAE"
+  },
+  "Id": "00Q7d000007yXp5EAE",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Carlton",
+  "LastName": "Watson",
+  "Phone": "706-351-4300",
+  "Email": "carlton123@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1982-10-20",
+  "Address": {
+    "city": "ATHENS",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30606",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "115 Christa Ln"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2021-01-06T18:54:44+05:30"
+},Success
+05/15/2021 20:11:42,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:11:43,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:11:43,3_GAInsurance_Processing,Driver details:    ,Success
+05/15/2021 20:11:43,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:11:43,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:11:43,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/15/2021 20:12:36,3_GAInsurance_Processing,  There is no Vechicle and driver details:   ,Success
+05/15/2021 20:13:07,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 20:13:13,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:13:13,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:34:36,Main,GA Insurance BOT Started,Success
+05/15/2021 20:34:38,2_GAInsurance_Setup,Module Started,Success
+05/15/2021 20:34:38,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/15/2021 20:34:38,Main,2_MLPInsurance_Setup Completed,Success
+05/15/2021 20:34:38,Main,BOT Start Time: 05/15/2021 20:34:36,Success
+05/15/2021 20:34:38,Main,BOT Start Time: 05/16/2021 17:34:36,Success
+05/15/2021 20:34:39,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 20:34:44,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/15/2021 20:34:44,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/15/2021 20:34:44,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/15/2021 20:34:44,3_GAInsurance_Processing,Token Generarted,Success
+05/15/2021 20:34:44,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:34:44,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:35:11,3_GAInsurance_Processing,Lead Fecthed : 3,Success
+05/15/2021 20:35:11,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/15/2021 20:37:13,Main,GA Insurance BOT Started,Success
+05/15/2021 20:37:15,2_GAInsurance_Setup,Module Started,Success
+05/15/2021 20:37:15,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/15/2021 20:37:15,Main,2_MLPInsurance_Setup Completed,Success
+05/15/2021 20:37:15,Main,BOT Start Time: 05/15/2021 20:37:13,Success
+05/15/2021 20:37:15,Main,BOT Start Time: 05/16/2021 17:37:13,Success
+05/15/2021 20:37:16,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 20:37:21,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/15/2021 20:37:21,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/15/2021 20:37:21,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/15/2021 20:37:21,3_GAInsurance_Processing,Token Generarted,Success
+05/15/2021 20:37:22,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:37:22,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:37:48,3_GAInsurance_Processing,Lead Fecthed : 3,Success
+05/15/2021 20:37:48,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/15/2021 20:37:56,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+05/15/2021 20:37:58,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+05/15/2021 20:38:06,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+05/15/2021 20:38:06,Login_Georgia_AutoInsurance_Portal,,
+05/15/2021 20:38:20,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007yXp5EAE"
+  },
+  "Id": "00Q7d000007yXp5EAE",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Carlton",
+  "LastName": "Watson",
+  "Phone": "706-351-4300",
+  "Email": "carlton123@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1982-10-20",
+  "Address": {
+    "city": "ATHENS",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30606",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "115 Christa Ln"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2021-01-06T18:54:44+05:30"
+},Success
+05/15/2021 20:38:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:38:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:38:20,3_GAInsurance_Processing,Driver details:    ,Success
+05/15/2021 20:38:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:38:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:38:20,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/15/2021 20:38:51,3_GAInsurance_Processing,  There is no Vechicle and driver details found :   ,Success
+05/15/2021 20:38:51, 3_GAAutoInsurance_Processing-Chrome,Runtime Error,Fail,Object reference not set to an instance of an object.
+05/15/2021 20:38:56,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 20:39:00,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:39:00,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:44:06,Main,GA Insurance BOT Started,Success
+05/15/2021 20:44:07,2_GAInsurance_Setup,Module Started,Success
+05/15/2021 20:44:07,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/15/2021 20:44:08,Main,2_MLPInsurance_Setup Completed,Success
+05/15/2021 20:44:08,Main,BOT Start Time: 05/15/2021 20:44:05,Success
+05/15/2021 20:44:08,Main,BOT Start Time: 05/16/2021 17:44:05,Success
+05/15/2021 20:44:08,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 20:44:15,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/15/2021 20:44:19,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/15/2021 20:44:20,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/15/2021 20:44:20,3_GAInsurance_Processing,Token Generarted,Success
+05/15/2021 20:44:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:44:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:44:22,3_GAInsurance_Processing,Lead Fecthed : 3,Success
+05/15/2021 20:44:23,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/15/2021 20:46:06,Main,GA Insurance BOT Started,Success
+05/15/2021 20:46:08,2_GAInsurance_Setup,Module Started,Success
+05/15/2021 20:46:08,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/15/2021 20:46:08,Main,2_MLPInsurance_Setup Completed,Success
+05/15/2021 20:46:08,Main,BOT Start Time: 05/15/2021 20:46:06,Success
+05/15/2021 20:46:08,Main,BOT Start Time: 05/16/2021 17:46:06,Success
+05/15/2021 20:46:09,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 20:46:15,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/15/2021 20:46:20,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/15/2021 20:46:20,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/15/2021 20:46:20,3_GAInsurance_Processing,Token Generarted,Success
+05/15/2021 20:46:21,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:46:21,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:46:23,3_GAInsurance_Processing,Lead Fecthed : 3,Success
+05/15/2021 20:46:23,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/15/2021 20:46:30,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+05/15/2021 20:46:32,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+05/15/2021 20:46:40,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+05/15/2021 20:46:40,Login_Georgia_AutoInsurance_Portal,,
+05/15/2021 20:46:42,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007yXp5EAE"
+  },
+  "Id": "00Q7d000007yXp5EAE",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Carlton",
+  "LastName": "Watson",
+  "Phone": "706-351-4300",
+  "Email": "carlton123@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1982-10-20",
+  "Address": {
+    "city": "ATHENS",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30606",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "115 Christa Ln"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2021-01-06T18:54:44+05:30"
+},Success
+05/15/2021 20:46:42,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:46:42,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:46:42,3_GAInsurance_Processing,Driver details:    ,Success
+05/15/2021 20:46:43,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:46:43,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:46:43,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/15/2021 20:46:45,3_GAInsurance_Processing,  There is no Vechicle and driver details found, Success
+05/15/2021 20:50:58,Main,GA Insurance BOT Started,Success
+05/15/2021 20:50:59,2_GAInsurance_Setup,Module Started,Success
+05/15/2021 20:50:59,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/15/2021 20:51:00,Main,2_MLPInsurance_Setup Completed,Success
+05/15/2021 20:51:00,Main,BOT Start Time: 05/15/2021 20:50:57,Success
+05/15/2021 20:51:00,Main,BOT Start Time: 05/16/2021 17:50:57,Success
+05/15/2021 20:51:01,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 20:51:07,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/15/2021 20:51:22,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/15/2021 20:51:23,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/15/2021 20:51:23,3_GAInsurance_Processing,Token Generarted,Success
+05/15/2021 20:51:23,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:51:23,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:51:33,3_GAInsurance_Processing,Lead Fecthed : 3,Success
+05/15/2021 20:51:34,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007yXp5EAE"
+  },
+  "Id": "00Q7d000007yXp5EAE",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Carlton",
+  "LastName": "Watson",
+  "Phone": "706-351-4300",
+  "Email": "carlton123@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1982-10-20",
+  "Address": {
+    "city": "ATHENS",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30606",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "115 Christa Ln"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2021-01-06T18:54:44+05:30"
+},Success
+05/15/2021 20:51:35,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:51:35,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:51:35,3_GAInsurance_Processing,Driver details:    ,Success
+05/15/2021 20:51:35,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:51:36,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:51:36,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/15/2021 20:51:38,3_GAInsurance_Processing,  There is no Vechicle and driver details found, Success
+05/15/2021 20:54:55,Main,GA Insurance BOT Started,Success
+05/15/2021 20:54:57,2_GAInsurance_Setup,Module Started,Success
+05/15/2021 20:54:57,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/15/2021 20:54:58,Main,2_MLPInsurance_Setup Completed,Success
+05/15/2021 20:54:58,Main,BOT Start Time: 05/15/2021 20:54:54,Success
+05/15/2021 20:54:58,Main,BOT Start Time: 05/16/2021 17:54:54,Success
+05/15/2021 20:54:59,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 20:55:06,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/15/2021 20:55:14,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/15/2021 20:55:14,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/15/2021 20:55:14,3_GAInsurance_Processing,Token Generarted,Success
+05/15/2021 20:55:15,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:55:15,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:55:25,3_GAInsurance_Processing,Lead Fecthed : 3,Success
+05/15/2021 20:55:28,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007yXp5EAE"
+  },
+  "Id": "00Q7d000007yXp5EAE",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Carlton",
+  "LastName": "Watson",
+  "Phone": "706-351-4300",
+  "Email": "carlton123@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1982-10-20",
+  "Address": {
+    "city": "ATHENS",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30606",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "115 Christa Ln"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2021-01-06T18:54:44+05:30"
+},Success
+05/15/2021 20:55:28,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:55:28,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:55:29,3_GAInsurance_Processing,Driver details:    ,Success
+05/15/2021 20:55:29,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:55:29,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:55:29,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/15/2021 20:55:37,3_GAInsurance_Processing,  There is no Vechicle and driver details found, Success
+05/15/2021 20:55:46,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-15T15:25:28",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-15T15:25:28",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "There is no Vechicle and driver details found",
+    "Bot_Update__c" : null
+},Success
+05/15/2021 20:55:49,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/15/2021 20:55:55,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007yVn8EAE"
+  },
+  "Id": "00Q7d000007yVn8EAE",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Manuel",
+  "Phone": "404-290-4511",
+  "Email": "pamelamanuel@gmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1954-03-04",
+  "Address": {
+    "city": "ATLANTA",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30331",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "478 Fairlane Circle Northwest"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-31T19:29:04+05:30"
+},Success
+05/15/2021 20:55:56,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:55:56,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:55:56,3_GAInsurance_Processing,Driver details: Michelle Joseph,Henry Joseph, 2001-05-25,2001-05-12, Female,Male, ,Success
+05/15/2021 20:55:57,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 20:55:57,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 20:55:57,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 20:56:19,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/15/2021 20:56:34,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/15/2021 20:56:43,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/15/2021 20:56:45,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/15/2021 20:56:49,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/15/2021 20:57:09,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/15/2021 20:57:09,4.1_Georgia_Farmer_Auto, Driver details : Michelle Joseph,Henry Joseph, 2001-05-25,2001-05-12, Female,Male, ,Success
+05/15/2021 20:57:10,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 20:57:13,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 20:57:14,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 20:57:14,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 20:57:18,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 3 Get Name  ,Success
+05/15/2021 20:57:19,4.1_Georgia_Farmer_Auto, Add Driver NameMichelle  Joseph ,Success
+05/15/2021 20:57:22,4.1_Georgia_Farmer_Auto, Driver matchMichelle  Joseph ,Success
+05/15/2021 20:57:22,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 20:57:26,4.1_Georgia_Farmer_Auto, Driver not matchMichelle  Joseph ,Success
+05/15/2021 20:57:26,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 20:57:27,4.1_Georgia_Farmer_Auto, Driver not matchMichelle  Joseph ,Success
+05/15/2021 20:57:27,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 3 Get Name Michelle ,Success
+05/15/2021 20:57:30,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 4 Get Name  ,Success
+05/15/2021 20:57:32,4.1_Georgia_Farmer_Auto, Add Driver NameHenry  Joseph ,Success
+05/15/2021 20:57:34,4.1_Georgia_Farmer_Auto, Driver matchHenry  Joseph ,Success
+05/15/2021 20:57:35,4.1_Georgia_Farmer_Auto, Vechicle selection 1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 20:57:35,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/15/2021 20:57:36,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 1, Success
+05/15/2021 20:57:40,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 2, Success
+05/15/2021 21:03:19,Main,GA Insurance BOT Started,Success
+05/15/2021 21:03:20,2_GAInsurance_Setup,Module Started,Success
+05/15/2021 21:03:20,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/15/2021 21:03:20,Main,2_MLPInsurance_Setup Completed,Success
+05/15/2021 21:03:20,Main,BOT Start Time: 05/15/2021 21:03:18,Success
+05/15/2021 21:03:21,Main,BOT Start Time: 05/16/2021 18:03:18,Success
+05/15/2021 21:03:22,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 21:03:27,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/15/2021 21:03:44,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/15/2021 21:03:45,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/15/2021 21:03:45,3_GAInsurance_Processing,Token Generarted,Success
+05/15/2021 21:03:45,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 21:03:45,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 21:03:52,3_GAInsurance_Processing,Lead Fecthed : 2,Success
+05/15/2021 21:03:54,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007yVn8EAE"
+  },
+  "Id": "00Q7d000007yVn8EAE",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Manuel",
+  "Phone": "404-290-4511",
+  "Email": "pamelamanuel@gmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1954-03-04",
+  "Address": {
+    "city": "ATLANTA",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30331",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "478 Fairlane Circle Northwest"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-31T19:29:04+05:30"
+},Success
+05/15/2021 21:03:54,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 21:03:54,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 21:03:55,3_GAInsurance_Processing,Driver details: Henry Joseph,Michelle Joseph, 2001-05-12,2001-05-25, Male,Female, ,Success
+05/15/2021 21:03:55,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 21:03:55,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 21:03:56,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 21:04:04,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/15/2021 21:04:16,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/15/2021 21:04:25,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/15/2021 21:04:26,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/15/2021 21:04:29,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/15/2021 21:04:38,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/15/2021 21:04:38,4.1_Georgia_Farmer_Auto, Driver details : Henry Joseph,Michelle Joseph, 2001-05-12,2001-05-25, Male,Female, ,Success
+05/15/2021 21:04:38,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 21:04:42,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 21:04:43,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 21:04:43,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 21:04:47,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 3 Get Name  ,Success
+05/15/2021 21:04:49,4.1_Georgia_Farmer_Auto, Add Driver NameHenry  Joseph ,Success
+05/15/2021 21:04:52,4.1_Georgia_Farmer_Auto, Driver matchHenry  Joseph ,Success
+05/15/2021 21:04:52,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 21:04:56,4.1_Georgia_Farmer_Auto, Driver not matchHenry  Joseph ,Success
+05/15/2021 21:04:56,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 21:04:57,4.1_Georgia_Farmer_Auto, Driver not matchHenry  Joseph ,Success
+05/15/2021 21:04:58,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 3 Get Name Henry ,Success
+05/15/2021 21:05:02,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 4 Get Name  ,Success
+05/15/2021 21:05:04,4.1_Georgia_Farmer_Auto, Add Driver NameMichelle  Joseph ,Success
+05/15/2021 21:05:06,4.1_Georgia_Farmer_Auto, Driver matchMichelle  Joseph ,Success
+05/15/2021 21:05:07,4.1_Georgia_Farmer_Auto, Vechicle selection 1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 21:05:08,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/15/2021 21:05:08,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 1, Success
+05/15/2021 21:05:13,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 2, Success
+05/15/2021 21:11:21,Main,GA Insurance BOT Started,Success
+05/15/2021 21:11:23,2_GAInsurance_Setup,Module Started,Success
+05/15/2021 21:11:23,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/15/2021 21:11:23,Main,2_MLPInsurance_Setup Completed,Success
+05/15/2021 21:11:23,Main,BOT Start Time: 05/15/2021 21:11:20,Success
+05/15/2021 21:11:23,Main,BOT Start Time: 05/16/2021 18:11:20,Success
+05/15/2021 21:11:24,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 21:11:30,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/15/2021 21:11:36,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/15/2021 21:11:37,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/15/2021 21:11:37,3_GAInsurance_Processing,Token Generarted,Success
+05/15/2021 21:11:37,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 21:11:37,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 21:11:41,3_GAInsurance_Processing,Lead Fecthed : 2,Success
+05/15/2021 21:11:43,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007yVn8EAE"
+  },
+  "Id": "00Q7d000007yVn8EAE",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Manuel",
+  "Phone": "404-290-4511",
+  "Email": "pamelamanuel@gmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1954-03-04",
+  "Address": {
+    "city": "ATLANTA",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30331",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "478 Fairlane Circle Northwest"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-31T19:29:04+05:30"
+},Success
+05/15/2021 21:11:44,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 21:11:44,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 21:11:44,3_GAInsurance_Processing,Driver details: Henry Joseph,Michelle Joseph, 2001-05-12,2001-05-25, Male,Female, ,Success
+05/15/2021 21:11:45,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 21:11:45,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 21:11:45,3_GAInsurance_Processing, Vechicle details: 1NXBU4EE1AZ345875:COROL:2010:Toyota:Sedan,1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 21:12:01,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/15/2021 21:12:13,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/15/2021 21:12:22,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/15/2021 21:12:24,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/15/2021 21:12:28,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/15/2021 21:12:36,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/15/2021 21:12:36,4.1_Georgia_Farmer_Auto, Driver details : Henry Joseph,Michelle Joseph, 2001-05-12,2001-05-25, Male,Female, ,Success
+05/15/2021 21:12:37,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 21:12:41,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 21:12:41,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 21:12:42,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 21:12:46,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 3 Get Name  ,Success
+05/15/2021 21:12:48,4.1_Georgia_Farmer_Auto, Add Driver NameHenry  Joseph ,Success
+05/15/2021 21:12:50,4.1_Georgia_Farmer_Auto, Driver matchHenry  Joseph ,Success
+05/15/2021 21:12:51,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 21:12:55,4.1_Georgia_Farmer_Auto, Driver not matchHenry  Joseph ,Success
+05/15/2021 21:12:55,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 21:12:56,4.1_Georgia_Farmer_Auto, Driver not matchHenry  Joseph ,Success
+05/15/2021 21:12:57,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 3 Get Name Henry ,Success
+05/15/2021 21:13:00,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 4 Get Name  ,Success
+05/15/2021 21:13:02,4.1_Georgia_Farmer_Auto, Add Driver NameMichelle  Joseph ,Success
+05/15/2021 21:13:05,4.1_Georgia_Farmer_Auto, Driver matchMichelle  Joseph ,Success
+05/15/2021 21:13:06,4.1_Georgia_Farmer_Auto, Vechicle selection 1NXBU4EE1AZ345875:COROL:2010:Toyota:Sedan,1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 21:13:07,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/15/2021 21:13:07,4.1_Georgia_Farmer_Auto, VIN Number 1NXBU4EE1AZ345875 1NXBU4EE1AZ345875 1, Success
+05/15/2021 21:13:08,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/15/2021 21:13:09,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 1, Success
+05/15/2021 21:13:13,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 2, Success
+05/15/2021 21:13:33,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/15/2021 21:13:38,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/15/2021 21:13:41,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/15/2021 21:13:42,4.1_Georgia_Farmer_Auto, Driver Count : 3, Success
+05/15/2021 21:13:43,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 21:13:44,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 21:13:45,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 21:13:58,4.1_Georgia_Farmer_Auto, Get gender for added drivers HENRY- MALE, Success
+05/15/2021 21:13:59,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/15/2021 21:14:00,4.1_Georgia_Farmer_Auto, Get gender for added drivers MICHELLE- FEMALE, Success
+05/15/2021 21:14:01,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/15/2021 21:14:02,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4219205612 Quote number 89425912, Success
+05/15/2021 21:14:07,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles and clicked on rate button, Success
+05/15/2021 21:14:17,4.1_Georgia_Farmer_Auto, Monthly EFT web page exist True, Success
+05/15/2021 22:25:28,Main,GA Insurance BOT Started,Success
+05/15/2021 22:25:30,2_GAInsurance_Setup,Module Started,Success
+05/15/2021 22:25:30,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/15/2021 22:25:30,Main,2_MLPInsurance_Setup Completed,Success
+05/15/2021 22:25:30,Main,BOT Start Time: 05/15/2021 22:25:28,Success
+05/15/2021 22:25:30,Main,BOT Start Time: 05/16/2021 19:25:28,Success
+05/15/2021 22:25:31,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 22:25:36,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/15/2021 22:25:42,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/15/2021 22:25:42,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/15/2021 22:25:42,3_GAInsurance_Processing,Token Generarted,Success
+05/15/2021 22:25:43,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 22:25:43,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 22:25:46,3_GAInsurance_Processing,Lead Fecthed : 2,Success
+05/15/2021 22:25:47,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007yVn8EAE"
+  },
+  "Id": "00Q7d000007yVn8EAE",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Manuel",
+  "Phone": "404-290-4511",
+  "Email": "pamelamanuel@gmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1954-03-04",
+  "Address": {
+    "city": "ATLANTA",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30331",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "478 Fairlane Circle Northwest"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-31T19:29:04+05:30"
+},Success
+05/15/2021 22:25:48,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 22:25:48,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 22:25:48,3_GAInsurance_Processing,Driver details: Henry Joseph,Michelle Joseph, 2001-05-12,2001-05-25, Male,Female, ,Success
+05/15/2021 22:25:49,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 22:25:49,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 22:25:49,3_GAInsurance_Processing, Vechicle details: 1NXBU4EE1AZ345875:COROL:2010:Toyota:Sedan,1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 22:26:51,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/15/2021 22:27:10,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/15/2021 22:27:19,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/15/2021 22:27:21,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/15/2021 22:27:26,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/15/2021 22:27:35,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/15/2021 22:27:35,4.1_Georgia_Farmer_Auto, Driver details : Henry Joseph,Michelle Joseph, 2001-05-12,2001-05-25, Male,Female, ,Success
+05/15/2021 22:27:36,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 22:27:39,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 22:27:40,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 22:27:41,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 22:27:44,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 3 Get Name  ,Success
+05/15/2021 22:27:46,4.1_Georgia_Farmer_Auto, Add Driver NameHenry  Joseph ,Success
+05/15/2021 22:27:49,4.1_Georgia_Farmer_Auto, Driver matchHenry  Joseph ,Success
+05/15/2021 22:27:49,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 22:27:53,4.1_Georgia_Farmer_Auto, Driver not matchHenry  Joseph ,Success
+05/15/2021 22:27:53,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 22:27:54,4.1_Georgia_Farmer_Auto, Driver not matchHenry  Joseph ,Success
+05/15/2021 22:27:54,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 3 Get Name Henry ,Success
+05/15/2021 22:27:58,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 4 Get Name  ,Success
+05/15/2021 22:28:00,4.1_Georgia_Farmer_Auto, Add Driver NameMichelle  Joseph ,Success
+05/15/2021 22:28:02,4.1_Georgia_Farmer_Auto, Driver matchMichelle  Joseph ,Success
+05/15/2021 22:28:03,4.1_Georgia_Farmer_Auto, Vechicle selection 1NXBU4EE1AZ345875:COROL:2010:Toyota:Sedan,1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 22:28:03,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/15/2021 22:28:04,4.1_Georgia_Farmer_Auto, VIN Number 1NXBU4EE1AZ345875 1NXBU4EE1AZ345875 1, Success
+05/15/2021 22:28:05,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/15/2021 22:28:05,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 1, Success
+05/15/2021 22:28:09,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 2, Success
+05/15/2021 22:28:27,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/15/2021 22:28:31,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/15/2021 22:28:33,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/15/2021 22:28:34,4.1_Georgia_Farmer_Auto, Driver Count : 3, Success
+05/15/2021 22:28:35,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 22:28:36,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 22:28:37,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 22:28:43,4.1_Georgia_Farmer_Auto, Get gender for added drivers MICHELLE- FEMALE, Success
+05/15/2021 22:28:45,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/15/2021 22:28:45,4.1_Georgia_Farmer_Auto, Get gender for added drivers HENRY- MALE, Success
+05/15/2021 22:28:46,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/15/2021 22:28:47,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4217383644 Quote number 81226544, Success
+05/15/2021 22:28:50,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 1 , Success
+05/15/2021 22:28:52,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 2 , Success
+05/15/2021 22:35:23,Main,GA Insurance BOT Started,Success
+05/15/2021 22:35:25,2_GAInsurance_Setup,Module Started,Success
+05/15/2021 22:35:25,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/15/2021 22:35:25,Main,2_MLPInsurance_Setup Completed,Success
+05/15/2021 22:35:25,Main,BOT Start Time: 05/15/2021 22:35:23,Success
+05/15/2021 22:35:25,Main,BOT Start Time: 05/16/2021 19:35:23,Success
+05/15/2021 22:35:26,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 22:35:31,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/15/2021 22:35:56,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/15/2021 22:35:56,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/15/2021 22:35:56,3_GAInsurance_Processing,Token Generarted,Success
+05/15/2021 22:35:57,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 22:35:57,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 22:35:59,3_GAInsurance_Processing,Lead Fecthed : 2,Success
+05/15/2021 22:36:00,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007yVn8EAE"
+  },
+  "Id": "00Q7d000007yVn8EAE",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Manuel",
+  "Phone": "404-290-4511",
+  "Email": "pamelamanuel@gmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1954-03-04",
+  "Address": {
+    "city": "ATLANTA",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30331",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "478 Fairlane Circle Northwest"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-31T19:29:04+05:30"
+},Success
+05/15/2021 22:36:03,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 22:36:03,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 22:36:04,3_GAInsurance_Processing,Driver details: Henry Joseph,Michelle Joseph, 2001-05-12,2001-05-25, Male,Female, ,Success
+05/15/2021 22:36:04,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 22:36:04,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 22:36:04,3_GAInsurance_Processing, Vechicle details: 1NXBU4EE1AZ345875:COROL:2010:Toyota:Sedan,1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 22:36:17,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/15/2021 22:36:30,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/15/2021 22:36:39,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/15/2021 22:36:40,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/15/2021 22:36:45,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/15/2021 22:36:53,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/15/2021 22:36:53,4.1_Georgia_Farmer_Auto, Driver details : Henry Joseph,Michelle Joseph, 2001-05-12,2001-05-25, Male,Female, ,Success
+05/15/2021 22:36:54,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 22:36:57,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 22:36:58,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 22:36:58,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 22:37:02,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 3 Get Name  ,Success
+05/15/2021 22:37:04,4.1_Georgia_Farmer_Auto, Add Driver NameHenry  Joseph ,Success
+05/15/2021 22:37:07,4.1_Georgia_Farmer_Auto, Driver matchHenry  Joseph ,Success
+05/15/2021 22:37:07,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 22:37:11,4.1_Georgia_Farmer_Auto, Driver not matchHenry  Joseph ,Success
+05/15/2021 22:37:11,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 22:37:12,4.1_Georgia_Farmer_Auto, Driver not matchHenry  Joseph ,Success
+05/15/2021 22:37:12,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 3 Get Name Henry ,Success
+05/15/2021 22:37:16,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 4 Get Name  ,Success
+05/15/2021 22:37:18,4.1_Georgia_Farmer_Auto, Add Driver NameMichelle  Joseph ,Success
+05/15/2021 22:37:21,4.1_Georgia_Farmer_Auto, Driver matchMichelle  Joseph ,Success
+05/15/2021 22:37:21,4.1_Georgia_Farmer_Auto, Vechicle selection 1NXBU4EE1AZ345875:COROL:2010:Toyota:Sedan,1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 22:37:22,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/15/2021 22:37:22,4.1_Georgia_Farmer_Auto, VIN Number 1NXBU4EE1AZ345875 1NXBU4EE1AZ345875 1, Success
+05/15/2021 22:37:23,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/15/2021 22:37:24,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 1, Success
+05/15/2021 22:37:28,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 2, Success
+05/15/2021 22:37:44,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/15/2021 22:37:47,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/15/2021 22:37:50,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/15/2021 22:37:50,4.1_Georgia_Farmer_Auto, Driver Count : 3, Success
+05/15/2021 22:37:51,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 22:37:52,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 22:37:53,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 22:37:56,4.1_Georgia_Farmer_Auto, Get gender for added drivers HENRY- MALE, Success
+05/15/2021 22:37:58,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/15/2021 22:37:58,4.1_Georgia_Farmer_Auto, Get gender for added drivers MICHELLE- FEMALE, Success
+05/15/2021 22:37:59,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/15/2021 22:38:00,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4226822346 Quote number 28482846, Success
+05/15/2021 22:38:04,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 1 , Success
+05/15/2021 22:38:07,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 2 , Success
+05/15/2021 22:38:13,4.1_Georgia_Farmer_Auto, Clicked on Rate button, Success
+05/15/2021 22:42:17,Main,GA Insurance BOT Started,Success
+05/15/2021 22:42:19,2_GAInsurance_Setup,Module Started,Success
+05/15/2021 22:42:19,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/15/2021 22:42:19,Main,2_MLPInsurance_Setup Completed,Success
+05/15/2021 22:42:19,Main,BOT Start Time: 05/15/2021 22:42:17,Success
+05/15/2021 22:42:19,Main,BOT Start Time: 05/16/2021 19:42:17,Success
+05/15/2021 22:42:20,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 22:42:26,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/15/2021 22:42:33,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/15/2021 22:42:33,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/15/2021 22:42:33,3_GAInsurance_Processing,Token Generarted,Success
+05/15/2021 22:42:34,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 22:42:34,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 22:42:38,3_GAInsurance_Processing,Lead Fecthed : 2,Success
+05/15/2021 22:42:39,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007yVn8EAE"
+  },
+  "Id": "00Q7d000007yVn8EAE",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Manuel",
+  "Phone": "404-290-4511",
+  "Email": "pamelamanuel@gmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1954-03-04",
+  "Address": {
+    "city": "ATLANTA",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30331",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "478 Fairlane Circle Northwest"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-31T19:29:04+05:30"
+},Success
+05/15/2021 22:42:40,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 22:42:40,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 22:42:40,3_GAInsurance_Processing,Driver details: Henry Joseph,Michelle Joseph, 2001-05-12,2001-05-25, Male,Female, ,Success
+05/15/2021 22:42:40,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 22:42:41,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 22:42:41,3_GAInsurance_Processing, Vechicle details: 1NXBU4EE1AZ345875:COROL:2010:Toyota:Sedan,1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 22:42:46,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/15/2021 22:42:58,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/15/2021 22:43:07,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/15/2021 22:43:09,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/15/2021 22:43:12,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/15/2021 22:43:21,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/15/2021 22:43:21,4.1_Georgia_Farmer_Auto, Driver details : Henry Joseph,Michelle Joseph, 2001-05-12,2001-05-25, Male,Female, ,Success
+05/15/2021 22:43:22,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 22:43:25,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 22:43:26,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 22:43:26,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 22:43:30,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 3 Get Name  ,Success
+05/15/2021 22:43:32,4.1_Georgia_Farmer_Auto, Add Driver NameHenry  Joseph ,Success
+05/15/2021 22:43:34,4.1_Georgia_Farmer_Auto, Driver matchHenry  Joseph ,Success
+05/15/2021 22:43:35,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 22:43:39,4.1_Georgia_Farmer_Auto, Driver not matchHenry  Joseph ,Success
+05/15/2021 22:43:39,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 22:43:40,4.1_Georgia_Farmer_Auto, Driver not matchHenry  Joseph ,Success
+05/15/2021 22:43:41,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 3 Get Name Henry ,Success
+05/15/2021 22:43:44,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 4 Get Name  ,Success
+05/15/2021 22:43:46,4.1_Georgia_Farmer_Auto, Add Driver NameMichelle  Joseph ,Success
+05/15/2021 22:43:49,4.1_Georgia_Farmer_Auto, Driver matchMichelle  Joseph ,Success
+05/15/2021 22:43:49,4.1_Georgia_Farmer_Auto, Vechicle selection 1NXBU4EE1AZ345875:COROL:2010:Toyota:Sedan,1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 22:43:50,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/15/2021 22:43:51,4.1_Georgia_Farmer_Auto, VIN Number 1NXBU4EE1AZ345875 1NXBU4EE1AZ345875 1, Success
+05/15/2021 22:43:51,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/15/2021 22:43:52,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 1, Success
+05/15/2021 22:43:56,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 2, Success
+05/15/2021 22:44:14,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/15/2021 22:44:17,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/15/2021 22:44:20,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/15/2021 22:44:20,4.1_Georgia_Farmer_Auto, Driver Count : 3, Success
+05/15/2021 22:44:22,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 22:44:23,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 22:44:24,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 22:44:30,4.1_Georgia_Farmer_Auto, Get gender for added drivers MICHELLE- FEMALE, Success
+05/15/2021 22:44:31,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/15/2021 22:44:31,4.1_Georgia_Farmer_Auto, Get gender for added drivers HENRY- MALE, Success
+05/15/2021 22:44:33,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/15/2021 22:44:33,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4209201077 Quote number 99944977, Success
+05/15/2021 22:44:37,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 1 , Success
+05/15/2021 22:44:41,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 2 , Success
+05/15/2021 22:44:46,4.1_Georgia_Farmer_Auto, Clicked on Rate button, Success
+05/15/2021 22:45:15,4.1_Georgia_Farmer_Auto, Monthly EFT web page exist True, Success
+05/15/2021 22:47:21,Main,GA Insurance BOT Started,Success
+05/15/2021 22:47:22,2_GAInsurance_Setup,Module Started,Success
+05/15/2021 22:47:22,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/15/2021 22:47:23,Main,2_MLPInsurance_Setup Completed,Success
+05/15/2021 22:47:23,Main,BOT Start Time: 05/15/2021 22:47:21,Success
+05/15/2021 22:47:23,Main,BOT Start Time: 05/16/2021 19:47:21,Success
+05/15/2021 22:47:24,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 22:47:34,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/15/2021 22:47:40,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/15/2021 22:47:41,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/15/2021 22:47:41,3_GAInsurance_Processing,Token Generarted,Success
+05/15/2021 22:47:41,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 22:47:41,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 22:47:43,3_GAInsurance_Processing,Lead Fecthed : 2,Success
+05/15/2021 22:47:44,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007yVn8EAE"
+  },
+  "Id": "00Q7d000007yVn8EAE",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Manuel",
+  "Phone": "404-290-4511",
+  "Email": "pamelamanuel@gmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1954-03-04",
+  "Address": {
+    "city": "ATLANTA",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30331",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "478 Fairlane Circle Northwest"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-31T19:29:04+05:30"
+},Success
+05/15/2021 22:47:45,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 22:47:45,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 22:47:45,3_GAInsurance_Processing,Driver details: Henry Joseph,Michelle Joseph, 2001-05-12,2001-05-25, Male,Female, ,Success
+05/15/2021 22:47:46,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 22:47:46,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 22:47:46,3_GAInsurance_Processing, Vechicle details: 1NXBU4EE1AZ345875:COROL:2010:Toyota:Sedan,1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 22:47:52,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/15/2021 22:48:05,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/15/2021 22:48:14,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/15/2021 22:48:16,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/15/2021 22:48:23,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/15/2021 22:48:31,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/15/2021 22:48:32,4.1_Georgia_Farmer_Auto, Driver details : Henry Joseph,Michelle Joseph, 2001-05-12,2001-05-25, Male,Female, ,Success
+05/15/2021 22:48:32,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 22:48:36,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 22:48:36,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 22:48:37,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 22:48:41,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 3 Get Name  ,Success
+05/15/2021 22:48:43,4.1_Georgia_Farmer_Auto, Add Driver NameHenry  Joseph ,Success
+05/15/2021 22:48:45,4.1_Georgia_Farmer_Auto, Driver matchHenry  Joseph ,Success
+05/15/2021 22:48:46,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 22:48:50,4.1_Georgia_Farmer_Auto, Driver not matchHenry  Joseph ,Success
+05/15/2021 22:48:50,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 22:48:51,4.1_Georgia_Farmer_Auto, Driver not matchHenry  Joseph ,Success
+05/15/2021 22:48:51,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 3 Get Name Henry ,Success
+05/15/2021 22:48:55,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 4 Get Name  ,Success
+05/15/2021 22:48:57,4.1_Georgia_Farmer_Auto, Add Driver NameMichelle  Joseph ,Success
+05/15/2021 22:49:00,4.1_Georgia_Farmer_Auto, Driver matchMichelle  Joseph ,Success
+05/15/2021 22:49:00,4.1_Georgia_Farmer_Auto, Vechicle selection 1NXBU4EE1AZ345875:COROL:2010:Toyota:Sedan,1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 22:49:01,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/15/2021 22:49:02,4.1_Georgia_Farmer_Auto, VIN Number 1NXBU4EE1AZ345875 1NXBU4EE1AZ345875 1, Success
+05/15/2021 22:49:02,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/15/2021 22:49:03,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 1, Success
+05/15/2021 22:49:07,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 2, Success
+05/15/2021 22:49:23,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/15/2021 22:49:27,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/15/2021 22:49:29,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/15/2021 22:49:30,4.1_Georgia_Farmer_Auto, Driver Count : 3, Success
+05/15/2021 22:49:31,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 22:49:32,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 22:49:33,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 22:49:37,4.1_Georgia_Farmer_Auto, Get gender for added drivers MICHELLE- FEMALE, Success
+05/15/2021 22:49:38,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/15/2021 22:49:39,4.1_Georgia_Farmer_Auto, Get gender for added drivers HENRY- MALE, Success
+05/15/2021 22:49:40,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/15/2021 22:49:41,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4236730326 Quote number 32731626, Success
+05/15/2021 22:49:41,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 1 Owner , Success
+05/15/2021 22:49:45,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 2 Owner , Success
+05/15/2021 22:49:54,4.1_Georgia_Farmer_Auto, Clicked on Rate button, Success
+05/15/2021 22:54:41,Main,GA Insurance BOT Started,Success
+05/15/2021 22:54:43,2_GAInsurance_Setup,Module Started,Success
+05/15/2021 22:54:43,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/15/2021 22:54:43,Main,2_MLPInsurance_Setup Completed,Success
+05/15/2021 22:54:43,Main,BOT Start Time: 05/15/2021 22:54:41,Success
+05/15/2021 22:54:43,Main,BOT Start Time: 05/16/2021 19:54:41,Success
+05/15/2021 22:54:44,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 22:54:49,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/15/2021 22:54:59,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/15/2021 22:54:59,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/15/2021 22:54:59,3_GAInsurance_Processing,Token Generarted,Success
+05/15/2021 22:55:00,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 22:55:00,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 22:55:02,3_GAInsurance_Processing,Lead Fecthed : 2,Success
+05/15/2021 22:55:03,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007yVn8EAE"
+  },
+  "Id": "00Q7d000007yVn8EAE",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Manuel",
+  "Phone": "404-290-4511",
+  "Email": "pamelamanuel@gmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1954-03-04",
+  "Address": {
+    "city": "ATLANTA",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30331",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "478 Fairlane Circle Northwest"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-31T19:29:04+05:30"
+},Success
+05/15/2021 22:55:03,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 22:55:03,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 22:55:04,3_GAInsurance_Processing,Driver details: Henry Joseph,Michelle Joseph, 2001-05-12,2001-05-25, Male,Female, ,Success
+05/15/2021 22:55:04,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 22:55:04,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 22:55:05,3_GAInsurance_Processing, Vechicle details: 1NXBU4EE1AZ345875:COROL:2010:Toyota:Sedan,1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 22:55:09,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/15/2021 22:55:20,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/15/2021 22:55:30,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/15/2021 22:55:31,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/15/2021 22:55:34,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/15/2021 22:55:43,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/15/2021 22:55:43,4.1_Georgia_Farmer_Auto, Driver details : Henry Joseph,Michelle Joseph, 2001-05-12,2001-05-25, Male,Female, ,Success
+05/15/2021 22:55:44,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 22:55:47,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 22:55:48,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 22:55:49,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 22:55:52,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 3 Get Name  ,Success
+05/15/2021 22:55:54,4.1_Georgia_Farmer_Auto, Add Driver NameHenry  Joseph ,Success
+05/15/2021 22:55:57,4.1_Georgia_Farmer_Auto, Driver matchHenry  Joseph ,Success
+05/15/2021 22:55:57,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 22:56:01,4.1_Georgia_Farmer_Auto, Driver not matchHenry  Joseph ,Success
+05/15/2021 22:56:01,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 22:56:02,4.1_Georgia_Farmer_Auto, Driver not matchHenry  Joseph ,Success
+05/15/2021 22:56:03,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 3 Get Name Henry ,Success
+05/15/2021 22:56:06,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 4 Get Name  ,Success
+05/15/2021 22:56:09,4.1_Georgia_Farmer_Auto, Add Driver NameMichelle  Joseph ,Success
+05/15/2021 22:56:11,4.1_Georgia_Farmer_Auto, Driver matchMichelle  Joseph ,Success
+05/15/2021 22:56:12,4.1_Georgia_Farmer_Auto, Vechicle selection 1NXBU4EE1AZ345875:COROL:2010:Toyota:Sedan,1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 22:56:13,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/15/2021 22:56:13,4.1_Georgia_Farmer_Auto, VIN Number 1NXBU4EE1AZ345875 1NXBU4EE1AZ345875 1, Success
+05/15/2021 22:56:14,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/15/2021 22:56:15,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 1, Success
+05/15/2021 22:56:19,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 2, Success
+05/15/2021 22:56:34,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/15/2021 22:56:38,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/15/2021 22:56:41,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/15/2021 22:56:42,4.1_Georgia_Farmer_Auto, Driver Count : 3, Success
+05/15/2021 22:56:43,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 22:56:44,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 22:56:45,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 22:56:47,4.1_Georgia_Farmer_Auto, Get gender for added drivers MICHELLE- FEMALE, Success
+05/15/2021 22:56:48,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/15/2021 22:56:49,4.1_Georgia_Farmer_Auto, Get gender for added drivers HENRY- MALE, Success
+05/15/2021 22:56:50,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/15/2021 22:56:51,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4295353310 Quote number 53438810, Success
+05/15/2021 22:56:56,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 1 Owned , Success
+05/15/2021 22:56:57,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 2 Owned , Success
+05/15/2021 22:57:00,4.1_Georgia_Farmer_Auto, Clicked on Rate button, Success
+05/15/2021 22:57:00,4.1_Georgia_Farmer_Auto, Monthly EFT web page exist True, Success
+05/15/2021 22:57:10,4.1_Georgia_Farmer_Auto, 1 Pay; Bodily Injury and Property Damage selected , Success
+05/15/2021 22:57:18,4.1_Georgia_Farmer_Auto, Select all field and click on Rate button , Success
+05/15/2021 22:57:24,4.1_Georgia_Farmer_Auto, Get premium amount $4,127.90 Clicked on print proposal , Success
+05/15/2021 22:57:37,4.1_Georgia_Farmer_Auto, Print proposal window visibility True , Success
+05/15/2021 22:59:42,4.1_Georgia_Farmer_Auto,Technical Exception : Getting exception while working with Coverage page UiPath.Core.SelectorNotFoundException: Could not find the UI element corresponding to this selector:
+[1] <webctrl id='lifeCheckBox' name='lifeCheckBox' tag='INPUT' type='checkbox'/>
+
+Search failed at selector tag:
+[1] <webctrl id='lifeCheckBox' name='lifeCheckBox' tag='INPUT' type='checkbox'/>
+
+The closest matches found are:
+[85%] <webctrl id='policyCheckBox' name='policyCheckBox' tag='INPUT' type='checkbox'/>
+[82%] <webctrl id='lifeCheckBox_readonly' name='lifeCheckBox_readonly' tag='INPUT' type='checkbox'/>
+[78%] <webctrl id='prQtCheckBox' name='prQtCheckBox' tag='INPUT' type='checkbox'/>
+[78%] <webctrl id='autoCheckBox' name='autoCheckBox' tag='INPUT' type='checkbox'/>
+[78%] <webctrl id='autoCheckBox' name='autoCheckBox' tag='INPUT' type='checkbox'/>
+[76%] <webctrl id='umbrellaCheckBox' name='umbrellaCheckBox' tag='INPUT' type='checkbox'/>
+[70%] <webctrl id='insurancepackagecheckbox' name='insurancepackagecheckbox' tag='INPUT' type='checkbox'/>
+   at UiPath.Core.Activities.ScopeActivity.OnFaulted(NativeActivityFaultContext faultContext, Exception propagatedException, ActivityInstance propagatedFrom)
+   at System.Activities.Runtime.FaultCallbackWrapper.Invoke(NativeActivityFaultContext faultContext, Exception propagatedException, ActivityInstance propagatedFrom)
+   at System.Activities.Runtime.FaultCallbackWrapper.FaultWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager),Failed
+05/15/2021 23:18:21,Main,GA Insurance BOT Started,Success
+05/15/2021 23:18:23,2_GAInsurance_Setup,Module Started,Success
+05/15/2021 23:18:23,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/15/2021 23:18:23,Main,2_MLPInsurance_Setup Completed,Success
+05/15/2021 23:18:23,Main,BOT Start Time: 05/15/2021 23:18:20,Success
+05/15/2021 23:18:23,Main,BOT Start Time: 05/16/2021 20:18:20,Success
+05/15/2021 23:18:24,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 23:18:31,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/15/2021 23:18:41,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/15/2021 23:18:41,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/15/2021 23:18:42,3_GAInsurance_Processing,Token Generarted,Success
+05/15/2021 23:18:42,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 23:18:42,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 23:19:06,3_GAInsurance_Processing,Lead Fecthed : 3,Success
+05/15/2021 23:19:11,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007yXp5EAE"
+  },
+  "Id": "00Q7d000007yXp5EAE",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Carlton",
+  "LastName": "Watson",
+  "Phone": "706-351-4300",
+  "Email": "carlton123@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1982-10-20",
+  "Address": {
+    "city": "ATHENS",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30606",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "115 Christa Ln"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2021-01-06T18:54:44+05:30"
+},Success
+05/15/2021 23:19:11,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 23:19:11,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 23:19:12,3_GAInsurance_Processing,Driver details:    ,Success
+05/15/2021 23:19:13,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 23:19:13,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 23:19:13,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/15/2021 23:19:17,3_GAInsurance_Processing,  There is no Vechicle and driver details found, Success
+05/15/2021 23:19:22,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-15T17:49:11",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-15T17:49:11",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "There is no Vechicle and driver details found",
+    "Bot_Update__c" : null
+},Success
+05/15/2021 23:19:24,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/15/2021 23:19:26,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007yVn8EAE"
+  },
+  "Id": "00Q7d000007yVn8EAE",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Manuel",
+  "Phone": "404-290-4511",
+  "Email": "pamelamanuel@gmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1954-03-04",
+  "Address": {
+    "city": "ATLANTA",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30331",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "478 Fairlane Circle Northwest"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-31T19:29:04+05:30"
+},Success
+05/15/2021 23:19:27,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 23:19:27,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 23:19:28,3_GAInsurance_Processing,Driver details: Henry Joseph,Michelle Joseph, 2001-05-12,2001-05-25, Male,Female, ,Success
+05/15/2021 23:19:29,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 23:19:29,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 23:19:29,3_GAInsurance_Processing, Vechicle details: 1NXBU4EE1AZ345875:COROL:2010:Toyota:Sedan,1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 23:19:37,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/15/2021 23:19:50,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/15/2021 23:20:01,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/15/2021 23:20:02,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/15/2021 23:20:07,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/15/2021 23:20:15,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/15/2021 23:20:15,4.1_Georgia_Farmer_Auto, Driver details : Henry Joseph,Michelle Joseph, 2001-05-12,2001-05-25, Male,Female, ,Success
+05/15/2021 23:20:16,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 23:20:20,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 23:20:21,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 23:20:22,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 23:20:25,4.1_Georgia_Farmer_Auto, Driver Name Henry Joseph counter 3 Get Name  ,Success
+05/15/2021 23:20:27,4.1_Georgia_Farmer_Auto, Add Driver NameHenry  Joseph ,Success
+05/15/2021 23:20:30,4.1_Georgia_Farmer_Auto, Driver matchHenry  Joseph ,Success
+05/15/2021 23:20:31,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 23:20:35,4.1_Georgia_Farmer_Auto, Driver not matchHenry  Joseph ,Success
+05/15/2021 23:20:35,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 2 Get Name VONTORI ,Success
+05/15/2021 23:20:36,4.1_Georgia_Farmer_Auto, Driver not matchHenry  Joseph ,Success
+05/15/2021 23:20:37,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 3 Get Name Henry ,Success
+05/15/2021 23:20:41,4.1_Georgia_Farmer_Auto, Driver Name Michelle Joseph counter 4 Get Name  ,Success
+05/15/2021 23:20:43,4.1_Georgia_Farmer_Auto, Add Driver NameMichelle  Joseph ,Success
+05/15/2021 23:20:46,4.1_Georgia_Farmer_Auto, Driver matchMichelle  Joseph ,Success
+05/15/2021 23:20:47,4.1_Georgia_Farmer_Auto, Vechicle selection 1NXBU4EE1AZ345875:COROL:2010:Toyota:Sedan,1J8HH48K96C296010:Camry:2001:Sedan:Toyota, ,Success
+05/15/2021 23:20:48,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/15/2021 23:20:48,4.1_Georgia_Farmer_Auto, VIN Number 1NXBU4EE1AZ345875 1NXBU4EE1AZ345875 1, Success
+05/15/2021 23:20:49,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/15/2021 23:20:50,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 1, Success
+05/15/2021 23:20:55,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296010 1NXBU4EE1AZ345875 2, Success
+05/15/2021 23:21:12,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/15/2021 23:21:16,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/15/2021 23:21:18,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/15/2021 23:21:19,4.1_Georgia_Farmer_Auto, Driver Count : 3, Success
+05/15/2021 23:21:20,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 23:21:21,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 23:21:23,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 23:21:25,4.1_Georgia_Farmer_Auto, Get gender for added drivers HENRY- MALE, Success
+05/15/2021 23:21:26,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/15/2021 23:21:27,4.1_Georgia_Farmer_Auto, Get gender for added drivers MICHELLE- FEMALE, Success
+05/15/2021 23:21:28,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/15/2021 23:21:29,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4281274852 Quote number 68632652, Success
+05/15/2021 23:21:34,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 1 Owned , Success
+05/15/2021 23:21:36,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 2 Owned , Success
+05/15/2021 23:21:38,4.1_Georgia_Farmer_Auto, Clicked on Rate button, Success
+05/15/2021 23:21:38,4.1_Georgia_Farmer_Auto, Monthly EFT web page exist True, Success
+05/15/2021 23:21:45,4.1_Georgia_Farmer_Auto, 1 Pay; Bodily Injury and Property Damage selected , Success
+05/15/2021 23:21:53,4.1_Georgia_Farmer_Auto, Select all field and click on Rate button , Success
+05/15/2021 23:21:59,4.1_Georgia_Farmer_Auto, Get premium amount $4,127.90 Clicked on print proposal , Success
+05/15/2021 23:22:07,4.1_Georgia_Farmer_Auto, Print proposal window visibility True , Success
+05/15/2021 23:22:11,4.1_Georgia_Farmer_Auto, Check Policy; Uncheck prior quote; Check Include insurance package and uncheck life proposal change , Success
+05/15/2021 23:22:16,4.1_Georgia_Farmer_Auto, Clicked on VIP Print and validate Save as window , Success
+05/15/2021 23:22:17,4.1_Georgia_Farmer_Auto, Clicked on Print button , Success
+05/15/2021 23:22:20,4.1_Georgia_Farmer_Auto, Clicked on download button , Success
+05/15/2021 23:22:31,4.1_Georgia_Farmer_Auto, Set PDF file path and save C:\Users\Admin\Documents\UiPath\Georgia_Auto_Insurance\Policies\00G3h000000ItBuEAK.pdf, Success
+05/15/2021 23:22:33,4.1_Georgia_Farmer_Auto, Already pdf exist pop up found , Success
+05/15/2021 23:22:52,3_GAInsurance_Processing, Status : Success Status Description :  ,Success
+05/15/2021 23:22:52,3_GAInsurance_Processing, Quote # : 68632652 Household # :: 4281274852 Policy Amount : $4,127.90 ,Success
+05/15/2021 23:23:00,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Start_Date_Time__c" : "2021-05-15T17:49:27",
+    "Bot_Quoted_Standard_Premium__c" : "4127.90",
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-15T17:49:27",
+    "Farmers_Policy_Center_Link__c" : "https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=gateway&actionType=retreiveQuote&source=SIMS&householdNumber=4281274852&quoteNumber=68632652&agentOfRec=4419HR&lineOfBusiness=F&firstName=&lastName=&quoteType=Express&company=EXP&state=GA",
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": null,
+    "Bot_Update__c" : "Sucessfully quote generated"
+},Success
+05/15/2021 23:23:04,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/15/2021 23:23:06,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T18:42:15+05:30"
+},Success
+05/15/2021 23:23:06,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 23:23:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 23:23:07,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/15/2021 23:23:08,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 23:23:08,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/15/2021 23:23:08,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/15/2021 23:23:14,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/15/2021 23:23:25,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/15/2021 23:23:34,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/15/2021 23:23:36,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/15/2021 23:23:41,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/15/2021 23:23:50,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/15/2021 23:23:50,4.1_Georgia_Farmer_Auto, Driver details : Anderson Joseph, 2000-05-05, Male, ,Success
+05/15/2021 23:23:51,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 1 Get Name PAMELA ,Success
+05/15/2021 23:23:54,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 23:23:55,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 2 Get Name SHANISE ,Success
+05/15/2021 23:23:59,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 23:23:59,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 3 Get Name WILLIE ,Success
+05/15/2021 23:24:00,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 23:24:01,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 4 Get Name JESSICA ,Success
+05/15/2021 23:24:02,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/15/2021 23:24:06,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 5 Get Name  ,Success
+05/15/2021 23:24:08,4.1_Georgia_Farmer_Auto, Add Driver NameAnderson  Joseph ,Success
+05/15/2021 23:24:10,4.1_Georgia_Farmer_Auto, Driver matchAnderson  Joseph ,Success
+05/15/2021 23:24:11,4.1_Georgia_Farmer_Auto, Vechicle selection 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/15/2021 23:24:12,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/15/2021 23:24:13,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G1NE52M7X6216867 1, Success
+05/15/2021 23:24:15,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G2AK37A4CP535041 2, Success
+05/15/2021 23:24:17,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G4BT52PXRR437449 3, Success
+05/15/2021 23:24:21,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G4BT52PXRR437449 4, Success
+05/15/2021 23:24:46,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/15/2021 23:24:50,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/15/2021 23:24:53,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/15/2021 23:24:53,4.1_Georgia_Farmer_Auto, Driver Count : 3, Success
+05/15/2021 23:24:54,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 23:24:56,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 23:24:57,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/15/2021 23:24:59,4.1_Georgia_Farmer_Auto, Get gender for added drivers ANDERSON- MALE, Success
+05/15/2021 23:25:01,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/15/2021 23:25:02,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/15/2021 23:25:03,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4215858319 Quote number 55973519, Success
+05/15/2021 23:25:06,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 1 Owned , Success
+05/15/2021 23:25:08,4.1_Georgia_Farmer_Auto, Clicked on Rate button, Success
+05/15/2021 23:25:09,4.1_Georgia_Farmer_Auto, Monthly EFT web page exist True, Success
+05/15/2021 23:25:15,4.1_Georgia_Farmer_Auto, 1 Pay; Bodily Injury and Property Damage selected , Success
+05/15/2021 23:25:23,4.1_Georgia_Farmer_Auto, Select all field and click on Rate button , Success
+05/15/2021 23:25:29,4.1_Georgia_Farmer_Auto, Get premium amount $1,612.30 Clicked on print proposal , Success
+05/15/2021 23:25:35,4.1_Georgia_Farmer_Auto, Print proposal window visibility True , Success
+05/15/2021 23:25:38,4.1_Georgia_Farmer_Auto, Check Policy; Uncheck prior quote; Check Include insurance package and uncheck life proposal change , Success
+05/15/2021 23:25:41,4.1_Georgia_Farmer_Auto, Clicked on VIP Print and validate Save as window , Success
+05/15/2021 23:25:41,4.1_Georgia_Farmer_Auto, Clicked on Print button , Success
+05/15/2021 23:25:43,4.1_Georgia_Farmer_Auto, Clicked on download button , Success
+05/15/2021 23:25:45,4.1_Georgia_Farmer_Auto, Set PDF file path and save C:\Users\Admin\Documents\UiPath\Georgia_Auto_Insurance\Policies\00G3h000000ItBuEAK.pdf, Success
+05/15/2021 23:25:47,4.1_Georgia_Farmer_Auto, Already pdf exist pop up found , Success
+05/15/2021 23:25:58,3_GAInsurance_Processing, Status : Success Status Description :  ,Success
+05/15/2021 23:25:58,3_GAInsurance_Processing, Quote # : 55973519 Household # :: 4215858319 Policy Amount : $1,612.30 ,Success
+05/15/2021 23:27:48,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Start_Date_Time__c" : "2021-05-15T17:53:06",
+    "Bot_Quoted_Standard_Premium__c" : "1612.30",
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-15T17:53:06",
+    "Farmers_Policy_Center_Link__c" : "https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=gateway&actionType=retreiveQuote&source=SIMS&householdNumber=4215858319&quoteNumber=55973519&agentOfRec=4419HR&lineOfBusiness=F&firstName=&lastName=&quoteType=Express&company=EXP&state=GA",
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": null,
+    "Bot_Update__c" : "Sucessfully quote generated"
+},Success
+05/15/2021 23:27:50,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/15/2021 23:27:54,3_GAInsurance_Processing,Module Started,Success
+05/15/2021 23:28:00,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/15/2021 23:28:00,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success

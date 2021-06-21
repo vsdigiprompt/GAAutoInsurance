@@ -1,0 +1,200 @@
+Name,Value
+cLogFolderPath,C:\Users\Admin\Documents\UiPath\Georgia_Auto_Insurance\Logs
+cErrorScreenshotFolderPath,C:\Users\Admin\Documents\UiPath\Georgia_Auto_Insurance\ErrorScreenShotFolder
+cReportFolderPath,C:\Users\Admin\Documents\UiPath\Georgia_Auto_Insurance\Reports
+cTempFolderPath,C:\Users\Admin\Documents\UiPath\Georgia_Auto_Insurance\Temp
+cUSZipCodeFilePath,C:\Users\Admin\Documents\UiPath\Georgia_Auto_Insurance\US ZIP Code DB.csv
+cPolicyFolderPath,C:\Users\Admin\Documents\UiPath\Georgia_Auto_Insurance\Policies
+cURL,https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical
+cSecureQuestion,Rodeo
+cTempDOB,1995-01-01
+cTempGender,Male
+cEffectiveDay,7
+cSourceCategory,Direct contact
+cLeadCategory,Direct contact: other
+cCustomerConsent,CONSENT_YES
+cDriverAge,16
+cDriverMatch,Accepted
+cDriverNotMatch,Out of the Household
+cDriverAgeLessThan16,Never Licensed
+cCarType,Sedan
+cResidenceType,Owns a Private Dwelling
+cGetAgedLicense,16
+cHHRelation,OTHER
+cVechicleOwnership,Owned
+cBodilyInjury,50/100
+cPropertyDamage,50
+cUmUmbi,50/100
+cUmbiPd,50/250
+cUmbiPdAdded,
+cMedicalCoverage,
+cComprehensive,1000
+cCollision,1000
+cGlassBuyback,
+cTowingRoadService,
+cCollisionPlus,
+cRentalReuimbursement,
+cResidualDebt,
+cRideShareCoverage,
+cItemAuto,
+cShortDelay,2
+cMediumDelay,5
+cLongDelay,7
+cRetry,1
+cKnownErrorRetry,2
+cWaitCounter,15
+cImplitWait,15
+cMakeChar,2
+cModelChar,2
+cEFTFutureInstallment,Checking/Savings
+cDownPaymentMethod,Checking/Savings
+cSignature,Yes
+cLicenseType,Valid US License
+cMaritalStatus,Single
+cRelationToInsured,Other
+cContinuousLiabiltyYear,3
+cFromEmailAddress,jitendergupta0107@gmail.com
+cReceiversMailAddress,jitendergupta0107@gmail.com
+cCCEmail,jitendergupta0107@gmail.com
+cSubjectEmail,Farmer Insurance
+cEndPointSelectRequest,"https://cs65.salesforce.com/services/data/v49.0/query?q=SELECT+Id,Status,LeadSource,FirstName,LastName,Phone,Email,Gender__c,D_O_B__c,Address,OwnerId,CreatedDate+FROM+Lead+where+(Bot_Lead_Status__c='Test'+OR+Bot_Lead_Status__c='Success_D'+OR+Bot_Lead_Status__c='Exception_D'+OR+Bot_Lead_Status__c='Business Exception_D'+OR+Bot_Lead_Status__c='Unknown Error_D'+OR+Bot_Lead_Status__c='Exception')+and+Lines_of_Business__c='Auto'+and+CreatedDate+%3e+2020-10-28T00:00:00.000%2B0000"
+cEndPointFetchDriverDataRequest,"https://cs65.salesforce.com/services/data/v49.0/query?q=SELECT+Name,Gender__c,Date_of_Birth__c+FROM+Driver__c+where+Lead__c='vLeadID'"
+cEndPointFetchVehicleDataRequest,"https://cs65.salesforce.com/services/data/v49.0/query?q=SELECT+VIN__c,Year__c,Make__c,Model__c,Sub_Model__c+FROM+Vehicle__c+where+Lead__c='vLeadID'"
+cEndPointAccessTokenRequest,https://cs65.salesforce.com/services/oauth2/token
+cSuccessStatusCode,200
+cBOTUpdateJSONBodyStatus,"{
+    ""Bot_Lead_Status__c"" : ""vFinalStatus"",
+    ""Start_Date_Time__c"" : ""vStartTime"",
+    ""Bot_Quoted_Farmers_Auto_Premium__c"" : ""FP"",
+    ""Bot_Quoted_Bristol_West_Auto_Premium__c"" : ""BP"",
+    ""End_Date_Time__c"" : ""vEndTime"",
+    ""Farmers_Policy_Center_Link__c"" : ""vFarmersPolicyCenterLink"",
+    ""Bristol_West_Policy_Center_Link__c"" : ""vBristolPolicyCenterLink"",
+    ""Bot_Exception_Reason__c"": ""vReason"",
+    ""Bot_Update__c"" : ""vBOTUpdateStatus""
+}"
+cJSONProgressUpdateBody,"{
+    ""Georgia_Auto_Bot_Progress__c"" : ""vProgress""
+}"
+cSalesforceUpdateEndPointUri,https://cs65.salesforce.com/services/data/v49.0/sobjects/Lead/
+cBOTDuration,21
+cBOTWaitTimeInSec,30
+cPortNumber,465
+cSMTPServer,smtp.gmail.com
+cGender,Male
+cEmailName,Auto Insurance
+cStartStopMailAddress,jitendergupta0107@gmail.com
+cExceptionMailAddress,jitendergupta0107@gmail.com
+cSuccessMailAddress,jitendergupta0107@gmail.com
+cUnknownErrorMailAddress,jitendergupta0107@gmail.com
+cReportOutMailAddress,jitendergupta0107@gmail.com
+cSendMailToCustomer,No
+cSuccessMailSubject,CUSTOMER FIRST NAME! Your Farmers Insurance Quote is Attached!
+cBristolWestSuccessSubject,CUSTOMER FIRST NAME! Your Bristol West Auto Insurance Quote is Attached!
+cBothPortalSuccessSubject,CUSTOMER FIRST NAME! Your Farmers Auto Insurance Quote is Attached!
+cSuccessMailBody,"<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>Hello Customer Name!</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'><strong><span style=""color:red;"">Please read the entirety of this email.</span></strong></p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>We have finished an automatic, preliminary auto insurance quote for you based on the information you have submitted online.&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>We ran your quote with Farmers Insurance and Bristol West Auto Group. We have more carriers that we can quote with, so just let us know if you would like more options.</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'><strong><span style=""font-size:19px;"">Here is what we have so far:</span></strong></p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>Farmers Auto Insurance Premium: <strong>FSIXMONTHPREM every 6 months</strong> or <strong>FPERMONTHPREM Per Month</strong></p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'><br>&nbsp;<strong><span style=""font-size:19px;"">We still need to confirm the following details with you:</span></strong></p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<ul style=""list-style-type: disc;"">
+    <li>What Coverage Options You Would Like (Liability, Deductibles)</li>
+    <li>The Correct Cars We Want to Insure</li>
+    <li>The Correct Drivers We Want to Insure&nbsp;</li>
+    <li>The Garaging Address</li>
+    <li>Driving History (Tickets, Accidents, Claims)</li>
+</ul>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>Although we try to get accurate quotes, given the automatic nature of our system and lack of information up front, we are bound to miss a few things with this quote.</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>We would love to schedule a time with you to go over this together and update your cars, drivers, and coverages to find a policy that is suitable for you.&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p><span style='font-size:16px;font-family:""Times New Roman"",serif;'>Disclaimer: This quote was generated automatically with the information you provided online. We have <strong>not</strong> run your auto driving history or credit details to get a final quote. Please contact us to get a finalized version of your quote so you can receive the most accurate premium and pricing.</span></p>
+<p><span style='font-size:14px;font-family:""Arial"",sans-serif;color:#080707;background:white;'>Thank you!</span><span style='font-size:14px;font-family:""Arial"",sans-serif;color:#080707;'><br> <br> <br> <span style=""background:white;"">The Farmers Insurance Team - Lake Nona Office</span><br> <br> <span style=""background:white;"">407-693-0801</span><br> <br> <span style=""background:white;"">9462 Narcoossee Rd</span><br> <br> <span style=""background:white;"">Orlando, FL 32827</span></span></p>"
+cBristolWestSuccessMailBody,"<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>Hello Customer Name!</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'><strong><span style=""color:red;"">Please read the entirety of this email.</span></strong></p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>We have finished an automatic, preliminary auto insurance quote for you based on the information you have submitted online.&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>We ran your quote with Farmers Insurance and Bristol West Auto Group. We have more carriers that we can quote with, so just let us know if you would like more options.</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'><strong><span style=""font-size:19px;"">Here is what we have so far:</span></strong></p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>Bristol West Auto Insurance Premium: <strong>BSIXMONTHPREM every 6 months</strong> or <strong>BPERMONTHPREM Per Month</strong></p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'><br><strong><span style=""font-size:19px;"">We still need to confirm the following details with you:</span></strong></p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<ul style=""list-style-type: disc;"">
+    <li>What Coverage Options You Would Like (Liability, Deductibles)</li>
+    <li>The Correct Cars We Want to Insure</li>
+    <li>The Correct Drivers We Want to Insure&nbsp;</li>
+    <li>The Garaging Address</li>
+    <li>Driving History (Tickets, Accidents, Claims)</li>
+</ul>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>Although we try to get accurate quotes, given the automatic nature of our system and lack of information up front, we are bound to miss a few things with this quote.</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>We would love to schedule a time with you to go over this together and update your cars, drivers, and coverages to find a policy that is suitable for you.&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p><span style='font-size:16px;font-family:""Times New Roman"",serif;'>Disclaimer: This quote was generated automatically with the information you provided online. We have <strong>not</strong> run your auto driving history or credit details to get a final quote. Please contact us to get a finalized version of your quote so you can receive the most accurate premium and pricing.</span></p>
+<p><span style='font-size:14px;font-family:""Arial"",sans-serif;color:#080707;background:white;'>Thank you!</span><span style='font-size:14px;font-family:""Arial"",sans-serif;color:#080707;'><br> <br> <br> <span style=""background:white;"">The Farmers Insurance Team - Lake Nona Office</span><br> <br> <span style=""background:white;"">407-693-0801</span><br> <br> <span style=""background:white;"">9462 Narcoossee Rd</span><br> <br> <span style=""background:white;"">Orlando, FL 32827</span></span></p>"
+cBothPortalSuccessMailBody,"<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>Hello Customer Name!</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'><strong><span style=""color:red;"">Please read the entirety of this email.</span></strong></p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>We have finished an automatic, preliminary auto insurance quote for you based on the information you have submitted online.&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>We ran your quote with Farmers Insurance and Bristol West Auto Group. We have more carriers that we can quote with, so just let us know if you would like more options.</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'><strong><span style=""font-size:19px;"">Here is what we have so far:</span></strong></p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>Bristol West Auto Insurance Premium: <strong>BSIXMONTHPREM every 6 months</strong> or <strong>BPERMONTHPREM Per Month</strong></p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>Farmers Auto Insurance Premium: <strong style='font-weight: 700; color: rgb(0, 0, 0); font-family: ""Times New Roman"", serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>FSIXMONTHPREM</strong> <strong>&nbsp;every 6 months</strong> or <strong style='font-weight: 700; color: rgb(0, 0, 0); font-family: ""Times New Roman"", serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>FPERMONTHPREM</strong> <strong>&nbsp;Per Month</strong></p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'><br><strong><span style=""font-size:19px;"">We still need to confirm the following details with you:</span></strong></p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<ul style=""list-style-type: disc;"">
+    <li>What Coverage Options You Would Like (Liability, Deductibles)</li>
+    <li>The Correct Cars We Want to Insure</li>
+    <li>The Correct Drivers We Want to Insure&nbsp;</li>
+    <li>The Garaging Address</li>
+    <li>Driving History (Tickets, Accidents, Claims)</li>
+</ul>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>Although we try to get accurate quotes, given the automatic nature of our system and lack of information up front, we are bound to miss a few things with this quote.</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>We would love to schedule a time with you to go over this together and update your cars, drivers, and coverages to find a policy that is suitable for you.&nbsp;</p>
+<p style='margin:0in;font-size:16px;font-family:""Times New Roman"",serif;'>&nbsp;</p>
+<p><span style='font-size:16px;font-family:""Times New Roman"",serif;'>Disclaimer: This quote was generated automatically with the information you provided online. We have <strong>not</strong> run your auto driving history or credit details to get a final quote. Please contact us to get a finalized version of your quote so you can receive the most accurate premium and pricing.</span></p>
+<p><span style='font-size:14px;font-family:""Arial"",sans-serif;color:#080707;background:white;'>Thank you!</span><span style='font-size:14px;font-family:""Arial"",sans-serif;color:#080707;'><br> <br> <br> <span style=""background:white;"">The Farmers Insurance Team - Lake Nona Office</span><br> <br> <span style=""background:white;"">407-693-0801</span><br> <br> <span style=""background:white;"">9462 Narcoossee Rd</span><br> <br> <span style=""background:white;"">Orlando, FL 32827</span></span></p>"
+cStatusesToSendMailToCustomer,"Smart Financial,EverQuote,QuoteWizard,Hometown Quotes,Google Lead"
+cCreateContentVersionUri,https://equityflo-veruna.my.salesforce.com/services/data/v49.0/sobjects/ContentVersion
+cCreateContentVersionJSON,"{
+    ""Title"": ""vFileName"",
+    ""PathOnClient"": ""vFileNameWithExtension"",
+    ""ContentLocation"": ""S"",
+    ""VersionData"": ""vBase64Encode""
+}"
+cGetContentVersionIdUri,https://equityflo-veruna.my.salesforce.com/services/data/v49.0/query?q=SELECT+ContentDocumentId+FROM+ContentVersion+WHERE+Id+=+'vContentVersionId'
+cDocumentLinkUri,https://equityflo-veruna.my.salesforce.com/services/data/v49.0/sobjects/ContentDocumentLink
+cDocumentLinkJSON,"{
+    ""ContentDocumentId"": ""vContentDocumentId"",
+    ""LinkedEntityId"": ""vLeadId"",
+    ""Visibility"": ""Allusers""
+}"
+cFarmersPolicyCenterLink,https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=gateway&actionType=retreiveQuote&source=SIMS&householdNumber=vHouseHoldNumber&quoteNumber=vQuoteNumber&agentOfRec=4419HR&lineOfBusiness=F&firstName=&lastName=&quoteType=Express&company=EXP&state=GA
+cBristolPolicyCenterLink,https://www2.bwproducers.com/search/default.aspx?SubAction=LOADQUOTE&LOB=APV
+cFarmerToBWCOverageLimitMappingFilePath,F:\MLP Auto Insurance Bot\Farmers to BW Mapping for BI Coverage.csv

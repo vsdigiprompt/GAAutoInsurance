@@ -1,0 +1,412 @@
+﻿Date_Time,Module,Action,Status,Exception
+05/14/2021 22:44:29,Main,GA Insurance BOT Started,Success
+05/14/2021 22:44:32,2_GAInsurance_Setup,Module Started,Success
+05/14/2021 22:44:32,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/14/2021 22:44:32,Main,2_MLPInsurance_Setup Completed,Success
+05/14/2021 22:44:32,Main,BOT Start Time: 05/14/2021 22:44:28,Success
+05/14/2021 22:44:32,Main,BOT Start Time: 05/15/2021 19:44:28,Success
+05/14/2021 22:44:33,3_GAInsurance_Processing,Module Started,Success
+05/14/2021 22:44:42,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/14/2021 22:44:55,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/14/2021 22:44:55,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/14/2021 22:44:55,3_GAInsurance_Processing,Token Generarted,Success
+05/14/2021 22:44:56,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/14/2021 22:44:56,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/14/2021 22:45:01,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/14/2021 22:45:01,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/14/2021 22:45:19,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+05/14/2021 22:45:21,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+05/14/2021 22:45:32,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+05/14/2021 22:45:32,Login_Georgia_AutoInsurance_Portal,,
+05/14/2021 22:45:43,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T18:42:15+05:30"
+},Success
+05/14/2021 22:45:44,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/14/2021 22:45:44,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/14/2021 22:45:44,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/14/2021 22:45:45,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/14/2021 22:45:45,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/14/2021 22:45:45,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/14/2021 22:45:54,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/14/2021 22:46:08,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/14/2021 22:46:18,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/14/2021 22:46:20,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/14/2021 22:46:27,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/14/2021 22:46:36,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/14/2021 22:46:36,4.1_Georgia_Farmer_Auto, Driver details : Anderson Joseph, 2000-05-05, Male, ,Success
+05/14/2021 22:46:37,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 1 Get Name PAMELA ,Success
+05/14/2021 22:46:40,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/14/2021 22:46:41,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 2 Get Name SHANISE ,Success
+05/14/2021 22:46:45,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/14/2021 22:46:45,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 3 Get Name WILLIE ,Success
+05/14/2021 22:46:46,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/14/2021 22:46:47,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 4 Get Name JESSICA ,Success
+05/14/2021 22:46:47,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/14/2021 22:46:51,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 5 Get Name  ,Success
+05/14/2021 22:46:53,4.1_Georgia_Farmer_Auto, Add Driver NameAnderson  Joseph ,Success
+05/14/2021 22:46:56,4.1_Georgia_Farmer_Auto, Driver matchAnderson  Joseph ,Success
+05/14/2021 22:46:57,4.1_Georgia_Farmer_Auto, Vechicle selection 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/14/2021 22:46:58,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/14/2021 22:46:58,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G1NE52M7X6216867 1, Success
+05/14/2021 22:47:00,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G2AK37A4CP535041 2, Success
+05/14/2021 22:47:02,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G4BT52PXRR437449 3, Success
+05/14/2021 22:47:06,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G4BT52PXRR437449 4, Success
+05/14/2021 22:47:19,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/14/2021 22:47:23,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/14/2021 22:47:26,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/14/2021 22:47:27,4.1_Georgia_Farmer_Auto, Driver Count : 3, Success
+05/14/2021 22:47:28,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/14/2021 22:47:29,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/14/2021 22:47:30,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/14/2021 22:47:41,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/14/2021 22:57:51,Main,GA Insurance BOT Started,Success
+05/14/2021 22:57:53,2_GAInsurance_Setup,Module Started,Success
+05/14/2021 22:57:53,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/14/2021 22:57:53,Main,2_MLPInsurance_Setup Completed,Success
+05/14/2021 22:57:53,Main,BOT Start Time: 05/14/2021 22:57:50,Success
+05/14/2021 22:57:53,Main,BOT Start Time: 05/15/2021 19:57:50,Success
+05/14/2021 22:57:55,3_GAInsurance_Processing,Module Started,Success
+05/14/2021 22:58:00,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/14/2021 22:58:28,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/14/2021 22:58:29,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/14/2021 22:58:29,3_GAInsurance_Processing,Token Generarted,Success
+05/14/2021 22:58:29,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/14/2021 22:58:29,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/14/2021 22:58:31,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/14/2021 22:58:44,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T18:42:15+05:30"
+},Success
+05/14/2021 22:58:45,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/14/2021 22:58:45,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/14/2021 22:58:46,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/14/2021 22:58:46,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/14/2021 22:58:46,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/14/2021 22:58:47,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/14/2021 22:58:53,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/14/2021 22:59:04,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/14/2021 22:59:13,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/14/2021 22:59:15,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/14/2021 22:59:18,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/14/2021 22:59:26,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/14/2021 22:59:27,4.1_Georgia_Farmer_Auto, Driver details : Anderson Joseph, 2000-05-05, Male, ,Success
+05/14/2021 22:59:28,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 1 Get Name PAMELA ,Success
+05/14/2021 22:59:31,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/14/2021 22:59:32,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 2 Get Name SHANISE ,Success
+05/14/2021 22:59:35,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/14/2021 22:59:36,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 3 Get Name WILLIE ,Success
+05/14/2021 22:59:37,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/14/2021 22:59:37,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 4 Get Name JESSICA ,Success
+05/14/2021 22:59:38,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/14/2021 22:59:42,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 5 Get Name  ,Success
+05/14/2021 22:59:44,4.1_Georgia_Farmer_Auto, Add Driver NameAnderson  Joseph ,Success
+05/14/2021 22:59:47,4.1_Georgia_Farmer_Auto, Driver matchAnderson  Joseph ,Success
+05/14/2021 22:59:48,4.1_Georgia_Farmer_Auto, Vechicle selection 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/14/2021 22:59:48,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/14/2021 22:59:49,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G1NE52M7X6216867 1, Success
+05/14/2021 22:59:51,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G2AK37A4CP535041 2, Success
+05/14/2021 22:59:52,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G4BT52PXRR437449 3, Success
+05/14/2021 22:59:57,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G4BT52PXRR437449 4, Success
+05/14/2021 23:00:10,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/14/2021 23:00:13,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/14/2021 23:00:15,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/14/2021 23:00:16,4.1_Georgia_Farmer_Auto, Driver Count : 3, Success
+05/14/2021 23:00:17,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/14/2021 23:00:18,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/14/2021 23:00:19,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/14/2021 23:00:36,4.1_Georgia_Farmer_Auto, Get gender for added drivers ANDERSON- MALE, Success
+05/14/2021 23:00:37,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/14/2021 23:00:38,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/14/2021 23:00:39,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4240317032 Quote number 11598932, Success
+05/14/2021 23:00:42,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles and clicked on rate button, Success
+05/14/2021 23:00:42,4.1_Georgia_Farmer_Auto, Monthly EFT web page exist True, Success
+05/14/2021 23:00:49,4.1_Georgia_Farmer_Auto, 1 Pay; Bodily Injury and Property Damage selected , Success
+05/14/2021 23:00:57,4.1_Georgia_Farmer_Auto, Select all field and click on Rate button , Success
+05/14/2021 23:01:03,4.1_Georgia_Farmer_Auto, Get premium amount $1,612.30 Clicked on print proposal , Success
+05/14/2021 23:01:17,4.1_Georgia_Farmer_Auto, Print proposal window visibility True , Success
+05/14/2021 23:01:23,4.1_Georgia_Farmer_Auto, Check Policy; Uncheck prior quote; Check Include insurance package and uncheck life proposal change , Success
+05/14/2021 23:01:27,4.1_Georgia_Farmer_Auto, Clicked on VIP Print and validate Save as window , Success
+05/14/2021 23:01:27,4.1_Georgia_Farmer_Auto, Clicked on Print button , Success
+05/14/2021 23:01:32,4.1_Georgia_Farmer_Auto, Clicked on download button , Success
+05/14/2021 23:01:37,4.1_Georgia_Farmer_Auto, Set PDF file path and save C:\Users\Admin\Documents\UiPath\Georgia_Auto_Insurance\Policies\00G3h000000ItBuEAK.pdf, Success
+05/14/2021 23:01:43,3_GAInsurance_Processing, Status : Success Status Description :  ,Success
+05/14/2021 23:01:44,3_GAInsurance_Processing, Quote # : 11598932 Household # :: 4240317032 Policy Amount : $1,612.30 ,Success
+05/14/2021 23:02:21,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Start_Date_Time__c" : "2021-05-14T17:28:45",
+    "Bot_Quoted_Standard_Premium__c" : "1612.30",
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-14T17:28:45",
+    "Farmers_Policy_Center_Link__c" : "https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=gateway&actionType=retreiveQuote&source=SIMS&householdNumber=4240317032&quoteNumber=11598932&agentOfRec=4419HR&lineOfBusiness=F&firstName=&lastName=&quoteType=Express&company=EXP&state=GA",
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": null,
+    "Bot_Update__c" : "Sucessfully quote generated"
+},Success
+05/14/2021 23:02:46,3_GAInsurance_ProcessingSalesforce ErrorThe operation has timed out.,Success
+05/14/2021 23:02:50,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/14/2021 23:08:25,Main,GA Insurance BOT Started,Success
+05/14/2021 23:08:27,2_GAInsurance_Setup,Module Started,Success
+05/14/2021 23:08:28,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/14/2021 23:08:28,Main,2_MLPInsurance_Setup Completed,Success
+05/14/2021 23:08:28,Main,BOT Start Time: 05/14/2021 23:08:24,Success
+05/14/2021 23:08:28,Main,BOT Start Time: 05/15/2021 20:08:24,Success
+05/14/2021 23:08:29,3_GAInsurance_Processing,Module Started,Success
+05/14/2021 23:08:36,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/14/2021 23:08:47,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/14/2021 23:08:47,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/14/2021 23:08:48,3_GAInsurance_Processing,Token Generarted,Success
+05/14/2021 23:08:48,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/14/2021 23:08:48,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/14/2021 23:08:59,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/14/2021 23:08:59,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/14/2021 23:09:19,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+05/14/2021 23:09:21,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+05/14/2021 23:09:35,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+05/14/2021 23:09:35,Login_Georgia_AutoInsurance_Portal,,
+05/14/2021 23:09:39,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T18:42:15+05:30"
+},Success
+05/14/2021 23:09:40,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/14/2021 23:09:40,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/14/2021 23:09:40,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/14/2021 23:09:41,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/14/2021 23:09:41,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/14/2021 23:09:41,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/14/2021 23:09:47,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/14/2021 23:09:58,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/14/2021 23:10:08,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/14/2021 23:10:11,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/14/2021 23:10:15,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/14/2021 23:10:23,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/14/2021 23:10:24,4.1_Georgia_Farmer_Auto, Driver details : Anderson Joseph, 2000-05-05, Male, ,Success
+05/14/2021 23:10:24,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 1 Get Name PAMELA ,Success
+05/14/2021 23:10:28,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/14/2021 23:10:29,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 2 Get Name SHANISE ,Success
+05/14/2021 23:10:32,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/14/2021 23:10:33,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 3 Get Name WILLIE ,Success
+05/14/2021 23:10:34,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/14/2021 23:10:35,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 4 Get Name JESSICA ,Success
+05/14/2021 23:10:36,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/14/2021 23:10:39,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 5 Get Name  ,Success
+05/14/2021 23:10:41,4.1_Georgia_Farmer_Auto, Add Driver NameAnderson  Joseph ,Success
+05/14/2021 23:10:44,4.1_Georgia_Farmer_Auto, Driver matchAnderson  Joseph ,Success
+05/14/2021 23:10:45,4.1_Georgia_Farmer_Auto, Vechicle selection 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/14/2021 23:10:46,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/14/2021 23:10:47,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G1NE52M7X6216867 1, Success
+05/14/2021 23:10:48,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G2AK37A4CP535041 2, Success
+05/14/2021 23:10:50,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G4BT52PXRR437449 3, Success
+05/14/2021 23:10:54,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G4BT52PXRR437449 4, Success
+05/14/2021 23:11:07,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/14/2021 23:11:11,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/14/2021 23:11:13,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/14/2021 23:11:14,4.1_Georgia_Farmer_Auto, Driver Count : 3, Success
+05/14/2021 23:11:15,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/14/2021 23:11:16,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/14/2021 23:11:17,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/14/2021 23:11:23,4.1_Georgia_Farmer_Auto, Get gender for added drivers ANDERSON- MALE, Success
+05/14/2021 23:11:24,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/14/2021 23:11:25,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/14/2021 23:11:26,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4290093094 Quote number 89993794, Success
+05/14/2021 23:11:29,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles and clicked on rate button, Success
+05/14/2021 23:11:30,4.1_Georgia_Farmer_Auto, Monthly EFT web page exist True, Success
+05/14/2021 23:11:36,4.1_Georgia_Farmer_Auto, 1 Pay; Bodily Injury and Property Damage selected , Success
+05/14/2021 23:11:44,4.1_Georgia_Farmer_Auto, Select all field and click on Rate button , Success
+05/14/2021 23:11:50,4.1_Georgia_Farmer_Auto, Get premium amount $1,612.30 Clicked on print proposal , Success
+05/14/2021 23:12:05,4.1_Georgia_Farmer_Auto, Print proposal window visibility True , Success
+05/14/2021 23:12:09,4.1_Georgia_Farmer_Auto, Check Policy; Uncheck prior quote; Check Include insurance package and uncheck life proposal change , Success
+05/14/2021 23:12:12,4.1_Georgia_Farmer_Auto, Clicked on VIP Print and validate Save as window , Success
+05/14/2021 23:12:13,4.1_Georgia_Farmer_Auto, Clicked on Print button , Success
+05/14/2021 23:12:15,4.1_Georgia_Farmer_Auto, Clicked on download button , Success
+05/14/2021 23:12:22,4.1_Georgia_Farmer_Auto, Set PDF file path and save C:\Users\Admin\Documents\UiPath\Georgia_Auto_Insurance\Policies\00G3h000000ItBuEAK.pdf, Success
+05/14/2021 23:21:41,Main,GA Insurance BOT Started,Success
+05/14/2021 23:21:44,2_GAInsurance_Setup,Module Started,Success
+05/14/2021 23:21:44,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/14/2021 23:21:44,Main,2_MLPInsurance_Setup Completed,Success
+05/14/2021 23:21:44,Main,BOT Start Time: 05/14/2021 23:21:40,Success
+05/14/2021 23:21:44,Main,BOT Start Time: 05/15/2021 20:21:40,Success
+05/14/2021 23:21:46,3_GAInsurance_Processing,Module Started,Success
+05/14/2021 23:21:53,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/14/2021 23:21:58,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/14/2021 23:21:58,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/14/2021 23:21:59,3_GAInsurance_Processing,Token Generarted,Success
+05/14/2021 23:21:59,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/14/2021 23:21:59,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/14/2021 23:22:13,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/14/2021 23:22:16,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T18:42:15+05:30"
+},Success
+05/14/2021 23:22:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/14/2021 23:22:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/14/2021 23:22:18,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/14/2021 23:22:19,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/14/2021 23:22:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/14/2021 23:22:19,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/14/2021 23:22:25,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/14/2021 23:22:38,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/14/2021 23:22:49,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/14/2021 23:22:50,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/14/2021 23:22:55,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/14/2021 23:23:04,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/14/2021 23:23:04,4.1_Georgia_Farmer_Auto, Driver details : Anderson Joseph, 2000-05-05, Male, ,Success
+05/14/2021 23:23:05,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 1 Get Name PAMELA ,Success
+05/14/2021 23:23:09,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/14/2021 23:23:10,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 2 Get Name SHANISE ,Success
+05/14/2021 23:23:14,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/14/2021 23:23:14,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 3 Get Name WILLIE ,Success
+05/14/2021 23:23:15,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/14/2021 23:23:16,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 4 Get Name JESSICA ,Success
+05/14/2021 23:23:17,4.1_Georgia_Farmer_Auto, Driver not match  ,Success
+05/14/2021 23:23:21,4.1_Georgia_Farmer_Auto, Driver Name Anderson Joseph counter 5 Get Name  ,Success
+05/14/2021 23:23:23,4.1_Georgia_Farmer_Auto, Add Driver NameAnderson  Joseph ,Success
+05/14/2021 23:23:26,4.1_Georgia_Farmer_Auto, Driver matchAnderson  Joseph ,Success
+05/14/2021 23:23:27,4.1_Georgia_Farmer_Auto, Vechicle selection 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/14/2021 23:23:28,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/14/2021 23:23:29,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G1NE52M7X6216867 1, Success
+05/14/2021 23:23:30,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G2AK37A4CP535041 2, Success
+05/14/2021 23:23:32,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G4BT52PXRR437449 3, Success
+05/14/2021 23:23:37,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1G4BT52PXRR437449 4, Success
+05/14/2021 23:23:50,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/14/2021 23:23:54,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/14/2021 23:23:56,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/14/2021 23:23:57,4.1_Georgia_Farmer_Auto, Driver Count : 3, Success
+05/14/2021 23:23:58,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/14/2021 23:23:59,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/14/2021 23:24:00,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/14/2021 23:24:10,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/14/2021 23:24:11,4.1_Georgia_Farmer_Auto, Get gender for added drivers ANDERSON- MALE, Success
+05/14/2021 23:24:12,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/14/2021 23:24:13,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4273334451 Quote number 31875051, Success
+05/14/2021 23:24:16,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles and clicked on rate button, Success
+05/14/2021 23:24:17,4.1_Georgia_Farmer_Auto, Monthly EFT web page exist True, Success
+05/14/2021 23:24:24,4.1_Georgia_Farmer_Auto, 1 Pay; Bodily Injury and Property Damage selected , Success
+05/14/2021 23:24:32,4.1_Georgia_Farmer_Auto, Select all field and click on Rate button , Success
+05/14/2021 23:24:38,4.1_Georgia_Farmer_Auto, Get premium amount $1,612.30 Clicked on print proposal , Success
+05/14/2021 23:24:47,4.1_Georgia_Farmer_Auto, Print proposal window visibility True , Success
+05/14/2021 23:24:49,4.1_Georgia_Farmer_Auto, Check Policy; Uncheck prior quote; Check Include insurance package and uncheck life proposal change , Success
+05/14/2021 23:24:52,4.1_Georgia_Farmer_Auto, Clicked on VIP Print and validate Save as window , Success
+05/14/2021 23:24:52,4.1_Georgia_Farmer_Auto, Clicked on Print button , Success
+05/14/2021 23:24:54,4.1_Georgia_Farmer_Auto, Clicked on download button , Success
+05/14/2021 23:24:58,4.1_Georgia_Farmer_Auto, Set PDF file path and save C:\Users\Admin\Documents\UiPath\Georgia_Auto_Insurance\Policies\00G3h000000ItBuEAK.pdf, Success
+05/14/2021 23:25:00,4.1_Georgia_Farmer_Auto, Already pdf exist pop up found , Success
+05/14/2021 23:25:20,3_GAInsurance_Processing, Status : Success Status Description :  ,Success
+05/14/2021 23:25:20,3_GAInsurance_Processing, Quote # : 31875051 Household # :: 4273334451 Policy Amount : $1,612.30 ,Success
+05/14/2021 23:25:23,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Start_Date_Time__c" : "2021-05-14T17:52:17",
+    "Bot_Quoted_Standard_Premium__c" : "1612.30",
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-14T17:52:17",
+    "Farmers_Policy_Center_Link__c" : "https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=gateway&actionType=retreiveQuote&source=SIMS&householdNumber=4273334451&quoteNumber=31875051&agentOfRec=4419HR&lineOfBusiness=F&firstName=&lastName=&quoteType=Express&company=EXP&state=GA",
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": null,
+    "Bot_Update__c" : "Sucessfully quote generated"
+},Success
+05/14/2021 23:25:26,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/14/2021 23:26:01,3_GAInsurance_Processing,Module Started,Success
+05/14/2021 23:26:06,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/14/2021 23:26:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/14/2021 23:26:09,3_GAInsurance_Processing,Lead Fecthed : 0,Success
+05/14/2021 23:26:09,3_GAInsurance_Processing,No Requests Fecthed from salesforce,Success

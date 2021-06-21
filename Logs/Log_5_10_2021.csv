@@ -1,0 +1,1035 @@
+﻿Date_Time,Module,Action,Status,Exception
+05/10/2021 08:33:45,Main,GA Insurance BOT Started,Success
+05/10/2021 08:33:48,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 08:33:48,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 08:33:48,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 08:33:48,Main,BOT Start Time: 05/10/2021 08:33:45,Success
+05/10/2021 08:33:48,Main,BOT Start Time: 05/11/2021 05:33:45,Success
+05/10/2021 08:33:48,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 08:33:56,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 08:33:56,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 08:33:57,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 08:33:57,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 08:33:57,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 08:33:57,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 08:35:01,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 08:35:05,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 08:35:05,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 08:35:05,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 08:35:06,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 08:35:06,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 08:35:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 08:35:06,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 08:36:16,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 08:36:16,3_MLPInsurance_Processing-IE,Runtime Error,Fail,Object reference not set to an instance of an object.
+05/10/2021 08:36:23,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 08:36:31,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 08:36:31,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 08:36:45,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 08:36:46,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 08:36:46,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 08:36:46,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 08:36:46,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 08:36:46,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 08:36:46,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 08:36:46,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 08:36:48,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 08:36:48,3_MLPInsurance_Processing-IE,Runtime Error,Fail,Object reference not set to an instance of an object.
+05/10/2021 08:37:22,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 08:37:29,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 08:37:29,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:01:19,Main,GA Insurance BOT Started,Success
+05/10/2021 10:01:21,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 10:01:21,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 10:01:21,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 10:01:21,Main,BOT Start Time: 05/10/2021 10:01:18,Success
+05/10/2021 10:01:21,Main,BOT Start Time: 05/11/2021 07:01:18,Success
+05/10/2021 10:01:22,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 10:01:31,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 10:01:46,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 10:01:47,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 10:01:47,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 10:01:47,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:01:47,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:02:00,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 10:02:01,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 10:02:01,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:02:01,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:02:02,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 10:02:02,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:02:02,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:02:02,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 10:02:12,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 10:03:01,Main,GA Insurance BOT Started,Success
+05/10/2021 10:03:04,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 10:03:04,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 10:03:05,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 10:03:05,Main,BOT Start Time: 05/10/2021 10:03:01,Success
+05/10/2021 10:03:05,Main,BOT Start Time: 05/11/2021 07:03:01,Success
+05/10/2021 10:03:05,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 10:03:13,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 10:03:18,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 10:03:19,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 10:03:19,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 10:03:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:03:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:03:24,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 10:03:25,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 10:03:25,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:03:25,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:03:25,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 10:03:26,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:03:26,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:03:26,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 10:03:27,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 10:04:40,Main,GA Insurance BOT Started,Success
+05/10/2021 10:04:44,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 10:04:44,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 10:04:44,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 10:04:44,Main,BOT Start Time: 05/10/2021 10:04:40,Success
+05/10/2021 10:04:44,Main,BOT Start Time: 05/11/2021 07:04:40,Success
+05/10/2021 10:04:45,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 10:04:53,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 10:04:57,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 10:04:57,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 10:04:57,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 10:04:58,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:04:58,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:05:03,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 10:05:04,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 10:05:05,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:05:05,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:05:05,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 10:05:05,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:05:05,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:05:05,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 10:05:08,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 10:19:30,Main,GA Insurance BOT Started,Success
+05/10/2021 10:19:32,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 10:19:32,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 10:19:32,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 10:19:32,Main,BOT Start Time: 05/10/2021 10:19:29,Success
+05/10/2021 10:19:32,Main,BOT Start Time: 05/11/2021 07:19:29,Success
+05/10/2021 10:19:33,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 10:19:41,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 10:21:18,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 10:21:19,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 10:21:19,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 10:21:19,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:21:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:21:30,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 10:21:30,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 10:21:31,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:21:31,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:21:31,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 10:21:32,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:21:32,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:21:32,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 10:21:33,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 10:23:26,Main,GA Insurance BOT Started,Success
+05/10/2021 10:23:29,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 10:23:29,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 10:23:29,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 10:23:29,Main,BOT Start Time: 05/10/2021 10:23:26,Success
+05/10/2021 10:23:29,Main,BOT Start Time: 05/11/2021 07:23:26,Success
+05/10/2021 10:23:30,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 10:23:38,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 10:23:41,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 10:23:41,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 10:23:41,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 10:23:42,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:23:42,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:23:45,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 10:23:46,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 10:23:46,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:23:46,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:23:46,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 10:23:47,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:23:47,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:23:47,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 10:23:49,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 10:24:06,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Start_Date_Time__c" : "2021-05-10T04:53:50",
+    "Bot_Quoted_Farmers_Auto_Premium__c" : null,
+    "Bot_Quoted_Bristol_West_Auto_Premium__c" : "",
+    "End_Date_Time__c" : "2021-05-10T04:53:50",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Send_to_Auto_Bot__c" : null,
+     "Test": ""
+},Success
+05/10/2021 10:24:17,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/10/2021 10:24:18,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/10/2021 10:25:12,3_MLPInsurance_Processing-IE,Runtime Error,Fail,'Exception' in Throw activity 'Throw' cannot be null.
+05/10/2021 10:48:44,Main,GA Insurance BOT Started,Success
+05/10/2021 10:48:47,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 10:48:47,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 10:48:47,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 10:48:47,Main,BOT Start Time: 05/10/2021 10:48:44,Success
+05/10/2021 10:48:47,Main,BOT Start Time: 05/11/2021 07:48:44,Success
+05/10/2021 10:48:48,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 10:48:57,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 10:49:03,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 10:49:03,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 10:49:03,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 10:49:04,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:49:04,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:49:07,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 10:49:08,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 10:49:49,Main,GA Insurance BOT Started,Success
+05/10/2021 10:49:52,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 10:49:52,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 10:49:52,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 10:49:52,Main,BOT Start Time: 05/10/2021 10:49:49,Success
+05/10/2021 10:49:52,Main,BOT Start Time: 05/11/2021 07:49:49,Success
+05/10/2021 10:49:53,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 10:50:02,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 10:50:07,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 10:50:07,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 10:50:07,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 10:50:08,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:50:08,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:50:12,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 10:50:13,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 10:50:14,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:50:14,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:50:14,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 10:50:14,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:50:14,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:50:15,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 10:50:16,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 10:50:25,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Start_Date_Time__c" : "2021-05-10T05:20:16",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : "",
+    "End_Date_Time__c" : "2021-05-10T05:20:17",
+    "Farmers_Policy_Center_Link__c" : Test,
+    "Test": ""
+},Success
+05/10/2021 10:50:36,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/10/2021 10:50:37,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/10/2021 10:56:07,Main,GA Insurance BOT Started,Success
+05/10/2021 10:56:10,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 10:56:10,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 10:56:10,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 10:56:10,Main,BOT Start Time: 05/10/2021 10:56:07,Success
+05/10/2021 10:56:10,Main,BOT Start Time: 05/11/2021 07:56:07,Success
+05/10/2021 10:56:11,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 10:56:20,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 10:56:25,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 10:56:25,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 10:56:26,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 10:56:26,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:56:26,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:56:28,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 10:56:29,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 10:56:30,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:56:30,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:56:30,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 10:56:31,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 10:56:31,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 10:56:31,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 10:56:33,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 10:56:40,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Start_Date_Time__c" : "2021-05-10T05:26:33",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : "",
+    "End_Date_Time__c" : "2021-05-10T05:26:33",
+    "Farmers_Policy_Center_Link__c" : Test
+},Success
+05/10/2021 10:56:46,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/10/2021 10:56:47,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/10/2021 11:01:29,Main,GA Insurance BOT Started,Success
+05/10/2021 11:01:32,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 11:01:32,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 11:01:32,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 11:01:32,Main,BOT Start Time: 05/10/2021 11:01:28,Success
+05/10/2021 11:01:32,Main,BOT Start Time: 05/11/2021 08:01:28,Success
+05/10/2021 11:01:33,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 11:01:41,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 11:01:52,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 11:01:52,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 11:01:52,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 11:01:53,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:01:53,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:02:12,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 11:02:13,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 11:02:14,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:02:14,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:02:15,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 11:02:15,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:02:15,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:02:15,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 11:02:17,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 11:02:21,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Start_Date_Time__c" : "2021-05-10T05:32:17",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : "",
+    "End_Date_Time__c" : "2021-05-10T05:32:17",
+    "Farmers_Policy_Center_Link__c" : Test
+},Success
+05/10/2021 11:02:58,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/10/2021 11:02:59,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/10/2021 11:11:41,Main,GA Insurance BOT Started,Success
+05/10/2021 11:11:44,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 11:11:44,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 11:11:44,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 11:11:44,Main,BOT Start Time: 05/10/2021 11:11:41,Success
+05/10/2021 11:11:44,Main,BOT Start Time: 05/11/2021 08:11:41,Success
+05/10/2021 11:11:45,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 11:11:53,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 11:11:58,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 11:11:59,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 11:11:59,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 11:11:59,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:11:59,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:12:04,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 11:12:05,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 11:12:06,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:12:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:12:06,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 11:12:06,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:12:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:12:07,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 11:12:09,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 11:12:16,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Start_Date_Time__c" : "2021-05-10T05:42:09",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : "",
+    "End_Date_Time__c" : "2021-05-10T05:42:09",
+    "Farmers_Policy_Center_Link__c" : Test
+},Success
+05/10/2021 11:13:05,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/10/2021 11:13:57,Main,GA Insurance BOT Started,Success
+05/10/2021 11:14:00,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 11:14:00,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 11:14:00,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 11:14:00,Main,BOT Start Time: 05/10/2021 11:13:57,Success
+05/10/2021 11:14:00,Main,BOT Start Time: 05/11/2021 08:13:57,Success
+05/10/2021 11:14:01,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 11:14:09,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 11:14:15,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 11:14:16,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 11:14:16,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 11:14:16,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:14:16,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:14:18,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 11:14:19,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 11:14:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:14:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:14:20,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 11:14:21,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:14:21,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:14:21,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 11:14:22,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 11:14:27,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Start_Date_Time__c" : "2021-05-10T05:44:23",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : "",
+    "End_Date_Time__c" : "2021-05-10T05:44:23",
+    "Farmers_Policy_Center_Link__c" : Test
+},Success
+05/10/2021 11:15:55,Main,GA Insurance BOT Started,Success
+05/10/2021 11:15:57,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 11:15:57,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 11:15:57,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 11:15:57,Main,BOT Start Time: 05/10/2021 11:15:54,Success
+05/10/2021 11:15:57,Main,BOT Start Time: 05/11/2021 08:15:54,Success
+05/10/2021 11:15:59,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 11:16:07,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 11:16:11,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 11:16:12,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 11:16:12,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 11:16:12,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:16:12,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:16:14,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 11:16:15,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 11:16:16,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:16:16,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:16:16,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 11:16:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:16:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:16:17,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 11:16:18,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 11:16:23,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : "",
+    "Farmers_Policy_Center_Link__c" : Test
+},Success
+05/10/2021 11:16:46,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/10/2021 11:18:05,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/10/2021 11:19:03,Main,GA Insurance BOT Started,Success
+05/10/2021 11:19:05,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 11:19:05,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 11:19:05,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 11:19:05,Main,BOT Start Time: 05/10/2021 11:19:03,Success
+05/10/2021 11:19:05,Main,BOT Start Time: 05/11/2021 08:19:03,Success
+05/10/2021 11:19:06,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 11:19:14,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 11:19:21,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 11:19:22,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 11:19:22,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 11:19:22,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:19:22,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:19:25,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 11:19:26,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 11:19:26,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:19:26,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:19:27,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 11:19:27,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:19:27,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:19:27,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 11:19:30,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 11:19:33,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Farmers_Policy_Center_Link__c" : Test
+},Success
+05/10/2021 11:19:42,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/10/2021 11:26:20,Main,GA Insurance BOT Started,Success
+05/10/2021 11:26:22,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 11:26:22,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 11:26:22,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 11:26:22,Main,BOT Start Time: 05/10/2021 11:26:19,Success
+05/10/2021 11:26:22,Main,BOT Start Time: 05/11/2021 08:26:19,Success
+05/10/2021 11:26:23,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 11:26:32,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 11:26:39,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 11:26:39,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 11:26:40,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 11:26:40,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:26:40,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:26:42,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 11:26:43,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 11:26:44,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:26:44,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:26:44,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 11:26:44,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:26:45,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:26:45,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 11:26:46,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 11:26:51,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Farmers_Policy_Center_Link__c" : Test
+},Success
+05/10/2021 11:27:09,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/10/2021 11:29:22,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/10/2021 11:30:59,Main,GA Insurance BOT Started,Success
+05/10/2021 11:31:01,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 11:31:01,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 11:31:01,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 11:31:01,Main,BOT Start Time: 05/10/2021 11:30:58,Success
+05/10/2021 11:31:01,Main,BOT Start Time: 05/11/2021 08:30:58,Success
+05/10/2021 11:31:02,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 11:31:10,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 11:31:14,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 11:31:14,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 11:31:14,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 11:31:15,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:31:15,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:31:19,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 11:31:20,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 11:31:21,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:31:21,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:31:21,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 11:31:22,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:31:22,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:31:22,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 11:31:23,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 11:31:28,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Farmers_Policy_Center_Link__c" : Test
+},Success
+05/10/2021 11:35:47,Main,GA Insurance BOT Started,Success
+05/10/2021 11:35:50,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 11:35:50,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 11:35:50,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 11:35:50,Main,BOT Start Time: 05/10/2021 11:35:46,Success
+05/10/2021 11:35:50,Main,BOT Start Time: 05/11/2021 08:35:46,Success
+05/10/2021 11:35:51,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 11:36:00,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 11:36:30,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 11:36:31,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 11:36:31,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 11:36:31,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:36:31,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:36:34,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 11:36:35,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 11:36:36,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:36:36,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:36:36,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 11:36:37,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:36:37,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:36:37,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 11:36:39,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 11:36:42,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Success" : "vFarmersPolicyCenterLink"
+},Success
+05/10/2021 11:38:17,Main,GA Insurance BOT Started,Success
+05/10/2021 11:38:19,2_GAInsurance_Setup,Module Started,Success
+05/10/2021 11:38:19,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/10/2021 11:38:19,Main,2_MLPInsurance_Setup Completed,Success
+05/10/2021 11:38:19,Main,BOT Start Time: 05/10/2021 11:38:16,Success
+05/10/2021 11:38:19,Main,BOT Start Time: 05/11/2021 08:38:16,Success
+05/10/2021 11:38:20,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 11:38:28,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/10/2021 11:38:32,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/10/2021 11:38:33,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/10/2021 11:38:33,3_GAInsurance_Processing,Token Generarted,Success
+05/10/2021 11:38:34,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:38:34,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:38:38,3_GAInsurance_Processing,Lead Fecthed : 1,Success
+05/10/2021 11:38:39,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q7d000007ySWYEA2"
+  },
+  "Id": "00Q7d000007ySWYEA2",
+  "Status": "New",
+  "LeadSource": "QuoteWizard",
+  "FirstName": "Pamela",
+  "LastName": "Williams",
+  "Phone": "706-699-9405",
+  "Email": "shanise2792@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": "1965-08-31",
+  "Address": {
+    "city": "Augusta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3501 Osage Ct"
+  },
+  "OwnerId": "00G3h000000ItBuEAK",
+  "CreatedDate": "2020-12-23T05:12:15-08:00"
+},Success
+05/10/2021 11:38:40,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:38:40,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:38:40,3_GAInsurance_Processing,Driver details: Anderson Joseph, 2000-05-05, Male, ,Success
+05/10/2021 11:38:41,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:38:41,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/10/2021 11:38:41,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Veno:2008:Sedan:Suzuki, ,Success
+05/10/2021 11:38:42,3_GAInsurance_Processing, Status :  Status Description :  ,Success
+05/10/2021 11:38:48,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Farmers_Policy_Center_Link__c" : "Success"
+},Success
+05/10/2021 11:38:56,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/10/2021 11:39:28,3_GAInsurance_Processing,Module Started,Success
+05/10/2021 11:39:37,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/10/2021 11:39:37,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success

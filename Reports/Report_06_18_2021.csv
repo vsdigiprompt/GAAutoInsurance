@@ -1,0 +1,145 @@
+﻿Date, Name, Status, Description
+06/18/2021 11:49:42, Denise Williamson , Unknown Error_R,Index and length must refer to a location within the string
+06/18/2021 11:50:56, Lissa Reed , Exception_R,Technical Exception : Quote information not transferred successfully
+06/18/2021 11:54:13, Phoebe Nesbitt , Unknown Error_R,Object reference not set to an instance of an object
+06/18/2021 11:57:41, Ronald Bumha , Exception_R,Technical Exception : Quote information not transferred successfully
+06/18/2021 11:59:12, Kellie Cravens , Exception_R,Technical Exception : Quote information not transferred successfully
+06/18/2021 12:00:22, Michelle Rojas , Exception_R,Technical Exception : Quote information not transferred successfully
+06/18/2021 12:15:06, Johnathan Davis , Success_R,Sucessfully quote generated
+06/18/2021 12:16:56, Sabrena Langston , Success_R,Sucessfully quote generated
+06/18/2021 12:18:51, Chasarea Anderson , Success_R,Sucessfully quote generated
+06/18/2021 13:11:27, Kenneth Fairbanks , Success_R,Sucessfully quote generated
+06/18/2021 13:15:03, Yamini Anantula , Success_R,Sucessfully quote generated
+06/18/2021 13:18:11, Robert Ingrassia , Success_R,Sucessfully quote generated
+06/18/2021 13:21:03, Jathin Shetty , Success_R,Sucessfully quote generated
+06/18/2021 13:23:02, Carl Swinger , Success_R,Sucessfully quote generated
+06/18/2021 13:25:58, Julia Stewart , Success_R,Sucessfully quote generated
+06/18/2021 13:28:46, Beverly Miller , Success_R,Sucessfully quote generated
+06/18/2021 13:31:31, Angela Walton , Success_R,Sucessfully quote generated
+06/18/2021 13:35:13, Luciano Perez , Success_R,Sucessfully quote generated
+06/18/2021 13:38:32, Madeline Davenport , Success_R,Sucessfully quote generated
+06/18/2021 13:39:48, Vernon Mapp , Exception_R,Technical Exception : Quote information not transferred successfully
+06/18/2021 13:42:56, John Spohn , Exception_R,Technical Exception : Unable to open vechicle tab
+06/18/2021 13:44:38, Jacqueline Shaffer , Unknown Error_R,Your transaction was not completed successfully, and any changes you made to this point were not processed
+06/18/2021 13:46:15, Dennis Noland , Unknown Error_R,Your transaction was not completed successfully, and any changes you made to this point were not processed
+06/18/2021 13:49:36, Robert Mueller , Success_R,Sucessfully quote generated
+06/18/2021 13:52:23, Laura Westbrook , Success_R,Sucessfully quote generated
+06/18/2021 13:55:41, Jeffery Nickerson , Success_R,Sucessfully quote generated
+06/18/2021 13:58:47, Devan Devoe , Success_R,Sucessfully quote generated
+06/18/2021 14:00:39, Yaroslav Vikulin , Success_R,Sucessfully quote generated
+06/18/2021 14:02:15, Evan Rogers , Exception_R,Technical Exception : Unable to fill vehicles and drivers correctly 
+06/18/2021 14:06:09, Nancy Sobolewski , Exception_R,, Technical Exception : Unable to open Farmer Agency Dashboard page
+06/18/2021 14:07:24, George Mcfarland , Exception_R,Technical Exception : Unable to open Quote window 
+06/18/2021 14:09:28, Barkur Shetty , Exception_R,Technical Exception : Unable to fill vehicles and drivers correctly 
+06/18/2021 14:12:24, Patty Merrifield , Success_R,Sucessfully quote generated
+06/18/2021 14:14:31, Todd Jones , Exception_R,Technical Exception : Unable to fill vehicles and drivers correctly 
+06/18/2021 14:17:29, Michael Burkhalter , Success_R,Sucessfully quote generated
+06/18/2021 14:19:59, Frieda Searls , Exception_R,Technical Exception : Unable to open additional driver window
+06/18/2021 14:22:34, Charles House , Success_R,Sucessfully quote generated
+06/18/2021 14:24:41, Louis Halloway , Exception_R,Technical Exception : Unable to fill vehicles and drivers correctly 
+06/18/2021 14:28:05, Michael Greene , Success_R,Sucessfully quote generated
+06/18/2021 14:29:11, Debbie Cane , Exception_R,Technical Exception : Quote information not transferred successfully
+06/18/2021 14:30:16, Kyle Wpa , Exception_R,Technical Exception : Quote information not transferred successfully
+06/18/2021 14:32:12, Larry Bennett , Unknown Error_R,Your transaction was not completed successfully, and any changes you made to this point were not processed
+06/18/2021 14:33:56, Derya Ozler , Success_R,Sucessfully quote generated
+06/18/2021 14:35:37, Frances Wellington , Unknown Error_R,Your transaction was not completed successfully, and any changes you made to this point were not processed
+06/18/2021 14:37:14, Dorothy Hester , Unknown Error_R,Your transaction was not completed successfully, and any changes you made to this point were not processed
+06/18/2021 14:38:59, Tony Carter , Success_R,Sucessfully quote generated
+06/18/2021 14:40:52, Sireesh Yaratha , Unknown Error_R,Your transaction was not completed successfully, and any changes you made to this point were not processed
+06/18/2021 14:42:48, Katherine Weiss , Unknown Error_R,Your transaction was not completed successfully, and any changes you made to this point were not processed
+06/18/2021 14:44:35, Torry Harris , Success_R,Sucessfully quote generated
+06/18/2021 14:46:37, Catina Williams , Success_R,Sucessfully quote generated
+06/18/2021 14:49:46, Neal Davis , Success_R,Sucessfully quote generated
+06/18/2021 14:51:32, Damarko Wheeler , Exception_R,Technical Exception : Unable to fill vehicles and drivers correctly 
+06/18/2021 14:54:21, Doretta Allison , Success_R,Sucessfully quote generated
+06/18/2021 14:57:36, Mary Anderson , Success_R,Sucessfully quote generated
+06/18/2021 15:00:51, Myra Tremege , Success_R,Sucessfully quote generated
+06/18/2021 15:04:37, Jere Bishop , Success_R,Sucessfully quote generated
+06/18/2021 15:08:45, Sonya Overton , Success_R,Sucessfully quote generated
+06/18/2021 15:11:31, Celestin Kabanda , Success_R,Sucessfully quote generated
+06/18/2021 15:14:54, Paul Layden , Success_R,Sucessfully quote generated
+06/18/2021 15:16:18, Chu Lee , Unknown Error_R,Index was outside the bounds of the array
+06/18/2021 15:19:41, Carl Stifter , Success_R,Sucessfully quote generated
+06/18/2021 15:22:30, Hank West , Success_R,Sucessfully quote generated
+06/18/2021 15:25:46, Emerson Cabrera , Success_R,Sucessfully quote generated
+06/18/2021 15:29:19, Carlton Donald , Success_R,Sucessfully quote generated
+06/18/2021 15:33:02, John Furse , Success_R,Sucessfully quote generated
+06/18/2021 15:35:44, Charlotte Wilson , Success_R,Sucessfully quote generated
+06/18/2021 15:37:36, Deborah Wood , Success_R,Sucessfully quote generated
+06/18/2021 15:40:11, Sanjay Tirumalasetty , Exception_R,Technical Exception : Getting error while woring with coverage page
+06/18/2021 15:43:02, Thomas Seeney , Success_R,Sucessfully quote generated
+06/18/2021 15:44:46, Daniel Barrientos , Unknown Error_R,Your transaction was not completed successfully, and any changes you made to this point were not processed
+06/18/2021 15:47:40, Alejandro Cardenas , Unknown Error_R,Your transaction was not completed successfully, and any changes you made to this point were not processed
+06/18/2021 15:50:28, Martin Wash , Success_R,Sucessfully quote generated
+06/18/2021 15:53:43, John Eifert , Success_R,Sucessfully quote generated
+06/18/2021 15:55:40, Derrick Von hubbard , Success_R,Sucessfully quote generated
+06/18/2021 15:58:55, Jennifer Foney , Success_R,Sucessfully quote generated
+06/18/2021 15:58:59, Felicia Walker , Exception_R,No vehicle details found
+06/18/2021 16:02:35, Patricia Hampton , Success_R,Sucessfully quote generated
+06/18/2021 16:05:32, Rahul Bhatia , Success_R,Sucessfully quote generated
+06/18/2021 16:08:57, Charlene Starr , Success_R,Sucessfully quote generated
+06/18/2021 16:11:27, Balaji Sekar , Success_R,Sucessfully quote generated
+06/18/2021 16:14:12, Marvin Friedman , Success_R,Sucessfully quote generated
+06/18/2021 16:17:53, Winfred Giddens , Success_R,Sucessfully quote generated
+06/18/2021 16:19:56, Carol Sundling , Unknown Error_R,Your transaction was not completed successfully, and any changes you made to this point were not processed
+06/18/2021 16:22:37, Nicole Trevisan , Success_R,Sucessfully quote generated
+06/18/2021 16:25:36, John Vargas , Success_R,Sucessfully quote generated
+06/18/2021 16:25:40, Seljalben Dodia , Exception_R,No vehicle details found
+06/18/2021 16:35:37, Ngocquy Le , Success_R,Sucessfully quote generated
+06/18/2021 16:38:32, Pankajkumar Patel , Success_R,Sucessfully quote generated
+06/18/2021 16:41:17, Wes Adkins , Success_R,Sucessfully quote generated
+06/18/2021 16:44:07, Paul Clements , Success_R,Sucessfully quote generated
+06/18/2021 16:46:56, Carl Reynolds , Success_R,Sucessfully quote generated
+06/18/2021 16:50:17, Allison Taylor , Success_R,Sucessfully quote generated
+06/18/2021 16:53:59, Jason Blalock , Success_R,Sucessfully quote generated
+06/18/2021 16:55:48, Christopher Miller , Success_R,Sucessfully quote generated
+06/18/2021 16:59:04, Julee Reeves , Success_R,Sucessfully quote generated
+06/18/2021 17:01:46, Donald Carter , Success_R,Sucessfully quote generated
+06/18/2021 17:12:41, Ralph Cordero , Success_R,Sucessfully quote generated
+06/18/2021 17:14:24, Brian O'neill , Unknown Error_R,Your transaction was not completed successfully, and any changes you made to this point were not processed
+06/18/2021 17:17:24, Kiania Fields , Success_R,Sucessfully quote generated
+06/18/2021 17:20:09, Shirley Rodriguez , Success_R,Sucessfully quote generated
+06/18/2021 17:22:44, Kevin Sexton , Success_R,Sucessfully quote generated
+06/18/2021 17:24:36, Titus Robinson , Success_R,Sucessfully quote generated
+06/18/2021 17:26:35, James Gibson , Unknown Error_R,Your transaction was not completed successfully, and any changes you made to this point were not processed
+06/18/2021 17:28:20, Money Jay , Success_R,Sucessfully quote generated
+06/18/2021 17:29:30, Sara Gold , Exception_R,Technical Exception : Quote information not transferred successfully
+06/18/2021 17:32:57, Agustin Valencia , Success_R,Sucessfully quote generated
+06/18/2021 17:35:57, Kristina Cholicocortez , Success_R,Sucessfully quote generated
+06/18/2021 17:39:09, Tiffini Bell , Success_R,Sucessfully quote generated
+06/18/2021 17:42:20, Larinda Turner , Success_R,Sucessfully quote generated
+06/18/2021 17:43:54, Katarina Miklosova , Unknown Error_R,Index and length must refer to a location within the string
+06/18/2021 17:47:12, Leo Dolan , Success_R,Sucessfully quote generated
+06/18/2021 17:49:52, William Rudd , Success_R,Sucessfully quote generated
+06/18/2021 17:52:56, George Snow , Success_R,Sucessfully quote generated
+06/18/2021 17:55:46, Testing Url , Exception_R,Technical Exception : Unable to open additional driver window
+06/18/2021 17:57:07, Benson Okundaye , Unknown Error_R,Index and length must refer to a location within the string
+06/18/2021 18:00:32, John Nelson , Success_R,Sucessfully quote generated
+06/18/2021 18:02:14, Felipe Aguilar , Success_R,Sucessfully quote generated
+06/18/2021 18:05:02, Afzal Khan , Success_R,Sucessfully quote generated
+06/18/2021 18:07:57, Onur Gul , Success_R,Sucessfully quote generated
+06/18/2021 18:10:57, George Sutton , Success_R,Sucessfully quote generated
+06/18/2021 18:13:39, Susan Carr , Success_R,Sucessfully quote generated
+06/18/2021 18:16:43, Matt Lampkin , Success_R,Sucessfully quote generated
+06/18/2021 18:19:08, Gi Ri , Exception_R,Technical Exception : Total premium window not found 
+06/18/2021 18:22:17, Everrett Richardson , Success_R,Sucessfully quote generated
+06/18/2021 18:22:20, Angela Allen , Exception_R,No vehicle details found
+06/18/2021 18:25:09, Jack Johnson , Success_R,Sucessfully quote generated
+06/18/2021 18:29:01, Ivica Radman , Success_R,Sucessfully quote generated
+06/18/2021 18:30:40, Nishant Patel , Unknown Error_R,Object reference not set to an instance of an object
+06/18/2021 18:32:28, Tim Villegas , Unknown Error_R,Index and length must refer to a location within the string
+06/18/2021 19:03:11, James Fincher , Success_R,Sucessfully quote generated
+06/18/2021 19:05:53, Susan Eviston , Success_R,Sucessfully quote generated
+06/18/2021 19:09:09, Krushikant Shendge , Success_R,Sucessfully quote generated
+06/18/2021 19:15:56, Kayla Jones , Unknown Error_R,Object reference not set to an instance of an object
+06/18/2021 19:18:37, James Johnson , Success_R,Sucessfully quote generated
+06/18/2021 19:20:05, Jacqueline Levi , Exception_R,Technical Exception : Unable to fill vehicles and drivers correctly 
+06/18/2021 19:21:50, Ronesha Woods , Success_R,Sucessfully quote generated
+06/18/2021 19:24:54, Beverly Terreberry , Success_R,Sucessfully quote generated
+06/18/2021 19:29:04, Jaime Gonzalez , Success_R,Sucessfully quote generated
+06/18/2021 19:50:10, Vickie Prater , Exception_R,Technical Exception : Birstol west window not found 
+06/18/2021 19:52:52, Pamela Wedding , Success_R,Sucessfully quote generated
+06/18/2021 19:54:31, Tammy Darling , Unknown Error_R,Your transaction was not completed successfully, and any changes you made to this point were not processed
+06/18/2021 19:56:15, Ronny Ramos , Success_R,Sucessfully quote generated
+06/18/2021 21:06:19, Jacqueline Shaffer , Exception_R,Your transaction was not completed successfully and any changes you made to this point were not processed.
+06/18/2021 21:39:28, Jacqueline Shaffer , Exception_R,Technical Exception : Unable to open Quote window 

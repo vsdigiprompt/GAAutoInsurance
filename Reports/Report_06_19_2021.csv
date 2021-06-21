@@ -1,0 +1,10 @@
+﻿Date, Name, Status, Description
+06/19/2021 00:32:24, Dennis Noland , Exception_R,Your transaction was not completed successfully and any changes you made to this point were not processed.
+06/19/2021 00:57:11, Nancy Sobolewski , Success_R,Sucessfully quote generated
+06/19/2021 01:01:38, Sanjay Tirumalasetty , Exception_R,Technical Exception : Getting error while woring with coverage page
+06/19/2021 01:24:05, Gi Ri , Exception_R,Technical Exception : Total premium window not found 
+06/19/2021 01:26:54, Evan Rogers , Exception_R,Technical Exception : Unable to fill vehicles and drivers correctly 
+06/19/2021 01:38:51, Frieda Searls , Exception_R,Technical Exception : Unable to open additional driver window
+06/19/2021 01:43:35, George Mcfarland , Success_R,Sucessfully quote generated
+06/19/2021 01:50:59, John Spohn , Success_R,Sucessfully quote generated
+06/19/2021 01:59:06, Denise Williamson , Unknown Error_R,Index and length must refer to a location within the string

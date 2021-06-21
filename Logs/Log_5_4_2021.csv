@@ -1,0 +1,175 @@
+﻿Date_Time,Module,Action,Status,Exception
+05/04/2021 10:47:19,Main,GA Insurance BOT Started,Success
+05/04/2021 10:47:22,2_GAInsurance_Setup,Module Started,Success
+05/04/2021 10:47:22,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/04/2021 10:47:22,Main,2_MLPInsurance_Setup Completed,Success
+05/04/2021 10:47:22,Main,BOT Start Time: 05/04/2021 10:47:19,Success
+05/04/2021 10:47:22,Main,BOT Start Time: 05/05/2021 07:47:19,Success
+05/04/2021 10:47:26,3_GAInsurance_Processing,Module Started,Success
+05/04/2021 10:47:33,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/04/2021 10:47:36,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/04/2021 10:47:37,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/04/2021 10:47:37,3_GAInsurance_Processing,Token Generarted,Success
+05/04/2021 10:47:39,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/04/2021 10:47:43,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/04/2021 10:47:45,3_GAInsurance_Processing,Lead Fecthed : 18,Success
+05/04/2021 10:47:46,3_MLPInsurance_Processing-IE,Runtime Error,Fail,Object reference not set to an instance of an object.
+05/04/2021 10:47:56,3_GAInsurance_Processing,Module Started,Success
+05/04/2021 10:48:02,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/04/2021 10:48:07,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/04/2021 10:48:56,Main,GA Insurance BOT Started,Success
+05/04/2021 10:48:59,2_GAInsurance_Setup,Module Started,Success
+05/04/2021 10:48:59,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/04/2021 10:48:59,Main,2_MLPInsurance_Setup Completed,Success
+05/04/2021 10:48:59,Main,BOT Start Time: 05/04/2021 10:48:56,Success
+05/04/2021 10:48:59,Main,BOT Start Time: 05/05/2021 07:48:56,Success
+05/04/2021 10:49:06,3_GAInsurance_Processing,Module Started,Success
+05/04/2021 10:49:13,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/04/2021 10:49:30,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/04/2021 10:49:31,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/04/2021 10:49:32,3_GAInsurance_Processing,Token Generarted,Success
+05/04/2021 10:49:36,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/04/2021 10:49:45,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/04/2021 10:50:01,3_GAInsurance_Processing,Lead Fecthed : 18,Success
+05/04/2021 10:51:00,3_MLPInsurance_Processing-IE,Runtime Error,Fail,Object reference not set to an instance of an object.
+05/04/2021 10:54:28,Main,GA Insurance BOT Started,Success
+05/04/2021 10:54:30,2_GAInsurance_Setup,Module Started,Success
+05/04/2021 10:54:30,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/04/2021 10:54:31,Main,2_MLPInsurance_Setup Completed,Success
+05/04/2021 10:54:31,Main,BOT Start Time: 05/04/2021 10:54:28,Success
+05/04/2021 10:54:31,Main,BOT Start Time: 05/05/2021 07:54:28,Success
+05/04/2021 11:05:34,Main,GA Insurance BOT Started,Success
+05/04/2021 11:05:37,2_GAInsurance_Setup,Module Started,Success
+05/04/2021 11:05:37,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/04/2021 11:05:37,Main,2_MLPInsurance_Setup Completed,Success
+05/04/2021 11:05:37,Main,BOT Start Time: 05/04/2021 11:05:34,Success
+05/04/2021 11:05:37,Main,BOT Start Time: 05/05/2021 08:05:34,Success
+05/04/2021 11:05:48,3_GAInsurance_Processing,Module Started,Success
+05/04/2021 11:05:55,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/04/2021 11:05:56,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/04/2021 11:05:56,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/04/2021 11:05:56,3_GAInsurance_Processing,Token Generarted,Success
+05/04/2021 11:05:56,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/04/2021 11:06:00,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/04/2021 11:06:01,3_GAInsurance_Processing,Lead Fecthed : 18,Success
+05/04/2021 11:06:01,3_MLPInsurance_Processing-IE,Runtime Error,Fail,Object reference not set to an instance of an object.
+05/04/2021 11:06:09,3_GAInsurance_Processing,Module Started,Success
+05/04/2021 11:06:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/04/2021 11:06:23,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/04/2021 11:06:24,3_GAInsurance_Processing,Lead Fecthed : 18,Success
+05/04/2021 11:06:24,3_MLPInsurance_Processing-IE,Runtime Error,Fail,Object reference not set to an instance of an object.
+05/04/2021 11:07:28,Main,GA Insurance BOT Started,Success
+05/04/2021 11:07:31,2_GAInsurance_Setup,Module Started,Success
+05/04/2021 11:07:31,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/04/2021 11:07:31,Main,2_MLPInsurance_Setup Completed,Success
+05/04/2021 11:07:31,Main,BOT Start Time: 05/04/2021 11:07:28,Success
+05/04/2021 11:07:31,Main,BOT Start Time: 05/05/2021 08:07:28,Success
+05/04/2021 11:07:34,3_GAInsurance_Processing,Module Started,Success
+05/04/2021 11:07:42,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/04/2021 11:07:51,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/04/2021 11:07:53,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/04/2021 11:07:54,3_GAInsurance_Processing,Token Generarted,Success
+05/04/2021 11:07:56,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/04/2021 11:08:06,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/04/2021 11:08:21,3_GAInsurance_Processing,Lead Fecthed : 18,Success
+05/04/2021 11:11:57,Main,GA Insurance BOT Started,Success
+05/04/2021 11:11:59,2_GAInsurance_Setup,Module Started,Success
+05/04/2021 11:11:59,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/04/2021 11:11:59,Main,2_MLPInsurance_Setup Completed,Success
+05/04/2021 11:11:59,Main,BOT Start Time: 05/04/2021 11:11:57,Success
+05/04/2021 11:11:59,Main,BOT Start Time: 05/05/2021 08:11:57,Success
+05/04/2021 11:12:02,3_GAInsurance_Processing,Module Started,Success
+05/04/2021 11:12:09,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/04/2021 11:12:11,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/04/2021 11:12:11,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/04/2021 11:12:11,3_GAInsurance_Processing,Token Generarted,Success
+05/04/2021 11:12:11,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/04/2021 11:12:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/04/2021 11:12:21,3_GAInsurance_Processing,Lead Fecthed : 18,Success
+05/04/2021 11:12:21,3_MLPInsurance_Processing-IE,Runtime Error,Fail,Object reference not set to an instance of an object.
+05/04/2021 11:12:30,3_GAInsurance_Processing,Module Started,Success
+05/04/2021 11:12:36,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/04/2021 11:12:41,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/04/2021 11:12:42,3_GAInsurance_Processing,Lead Fecthed : 18,Success
+05/04/2021 11:12:42,3_MLPInsurance_Processing-IE,Runtime Error,Fail,Object reference not set to an instance of an object.
+05/04/2021 11:13:44,Main,GA Insurance BOT Started,Success
+05/04/2021 11:13:46,2_GAInsurance_Setup,Module Started,Success
+05/04/2021 11:13:46,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/04/2021 11:13:47,Main,2_MLPInsurance_Setup Completed,Success
+05/04/2021 11:13:47,Main,BOT Start Time: 05/04/2021 11:13:44,Success
+05/04/2021 11:13:47,Main,BOT Start Time: 05/05/2021 08:13:44,Success
+05/04/2021 11:13:50,3_GAInsurance_Processing,Module Started,Success
+05/04/2021 11:13:57,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/04/2021 11:14:07,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/04/2021 11:14:10,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/04/2021 11:14:11,3_GAInsurance_Processing,Token Generarted,Success
+05/04/2021 11:14:14,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/04/2021 11:14:24,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/04/2021 11:14:39,3_GAInsurance_Processing,Lead Fecthed : 18,Success
+05/04/2021 11:16:13,Main,GA Insurance BOT Started,Success
+05/04/2021 11:16:15,2_GAInsurance_Setup,Module Started,Success
+05/04/2021 11:16:15,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/04/2021 11:16:15,Main,2_MLPInsurance_Setup Completed,Success
+05/04/2021 11:16:15,Main,BOT Start Time: 05/04/2021 11:16:13,Success
+05/04/2021 11:16:15,Main,BOT Start Time: 05/05/2021 08:16:13,Success
+05/04/2021 11:17:10,Main,GA Insurance BOT Started,Success
+05/04/2021 11:17:12,2_GAInsurance_Setup,Module Started,Success
+05/04/2021 11:17:12,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/04/2021 11:17:12,Main,2_MLPInsurance_Setup Completed,Success
+05/04/2021 11:17:12,Main,BOT Start Time: 05/04/2021 11:17:09,Success
+05/04/2021 11:17:12,Main,BOT Start Time: 05/05/2021 08:17:09,Success
+05/04/2021 11:19:38,Main,GA Insurance BOT Started,Success
+05/04/2021 11:19:40,2_GAInsurance_Setup,Module Started,Success
+05/04/2021 11:19:40,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/04/2021 11:19:41,Main,2_MLPInsurance_Setup Completed,Success
+05/04/2021 11:19:41,Main,BOT Start Time: 05/04/2021 11:19:37,Success
+05/04/2021 11:19:41,Main,BOT Start Time: 05/05/2021 08:19:37,Success
+05/04/2021 11:20:30,Main,GA Insurance BOT Started,Success
+05/04/2021 11:20:33,2_GAInsurance_Setup,Module Started,Success
+05/04/2021 11:20:33,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/04/2021 11:20:33,Main,2_MLPInsurance_Setup Completed,Success
+05/04/2021 11:20:33,Main,BOT Start Time: 05/04/2021 11:20:29,Success
+05/04/2021 11:20:33,Main,BOT Start Time: 05/05/2021 08:20:29,Success
+05/04/2021 11:20:40,3_GAInsurance_Processing,Module Started,Success
+05/04/2021 11:20:47,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/04/2021 11:20:53,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/04/2021 11:20:55,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/04/2021 11:20:56,3_GAInsurance_Processing,Token Generarted,Success
+05/04/2021 11:21:00,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/04/2021 11:21:07,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/04/2021 11:21:17,3_GAInsurance_Processing,Lead Fecthed : 18,Success
+05/04/2021 11:21:31,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/04/2021 11:21:31,Login_Georgia_AutoInsurance_Portal, Counter 0, Success
+05/04/2021 11:21:31,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+05/04/2021 11:21:56,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+05/04/2021 11:21:58,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+05/04/2021 11:22:07,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+05/04/2021 11:22:07,Login_Georgia_AutoInsurance_Portal,Window already opened,
+05/04/2021 11:22:07,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/04/2021 11:22:07,Login_Georgia_AutoInsurance_Portal, Counter 0, Success
+05/04/2021 11:22:08,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+05/04/2021 11:22:12,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+05/04/2021 11:22:14,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+05/04/2021 11:22:22,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+05/04/2021 11:22:22,Login_Georgia_AutoInsurance_Portal,Window already opened,
+05/04/2021 11:25:19,Main,GA Insurance BOT Started,Success
+05/04/2021 11:25:21,2_GAInsurance_Setup,Module Started,Success
+05/04/2021 11:25:21,2_GAInsurance_Setup,MLP Insurance BOT Finished,Success
+05/04/2021 11:25:21,Main,2_MLPInsurance_Setup Completed,Success
+05/04/2021 11:25:21,Main,BOT Start Time: 05/04/2021 11:25:19,Success
+05/04/2021 11:25:21,Main,BOT Start Time: 05/05/2021 08:25:19,Success
+05/04/2021 11:25:22,3_GAInsurance_Processing,Module Started,Success
+05/04/2021 11:25:29,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/04/2021 11:25:29,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/04/2021 11:25:29,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/04/2021 11:25:29,3_GAInsurance_Processing,Token Generarted,Success
+05/04/2021 11:25:29,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/04/2021 11:25:29,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/04/2021 11:25:36,3_GAInsurance_Processing,Lead Fecthed : 18,Success
+05/04/2021 11:25:36,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/04/2021 11:25:36,Login_Georgia_AutoInsurance_Portal, Counter 0, Success
+05/04/2021 11:25:36,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+05/04/2021 11:25:44,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+05/04/2021 11:25:45,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+05/04/2021 11:25:52,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+05/04/2021 11:25:52,Login_Georgia_AutoInsurance_Portal,Window already opened,

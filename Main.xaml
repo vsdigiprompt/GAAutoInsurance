@@ -1,0 +1,895 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="vDataTable" Type="InOutArgument(sd:DataTable)" />
+    <x:Property Name="cReportFolderFilePath" Type="InArgument(x:String)" />
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>966,5562</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Mail.SMTP.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="676,5397" sap2010:WorkflowViewState.IdRef="Sequence_13">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Boolean" Name="vReadConfigStatus" />
+      <Variable x:TypeArguments="x:Int32" Name="vAttemptCounter" />
+      <Variable x:TypeArguments="x:String" Name="cLogFolderPath" />
+      <Variable x:TypeArguments="x:Int32" Name="cImplitWait" />
+      <Variable x:TypeArguments="x:String" Name="vConfigFilePath" />
+      <Variable x:TypeArguments="x:String" Name="cErrorScreenshotFolderPath" />
+      <Variable x:TypeArguments="x:String" Name="cReportFolderPath" />
+      <Variable x:TypeArguments="x:String" Name="cTempFolderPath" />
+      <Variable x:TypeArguments="x:String" Name="cShortDelay" />
+      <Variable x:TypeArguments="x:String" Name="cMediumDelay" />
+      <Variable x:TypeArguments="x:String" Name="cLongDelay" />
+      <Variable x:TypeArguments="x:Int32" Name="cRetry" />
+      <Variable x:TypeArguments="x:Int32" Name="cWaitCounter" />
+      <Variable x:TypeArguments="x:String" Name="cReceiversMailAddress" />
+      <Variable x:TypeArguments="x:String" Name="cSubjectEmail" />
+      <Variable x:TypeArguments="s:Exception" Name="vDummyException" />
+      <Variable x:TypeArguments="x:String" Name="cFromEmailAddress" />
+      <Variable x:TypeArguments="x:String" Name="vLogFilePath" />
+      <Variable x:TypeArguments="x:String" Name="vTaskName" />
+      <Variable x:TypeArguments="x:String" Name="vMailBody" />
+      <Variable x:TypeArguments="x:Boolean" Name="vSetupStatus" />
+      <Variable x:TypeArguments="x:String" Name="vReportFilePath" />
+      <Variable x:TypeArguments="x:String" Name="cEndPointSelectRequest" />
+      <Variable x:TypeArguments="x:String" Name="cEndPointAccessTokenRequest" />
+      <Variable x:TypeArguments="x:String" Name="vErrorMessage" />
+      <Variable x:TypeArguments="x:Int32" Name="cSuccessStatusCode" />
+      <Variable x:TypeArguments="x:Boolean" Name="vProcessingStatus" />
+      <Variable x:TypeArguments="x:String" Name="cPolicyFolderPath" />
+      <Variable x:TypeArguments="x:String" Name="cBOTUpdateJSONBodyStatus" />
+      <Variable x:TypeArguments="x:String" Name="cSalesforceUpdateEndPointUri" />
+      <Variable x:TypeArguments="x:String" Name="cConnectionString" />
+      <Variable x:TypeArguments="x:String" Name="cSQLInsertQuery" />
+      <Variable x:TypeArguments="x:String" Name="cSQLInsertQueryRequests" />
+      <Variable x:TypeArguments="s:DateTime" Name="vBOTStartTime" />
+      <Variable x:TypeArguments="s:DateTime" Name="vBOTEndTime" />
+      <Variable x:TypeArguments="x:String" Name="cBOTWaitTimeInSec" />
+      <Variable x:TypeArguments="x:Int32" Name="cKnownErrorRetry" />
+      <Variable x:TypeArguments="x:String" Name="cUSZipCodeFilePath" />
+      <Variable x:TypeArguments="sd:DataTable" Name="vZipCodeDT" />
+      <Variable x:TypeArguments="x:Int32" Name="cPortNumber" />
+      <Variable x:TypeArguments="x:String" Name="cSMTPServer" />
+      <Variable x:TypeArguments="x:String" Name="cGender" />
+      <Variable x:TypeArguments="x:String" Name="cCCEmail" />
+      <Variable x:TypeArguments="x:String" Name="cEmailName" />
+      <Variable x:TypeArguments="x:String" Name="cStartStopMailAddress" />
+      <Variable x:TypeArguments="x:String" Name="cExceptionMailAddress" />
+      <Variable x:TypeArguments="x:String" Name="cSuccessMailAddress" />
+      <Variable x:TypeArguments="x:String" Name="cUnknownErrorMailAddress" />
+      <Variable x:TypeArguments="x:String" Name="cReportOutMailAddress" />
+      <Variable x:TypeArguments="x:String" Name="cSendMailToCustomer" />
+      <Variable x:TypeArguments="x:String" Name="cSuccessMailSubject" />
+      <Variable x:TypeArguments="x:String" Name="cSuccessMailBody" />
+      <Variable x:TypeArguments="x:String" Default="00D6s0000008jOm!AQgAQAKOh7cPayEspIcGycx5doeoc8l_tXWsLboaLm9hWN2I9qIcV2SN9z.ipJ6bjnpZoguDtNDyFYrRfGGTecmqXF4E9XKE" Name="vAccessToken" />
+      <Variable x:TypeArguments="x:String" Name="cStatusesToSendMailToCustomer" />
+      <Variable x:TypeArguments="x:String" Name="cCreateContentVersionUri" />
+      <Variable x:TypeArguments="x:String" Name="cDocumentLinkJSON" />
+      <Variable x:TypeArguments="x:String" Name="cDocumentLinkUri" />
+      <Variable x:TypeArguments="x:String" Name="cGetContentVersionIdUri" />
+      <Variable x:TypeArguments="x:String" Name="cCreateContentVersionJSON" />
+      <Variable x:TypeArguments="x:String" Name="cFarmersPolicyCenterLink" />
+      <Variable x:TypeArguments="x:String" Name="cEndPointFetchDriverDataRequest" />
+      <Variable x:TypeArguments="x:String" Name="cEndPointFetchVehicleDataRequest" />
+      <Variable x:TypeArguments="x:String" Name="cBristolWestSuccessSubject" />
+      <Variable x:TypeArguments="x:String" Name="cBothPortalSuccessSubject" />
+      <Variable x:TypeArguments="x:String" Name="cBristolWestSuccessMailBody" />
+      <Variable x:TypeArguments="x:String" Name="cBothPortalSuccessMailBody" />
+      <Variable x:TypeArguments="x:String" Name="cBristolPolicyCenterLink" />
+      <Variable x:TypeArguments="x:String" Name="cFarmerToBWCOverageLimitMappingFilePath" />
+      <Variable x:TypeArguments="sd:DataTable" Name="vFarmerToBWMapDT" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="634,5305" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+      <TryCatch.Try>
+        <Sequence DisplayName="Main Try Sequence" sap:VirtualizedContainerService.HintSize="596,5078" sap2010:WorkflowViewState.IdRef="Sequence_12">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="x:TimeSpan" Name="vBOTWaitDelay" />
+            <Variable x:TypeArguments="x:String" Name="vEmailPassword" />
+            <Variable x:TypeArguments="ss:SecureString" Name="vEmailPasswordSecure" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Calling Read Config WorkFlow" sap:VirtualizedContainerService.HintSize="554,952" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign sap:VirtualizedContainerService.HintSize="412,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Int32">[vAttemptCounter]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">1</InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign sap:VirtualizedContainerService.HintSize="412,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Int32">[cRetry]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">3</InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign sap:VirtualizedContainerService.HintSize="412,60" sap2010:WorkflowViewState.IdRef="Assign_3">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Boolean">[vReadConfigStatus]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:InterruptibleWhile DisplayName="Retry While Loop for Read Config" sap:VirtualizedContainerService.HintSize="412,560" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+              <ui:InterruptibleWhile.Body>
+                <Sequence DisplayName="Retry While Loop for Read Config Body" sap:VirtualizedContainerService.HintSize="376,395" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="1_GAAutoInsurance_ReadConfig.xaml">
+                    <ui:InvokeWorkflowFile.Arguments>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cReportFolderPath">[cReportFolderPath]</InOutArgument>
+                      <InArgument x:TypeArguments="x:String" x:Key="vConfigFilePath">[vConfigFilePath]</InArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cLogFolderPath">[cLogFolderPath]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cErrorScreenshotFolderPath">[cErrorScreenshotFolderPath]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cTempFolderPath">[cTempFolderPath]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cShortDelay">[cShortDelay]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cMediumDelay">[cMediumDelay]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cLongDelay">[cLongDelay]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:Int32" x:Key="cRetry">[cRetry]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:Int32" x:Key="cWaitCounter">[cWaitCounter]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:Int32" x:Key="cImplitWait">[cImplitWait]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cReceiversMailAddress">[cReceiversMailAddress]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cSubjectEmail">[cSubjectEmail]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:Boolean" x:Key="vReadConfigStatus">[vReadConfigStatus]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cFromEmailAddress">[cFromEmailAddress]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="vLogFilePath">[vLogFilePath]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cEndPointSelectRequest">[cEndPointSelectRequest]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cEndPointAccessTokenRequest">[cEndPointAccessTokenRequest]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:Int32" x:Key="cSuccessStatusCode">[cSuccessStatusCode]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cPolicyFolderPath">[cPolicyFolderPath]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cBOTUpdateJSONBodyStatus">[cBOTUpdateJSONBodyStatus]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cSalesforceUpdateEndPointUri">[cSalesforceUpdateEndPointUri]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cSQLInsertQuery">[cSQLInsertQuery]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cConnectionString">[cConnectionString]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cSQLInsertQueryRequests">[cSQLInsertQueryRequests]</InOutArgument>
+                      <InOutArgument x:TypeArguments="s:DateTime" x:Key="vBOTStartTime">[vBOTStartTime]</InOutArgument>
+                      <InOutArgument x:TypeArguments="s:DateTime" x:Key="vBOTEndTime">[vBOTEndTime]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cBOTWaitTimeInSec">[cBOTWaitTimeInSec]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:Int32" x:Key="cKnownErrorRetry">[cKnownErrorRetry]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cUSZipCodeFilePath">[cUSZipCodeFilePath]</InOutArgument>
+                      <InOutArgument x:TypeArguments="sd:DataTable" x:Key="vZipCodeDT">[vZipCodeDT]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:Int32" x:Key="cPortNumber">[cPortNumber]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cSMTPServer">[cSMTPServer]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cGender">[cGender]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cCCEmail">[cCCEmail]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cEmailName">[cEmailName]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cStartStopMailAddress">[cStartStopMailAddress]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cExceptionMailAddress">[cExceptionMailAddress]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cSuccessMailAddress">[cSuccessMailAddress]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cUnknownErrorMailAddress">[cUnknownErrorMailAddress]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cReportOutMailAddress">[cReportOutMailAddress]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cSendMailToCustomer">[cSendMailToCustomer]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cSuccessMailSubject">[cSuccessMailSubject]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cSuccessMailBody">[cSuccessMailBody]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cStatusesToSendMailToCustomer">[cStatusesToSendMailToCustomer]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cCreateContentVersionJSON">[cCreateContentVersionJSON]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cGetContentVersionIdUri">[cGetContentVersionIdUri]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cDocumentLinkUri">[cDocumentLinkUri]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cDocumentLinkJSON">[cDocumentLinkJSON]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cCreateContentVersionUri">[cCreateContentVersionUri]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cFarmersPolicyCenterLink">[cFarmersPolicyCenterLink]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cEndPointFetchDriverDataRequest">[cEndPointFetchDriverDataRequest]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cEndPointFetchVehicleDataRequest">[cEndPointFetchVehicleDataRequest]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cBristolWestSuccessSubject">[cBristolWestSuccessSubject]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cBothPortalSuccessSubject">[cBothPortalSuccessSubject]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cBristolWestSuccessMailBody">[cBristolWestSuccessMailBody]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cBothPortalSuccessMailBody">[cBothPortalSuccessMailBody]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cBristolPolicyCenterLink">[cBristolPolicyCenterLink]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cFarmerToBWCOverageLimitMappingFilePath">[cFarmerToBWCOverageLimitMappingFilePath]</InOutArgument>
+                      <InOutArgument x:TypeArguments="sd:DataTable" x:Key="vFarmerToBWMapDT">[vFarmerToBWMapDT]</InOutArgument>
+                      <OutArgument x:TypeArguments="sd:DataTable" x:Key="vDataTable">[vDataTable]</OutArgument>
+                    </ui:InvokeWorkflowFile.Arguments>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:InvokeWorkflowFile>
+                  <If Condition="[vReadConfigStatus = False and vAttemptCounter = cRetry]" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="If_1">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <If.Then>
+                      <Sequence DisplayName="Read Config Retry Attempts Failed Sequence" sap:VirtualizedContainerService.HintSize="376,299" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="Read Config Failed" DisplayName="Send SMTP Mail Message" Email="[cFromEmailAddress]" EnableSSL="True" From="[cFromEmailAddress]" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="[cEmailName]" Password="[vEmailPassword]" Port="[cPortNumber]" SecureConnection="Auto" Server="[cSMTPServer]" Subject="[cSubjectEmail]" To="[cReceiversMailAddress]">
+                          <ui:SendMail.Files>
+                            <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                          </ui:SendMail.Files>
+                        </ui:SendMail>
+                        <Throw Exception="[vDummyException]" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Throw_1" />
+                      </Sequence>
+                    </If.Then>
+                  </If>
+                  <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_4">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Int32">[vAttemptCounter]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Int32">[vAttemptCounter + 1]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                </Sequence>
+              </ui:InterruptibleWhile.Body>
+              <ui:InterruptibleWhile.Condition>
+                <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="vReadConfigStatus = False and vAttemptCounter &lt;=cRetry" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_1" />
+              </ui:InterruptibleWhile.Condition>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:InterruptibleWhile>
+          </Sequence>
+          <Assign DisplayName="Assign Log File Path" sap:VirtualizedContainerService.HintSize="554,60" sap2010:WorkflowViewState.IdRef="Assign_5">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[vLogFilePath]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[cLogFolderPath + "\Log_" + Now.Month.ToString +"_" + Now.Day.ToString +"_" + Now.Year.ToString + ".csv"]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign sap:VirtualizedContainerService.HintSize="554,60" sap2010:WorkflowViewState.IdRef="Assign_6">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[vTaskName]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">Main</InArgument>
+            </Assign.Value>
+          </Assign>
+          <If Condition="[File.Exists(cLogFolderPath)]" DisplayName="Log Folder Exists or Not" sap:VirtualizedContainerService.HintSize="554,51" sap2010:WorkflowViewState.IdRef="If_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <If.Else>
+              <ui:CreateDirectory ContinueOnError="{x:Null}" DisplayName="Create Log Folder" sap:VirtualizedContainerService.HintSize="334,79" sap2010:WorkflowViewState.IdRef="CreateDirectory_1" Path="[cLogFolderPath]" />
+            </If.Else>
+          </If>
+          <If Condition="[File.Exists(vLogFilePath)]" DisplayName="Log File Exists or Not" sap:VirtualizedContainerService.HintSize="554,51" sap2010:WorkflowViewState.IdRef="If_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <If.Else>
+              <ui:AppendLine DisplayName="Creating Log File" FileName="[vLogFilePath]" sap:VirtualizedContainerService.HintSize="333.6,134.4" sap2010:WorkflowViewState.IdRef="AppendLine_1" Text="Date_Time,Module,Action,Status,Exception" UseDefaultEncoding="False" />
+            </If.Else>
+          </If>
+          <ui:AppendLine DisplayName="BOT Start Log" FileName="[vLogFilePath]" sap:VirtualizedContainerService.HintSize="554,132" sap2010:WorkflowViewState.IdRef="AppendLine_2" Text="[Now.ToString + &quot;,&quot; + vTaskName + &quot;,GA Insurance BOT Started,Success&quot;]" UseDefaultEncoding="False" />
+          <TryCatch DisplayName="Email Credential Retrival" sap:VirtualizedContainerService.HintSize="554,306" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <TryCatch.Try>
+              <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Email_Credential" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="284,79" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[vEmailPasswordSecure]" Username="[cFromEmailAddress]" />
+            </TryCatch.Try>
+            <TryCatch.Catches>
+              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,21" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ActivityAction x:TypeArguments="s:Exception">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                  </ActivityAction.Argument>
+                </ActivityAction>
+              </Catch>
+            </TryCatch.Catches>
+          </TryCatch>
+          <Assign sap:VirtualizedContainerService.HintSize="554,60" sap2010:WorkflowViewState.IdRef="Assign_7">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[vEmailPassword]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[new System.Net.NetworkCredential(string.Empty,vEmailPasswordSecure).Password]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign DisplayName="Assign Mail Body" sap:VirtualizedContainerService.HintSize="554,60" sap2010:WorkflowViewState.IdRef="Assign_8">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[vMailBody]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">["Hi Humans," + Environment.NewLine + Environment.NewLine +cEmailName+" has started working. You relax!" + Environment.NewLine + Environment.NewLine + "Thanks &amp; Regards," + Environment.NewLine + cEmailName]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="554,51" sap2010:WorkflowViewState.IdRef="CommentOut_5">
+            <ui:CommentOut.Body>
+              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,237" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="[vMailBody]" DisplayName="BOT Start Mail" Email="[cFromEmailAddress]" EnableSSL="True" From="[cFromEmailAddress]" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendMail_2" IsBodyHtml="False" Name="[cEmailName]" Password="[vEmailPassword]" Port="[cPortNumber]" SecureConnection="Auto" Server="[cSMTPServer]" Subject="[cSubjectEmail + &quot; Started&quot;]" To="[cStartStopMailAddress]">
+                  <ui:SendMail.Files>
+                    <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                  </ui:SendMail.Files>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </ui:SendMail>
+              </Sequence>
+            </ui:CommentOut.Body>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:CommentOut>
+          <Sequence DisplayName="Calling Setup WorkFlow" sap:VirtualizedContainerService.HintSize="554,66" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign sap:VirtualizedContainerService.HintSize="412,60" sap2010:WorkflowViewState.IdRef="Assign_9">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Int32">[vAttemptCounter]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">1</InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign sap:VirtualizedContainerService.HintSize="412,60" sap2010:WorkflowViewState.IdRef="Assign_10">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Boolean">[vSetupStatus]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:InterruptibleWhile DisplayName="Retry While Loop for Setup" sap:VirtualizedContainerService.HintSize="412,560" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2">
+              <ui:InterruptibleWhile.Body>
+                <Sequence DisplayName="Retry While Loop for Read Config Body" sap:VirtualizedContainerService.HintSize="376,395" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="2_GAAutoInsurance_Setup.xaml">
+                    <ui:InvokeWorkflowFile.Arguments>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cLogFolderPath">[cLogFolderPath]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="vLogFilePath">[vLogFilePath]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cErrorScreenshotFolderPath">[cErrorScreenshotFolderPath]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cReportFolderPath">[cReportFolderPath]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cTempFolderPath">[cTempFolderPath]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:Boolean" x:Key="vSetupStatus">[vSetupStatus]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="vReportFilePath">[vReportFilePath]</InOutArgument>
+                      <InOutArgument x:TypeArguments="x:String" x:Key="cPolicyFolderPath">[cPolicyFolderPath]</InOutArgument>
+                    </ui:InvokeWorkflowFile.Arguments>
+                  </ui:InvokeWorkflowFile>
+                  <If Condition="[vSetupStatus = False and vAttemptCounter = cRetry]" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="If_4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <If.Then>
+                      <Sequence DisplayName="Read Config Retry Attempts Failed Sequence" sap:VirtualizedContainerService.HintSize="375.2,301.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="Setup Failed" DisplayName="Send SMTP Mail Message" Email="[cFromEmailAddress]" EnableSSL="True" From="[cFromEmailAddress]" sap:VirtualizedContainerService.HintSize="333.6,146.4" sap2010:WorkflowViewState.IdRef="SendMail_3" IsBodyHtml="False" Name="[cEmailName]" Password="[vEmailPassword]" Port="[cPortNumber]" SecureConnection="Auto" Server="[cSMTPServer]" Subject="[cSubjectEmail]" To="[cReceiversMailAddress]">
+                          <ui:SendMail.Files>
+                            <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                          </ui:SendMail.Files>
+                        </ui:SendMail>
+                        <Throw Exception="[vDummyException]" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="Throw_2" />
+                      </Sequence>
+                    </If.Then>
+                  </If>
+                  <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_11">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Int32">[vAttemptCounter]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Int32">[vAttemptCounter + 1]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                </Sequence>
+              </ui:InterruptibleWhile.Body>
+              <ui:InterruptibleWhile.Condition>
+                <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="vSetupStatus = False and vAttemptCounter &lt;=cRetry" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_2" />
+              </ui:InterruptibleWhile.Condition>
+            </ui:InterruptibleWhile>
+          </Sequence>
+          <ui:AppendLine DisplayName="Log" FileName="[vLogFilePath]" sap:VirtualizedContainerService.HintSize="554,132" sap2010:WorkflowViewState.IdRef="AppendLine_3" Text="[Now.ToString + &quot;,&quot; + vTaskName + &quot;,2_GAInsurance_Setup Completed,Success&quot;]" UseDefaultEncoding="False" />
+          <ui:AppendLine DisplayName="Log" FileName="[vLogFilePath]" sap:VirtualizedContainerService.HintSize="554,132" sap2010:WorkflowViewState.IdRef="AppendLine_4" Text="[Now.ToString + &quot;,&quot; + vTaskName + &quot;,BOT Start Time: &quot; + vBOTStartTime.ToString + &quot;,Success&quot;]" UseDefaultEncoding="False" />
+          <ui:AppendLine DisplayName="BOT Start Log" FileName="[vLogFilePath]" sap:VirtualizedContainerService.HintSize="554,132" sap2010:WorkflowViewState.IdRef="AppendLine_5" Text="[Now.ToString + &quot;,&quot; + vTaskName + &quot;,BOT Start Time: &quot; + vBOTEndTime.ToString + &quot;,Success&quot;]" UseDefaultEncoding="False" />
+          <Assign sap:VirtualizedContainerService.HintSize="554,60" sap2010:WorkflowViewState.IdRef="Assign_12">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[cBOTWaitTimeInSec]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">[If(Len(Trim(cBOTWaitTimeInSec)) = 1,"0" + cBOTWaitTimeInSec,cBOTWaitTimeInSec)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign sap:VirtualizedContainerService.HintSize="554,60" sap2010:WorkflowViewState.IdRef="Assign_13">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:TimeSpan">[vBOTWaitDelay]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:TimeSpan">[TimeSpan.Parse("00:00:" + cBOTWaitTimeInSec)]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:InterruptibleWhile DisplayName="While" sap:VirtualizedContainerService.HintSize="554,1171" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_4">
+            <ui:InterruptibleWhile.Body>
+              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="518,1006" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Sequence DisplayName="Calling Processing Workflow" sap:VirtualizedContainerService.HintSize="476,852" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Assign sap:VirtualizedContainerService.HintSize="434,60" sap2010:WorkflowViewState.IdRef="Assign_14">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Int32">[vAttemptCounter]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Int32">1</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <Assign sap:VirtualizedContainerService.HintSize="434,60" sap2010:WorkflowViewState.IdRef="Assign_15">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Boolean">[vProcessingStatus]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <ui:InterruptibleWhile DisplayName="Retry While Loop for Setup" sap:VirtualizedContainerService.HintSize="434,560" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_3">
+                    <ui:InterruptibleWhile.Body>
+                      <Sequence DisplayName="Retry While Loop for Read Config Body" sap:VirtualizedContainerService.HintSize="398,395" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="356,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="3_GAAutoInsurance_Processing - Chrome.xaml">
+                          <ui:InvokeWorkflowFile.Arguments>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cEndPointSelectRequest">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cEndPointSelectRequest" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cEndPointAccessTokenRequest">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cEndPointAccessTokenRequest" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cShortDelay">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cShortDelay" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cMediumDelay">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cMediumDelay" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cLongDelay">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cLongDelay" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:Int32" x:Key="cRetry">
+                              <mva:VisualBasicReference x:TypeArguments="x:Int32" ExpressionText="cRetry" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:Int32" x:Key="cWaitCounter">
+                              <mva:VisualBasicReference x:TypeArguments="x:Int32" ExpressionText="cWaitCounter" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:Int32" x:Key="cImplitWait">
+                              <mva:VisualBasicReference x:TypeArguments="x:Int32" ExpressionText="cImplitWait" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="vLogFilePath">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="vLogFilePath" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:Int32" x:Key="cSuccessStatusCode">
+                              <mva:VisualBasicReference x:TypeArguments="x:Int32" ExpressionText="cSuccessStatusCode" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="s:Exception" x:Key="vDummyException">
+                              <mva:VisualBasicReference x:TypeArguments="s:Exception" ExpressionText="vDummyException" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="vErrorMessage">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="vErrorMessage" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:Boolean" x:Key="vProcessingStatus">
+                              <mva:VisualBasicReference x:TypeArguments="x:Boolean" ExpressionText="vProcessingStatus" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cSubjectEmail">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cSubjectEmail" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cReceiversMailAddress">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cReceiversMailAddress" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cFromEmailAddress">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cFromEmailAddress" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cPolicyFolderPath">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cPolicyFolderPath" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cBOTUpdateJSONBodyStatus">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cBOTUpdateJSONBodyStatus" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cSalesforceUpdateEndPointUri">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cSalesforceUpdateEndPointUri" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cConnectionString">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cConnectionString" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="vReportFilePath">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="vReportFilePath" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cSQLInsertQuery">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cSQLInsertQuery" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cSQLInsertQueryRequests">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cSQLInsertQueryRequests" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cReportFolderPath">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cReportFolderPath" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cErrorScreenshotFolderPath">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cErrorScreenshotFolderPath" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:Int32" x:Key="cKnownErrorRetry">
+                              <mva:VisualBasicReference x:TypeArguments="x:Int32" ExpressionText="cKnownErrorRetry" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="sd:DataTable" x:Key="vZipCodeDT">
+                              <mva:VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="vZipCodeDT" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cSMTPServer">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cSMTPServer" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cGender">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cGender" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:Int32" x:Key="cPortNumber">
+                              <mva:VisualBasicReference x:TypeArguments="x:Int32" ExpressionText="cPortNumber" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="vEmailPassword">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="vEmailPassword" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cCCEmail">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cCCEmail" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cEmailName">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cEmailName" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="vOwnerID" />
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cStartStopMailAddress">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cStartStopMailAddress" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cExceptionMailAddress">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cExceptionMailAddress" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cSuccessMailAddress">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cSuccessMailAddress" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cUnknownErrorMailAddress">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cUnknownErrorMailAddress" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cReportOutMailAddress">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cReportOutMailAddress" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cSendMailToCustomer">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cSendMailToCustomer" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cSuccessMailSubject">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cSuccessMailSubject" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cSuccessMailBody">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cSuccessMailBody" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="vAccessToken">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="vAccessToken" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cStatusesToSendMailToCustomer">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cStatusesToSendMailToCustomer" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cCreateContentVersionJSON">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cCreateContentVersionJSON" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cGetContentVersionIdUri">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cGetContentVersionIdUri" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cDocumentLinkUri">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cDocumentLinkUri" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cDocumentLinkJSON">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cDocumentLinkJSON" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cCreateContentVersionUri">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cCreateContentVersionUri" />
+                            </InOutArgument>
+                            <InOutArgument x:TypeArguments="x:String" x:Key="cFarmersPolicyCenterLink">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cFarmersPolicyCenterLink" />
+                            </InOutArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="cEndPointFetchDriverDataRequest">
+                              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="cEndPointFetchDriverDataRequest" />
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="cEndPointFetchVehicleDataRequest">
+                              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="cEndPointFetchVehicleDataRequest" />
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="cBristolWestSuccessSubject">
+                              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="cBristolWestSuccessSubject" />
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="cBothPortalSuccessSubject">
+                              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="cBothPortalSuccessSubject" />
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="cBristolWestSuccessMailBody">
+                              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="cBristolWestSuccessMailBody" />
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="cBothPortalSuccessMailBody">
+                              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="cBothPortalSuccessMailBody" />
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="cBristolPolicyCenterLink">
+                              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="cBristolPolicyCenterLink" />
+                            </InArgument>
+                            <InArgument x:TypeArguments="sd:DataTable" x:Key="vFarmerToBWMapDT">
+                              <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="vFarmerToBWMapDT" />
+                            </InArgument>
+                            <InOutArgument x:TypeArguments="sd:DataTable" x:Key="vDataTable">
+                              <mva:VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="vDataTable" />
+                            </InOutArgument>
+                            <OutArgument x:TypeArguments="x:String" x:Key="cReportFolderFilePath">
+                              <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="cReportFolderFilePath" />
+                            </OutArgument>
+                          </ui:InvokeWorkflowFile.Arguments>
+                        </ui:InvokeWorkflowFile>
+                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="356,51" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                          <ui:CommentOut.Body>
+                            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="526,473" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <If Condition="[vProcessingStatus = False and vAttemptCounter = cRetry]" sap:VirtualizedContainerService.HintSize="484,381" sap2010:WorkflowViewState.IdRef="If_5">
+                                <If.Then>
+                                  <Sequence DisplayName="Read Config Retry Attempts Failed Sequence" sap:VirtualizedContainerService.HintSize="242,205" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="[&quot;Insurance Processing Failed Due To: &quot; + Environment.NewLine + vErrorMessage]" DisplayName="Send SMTP Mail Message" Email="[cFromEmailAddress]" EnableSSL="True" From="[cFromEmailAddress]" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SendMail_4" IsBodyHtml="False" Name="[cEmailName]" Password="[vEmailPassword]" Port="[cPortNumber]" SecureConnection="Auto" Server="[cSMTPServer]" Subject="[cSubjectEmail]" To="[cReceiversMailAddress]">
+                                      <ui:SendMail.Files>
+                                        <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                                      </ui:SendMail.Files>
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </ui:SendMail>
+                                    <Throw Exception="[vDummyException]" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Throw_3" />
+                                  </Sequence>
+                                </If.Then>
+                              </If>
+                            </Sequence>
+                          </ui:CommentOut.Body>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:CommentOut>
+                        <Assign sap:VirtualizedContainerService.HintSize="356,60" sap2010:WorkflowViewState.IdRef="Assign_16">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:Int32">[vAttemptCounter]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:Int32">[vAttemptCounter + 1]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                      </Sequence>
+                    </ui:InterruptibleWhile.Body>
+                    <ui:InterruptibleWhile.Condition>
+                      <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="vProcessingStatus = False and vAttemptCounter &lt;=cRetry" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_4" />
+                    </ui:InterruptibleWhile.Condition>
+                  </ui:InterruptibleWhile>
+                </Sequence>
+                <Delay Duration="[vBOTWaitDelay]" sap:VirtualizedContainerService.HintSize="476,22" sap2010:WorkflowViewState.IdRef="Delay_1" />
+              </Sequence>
+            </ui:InterruptibleWhile.Body>
+            <ui:InterruptibleWhile.Condition>
+              <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="vBOTStartTime &lt;= Now And vBOTEndTime &gt;= Now" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_3" />
+            </ui:InterruptibleWhile.Condition>
+          </ui:InterruptibleWhile>
+          <Assign DisplayName="Assign Mail Body" sap:VirtualizedContainerService.HintSize="554,60" sap2010:WorkflowViewState.IdRef="Assign_17">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:String">[vMailBody]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:String">["Hi Humans," + Environment.NewLine + Environment.NewLine +cEmailName+" has completed its execution." + Environment.NewLine + Environment.NewLine + "Thanks &amp; Regards," + Environment.NewLine + cEmailName]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="554,315" sap2010:WorkflowViewState.IdRef="CommentOut_4">
+            <ui:CommentOut.Body>
+              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,237" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="[vMailBody]" DisplayName="BOT End Mail" Email="[cFromEmailAddress]" EnableSSL="True" From="[cFromEmailAddress]" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendMail_5" IsBodyHtml="False" Name="[cEmailName]" Password="[vEmailPassword]" Port="[cPortNumber]" SecureConnection="Auto" Server="[cSMTPServer]" Subject="[cSubjectEmail + &quot; Ended&quot;]" To="[cStartStopMailAddress]">
+                  <ui:SendMail.Files>
+                    <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+                  </ui:SendMail.Files>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </ui:SendMail>
+              </Sequence>
+            </ui:CommentOut.Body>
+          </ui:CommentOut>
+          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="554,315" sap2010:WorkflowViewState.IdRef="CommentOut_6">
+            <ui:CommentOut.Body>
+              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,237" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="[vMailBody]" DisplayName="BOT End Mail with Report" Email="[cFromEmailAddress]" EnableSSL="True" From="[cFromEmailAddress]" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendMail_6" IsBodyHtml="False" Name="[cEmailName]" Password="[vEmailPassword]" Port="[cPortNumber]" SecureConnection="Auto" Server="[cSMTPServer]" Subject="[cSubjectEmail + &quot; Report Out&quot;]" To="[cReportOutMailAddress]">
+                  <ui:SendMail.Files>
+                    <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+                      <InArgument x:TypeArguments="x:String">
+                        <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="cReportFolderFilePath" />
+                      </InArgument>
+                    </scg:List>
+                  </ui:SendMail.Files>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </ui:SendMail>
+              </Sequence>
+            </ui:CommentOut.Body>
+          </ui:CommentOut>
+        </Sequence>
+      </TryCatch.Try>
+      <TryCatch.Catches>
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="600,21" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ActivityAction x:TypeArguments="s:Exception">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+            </ActivityAction.Argument>
+            <ui:AppendLine DisplayName="Log" FileName="[vLogFilePath]" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="AppendLine_6" Text="[Now.ToString + &quot;,&quot; + vTaskName + &quot;,&quot;+exception.ToString+&quot; ,Success&quot;]" UseDefaultEncoding="False" />
+          </ActivityAction>
+        </Catch>
+      </TryCatch.Catches>
+    </TryCatch>
+  </Sequence>
+</Activity>

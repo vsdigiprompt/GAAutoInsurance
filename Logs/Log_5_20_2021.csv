@@ -1,0 +1,783 @@
+﻿Date_Time,Module,Action,Status,Exception
+05/20/2021 15:16:22,Main,GA Insurance BOT Started,Success
+05/20/2021 15:16:24,2_GAInsurance_Setup,Module Started,Success
+05/20/2021 15:16:24,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/20/2021 15:16:24,Main,2_MLPInsurance_Setup Completed,Success
+05/20/2021 15:16:24,Main,BOT Start Time: 05/20/2021 15:16:22,Success
+05/20/2021 15:16:24,Main,BOT Start Time: 05/21/2021 12:16:22,Success
+05/20/2021 15:16:25,3_GAInsurance_Processing,Module Started,Success
+05/20/2021 15:16:30,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/20/2021 15:17:32,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/20/2021 15:17:32,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/20/2021 15:17:32,3_GAInsurance_Processing,Token Generarted,Success
+05/20/2021 15:17:36,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 15:17:37,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 15:17:40,3_GAInsurance_Processing,Lead Fecthed : 20,Success
+05/20/2021 15:17:42,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/20/2021 15:17:51,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not True, Success
+05/20/2021 15:17:54,Login_Georgia_AutoInsurance_Portal, Clicked on Login Button , Success
+05/20/2021 15:18:11,Login_Georgia_AutoInsurance_Portal, Login successfully , Success
+05/20/2021 15:18:11,Login_Georgia_AutoInsurance_Portal,,
+05/20/2021 15:19:52,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": null,
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+05/20/2021 15:32:30,Main,GA Insurance BOT Started,Success
+05/20/2021 15:32:32,2_GAInsurance_Setup,Module Started,Success
+05/20/2021 15:32:32,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/20/2021 15:32:32,Main,2_MLPInsurance_Setup Completed,Success
+05/20/2021 15:32:32,Main,BOT Start Time: 05/20/2021 15:32:30,Success
+05/20/2021 15:32:32,Main,BOT Start Time: 05/21/2021 12:32:30,Success
+05/20/2021 15:37:07,Main,GA Insurance BOT Started,Success
+05/20/2021 15:37:08,2_GAInsurance_Setup,Module Started,Success
+05/20/2021 15:37:08,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/20/2021 15:37:09,Main,2_MLPInsurance_Setup Completed,Success
+05/20/2021 15:37:09,Main,BOT Start Time: 05/20/2021 15:37:06,Success
+05/20/2021 15:37:09,Main,BOT Start Time: 05/21/2021 12:37:06,Success
+05/20/2021 15:37:09,3_GAInsurance_Processing,Module Started,Success
+05/20/2021 15:37:15,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/20/2021 15:37:24,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/20/2021 15:37:25,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/20/2021 15:37:25,3_GAInsurance_Processing,Token Generarted,Success
+05/20/2021 15:37:25,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 15:37:25,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 15:37:44,3_GAInsurance_Processing,Lead Fecthed : 20,Success
+05/20/2021 15:37:46,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/20/2021 15:38:20,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+05/20/2021 15:38:20,Login_Georgia_AutoInsurance_Portal,,Failed
+05/20/2021 15:38:22,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/20/2021 15:38:54,Login_Georgia_AutoInsurance_Portal, Login Button element exist or not False, Success
+05/20/2021 15:38:54,Login_Georgia_AutoInsurance_Portal,,Failed
+05/20/2021 16:07:44,Main,GA Insurance BOT Started,Success
+05/20/2021 16:07:46,2_GAInsurance_Setup,Module Started,Success
+05/20/2021 16:07:46,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/20/2021 16:07:46,Main,2_MLPInsurance_Setup Completed,Success
+05/20/2021 16:07:46,Main,BOT Start Time: 05/20/2021 16:07:44,Success
+05/20/2021 16:07:46,Main,BOT Start Time: 05/21/2021 13:07:44,Success
+05/20/2021 16:07:47,3_GAInsurance_Processing,Module Started,Success
+05/20/2021 16:07:51,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/20/2021 16:07:57,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/20/2021 16:07:58,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/20/2021 16:07:58,3_GAInsurance_Processing,Token Generarted,Success
+05/20/2021 16:07:59,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 16:07:59,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 16:08:10,3_GAInsurance_Processing,Lead Fecthed : 20,Success
+05/20/2021 16:08:18,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": null,
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+05/20/2021 16:08:18,3_GAInsurance_Processing, System Exception : System.InvalidOperationException: Can not assign 'cDate(item.SelectToken("Primary_Contact_Date_of_Birth__c").ToString)' to 'vPrimaryContactDOB'. ---> System.InvalidCastException: Conversion from string "" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at lambda_method(Closure , ActivityContext )
+   at Microsoft.VisualBasic.Activities.VisualBasicValue`1.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity`1.InternalExecuteInResolutionContext(CodeActivityContext context)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteInResolutionContext[T](ActivityInstance parentInstance, Activity`1 expressionActivity)
+   at System.Activities.InArgument`1.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance activityInstance, ActivityExecutor executor)
+   at System.Activities.RuntimeArgument.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance targetActivityInstance, ActivityExecutor executor, Object argumentValueOverride, Location resultLocation, Boolean skipFastPath)
+   at System.Activities.ActivityInstance.InternalTryPopulateArgumentValueOrScheduleExpression(RuntimeArgument argument, Int32 nextArgumentIndex, ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Boolean isDynamicUpdate)
+   at System.Activities.ActivityInstance.ResolveArguments(ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Int32 startIndex)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation)
+   --- End of inner exception stack trace ---
+   at System.Activities.Statements.Throw.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity.InternalExecute(ActivityInstance instance, ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.ActivityInstance.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation) ,Success
+05/20/2021 16:08:19,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 16:08:19,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 16:08:19,3_GAInsurance_Processing,Driver details:    ,Success
+05/20/2021 16:08:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 16:08:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 16:08:20,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/20/2021 16:08:35,3_GAInsurance_Processing,  No vechicle details found, Success
+05/20/2021 16:39:50,Main,GA Insurance BOT Started,Success
+05/20/2021 16:39:52,2_GAInsurance_Setup,Module Started,Success
+05/20/2021 16:39:52,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/20/2021 16:39:52,Main,2_MLPInsurance_Setup Completed,Success
+05/20/2021 16:39:52,Main,BOT Start Time: 05/20/2021 16:39:50,Success
+05/20/2021 16:39:52,Main,BOT Start Time: 05/21/2021 13:39:50,Success
+05/20/2021 16:39:53,3_GAInsurance_Processing,Module Started,Success
+05/20/2021 16:39:58,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/20/2021 17:17:52,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/20/2021 17:17:54,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/20/2021 17:17:54,3_GAInsurance_Processing,Token Generarted,Success
+05/20/2021 17:17:54,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:17:54,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:17:57,3_GAInsurance_Processing,Lead Fecthed : 20,Success
+05/20/2021 17:18:01,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": null,
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+05/20/2021 17:18:01,3_GAInsurance_Processing, System Exception : System.InvalidOperationException: Can not assign 'cDate(item.SelectToken("Primary_Contact_Date_of_Birth__c").ToString)' to 'vPrimaryContactDOB'. ---> System.InvalidCastException: Conversion from string "" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at lambda_method(Closure , ActivityContext )
+   at Microsoft.VisualBasic.Activities.VisualBasicValue`1.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity`1.InternalExecuteInResolutionContext(CodeActivityContext context)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteInResolutionContext[T](ActivityInstance parentInstance, Activity`1 expressionActivity)
+   at System.Activities.InArgument`1.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance activityInstance, ActivityExecutor executor)
+   at System.Activities.RuntimeArgument.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance targetActivityInstance, ActivityExecutor executor, Object argumentValueOverride, Location resultLocation, Boolean skipFastPath)
+   at System.Activities.ActivityInstance.InternalTryPopulateArgumentValueOrScheduleExpression(RuntimeArgument argument, Int32 nextArgumentIndex, ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Boolean isDynamicUpdate)
+   at System.Activities.ActivityInstance.ResolveArguments(ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Int32 startIndex)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation)
+   --- End of inner exception stack trace ---
+   at System.Activities.Statements.Throw.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity.InternalExecute(ActivityInstance instance, ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.ActivityInstance.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation) ,Success
+05/20/2021 17:18:02,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:18:02,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:18:02,3_GAInsurance_Processing,Driver details:    ,Success
+05/20/2021 17:18:03,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:18:03,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:18:03,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/20/2021 17:18:05,3_GAInsurance_Processing,  No vechicle details found, Success
+05/20/2021 17:18:06,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-20T11:48:01",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-20T11:48:01",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No vechicle details found",
+    "Bot_Update__c" : null
+},Success
+05/20/2021 17:18:23,3_GAInsurance_ProcessingSalesforce ErrorThe operation has timed out.,Success
+05/20/2021 17:18:29,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/20/2021 17:28:09,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOclEAE"
+  },
+  "Id": "00Q0m000007wOclEAE",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Laura",
+  "LastName": "Louis",
+  "Phone": "470-381-3843",
+  "Email": "laura.straughn@gmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": null,
+  "Address": {
+    "city": "Fairburn",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30213",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "6688 Saint Jude Drive"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:06:19+05:30"
+},Success
+05/20/2021 17:28:10,3_GAInsurance_Processing, System Exception : System.InvalidOperationException: Can not assign 'cDate(item.SelectToken("Primary_Contact_Date_of_Birth__c").ToString)' to 'vPrimaryContactDOB'. ---> System.InvalidCastException: Conversion from string "" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at lambda_method(Closure , ActivityContext )
+   at Microsoft.VisualBasic.Activities.VisualBasicValue`1.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity`1.InternalExecuteInResolutionContext(CodeActivityContext context)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteInResolutionContext[T](ActivityInstance parentInstance, Activity`1 expressionActivity)
+   at System.Activities.InArgument`1.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance activityInstance, ActivityExecutor executor)
+   at System.Activities.RuntimeArgument.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance targetActivityInstance, ActivityExecutor executor, Object argumentValueOverride, Location resultLocation, Boolean skipFastPath)
+   at System.Activities.ActivityInstance.InternalTryPopulateArgumentValueOrScheduleExpression(RuntimeArgument argument, Int32 nextArgumentIndex, ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Boolean isDynamicUpdate)
+   at System.Activities.ActivityInstance.ResolveArguments(ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Int32 startIndex)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation)
+   --- End of inner exception stack trace ---
+   at System.Activities.Statements.Throw.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity.InternalExecute(ActivityInstance instance, ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.ActivityInstance.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation) ,Success
+05/20/2021 17:28:11,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:28:11,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:28:11,3_GAInsurance_Processing,Driver details:    ,Success
+05/20/2021 17:28:12,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:28:12,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:28:12,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/20/2021 17:28:14,3_GAInsurance_Processing,  No vechicle details found, Success
+05/20/2021 17:28:15,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-20T11:58:09",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-20T11:58:09",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No vechicle details found",
+    "Bot_Update__c" : null
+},Success
+05/20/2021 17:28:16,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/20/2021 17:28:25,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOcmEAE"
+  },
+  "Id": "00Q0m000007wOcmEAE",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "George",
+  "LastName": "Najdek",
+  "Phone": "404-484-2324",
+  "Email": "heidinajdek@gmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": null,
+  "Address": {
+    "city": "Cumming",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30028",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "6130 Bridge Fair Road"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:14:34+05:30"
+},Success
+05/20/2021 17:28:25,3_GAInsurance_Processing, System Exception : System.InvalidOperationException: Can not assign 'cDate(item.SelectToken("Primary_Contact_Date_of_Birth__c").ToString)' to 'vPrimaryContactDOB'. ---> System.InvalidCastException: Conversion from string "" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at lambda_method(Closure , ActivityContext )
+   at Microsoft.VisualBasic.Activities.VisualBasicValue`1.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity`1.InternalExecuteInResolutionContext(CodeActivityContext context)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteInResolutionContext[T](ActivityInstance parentInstance, Activity`1 expressionActivity)
+   at System.Activities.InArgument`1.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance activityInstance, ActivityExecutor executor)
+   at System.Activities.RuntimeArgument.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance targetActivityInstance, ActivityExecutor executor, Object argumentValueOverride, Location resultLocation, Boolean skipFastPath)
+   at System.Activities.ActivityInstance.InternalTryPopulateArgumentValueOrScheduleExpression(RuntimeArgument argument, Int32 nextArgumentIndex, ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Boolean isDynamicUpdate)
+   at System.Activities.ActivityInstance.ResolveArguments(ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Int32 startIndex)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation)
+   --- End of inner exception stack trace ---
+   at System.Activities.Statements.Throw.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity.InternalExecute(ActivityInstance instance, ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.ActivityInstance.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation) ,Success
+05/20/2021 17:28:25,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:28:25,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:28:26,3_GAInsurance_Processing,Driver details:    ,Success
+05/20/2021 17:28:26,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:28:26,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:28:27,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/20/2021 17:28:28,3_GAInsurance_Processing,  No vechicle details found, Success
+05/20/2021 17:28:28,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-20T11:58:25",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-20T11:58:25",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No vechicle details found",
+    "Bot_Update__c" : null
+},Success
+05/20/2021 17:28:30,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/20/2021 17:30:15,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOeDEAU"
+  },
+  "Id": "00Q0m000007wOeDEAU",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Jathin",
+  "LastName": "Shetty",
+  "Phone": "908-216-1320",
+  "Email": "jathins@gmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": null,
+  "Address": {
+    "city": "Suwanee",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30024",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "5260 Beecham Court"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:45:45+05:30"
+},Success
+05/20/2021 17:30:15,3_GAInsurance_Processing, System Exception : System.InvalidOperationException: Can not assign 'cDate(item.SelectToken("Primary_Contact_Date_of_Birth__c").ToString)' to 'vPrimaryContactDOB'. ---> System.InvalidCastException: Conversion from string "" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at lambda_method(Closure , ActivityContext )
+   at Microsoft.VisualBasic.Activities.VisualBasicValue`1.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity`1.InternalExecuteInResolutionContext(CodeActivityContext context)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteInResolutionContext[T](ActivityInstance parentInstance, Activity`1 expressionActivity)
+   at System.Activities.InArgument`1.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance activityInstance, ActivityExecutor executor)
+   at System.Activities.RuntimeArgument.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance targetActivityInstance, ActivityExecutor executor, Object argumentValueOverride, Location resultLocation, Boolean skipFastPath)
+   at System.Activities.ActivityInstance.InternalTryPopulateArgumentValueOrScheduleExpression(RuntimeArgument argument, Int32 nextArgumentIndex, ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Boolean isDynamicUpdate)
+   at System.Activities.ActivityInstance.ResolveArguments(ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Int32 startIndex)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation)
+   --- End of inner exception stack trace ---
+   at System.Activities.Statements.Throw.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity.InternalExecute(ActivityInstance instance, ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.ActivityInstance.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation) ,Success
+05/20/2021 17:30:18,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:30:18,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:30:19,3_GAInsurance_Processing,Driver details:    ,Success
+05/20/2021 17:30:19,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:30:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:30:20,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/20/2021 17:30:58,3_GAInsurance_Processing,  No vechicle details found, Success
+05/20/2021 17:30:59,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-20T12:00:15",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-20T12:00:15",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No vechicle details found",
+    "Bot_Update__c" : null
+},Success
+05/20/2021 17:31:00,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/20/2021 17:31:06,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOdZEAU"
+  },
+  "Id": "00Q0m000007wOdZEAU",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Barkur",
+  "LastName": "Shetty",
+  "Phone": "404-933-5235",
+  "Email": "bpshetty@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": null,
+  "Address": {
+    "city": "Alpharetta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30005",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "150 Westbury Lane"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:28:12+05:30"
+},Success
+05/20/2021 17:31:06,3_GAInsurance_Processing, System Exception : System.InvalidOperationException: Can not assign 'cDate(item.SelectToken("Primary_Contact_Date_of_Birth__c").ToString)' to 'vPrimaryContactDOB'. ---> System.InvalidCastException: Conversion from string "" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at lambda_method(Closure , ActivityContext )
+   at Microsoft.VisualBasic.Activities.VisualBasicValue`1.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity`1.InternalExecuteInResolutionContext(CodeActivityContext context)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteInResolutionContext[T](ActivityInstance parentInstance, Activity`1 expressionActivity)
+   at System.Activities.InArgument`1.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance activityInstance, ActivityExecutor executor)
+   at System.Activities.RuntimeArgument.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance targetActivityInstance, ActivityExecutor executor, Object argumentValueOverride, Location resultLocation, Boolean skipFastPath)
+   at System.Activities.ActivityInstance.InternalTryPopulateArgumentValueOrScheduleExpression(RuntimeArgument argument, Int32 nextArgumentIndex, ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Boolean isDynamicUpdate)
+   at System.Activities.ActivityInstance.ResolveArguments(ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Int32 startIndex)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation)
+   --- End of inner exception stack trace ---
+   at System.Activities.Statements.Throw.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity.InternalExecute(ActivityInstance instance, ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.ActivityInstance.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation) ,Success
+05/20/2021 17:31:07,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:31:07,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:31:07,3_GAInsurance_Processing,Driver details:    ,Success
+05/20/2021 17:31:08,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:31:08,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:31:08,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/20/2021 17:31:30,3_GAInsurance_Processing,  No vechicle details found, Success
+05/20/2021 17:31:31,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-20T12:01:06",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-20T12:01:06",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No vechicle details found",
+    "Bot_Update__c" : null
+},Success
+05/20/2021 17:31:32,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/20/2021 17:31:36,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOdPEAU"
+  },
+  "Id": "00Q0m000007wOdPEAU",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Larry",
+  "LastName": "Bennett",
+  "Phone": "478-595-5206",
+  "Email": "ilbee_216@hotmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": null,
+  "Address": {
+    "city": "Ivey",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "31031",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "103 Lakeview Drive"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:24:33+05:30"
+},Success
+05/20/2021 17:31:36,3_GAInsurance_Processing, System Exception : System.InvalidOperationException: Can not assign 'cDate(item.SelectToken("Primary_Contact_Date_of_Birth__c").ToString)' to 'vPrimaryContactDOB'. ---> System.InvalidCastException: Conversion from string "" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at lambda_method(Closure , ActivityContext )
+   at Microsoft.VisualBasic.Activities.VisualBasicValue`1.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity`1.InternalExecuteInResolutionContext(CodeActivityContext context)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteInResolutionContext[T](ActivityInstance parentInstance, Activity`1 expressionActivity)
+   at System.Activities.InArgument`1.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance activityInstance, ActivityExecutor executor)
+   at System.Activities.RuntimeArgument.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance targetActivityInstance, ActivityExecutor executor, Object argumentValueOverride, Location resultLocation, Boolean skipFastPath)
+   at System.Activities.ActivityInstance.InternalTryPopulateArgumentValueOrScheduleExpression(RuntimeArgument argument, Int32 nextArgumentIndex, ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Boolean isDynamicUpdate)
+   at System.Activities.ActivityInstance.ResolveArguments(ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Int32 startIndex)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation)
+   --- End of inner exception stack trace ---
+   at System.Activities.Statements.Throw.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity.InternalExecute(ActivityInstance instance, ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.ActivityInstance.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation) ,Success
+05/20/2021 17:31:36,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:31:36,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:31:37,3_GAInsurance_Processing,Driver details:    ,Success
+05/20/2021 17:31:37,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:31:37,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:31:37,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/20/2021 17:31:39,3_GAInsurance_Processing,  No vechicle details found, Success
+05/20/2021 17:31:40,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-20T12:01:36",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-20T12:01:36",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No vechicle details found",
+    "Bot_Update__c" : null
+},Success
+05/20/2021 17:31:41,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/20/2021 17:31:44,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOe3EAE"
+  },
+  "Id": "00Q0m000007wOe3EAE",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Derya",
+  "LastName": "Ozler",
+  "Phone": "678-438-2532",
+  "Email": "deryauluc01@gmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": null,
+  "Address": {
+    "city": "Woodstock",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30188",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "286 Regent Square"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:36:25+05:30"
+},Success
+05/20/2021 17:31:44,3_GAInsurance_Processing, System Exception : System.InvalidOperationException: Can not assign 'cDate(item.SelectToken("Primary_Contact_Date_of_Birth__c").ToString)' to 'vPrimaryContactDOB'. ---> System.InvalidCastException: Conversion from string "" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at lambda_method(Closure , ActivityContext )
+   at Microsoft.VisualBasic.Activities.VisualBasicValue`1.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity`1.InternalExecuteInResolutionContext(CodeActivityContext context)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteInResolutionContext[T](ActivityInstance parentInstance, Activity`1 expressionActivity)
+   at System.Activities.InArgument`1.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance activityInstance, ActivityExecutor executor)
+   at System.Activities.RuntimeArgument.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance targetActivityInstance, ActivityExecutor executor, Object argumentValueOverride, Location resultLocation, Boolean skipFastPath)
+   at System.Activities.ActivityInstance.InternalTryPopulateArgumentValueOrScheduleExpression(RuntimeArgument argument, Int32 nextArgumentIndex, ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Boolean isDynamicUpdate)
+   at System.Activities.ActivityInstance.ResolveArguments(ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Int32 startIndex)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation)
+   --- End of inner exception stack trace ---
+   at System.Activities.Statements.Throw.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity.InternalExecute(ActivityInstance instance, ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.ActivityInstance.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation) ,Success
+05/20/2021 17:31:45,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:31:45,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:31:45,3_GAInsurance_Processing,Driver details:    ,Success
+05/20/2021 17:31:46,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:31:46,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:31:46,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/20/2021 17:31:51,3_GAInsurance_Processing,  No vechicle details found, Success
+05/20/2021 17:31:52,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-20T12:01:44",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-20T12:01:44",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No vechicle details found",
+    "Bot_Update__c" : null
+},Success
+05/20/2021 17:31:53,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/20/2021 17:31:59,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOWYEA2"
+  },
+  "Id": "00Q0m000007wOWYEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Sireesh",
+  "LastName": "Yaratha",
+  "Phone": "404-416-0431",
+  "Email": "sireesh.yaratha@gmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": null,
+  "Address": {
+    "city": "Cumming",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30040",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "6920 Rocking Horse Lane"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:34:11+05:30"
+},Success
+05/20/2021 17:31:59,3_GAInsurance_Processing, System Exception : System.InvalidOperationException: Can not assign 'cDate(item.SelectToken("Primary_Contact_Date_of_Birth__c").ToString)' to 'vPrimaryContactDOB'. ---> System.InvalidCastException: Conversion from string "" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at lambda_method(Closure , ActivityContext )
+   at Microsoft.VisualBasic.Activities.VisualBasicValue`1.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity`1.InternalExecuteInResolutionContext(CodeActivityContext context)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteInResolutionContext[T](ActivityInstance parentInstance, Activity`1 expressionActivity)
+   at System.Activities.InArgument`1.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance activityInstance, ActivityExecutor executor)
+   at System.Activities.RuntimeArgument.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance targetActivityInstance, ActivityExecutor executor, Object argumentValueOverride, Location resultLocation, Boolean skipFastPath)
+   at System.Activities.ActivityInstance.InternalTryPopulateArgumentValueOrScheduleExpression(RuntimeArgument argument, Int32 nextArgumentIndex, ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Boolean isDynamicUpdate)
+   at System.Activities.ActivityInstance.ResolveArguments(ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Int32 startIndex)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation)
+   --- End of inner exception stack trace ---
+   at System.Activities.Statements.Throw.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity.InternalExecute(ActivityInstance instance, ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.ActivityInstance.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation) ,Success
+05/20/2021 17:32:00,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:32:00,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:32:00,3_GAInsurance_Processing,Driver details:    ,Success
+05/20/2021 17:32:01,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:32:01,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:32:01,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/20/2021 17:32:04,3_GAInsurance_Processing,  No vechicle details found, Success
+05/20/2021 17:32:05,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-20T12:01:59",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-20T12:01:59",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No vechicle details found",
+    "Bot_Update__c" : null
+},Success
+05/20/2021 17:32:06,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/20/2021 17:32:53,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOehEAE"
+  },
+  "Id": "00Q0m000007wOehEAE",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Sanjay",
+  "LastName": "Tirumalasetty",
+  "Phone": "404-247-4706",
+  "Email": "sanjaybt@yahoo.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": null,
+  "Address": {
+    "city": "Cumming",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30041",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "2530 Alsace Way"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:50:26+05:30"
+},Success
+05/20/2021 17:32:53,3_GAInsurance_Processing, System Exception : System.InvalidOperationException: Can not assign 'cDate(item.SelectToken("Primary_Contact_Date_of_Birth__c").ToString)' to 'vPrimaryContactDOB'. ---> System.InvalidCastException: Conversion from string "" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at lambda_method(Closure , ActivityContext )
+   at Microsoft.VisualBasic.Activities.VisualBasicValue`1.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity`1.InternalExecuteInResolutionContext(CodeActivityContext context)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteInResolutionContext[T](ActivityInstance parentInstance, Activity`1 expressionActivity)
+   at System.Activities.InArgument`1.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance activityInstance, ActivityExecutor executor)
+   at System.Activities.RuntimeArgument.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance targetActivityInstance, ActivityExecutor executor, Object argumentValueOverride, Location resultLocation, Boolean skipFastPath)
+   at System.Activities.ActivityInstance.InternalTryPopulateArgumentValueOrScheduleExpression(RuntimeArgument argument, Int32 nextArgumentIndex, ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Boolean isDynamicUpdate)
+   at System.Activities.ActivityInstance.ResolveArguments(ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Int32 startIndex)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation)
+   --- End of inner exception stack trace ---
+   at System.Activities.Statements.Throw.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity.InternalExecute(ActivityInstance instance, ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.ActivityInstance.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation) ,Success
+05/20/2021 17:32:54,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:32:54,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:32:54,3_GAInsurance_Processing,Driver details:    ,Success
+05/20/2021 17:32:55,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:32:55,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:32:55,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/20/2021 17:32:57,3_GAInsurance_Processing,  No vechicle details found, Success
+05/20/2021 17:32:57,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-20T12:02:53",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-20T12:02:53",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No vechicle details found",
+    "Bot_Update__c" : null
+},Success
+05/20/2021 17:32:59,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/20/2021 17:33:02,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOe8EAE"
+  },
+  "Id": "00Q0m000007wOe8EAE",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Felicia",
+  "LastName": "Walker",
+  "Phone": "850-692-1877",
+  "Email": "feewa9375@gmail.com",
+  "Gender__c": null,
+  "Primary_Contact_Date_of_Birth__c": null,
+  "Address": {
+    "city": "Columbus",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "31906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3309 Decatur Street"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:41:53+05:30"
+},Success
+05/20/2021 17:33:02,3_GAInsurance_Processing, System Exception : System.InvalidOperationException: Can not assign 'cDate(item.SelectToken("Primary_Contact_Date_of_Birth__c").ToString)' to 'vPrimaryContactDOB'. ---> System.InvalidCastException: Conversion from string "" to type 'Date' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDate(String Value)
+   at lambda_method(Closure , ActivityContext )
+   at Microsoft.VisualBasic.Activities.VisualBasicValue`1.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity`1.InternalExecuteInResolutionContext(CodeActivityContext context)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteInResolutionContext[T](ActivityInstance parentInstance, Activity`1 expressionActivity)
+   at System.Activities.InArgument`1.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance activityInstance, ActivityExecutor executor)
+   at System.Activities.RuntimeArgument.TryPopulateValue(LocationEnvironment targetEnvironment, ActivityInstance targetActivityInstance, ActivityExecutor executor, Object argumentValueOverride, Location resultLocation, Boolean skipFastPath)
+   at System.Activities.ActivityInstance.InternalTryPopulateArgumentValueOrScheduleExpression(RuntimeArgument argument, Int32 nextArgumentIndex, ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Boolean isDynamicUpdate)
+   at System.Activities.ActivityInstance.ResolveArguments(ActivityExecutor executor, IDictionary`2 argumentValueOverrides, Location resultLocation, Int32 startIndex)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation)
+   --- End of inner exception stack trace ---
+   at System.Activities.Statements.Throw.Execute(CodeActivityContext context)
+   at System.Activities.CodeActivity.InternalExecute(ActivityInstance instance, ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.ActivityInstance.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
+   at System.Activities.Runtime.ActivityExecutor.ExecuteActivityWorkItem.ExecuteBody(ActivityExecutor executor, BookmarkManager bookmarkManager, Location resultLocation) ,Success
+05/20/2021 17:33:03,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:33:03,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:33:03,3_GAInsurance_Processing,Driver details:    ,Success
+05/20/2021 17:33:04,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/20/2021 17:33:04,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/20/2021 17:33:04,3_GAInsurance_Processing, Vechicle details:  ,Success

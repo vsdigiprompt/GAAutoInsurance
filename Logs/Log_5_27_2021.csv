@@ -1,0 +1,1190 @@
+﻿Date_Time,Module,Action,Status,Exception
+05/27/2021 23:55:37,Main,GA Insurance BOT Started,Success
+05/27/2021 23:55:39,2_GAInsurance_Setup,Module Started,Success
+05/27/2021 23:55:39,2_GAInsurance_Setup, GA Insurance BOT Finished,Success
+05/27/2021 23:55:39,Main,2_GAInsurance_Setup Completed,Success
+05/27/2021 23:55:39,Main,BOT Start Time: 05/27/2021 23:55:36,Success
+05/27/2021 23:55:40,Main,BOT Start Time: 05/28/2021 20:55:36,Success
+05/27/2021 23:55:41,3_GAInsurance_Processing,Module Started,Success
+05/27/2021 23:55:45,3_GAInsurance_Processing,Api Call Status COde: 401,Success
+05/27/2021 23:55:51,3_GAInsurance_Processing,Unable to cast object of type 'Newtonsoft.Json.Linq.JArray' to type 'Newtonsoft.Json.Linq.JObject'.,Success
+05/27/2021 23:55:52,3_GAInsurance_Processing,Api Call Status COde to generate Access Token: 200,Success
+05/27/2021 23:55:52,3_GAInsurance_Processing,Token Generarted,Success
+05/27/2021 23:55:53,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/27/2021 23:55:53,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/27/2021 23:55:53,3_GAInsurance_Processing,Lead Fecthed : 21,Success
+05/27/2021 23:55:55,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/27/2021 23:56:06,Login_Georgia_AutoInsurance_Portal, Already logged in , Success
+05/27/2021 23:56:14,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOXHEA2"
+  },
+  "Id": "00Q0m000007wOXHEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Yamini",
+  "LastName": "Anantula",
+  "Phone": "304-276-9510",
+  "Email": "yamini_anantula@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1995-09-26",
+  "Address": {
+    "city": "Atlanta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30309",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "220 Semel Circle Northwest Unit 176"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:45:32+05:30"
+},Success
+05/27/2021 23:56:14,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/27/2021 23:56:14,SalesforceAttemprsSequence,Attempt 1,Success
+05/27/2021 23:56:15,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/27/2021 23:56:15,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/27/2021 23:56:15,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/27/2021 23:56:15,SalesforceAttemprsSequence,Token Generarted,Success
+05/27/2021 23:56:15,SalesforceAttemprsSequence,Attempt 2,Success
+05/27/2021 23:56:16,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/27/2021 23:56:16,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+05/27/2021 23:56:16,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/27/2021 23:56:16,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/27/2021 23:56:17,3_GAInsurance_Processing,Driver details: MANAVI ANANTULA,APARNA ANANTULA,YAMINI ANANTULA, 2000-05-16,1988-01-28,1995-09-26, ,,, ,Success
+05/27/2021 23:56:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/27/2021 23:56:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/27/2021 23:56:17,3_GAInsurance_Processing, Vechicle details: JF2GTANC1KH222664::2019:SUBARU:XV CRSTK W/E 2.0I LTD VDC NAVI,5J6RM4H72EL003700::2014:HONDA:CR-V 4D 4WD EX-L,2HKYF18563H556344::2003:HONDA:PILOT 4D 4WD EX-L, ,Success
+05/27/2021 23:56:21,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/27/2021 23:56:30,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/27/2021 23:56:39,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/27/2021 23:56:39,SalesforceAttemprsSequence,Attempt 1,Success
+05/27/2021 23:56:39,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/27/2021 23:56:39,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/27/2021 23:56:39,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/27/2021 23:56:40,SalesforceAttemprsSequence,Token Generarted,Success
+05/27/2021 23:56:40,SalesforceAttemprsSequence,Attempt 2,Success
+05/27/2021 23:56:41,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/27/2021 23:56:41,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+05/27/2021 23:56:42,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/27/2021 23:56:43,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/27/2021 23:56:46,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/27/2021 23:57:17,4.1_Georgia_Farmer_Auto, Element exist for Driver page False ,Success
+05/27/2021 23:57:17,4.1_Georgia_Farmer_Auto,Technical Exception : Unable to open additional driver window,Failed
+05/27/2021 23:57:18,3_GAInsurance_Processing, Lead ID 00Q0m000007wOXHEA2, Status : Failed Status Description : Technical Exception : Unable to open additional driver window ,Success
+05/27/2021 23:57:19,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/27/2021 23:57:26,Login_Georgia_AutoInsurance_Portal, Already logged in , Success
+05/27/2021 23:57:28,3_GAInsurance_Processing, Closed all child tabs ,Success
+05/27/2021 23:57:29,3_GAInsurance_Processing, Status : Failed Status Description : Technical Exception : Unable to open additional driver window ,Success
+05/27/2021 23:57:29,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-27T18:26:14",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-27T18:26:14",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "Technical Exception : Unable to open additional driver window",
+    "Bot_Update__c" : null
+},Success
+05/27/2021 23:57:30,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/27/2021 23:57:33,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOclEAE"
+  },
+  "Id": "00Q0m000007wOclEAE",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Laura",
+  "LastName": "Louis",
+  "Phone": "470-381-3843",
+  "Email": "laura.straughn@gmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1983-07-28",
+  "Address": {
+    "city": "Fairburn",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30213",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "6688 Saint Jude Drive"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:06:19+05:30"
+},Success
+05/27/2021 23:57:33,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/27/2021 23:57:33,SalesforceAttemprsSequence,Attempt 1,Success
+05/27/2021 23:57:34,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/27/2021 23:57:34,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/27/2021 23:57:34,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/27/2021 23:57:34,SalesforceAttemprsSequence,Token Generarted,Success
+05/27/2021 23:57:34,SalesforceAttemprsSequence,Attempt 2,Success
+05/27/2021 23:57:35,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/27/2021 23:57:35,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+05/27/2021 23:57:35,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/27/2021 23:57:35,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/27/2021 23:57:35,3_GAInsurance_Processing,Driver details: Laura Louis, 1983-07-28, , ,Success
+05/27/2021 23:57:36,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/27/2021 23:57:36,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/27/2021 23:57:36,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/27/2021 23:57:36,3_GAInsurance_Processing,  No vechicle details found, Success
+05/27/2021 23:57:36,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-27T18:27:33",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-27T18:27:33",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No vechicle details found",
+    "Bot_Update__c" : null
+},Success
+05/27/2021 23:57:37,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/27/2021 23:57:40,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOcmEAE"
+  },
+  "Id": "00Q0m000007wOcmEAE",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "George",
+  "LastName": "Najdek",
+  "Phone": "404-484-2324",
+  "Email": "heidinajdek@gmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1972-02-24",
+  "Address": {
+    "city": "Cumming",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30028",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "6130 Bridge Fair Road"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:14:34+05:30"
+},Success
+05/27/2021 23:57:40,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/27/2021 23:57:40,SalesforceAttemprsSequence,Attempt 1,Success
+05/27/2021 23:57:41,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/27/2021 23:57:41,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/27/2021 23:57:41,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/27/2021 23:57:41,SalesforceAttemprsSequence,Token Generarted,Success
+05/27/2021 23:57:41,SalesforceAttemprsSequence,Attempt 2,Success
+05/27/2021 23:57:42,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/27/2021 23:57:42,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+05/27/2021 23:57:43,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/27/2021 23:57:43,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/27/2021 23:57:43,3_GAInsurance_Processing,Driver details: George Najdek, 1972-02-24, , ,Success
+05/27/2021 23:57:43,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/27/2021 23:57:43,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/27/2021 23:57:43,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/27/2021 23:57:43,3_GAInsurance_Processing,  No vechicle details found, Success
+05/27/2021 23:57:43,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-27T18:27:40",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-27T18:27:40",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No vechicle details found",
+    "Bot_Update__c" : null
+},Success
+05/27/2021 23:57:44,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/27/2021 23:58:17,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOeDEAU"
+  },
+  "Id": "00Q0m000007wOeDEAU",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Jathin",
+  "LastName": "Shetty",
+  "Phone": "908-216-1320",
+  "Email": "jathins@gmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1975-01-06",
+  "Address": {
+    "city": "Suwanee",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30024",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "5260 Beecham Court"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:45:45+05:30"
+},Success
+05/27/2021 23:58:18,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/27/2021 23:58:18,SalesforceAttemprsSequence,Attempt 1,Success
+05/27/2021 23:58:18,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/27/2021 23:58:18,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/27/2021 23:58:18,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/27/2021 23:58:18,SalesforceAttemprsSequence,Token Generarted,Success
+05/27/2021 23:58:18,SalesforceAttemprsSequence,Attempt 2,Success
+05/27/2021 23:58:19,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/27/2021 23:58:19,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+05/27/2021 23:58:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/27/2021 23:58:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/27/2021 23:58:20,3_GAInsurance_Processing,Driver details: Shobitha Rai,Jathin Shetty, 1981-10-03,1975-01-06, ,, ,Success
+05/27/2021 23:58:20,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/27/2021 23:58:20,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/27/2021 23:58:20,3_GAInsurance_Processing, Vechicle details: 1FMHK8F80CGA14884::2012:Ford:Truck Explorer 4D 4X4 Limited,1HGCP26708A166454::2008:Honda:Accord 4D EX, ,Success
+05/27/2021 23:58:23,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/27/2021 23:58:32,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/27/2021 23:58:41,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/27/2021 23:58:41,SalesforceAttemprsSequence,Attempt 1,Success
+05/27/2021 23:58:41,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/27/2021 23:58:41,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/27/2021 23:58:41,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/27/2021 23:58:41,SalesforceAttemprsSequence,Token Generarted,Success
+05/27/2021 23:58:41,SalesforceAttemprsSequence,Attempt 2,Success
+05/27/2021 23:58:42,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/27/2021 23:58:42,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+05/27/2021 23:58:43,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/27/2021 23:58:45,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/27/2021 23:58:48,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/27/2021 23:59:05,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/27/2021 23:59:06,4.1_Georgia_Farmer_Auto, Driver details : Shobitha Rai,Jathin Shetty, 1981-10-03,1975-01-06, ,, ,Success
+05/27/2021 23:59:06,4.1_Georgia_Farmer_Auto, Driver Name Shobitha Rai counter 1 Get Name JATHIN ,Success
+05/27/2021 23:59:06,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+05/27/2021 23:59:07,4.1_Georgia_Farmer_Auto, Driver Name Jathin Shetty counter 1 Get Name JATHIN ,Success
+05/27/2021 23:59:07,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+05/27/2021 23:59:08,4.1_Georgia_Farmer_Auto, Vechicle selection 1FMHK8F80CGA14884::2012:Ford:Truck Explorer 4D 4X4 Limited,1HGCP26708A166454::2008:Honda:Accord 4D EX, ,Success
+05/27/2021 23:59:08,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/27/2021 23:59:09,4.1_Georgia_Farmer_Auto, VIN Number 1FMHK8F80CGA14884 1HGCP26708A166454 1, Success
+05/27/2021 23:59:10,4.1_Georgia_Farmer_Auto, VIN Number 1FMHK8F80CGA14884 1FMHK8F80CGA14884 2, Success
+05/27/2021 23:59:10,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/27/2021 23:59:11,4.1_Georgia_Farmer_Auto, VIN Number 1HGCP26708A166454 1HGCP26708A166454 1, Success
+05/27/2021 23:59:11,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/27/2021 23:59:12,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/27/2021 23:59:12,SalesforceAttemprsSequence,Attempt 1,Success
+05/27/2021 23:59:12,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/27/2021 23:59:12,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/27/2021 23:59:13,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/27/2021 23:59:13,SalesforceAttemprsSequence,Token Generarted,Success
+05/27/2021 23:59:13,SalesforceAttemprsSequence,Attempt 2,Success
+05/27/2021 23:59:14,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/27/2021 23:59:14,4.1_Georgia_Farmer_Auto, Sales force updated 30% Completed- Driver and Vehicle Information Filled  ,Success
+05/27/2021 23:59:19,4.1_Georgia_Farmer_Auto, Bristol pop message found False  ,Success
+05/27/2021 23:59:19,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/27/2021 23:59:19,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/27/2021 23:59:22,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/27/2021 23:59:23,4.1_Georgia_Farmer_Auto, Driver Count : 2, Success
+05/27/2021 23:59:24,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/27/2021 23:59:25,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/27/2021 23:59:25,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/27/2021 23:59:26,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4242340712 Quote number 37624012, Success
+05/27/2021 23:59:26,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/27/2021 23:59:26,SalesforceAttemprsSequence,Attempt 1,Success
+05/27/2021 23:59:26,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/27/2021 23:59:26,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/27/2021 23:59:26,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/27/2021 23:59:26,SalesforceAttemprsSequence,Token Generarted,Success
+05/27/2021 23:59:27,SalesforceAttemprsSequence,Attempt 2,Success
+05/27/2021 23:59:28,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/27/2021 23:59:28,4.1_Georgia_Farmer_Auto, Sales force updated 40% Completed- Household Information Filled  ,Success
+05/27/2021 23:59:28,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 1 Owned , Success
+05/27/2021 23:59:30,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 2 Owned , Success
+05/27/2021 23:59:32,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/27/2021 23:59:32,SalesforceAttemprsSequence,Attempt 1,Success
+05/27/2021 23:59:32,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/27/2021 23:59:32,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/27/2021 23:59:33,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/27/2021 23:59:33,SalesforceAttemprsSequence,Token Generarted,Success
+05/27/2021 23:59:33,SalesforceAttemprsSequence,Attempt 2,Success
+05/27/2021 23:59:34,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/27/2021 23:59:34,4.1_Georgia_Farmer_Auto, Sales force updated 50% Completed- Driver and Vehicle Information Edited  ,Success
+05/27/2021 23:59:39,4.1_Georgia_Farmer_Auto, Clicked on Rate button, Success
+05/27/2021 23:59:39,4.1_Georgia_Farmer_Auto, Monthly EFT web page exist None, Success
+05/27/2021 23:59:41,4.1_Georgia_Farmer_Auto, 1 Pay; Bodily Injury and Property Damage selected , Success
+05/27/2021 23:59:49,4.1_Georgia_Farmer_Auto, Select all field and click on Rate button , Success
+05/27/2021 23:59:49,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/27/2021 23:59:49,SalesforceAttemprsSequence,Attempt 1,Success
+05/27/2021 23:59:50,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/27/2021 23:59:50,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/27/2021 23:59:50,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/27/2021 23:59:50,SalesforceAttemprsSequence,Token Generarted,Success
+05/27/2021 23:59:50,SalesforceAttemprsSequence,Attempt 2,Success
+05/27/2021 23:59:51,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/27/2021 23:59:51,4.1_Georgia_Farmer_Auto, Sales force updated 60% Completed- Coverages Filled  ,Success
+05/27/2021 23:59:57,4.1_Georgia_Farmer_Auto, Get premium amount $1,645.00 Clicked on print proposal , Success
+05/27/2021 23:59:57,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/27/2021 23:59:57,SalesforceAttemprsSequence,Attempt 1,Success
+05/27/2021 23:59:57,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/27/2021 23:59:57,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/27/2021 23:59:58,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/27/2021 23:59:58,SalesforceAttemprsSequence,Token Generarted,Success
+05/27/2021 23:59:58,SalesforceAttemprsSequence,Attempt 2,Success
+05/27/2021 23:59:59,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/27/2021 23:59:59,4.1_Georgia_Farmer_Auto, Sales force updated 70% Completed- Policy Premium Recalculated & Farmer's Quote Generation Completed  ,Success
+05/28/2021 00:00:03,4.1_Georgia_Farmer_Auto, Print proposal window visibility True , Success
+05/28/2021 00:00:06,4.1_Georgia_Farmer_Auto, Check Policy; Uncheck prior quote; Check Include insurance package and uncheck life proposal change , Success
+05/28/2021 00:00:08,4.1_Georgia_Farmer_Auto, Clicked on VIP Print and validate Save as window , Success
+05/28/2021 00:00:09,4.1_Georgia_Farmer_Auto, Clicked on Print button , Success
+05/28/2021 00:00:11,4.1_Georgia_Farmer_Auto, Clicked on download button , Success
+05/28/2021 00:00:17,4.1_Georgia_Farmer_Auto, Set PDF file path and save C:\Users\Admin\Documents\UiPath\Georgia_Auto_Insurance\Policies\00Q0m000007wOeDEAU.pdf, Success
+05/28/2021 00:00:19,4.1_Georgia_Farmer_Auto, Already pdf exist pop up found , Success
+05/28/2021 00:00:25,3_GAInsurance_Processing, Lead ID 00Q0m000007wOeDEAU, Status : Success Status Description :  ,Success
+05/28/2021 00:00:26,3_GAInsurance_Processing, Closed all child tabs ,Success
+05/28/2021 00:00:26,3_GAInsurance_Processing, Quote # : 37624012 Household # :: 4242340712 Policy Amount : $1,645.00 ,Success
+05/28/2021 00:00:26,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:00:26,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:00:26,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:00:26,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:00:27,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:00:27,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:00:27,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:00:28,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:00:28,3_GAInsurance_Processing, Sales force updated 100% Completed- Lead ID status, end date etc. fed into Salesforce, lead completed  ,Success
+05/28/2021 00:00:28,3_GAInsurance_Processing, Status : Success Status Description :  ,Success
+05/28/2021 00:00:28,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Start_Date_Time__c" : "2021-05-27T18:28:17",
+    "Bot_Quoted_Standard_Premium__c" : "1645.00",
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-27T18:28:17",
+    "Farmers_Policy_Center_Link__c" : "https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=gateway&actionType=retreiveQuote&source=SIMS&householdNumber=4242340712&quoteNumber=37624012&agentOfRec=4419HR&lineOfBusiness=F&firstName=&lastName=&quoteType=Express&company=EXP&state=GA",
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": null,
+    "Bot_Update__c" : "Sucessfully quote generated"
+},Success
+05/28/2021 00:00:29,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/28/2021 00:02:18,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOdZEAU"
+  },
+  "Id": "00Q0m000007wOdZEAU",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Barkur",
+  "LastName": "Shetty",
+  "Phone": "404-933-5235",
+  "Email": "bpshetty@yahoo.com",
+  "Gender__c": null,
+  "D_O_B__c": "1956-08-20",
+  "Address": {
+    "city": "Alpharetta",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30005",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "150 Westbury Lane"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:28:12+05:30"
+},Success
+05/28/2021 00:02:18,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:02:18,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:02:19,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:02:19,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:02:20,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:02:20,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:02:20,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:02:21,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:02:21,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+05/28/2021 00:02:21,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/28/2021 00:02:21,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/28/2021 00:02:21,3_GAInsurance_Processing,Driver details: Kolkebail Shetty,Barkur, 1956-08-17,1956-08-20, ,Male, ,Success
+05/28/2021 00:02:22,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/28/2021 00:02:22,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/28/2021 00:02:22,3_GAInsurance_Processing, Vechicle details: 1G11C5SL1EF130964::2021:BMX:X5,1G11C5SL1EF130964::2014:Chevrolet:Malibu, ,Success
+05/28/2021 00:02:24,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/28/2021 00:02:34,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/28/2021 00:02:42,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:02:42,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:02:42,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:02:42,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:02:43,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:02:43,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:02:43,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:02:44,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:02:44,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+05/28/2021 00:02:45,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/28/2021 00:02:46,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/28/2021 00:02:49,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/28/2021 00:02:58,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/28/2021 00:02:58,4.1_Georgia_Farmer_Auto, Driver details : Kolkebail Shetty,Barkur, 1956-08-17,1956-08-20, ,Male, ,Success
+05/28/2021 00:02:58,4.1_Georgia_Farmer_Auto, Driver Name Kolkebail Shetty counter 1 Get Name BARKUR ,Success
+05/28/2021 00:02:59,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+05/28/2021 00:02:59,4.1_Georgia_Farmer_Auto, Driver Name Barkur counter 1 Get Name BARKUR ,Success
+05/28/2021 00:03:00,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+05/28/2021 00:03:00,4.1_Georgia_Farmer_Auto, Vechicle selection 1G11C5SL1EF130964::2021:BMX:X5,1G11C5SL1EF130964::2014:Chevrolet:Malibu, ,Success
+05/28/2021 00:03:01,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/28/2021 00:03:01,4.1_Georgia_Farmer_Auto, VIN Number 1G11C5SL1EF130964 1G11C5SL1EF130964 1, Success
+05/28/2021 00:03:02,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/28/2021 00:03:02,4.1_Georgia_Farmer_Auto, VIN Number 1G11C5SL1EF130964 1G11C5SL1EF130964 1, Success
+05/28/2021 00:03:02,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/28/2021 00:03:03,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:03:03,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:03:03,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:03:03,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:03:04,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:03:04,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:03:04,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:03:05,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:03:05,4.1_Georgia_Farmer_Auto, Sales force updated 30% Completed- Driver and Vehicle Information Filled  ,Success
+05/28/2021 00:03:15,4.1_Georgia_Farmer_Auto, Bristol pop message found False  ,Success
+05/28/2021 00:03:15,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/28/2021 00:06:49,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility False, Success
+05/28/2021 00:06:49,4.1_Georgia_Farmer_Auto,, Technical Exception : Unable to Farmer Agency Dashboard,Failed
+05/28/2021 00:06:51,3_GAInsurance_Processing, Lead ID 00Q0m000007wOdZEAU, Status : Failed Status Description : , Technical Exception : Unable to Farmer Agency Dashboard ,Success
+05/28/2021 00:06:52,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/28/2021 00:07:02,Login_Georgia_AutoInsurance_Portal, Already logged in , Success
+05/28/2021 00:07:05,3_GAInsurance_Processing, Closed all child tabs ,Success
+05/28/2021 00:07:05,3_GAInsurance_Processing, Status : Failed Status Description : , Technical Exception : Unable to Farmer Agency Dashboard ,Success
+05/28/2021 00:07:05,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-27T18:32:18",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-27T18:32:18",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": ", Technical Exception : Unable to Farmer Agency Dashboard",
+    "Bot_Update__c" : null
+},Success
+05/28/2021 00:07:07,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/28/2021 00:07:42,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOdPEAU"
+  },
+  "Id": "00Q0m000007wOdPEAU",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Larry",
+  "LastName": "Bennett",
+  "Phone": "478-595-5206",
+  "Email": "ilbee_216@hotmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1954-11-15",
+  "Address": {
+    "city": "Ivey",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "31031",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "103 Lakeview Drive"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:24:33+05:30"
+},Success
+05/28/2021 00:07:42,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:07:42,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:07:42,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:07:42,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:07:42,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:07:42,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:07:42,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:07:43,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:07:43,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+05/28/2021 00:07:44,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/28/2021 00:07:44,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/28/2021 00:07:44,3_GAInsurance_Processing,Driver details: Larry Bennett,Deborah Bennett, 1954-11-15,1956-09-07, ,, ,Success
+05/28/2021 00:07:44,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/28/2021 00:07:44,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/28/2021 00:07:44,3_GAInsurance_Processing, Vechicle details: 5TDZZRFH3KS318290::2019:Toyota:Highlander,4T1BF1FK4HU271777::2017:Toyota:Camry,1FTNW20S54EB86306::2004:Ford:F 250, ,Success
+05/28/2021 00:07:47,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/28/2021 00:07:56,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/28/2021 00:08:05,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:08:05,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:08:05,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:08:05,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:08:06,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:08:06,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:08:06,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:08:07,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:08:07,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+05/28/2021 00:08:07,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/28/2021 00:08:09,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/28/2021 00:08:13,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/28/2021 00:08:21,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/28/2021 00:08:21,4.1_Georgia_Farmer_Auto, Driver details : Larry Bennett,Deborah Bennett, 1954-11-15,1956-09-07, ,, ,Success
+05/28/2021 00:08:23,4.1_Georgia_Farmer_Auto, Driver Name Larry Bennett counter 1 Get Name LARRY ,Success
+05/28/2021 00:08:24,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+05/28/2021 00:08:25,4.1_Georgia_Farmer_Auto, Driver Name Deborah Bennett counter 1 Get Name LARRY ,Success
+05/28/2021 00:08:26,4.1_Georgia_Farmer_Auto, Driver Name Deborah Bennett counter 2 Get Name DEBORAH ,Success
+05/28/2021 00:08:28,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+05/28/2021 00:08:29,4.1_Georgia_Farmer_Auto, Vechicle selection 5TDZZRFH3KS318290::2019:Toyota:Highlander,4T1BF1FK4HU271777::2017:Toyota:Camry,1FTNW20S54EB86306::2004:Ford:F 250, ,Success
+05/28/2021 00:08:30,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/28/2021 00:08:31,4.1_Georgia_Farmer_Auto, VIN Number 5TDZZRFH3KS318290 1FTNW20S54EB86306 1, Success
+05/28/2021 00:08:33,4.1_Georgia_Farmer_Auto, VIN Number 5TDZZRFH3KS318290 4T1BF1FK4HU271777 2, Success
+05/28/2021 00:08:35,4.1_Georgia_Farmer_Auto, VIN Number 5TDZZRFH3KS318290 5TDZZRFH3KS318290 3, Success
+05/28/2021 00:08:36,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/28/2021 00:08:37,4.1_Georgia_Farmer_Auto, VIN Number 4T1BF1FK4HU271777 1FTNW20S54EB86306 1, Success
+05/28/2021 00:08:39,4.1_Georgia_Farmer_Auto, VIN Number 4T1BF1FK4HU271777 4T1BF1FK4HU271777 2, Success
+05/28/2021 00:08:40,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/28/2021 00:08:41,4.1_Georgia_Farmer_Auto, VIN Number 1FTNW20S54EB86306 1FTNW20S54EB86306 1, Success
+05/28/2021 00:08:42,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/28/2021 00:08:44,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:08:44,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:08:44,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:08:44,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:08:44,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:08:44,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:08:44,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:08:45,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:08:45,4.1_Georgia_Farmer_Auto, Sales force updated 30% Completed- Driver and Vehicle Information Filled  ,Success
+05/28/2021 00:08:51,4.1_Georgia_Farmer_Auto, Bristol pop message found False  ,Success
+05/28/2021 00:08:51,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/28/2021 00:08:51,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/28/2021 00:08:54,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/28/2021 00:08:54,4.1_Georgia_Farmer_Auto, Driver Count : 2, Success
+05/28/2021 00:08:55,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/28/2021 00:08:57,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/28/2021 00:08:58,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/28/2021 00:09:00,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4278345653 Quote number 43752253, Success
+05/28/2021 00:09:01,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:09:01,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:09:01,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:09:01,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:09:02,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:09:02,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:09:02,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:09:03,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:09:03,4.1_Georgia_Farmer_Auto, Sales force updated 40% Completed- Household Information Filled  ,Success
+05/28/2021 00:09:04,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 1 Owned , Success
+05/28/2021 00:09:06,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 2 Owned , Success
+05/28/2021 00:09:08,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 3 Owned , Success
+05/28/2021 00:09:11,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:09:11,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:09:11,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:09:11,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:09:11,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:09:11,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:09:12,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:09:13,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:09:13,4.1_Georgia_Farmer_Auto, Sales force updated 50% Completed- Driver and Vehicle Information Edited  ,Success
+05/28/2021 00:09:18,4.1_Georgia_Farmer_Auto, Clicked on Rate button, Success
+05/28/2021 00:09:18,4.1_Georgia_Farmer_Auto, Monthly EFT web page exist None, Success
+05/28/2021 00:09:21,4.1_Georgia_Farmer_Auto, 1 Pay; Bodily Injury and Property Damage selected , Success
+05/28/2021 00:09:29,4.1_Georgia_Farmer_Auto, Select all field and click on Rate button , Success
+05/28/2021 00:09:30,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:09:30,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:09:31,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:09:31,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:09:31,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:09:31,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:09:31,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:09:32,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:09:32,4.1_Georgia_Farmer_Auto, Sales force updated 60% Completed- Coverages Filled  ,Success
+05/28/2021 00:09:38,4.1_Georgia_Farmer_Auto, Get premium amount $2,876.60 Clicked on print proposal , Success
+05/28/2021 00:09:38,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:09:38,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:09:38,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:09:38,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:09:38,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:09:38,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:09:38,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:09:39,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:09:39,4.1_Georgia_Farmer_Auto, Sales force updated 70% Completed- Policy Premium Recalculated & Farmer's Quote Generation Completed  ,Success
+05/28/2021 00:09:44,4.1_Georgia_Farmer_Auto, Print proposal window visibility True , Success
+05/28/2021 00:09:49,4.1_Georgia_Farmer_Auto, Check Policy; Uncheck prior quote; Check Include insurance package and uncheck life proposal change , Success
+05/28/2021 00:09:52,4.1_Georgia_Farmer_Auto, Clicked on VIP Print and validate Save as window , Success
+05/28/2021 00:09:54,4.1_Georgia_Farmer_Auto, Clicked on Print button , Success
+05/28/2021 00:09:57,4.1_Georgia_Farmer_Auto, Clicked on download button , Success
+05/28/2021 00:10:19,4.1_Georgia_Farmer_Auto, Set PDF file path and save C:\Users\Admin\Documents\UiPath\Georgia_Auto_Insurance\Policies\00Q0m000007wOdPEAU.pdf, Success
+05/28/2021 00:10:56,3_GAInsurance_Processing, Lead ID 00Q0m000007wOdPEAU, Status : Success Status Description :  ,Success
+05/28/2021 00:10:58,3_GAInsurance_Processing, Closed all child tabs ,Success
+05/28/2021 00:10:58,3_GAInsurance_Processing, Quote # : 43752253 Household # :: 4278345653 Policy Amount : $2,876.60 ,Success
+05/28/2021 00:10:58,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:10:58,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:10:59,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:10:59,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:10:59,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:10:59,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:10:59,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:11:00,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:11:00,3_GAInsurance_Processing, Sales force updated 100% Completed- Lead ID status, end date etc. fed into Salesforce, lead completed  ,Success
+05/28/2021 00:11:01,3_GAInsurance_Processing, Status : Success Status Description :  ,Success
+05/28/2021 00:11:01,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Start_Date_Time__c" : "2021-05-27T18:37:42",
+    "Bot_Quoted_Standard_Premium__c" : "2876.60",
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-27T18:37:42",
+    "Farmers_Policy_Center_Link__c" : "https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=gateway&actionType=retreiveQuote&source=SIMS&householdNumber=4278345653&quoteNumber=43752253&agentOfRec=4419HR&lineOfBusiness=F&firstName=&lastName=&quoteType=Express&company=EXP&state=GA",
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": null,
+    "Bot_Update__c" : "Sucessfully quote generated"
+},Success
+05/28/2021 00:11:02,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/28/2021 00:11:14,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOe3EAE"
+  },
+  "Id": "00Q0m000007wOe3EAE",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Derya",
+  "LastName": "Ozler",
+  "Phone": "678-438-2532",
+  "Email": "deryauluc01@gmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1970-02-08",
+  "Address": {
+    "city": "Woodstock",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30188",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "286 Regent Square"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:36:25+05:30"
+},Success
+05/28/2021 00:11:14,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:11:14,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:11:14,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:11:14,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:11:14,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:11:15,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:11:15,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:11:16,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:11:16,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+05/28/2021 00:11:16,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/28/2021 00:11:16,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/28/2021 00:11:16,3_GAInsurance_Processing,Driver details: Derya Ozler, 1970-02-08, , ,Success
+05/28/2021 00:11:17,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/28/2021 00:11:17,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/28/2021 00:11:17,3_GAInsurance_Processing, Vechicle details: 5KBCP3F80AB018543::2010:Honda:Accord,JN8AZ1MW3BW175555::2011:Nissan:Murano, ,Success
+05/28/2021 00:11:19,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/28/2021 00:11:29,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/28/2021 00:11:38,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:11:38,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:11:38,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:11:38,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:11:39,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:11:39,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:11:39,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:11:40,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:11:40,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+05/28/2021 00:11:41,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/28/2021 00:11:42,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/28/2021 00:11:45,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/28/2021 00:12:16,4.1_Georgia_Farmer_Auto, Element exist for Driver page False ,Success
+05/28/2021 00:12:16,4.1_Georgia_Farmer_Auto,Technical Exception : Unable to open additional driver window,Failed
+05/28/2021 00:12:17,3_GAInsurance_Processing, Lead ID 00Q0m000007wOe3EAE, Status : Failed Status Description : Technical Exception : Unable to open additional driver window ,Success
+05/28/2021 00:12:21,Login_Georgia_AutoInsurance_Portal, Launch URL https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=home#!alerts/critical, Success
+05/28/2021 00:12:27,Login_Georgia_AutoInsurance_Portal, Already logged in , Success
+05/28/2021 00:12:29,3_GAInsurance_Processing, Closed all child tabs ,Success
+05/28/2021 00:12:29,3_GAInsurance_Processing, Status : Failed Status Description : Technical Exception : Unable to open additional driver window ,Success
+05/28/2021 00:12:30,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-27T18:41:14",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-27T18:41:14",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "Technical Exception : Unable to open additional driver window",
+    "Bot_Update__c" : null
+},Success
+05/28/2021 00:12:31,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/28/2021 00:12:34,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOWYEA2"
+  },
+  "Id": "00Q0m000007wOWYEA2",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Sireesh",
+  "LastName": "Yaratha",
+  "Phone": "404-416-0431",
+  "Email": "sireesh.yaratha@gmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1975-03-26",
+  "Address": {
+    "city": "Cumming",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30040",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "6920 Rocking Horse Lane"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T22:34:11+05:30"
+},Success
+05/28/2021 00:12:34,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:12:34,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:12:35,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:12:35,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:12:35,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:12:35,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:12:35,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:12:36,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:12:36,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+05/28/2021 00:12:36,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/28/2021 00:12:37,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/28/2021 00:12:37,3_GAInsurance_Processing,Driver details: Praveena Paida,Sireesh Yaratha, 1978-04-20,1975-03-26, ,, ,Success
+05/28/2021 00:12:37,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/28/2021 00:12:37,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/28/2021 00:12:37,3_GAInsurance_Processing, Vechicle details: 5FNRL5H95DB058207::2013:Honda:Odyssey,3GNKBBRA7MS516954::2021:Chevrolet:Blazer, ,Success
+05/28/2021 00:12:40,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/28/2021 00:12:49,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/28/2021 00:12:58,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:12:58,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:12:58,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:12:58,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:12:59,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:12:59,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:12:59,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:13:00,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:13:00,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+05/28/2021 00:13:00,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/28/2021 00:13:02,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/28/2021 00:13:05,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/28/2021 00:13:13,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/28/2021 00:13:13,4.1_Georgia_Farmer_Auto, Driver details : Praveena Paida,Sireesh Yaratha, 1978-04-20,1975-03-26, ,, ,Success
+05/28/2021 00:13:14,4.1_Georgia_Farmer_Auto, Driver Name Praveena Paida counter 1 Get Name SIREESH ,Success
+05/28/2021 00:13:15,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+05/28/2021 00:13:17,4.1_Georgia_Farmer_Auto, Driver Name Sireesh Yaratha counter 1 Get Name SIREESH ,Success
+05/28/2021 00:13:18,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+05/28/2021 00:13:19,4.1_Georgia_Farmer_Auto, Vechicle selection 5FNRL5H95DB058207::2013:Honda:Odyssey,3GNKBBRA7MS516954::2021:Chevrolet:Blazer, ,Success
+05/28/2021 00:13:20,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/28/2021 00:13:21,4.1_Georgia_Farmer_Auto, VIN Number 5FNRL5H95DB058207 3GNKBBRA7MS516954 1, Success
+05/28/2021 00:13:23,4.1_Georgia_Farmer_Auto, VIN Number 5FNRL5H95DB058207 5FNRL5H95DB058207 2, Success
+05/28/2021 00:13:24,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/28/2021 00:13:25,4.1_Georgia_Farmer_Auto, VIN Number 3GNKBBRA7MS516954 3GNKBBRA7MS516954 1, Success
+05/28/2021 00:13:26,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/28/2021 00:13:27,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:13:27,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:13:27,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:13:27,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:13:28,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:13:28,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:13:28,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:13:29,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:13:29,4.1_Georgia_Farmer_Auto, Sales force updated 30% Completed- Driver and Vehicle Information Filled  ,Success
+05/28/2021 00:13:34,4.1_Georgia_Farmer_Auto, Bristol pop message found False  ,Success
+05/28/2021 00:13:34,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/28/2021 00:13:35,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/28/2021 00:13:37,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/28/2021 00:13:38,4.1_Georgia_Farmer_Auto, Driver Count : 2, Success
+05/28/2021 00:13:39,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/28/2021 00:13:40,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/28/2021 00:13:41,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/28/2021 00:13:42,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4216467829 Quote number 64493629, Success
+05/28/2021 00:13:42,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:13:42,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:13:43,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:13:43,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:13:43,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:13:43,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:13:43,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:13:44,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:13:44,4.1_Georgia_Farmer_Auto, Sales force updated 40% Completed- Household Information Filled  ,Success
+05/28/2021 00:13:45,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 1 Owned , Success
+05/28/2021 00:13:47,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 2 Owned , Success
+05/28/2021 00:13:49,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:13:49,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:13:50,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:13:50,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:13:50,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:13:50,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:13:50,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:13:51,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:13:51,4.1_Georgia_Farmer_Auto, Sales force updated 50% Completed- Driver and Vehicle Information Edited  ,Success
+05/28/2021 00:13:56,4.1_Georgia_Farmer_Auto, Clicked on Rate button, Success
+05/28/2021 00:13:57,4.1_Georgia_Farmer_Auto, Monthly EFT web page exist None, Success
+05/28/2021 00:13:59,4.1_Georgia_Farmer_Auto, 1 Pay; Bodily Injury and Property Damage selected , Success
+05/28/2021 00:14:07,4.1_Georgia_Farmer_Auto, Select all field and click on Rate button , Success
+05/28/2021 00:14:08,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:14:08,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:14:08,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:14:08,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:14:09,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:14:09,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:14:09,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:14:10,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:14:10,4.1_Georgia_Farmer_Auto, Sales force updated 60% Completed- Coverages Filled  ,Success
+05/28/2021 00:14:16,4.1_Georgia_Farmer_Auto, Get premium amount $2,037.30 Clicked on print proposal , Success
+05/28/2021 00:14:16,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:14:16,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:14:16,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:14:16,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:14:16,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:14:16,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:14:16,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:14:18,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:14:18,4.1_Georgia_Farmer_Auto, Sales force updated 70% Completed- Policy Premium Recalculated & Farmer's Quote Generation Completed  ,Success
+05/28/2021 00:14:22,4.1_Georgia_Farmer_Auto, Print proposal window visibility True , Success
+05/28/2021 00:14:24,4.1_Georgia_Farmer_Auto, Check Policy; Uncheck prior quote; Check Include insurance package and uncheck life proposal change , Success
+05/28/2021 00:14:27,4.1_Georgia_Farmer_Auto, Clicked on VIP Print and validate Save as window , Success
+05/28/2021 00:14:28,4.1_Georgia_Farmer_Auto, Clicked on Print button , Success
+05/28/2021 00:14:30,4.1_Georgia_Farmer_Auto, Clicked on download button , Success
+05/28/2021 00:14:33,4.1_Georgia_Farmer_Auto, Set PDF file path and save C:\Users\Admin\Documents\UiPath\Georgia_Auto_Insurance\Policies\00Q0m000007wOWYEA2.pdf, Success
+05/28/2021 00:15:09,3_GAInsurance_Processing, Lead ID 00Q0m000007wOWYEA2, Status : Success Status Description :  ,Success
+05/28/2021 00:15:11,3_GAInsurance_Processing, Closed all child tabs ,Success
+05/28/2021 00:15:11,3_GAInsurance_Processing, Quote # : 64493629 Household # :: 4216467829 Policy Amount : $2,037.30 ,Success
+05/28/2021 00:15:11,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:15:11,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:15:11,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:15:11,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:15:11,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:15:11,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:15:11,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:15:12,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:15:12,3_GAInsurance_Processing, Sales force updated 100% Completed- Lead ID status, end date etc. fed into Salesforce, lead completed  ,Success
+05/28/2021 00:15:12,3_GAInsurance_Processing, Status : Success Status Description :  ,Success
+05/28/2021 00:15:12,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Start_Date_Time__c" : "2021-05-27T18:42:34",
+    "Bot_Quoted_Standard_Premium__c" : "2037.30",
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-27T18:42:34",
+    "Farmers_Policy_Center_Link__c" : "https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=gateway&actionType=retreiveQuote&source=SIMS&householdNumber=4216467829&quoteNumber=64493629&agentOfRec=4419HR&lineOfBusiness=F&firstName=&lastName=&quoteType=Express&company=EXP&state=GA",
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": null,
+    "Bot_Update__c" : "Sucessfully quote generated"
+},Success
+05/28/2021 00:15:13,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/28/2021 00:15:20,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOehEAE"
+  },
+  "Id": "00Q0m000007wOehEAE",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Sanjay",
+  "LastName": "Tirumalasetty",
+  "Phone": "404-247-4706",
+  "Email": "sanjaybt@yahoo.com",
+  "Gender__c": null,
+  "D_O_B__c": "1975-07-04",
+  "Address": {
+    "city": "Cumming",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30041",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "2530 Alsace Way"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:50:26+05:30"
+},Success
+05/28/2021 00:15:20,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:15:20,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:15:21,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:15:21,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:15:21,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:15:21,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:15:21,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:15:22,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:15:22,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+05/28/2021 00:15:22,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/28/2021 00:15:22,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/28/2021 00:15:23,3_GAInsurance_Processing,Driver details: Amisha Tirumalasetty,Sanjay Tirumalasetty, 1977-09-30,1975-07-14, ,, ,Success
+05/28/2021 00:15:23,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/28/2021 00:15:23,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/28/2021 00:15:23,3_GAInsurance_Processing, Vechicle details: 5J8YD3H35HL002135::2017:Acura:MDX,5FNYF3H23BB035239::2011:Honda:Pilot, ,Success
+05/28/2021 00:15:25,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/28/2021 00:15:35,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/28/2021 00:15:44,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:15:44,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:15:44,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:15:44,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:15:44,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:15:44,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:15:44,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:15:45,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:15:45,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+05/28/2021 00:15:46,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/28/2021 00:15:47,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/28/2021 00:15:50,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/28/2021 00:16:01,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/28/2021 00:16:01,4.1_Georgia_Farmer_Auto, Driver details : Amisha Tirumalasetty,Sanjay Tirumalasetty, 1977-09-30,1975-07-14, ,, ,Success
+05/28/2021 00:16:02,4.1_Georgia_Farmer_Auto, Driver Name Amisha Tirumalasetty counter 1 Get Name SANJAY ,Success
+05/28/2021 00:16:03,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+05/28/2021 00:16:04,4.1_Georgia_Farmer_Auto, Driver Name Sanjay Tirumalasetty counter 1 Get Name SANJAY ,Success
+05/28/2021 00:16:05,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+05/28/2021 00:16:07,4.1_Georgia_Farmer_Auto, Vechicle selection 5J8YD3H35HL002135::2017:Acura:MDX,5FNYF3H23BB035239::2011:Honda:Pilot, ,Success
+05/28/2021 00:16:08,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/28/2021 00:16:09,4.1_Georgia_Farmer_Auto, VIN Number 5J8YD3H35HL002135 5FNYF3H23BB035239 1, Success
+05/28/2021 00:16:11,4.1_Georgia_Farmer_Auto, VIN Number 5J8YD3H35HL002135 5J8YD3H35HL002135 2, Success
+05/28/2021 00:16:11,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/28/2021 00:16:13,4.1_Georgia_Farmer_Auto, VIN Number 5FNYF3H23BB035239 5FNYF3H23BB035239 1, Success
+05/28/2021 00:16:13,4.1_Georgia_Farmer_Auto, Vechicle matched and selected, Success
+05/28/2021 00:16:15,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:16:15,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:16:15,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:16:15,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:16:16,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:16:16,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:16:16,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:16:17,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:16:17,4.1_Georgia_Farmer_Auto, Sales force updated 30% Completed- Driver and Vehicle Information Filled  ,Success
+05/28/2021 00:16:22,4.1_Georgia_Farmer_Auto, Bristol pop message found False  ,Success
+05/28/2021 00:16:23,4.1_Georgia_Farmer_Auto, Clicked on continue, Success
+05/28/2021 00:16:23,4.1_Georgia_Farmer_Auto, Farmer agency dashboard visibility True, Success
+05/28/2021 00:16:26,4.1_Georgia_Farmer_Auto, Check Home;Uncheck Paperless policy; Set residence type, Success
+05/28/2021 00:16:26,4.1_Georgia_Farmer_Auto, Driver Count : 2, Success
+05/28/2021 00:16:27,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/28/2021 00:16:29,4.1_Georgia_Farmer_Auto, Fill details Age and Marital Status for drivers, Success
+05/28/2021 00:16:30,4.1_Georgia_Farmer_Auto, Fill details Gender and Relations for drivers, Success
+05/28/2021 00:16:31,4.1_Georgia_Farmer_Auto, HH Relation selected for drivers: Household number 4282373240 Quote number 68277340, Success
+05/28/2021 00:16:31,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:16:31,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:16:31,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:16:31,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:16:31,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:16:32,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:16:32,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:16:33,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:16:33,4.1_Georgia_Farmer_Auto, Sales force updated 40% Completed- Household Information Filled  ,Success
+05/28/2021 00:16:33,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 1 Owned , Success
+05/28/2021 00:16:35,4.1_Georgia_Farmer_Auto, Ownership selected for vechicles 2 Owned , Success
+05/28/2021 00:16:38,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:16:38,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:16:38,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:16:38,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:16:38,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:16:38,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:16:38,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:16:39,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:16:40,4.1_Georgia_Farmer_Auto, Sales force updated 50% Completed- Driver and Vehicle Information Edited  ,Success
+05/28/2021 00:16:45,4.1_Georgia_Farmer_Auto, Clicked on Rate button, Success
+05/28/2021 00:16:45,4.1_Georgia_Farmer_Auto, Monthly EFT web page exist None, Success
+05/28/2021 00:16:47,4.1_Georgia_Farmer_Auto, 1 Pay; Bodily Injury and Property Damage selected , Success
+05/28/2021 00:16:56,4.1_Georgia_Farmer_Auto, Select all field and click on Rate button , Success
+05/28/2021 00:16:57,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:16:57,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:16:57,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:16:57,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:16:57,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:16:57,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:16:57,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:16:58,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:16:58,4.1_Georgia_Farmer_Auto, Sales force updated 60% Completed- Coverages Filled  ,Success
+05/28/2021 00:17:04,4.1_Georgia_Farmer_Auto, Get premium amount $1,432.10 Clicked on print proposal , Success
+05/28/2021 00:17:04,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:17:04,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:17:04,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:17:04,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:17:05,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:17:05,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:17:05,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:17:06,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:17:06,4.1_Georgia_Farmer_Auto, Sales force updated 70% Completed- Policy Premium Recalculated & Farmer's Quote Generation Completed  ,Success
+05/28/2021 00:17:10,4.1_Georgia_Farmer_Auto, Print proposal window visibility True , Success
+05/28/2021 00:17:13,4.1_Georgia_Farmer_Auto, Check Policy; Uncheck prior quote; Check Include insurance package and uncheck life proposal change , Success
+05/28/2021 00:17:15,4.1_Georgia_Farmer_Auto, Clicked on VIP Print and validate Save as window , Success
+05/28/2021 00:17:16,4.1_Georgia_Farmer_Auto, Clicked on Print button , Success
+05/28/2021 00:17:18,4.1_Georgia_Farmer_Auto, Clicked on download button , Success
+05/28/2021 00:17:20,4.1_Georgia_Farmer_Auto, Set PDF file path and save C:\Users\Admin\Documents\UiPath\Georgia_Auto_Insurance\Policies\00Q0m000007wOehEAE.pdf, Success
+05/28/2021 00:17:56,3_GAInsurance_Processing, Lead ID 00Q0m000007wOehEAE, Status : Success Status Description :  ,Success
+05/28/2021 00:17:57,3_GAInsurance_Processing, Closed all child tabs ,Success
+05/28/2021 00:17:57,3_GAInsurance_Processing, Quote # : 68277340 Household # :: 4282373240 Policy Amount : $1,432.10 ,Success
+05/28/2021 00:17:58,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:17:58,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:17:58,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:17:58,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:17:58,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:17:58,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:17:58,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:17:59,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:17:59,3_GAInsurance_Processing, Sales force updated 100% Completed- Lead ID status, end date etc. fed into Salesforce, lead completed  ,Success
+05/28/2021 00:17:59,3_GAInsurance_Processing, Status : Success Status Description :  ,Success
+05/28/2021 00:18:00,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Success",
+    "Start_Date_Time__c" : "2021-05-27T18:45:20",
+    "Bot_Quoted_Standard_Premium__c" : "1432.10",
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-27T18:45:20",
+    "Farmers_Policy_Center_Link__c" : "https://eagent.farmersinsurance.com/PLA/eAgent/Ade/ade?req_page=gateway&actionType=retreiveQuote&source=SIMS&householdNumber=4282373240&quoteNumber=68277340&agentOfRec=4419HR&lineOfBusiness=F&firstName=&lastName=&quoteType=Express&company=EXP&state=GA",
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": null,
+    "Bot_Update__c" : "Sucessfully quote generated"
+},Success
+05/28/2021 00:18:01,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/28/2021 00:18:18,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOe8EAE"
+  },
+  "Id": "00Q0m000007wOe8EAE",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Felicia",
+  "LastName": "Walker",
+  "Phone": "850-692-1877",
+  "Email": "feewa9375@gmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1975-09-03",
+  "Address": {
+    "city": "Columbus",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "31906",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "3309 Decatur Street"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:41:53+05:30"
+},Success
+05/28/2021 00:18:18,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:18:18,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:18:19,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:18:19,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:18:19,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:18:19,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:18:19,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:18:20,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:18:20,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+05/28/2021 00:18:21,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/28/2021 00:18:21,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/28/2021 00:18:21,3_GAInsurance_Processing,Driver details: Felicia Walker, 1975-09-03, , ,Success
+05/28/2021 00:18:21,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/28/2021 00:18:21,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/28/2021 00:18:21,3_GAInsurance_Processing, Vechicle details:  ,Success
+05/28/2021 00:18:21,3_GAInsurance_Processing,  No vechicle details found, Success
+05/28/2021 00:18:21,3_GAInsurance_Processing,Json Input To Update Salesforce: {
+    "Bot_Lead_Status__c" : "Exception",
+    "Start_Date_Time__c" : "2021-05-27T18:48:18",
+    "Bot_Quoted_Standard_Premium__c" : null,
+    "Bot_Quoted_Enhanced_Premium__c" : null,
+    "End_Date_Time__c" : "2021-05-27T18:48:18",
+    "Farmers_Policy_Center_Link__c" : null,
+    "Quote_Link__c" : null,
+    "Bot_Exception_Reason__c": "No vechicle details found",
+    "Bot_Update__c" : null
+},Success
+05/28/2021 00:18:22,3_GAInsurance_ProcessingSalesforce Updated,Success
+05/28/2021 00:18:29,3_GAInsurance_Processing,Item details : {
+  "attributes": {
+    "type": "Lead",
+    "url": "/services/data/v49.0/sobjects/Lead/00Q0m000007wOcvEAE"
+  },
+  "Id": "00Q0m000007wOcvEAE",
+  "Status": "New",
+  "LeadSource": null,
+  "FirstName": "Rahul",
+  "LastName": "Bhatia",
+  "Phone": "404-661-7787",
+  "Email": "n.rahulbhatia@gmail.com",
+  "Gender__c": null,
+  "D_O_B__c": "1979-11-19",
+  "Address": {
+    "city": "Suwanee",
+    "country": "United States",
+    "countryCode": "US",
+    "geocodeAccuracy": null,
+    "latitude": null,
+    "longitude": null,
+    "postalCode": "30024",
+    "state": "Georgia",
+    "stateCode": "GA",
+    "street": "1115 Brushfoot Trail"
+  },
+  "OwnerId": "0053h000000FSX5AAO",
+  "CreatedDate": "2021-05-19T23:09:27+05:30"
+},Success
+05/28/2021 00:18:29,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:18:29,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:18:29,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:18:29,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:18:30,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:18:30,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:18:30,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:18:31,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:18:31,3_GAInsurance_Processing, Sales force updated 10% Completed- Case Picked and bot logs into Farmers  ,Success
+05/28/2021 00:18:32,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/28/2021 00:18:32,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/28/2021 00:18:32,3_GAInsurance_Processing,Driver details: Rahul Bhatia, 1979-11-19, , ,Success
+05/28/2021 00:18:33,3_GAInsurance_Processing,Api Call Status COde: 200,Success
+05/28/2021 00:18:33,3_GAInsurance_Processing,Leads Records Fetched through Rest APi,Success
+05/28/2021 00:18:33,3_GAInsurance_Processing, Vechicle details: 1J8HH48K96C296080:Sedan:1992:Hyundai:Elantra, ,Success
+05/28/2021 00:18:35,4.1_Georgia_Farmer_AutoLaunch Farmer Auto link from Start Quote,Success
+05/28/2021 00:18:46,4.1_Georgia_Farmer_AutoQuote window status True ,Success
+05/28/2021 00:18:55,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:18:55,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:18:55,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:18:55,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:18:56,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:18:56,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:18:56,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:18:57,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:18:57,4.1_Georgia_Farmer_Auto, Sales force updated 20% Completed- Personal Details Filled  ,Success
+05/28/2021 00:18:57,4.1_Georgia_Farmer_Auto, Quote window details filled  ,Success
+05/28/2021 00:18:59,4.1_Georgia_Farmer_Auto, Clicked on continue ,Success
+05/28/2021 00:19:02,4.1_Georgia_Farmer_Auto, Element exist for additional window True ,Success
+05/28/2021 00:19:17,4.1_Georgia_Farmer_Auto, Element exist for Driver page True ,Success
+05/28/2021 00:19:18,4.1_Georgia_Farmer_Auto, Driver details : Rahul Bhatia, 1979-11-19, , ,Success
+05/28/2021 00:19:19,4.1_Georgia_Farmer_Auto, Driver Name Rahul Bhatia counter 1 Get Name RAHUL ,Success
+05/28/2021 00:19:20,4.1_Georgia_Farmer_Auto, Driver match  ,Success
+05/28/2021 00:19:21,4.1_Georgia_Farmer_Auto, Vechicle selection 1J8HH48K96C296080:Sedan:1992:Hyundai:Elantra, ,Success
+05/28/2021 00:19:22,4.1_Georgia_Farmer_Auto, Uncheck all vechicle before selection,Success
+05/28/2021 00:19:23,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 4T1BF1FK0HU764260 1, Success
+05/28/2021 00:19:25,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 5UXWZ7C59G0R32769 2, Success
+05/28/2021 00:19:27,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 1GCRYBEH9MZ115224 3, Success
+05/28/2021 00:19:29,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 5YJ3E1EA5KF307660 4, Success
+05/28/2021 00:19:31,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 2T3RFREV3JW808919 5, Success
+05/28/2021 00:19:35,4.1_Georgia_Farmer_Auto, VIN Number 1J8HH48K96C296080 2T3RFREV3JW808919 6, Success
+05/28/2021 00:19:49,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:19:49,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:19:49,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:19:49,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:19:49,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:19:49,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:19:49,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:19:51,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:19:51,4.1_Georgia_Farmer_Auto, Sales force updated 30% Completed- Driver and Vehicle Information Filled  ,Success
+05/28/2021 00:19:52,4.1_Georgia_Farmer_Auto, Bristol pop message found True  ,Success
+05/28/2021 00:19:52,SalesforceAttemprsSequence,Module SalesforceAttemptsSequence Started,Success
+05/28/2021 00:19:52,SalesforceAttemprsSequence,Attempt 1,Success
+05/28/2021 00:19:53,SalesforceAttemprsSequence,Api Call Status COde: 401,Success
+05/28/2021 00:19:53,SalesforceAttemprsSequence,Creating Salesforce Access ID,Success
+05/28/2021 00:19:53,SalesforceAttemprsSequence,Api Call Status COde to generate Access Token: 200,Success
+05/28/2021 00:19:53,SalesforceAttemprsSequence,Token Generarted,Success
+05/28/2021 00:19:53,SalesforceAttemprsSequence,Attempt 2,Success
+05/28/2021 00:19:54,SalesforceAttemprsSequence,Api Call Status COde: 204,Success
+05/28/2021 00:19:54,4.1_Georgia_Farmer_Auto, Sales force updated 40% Completed- Household Information Filled  ,Success
